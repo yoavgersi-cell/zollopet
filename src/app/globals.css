@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF4E6;
+  --foreground: #22362A;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Warm editorial look: headlines set in the display serif, body stays sans.
+   Applied globally so every template picks it up without per-component work. */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes logoFade {
+  0% { opacity: 0; }
+  15% { opacity: 0.5; }
+  75% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+
+@keyframes socialProofPop {
+  0% { opacity: 0; transform: translateY(10px) scale(0.9); }
+  60% { opacity: 1; transform: translateY(-2px) scale(1.02); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes socialProofReveal {
+  0% { opacity: 0; max-height: 0; transform: translateY(-8px); }
+  100% { opacity: 1; max-height: 72px; transform: translateY(0); }
+}
+
+@keyframes tugSweep {
+  0% { transform: translateX(-160%); }
+  100% { transform: translateX(320%); }
+}
+
+/* ───── Rich article typography (.article-body) ─────
+   Article section bodies are author-written HTML (from code seeds or the CMS).
+   These rules give plain semantic markup - p, ul, ol, table, strong - an
+   editorial, readable rhythm, plus two purpose classes:
+   .qa       an "at a glance" callout box (quick answer / snippet bait)
+   .cta-row  an inline text-link call-to-action row                       */
+
+.article-body > p + p,
+.article-body p + p {
+  margin-top: 0.9em;
+}
+.article-body strong {
+  color: #22362A;
+  font-weight: 600;
+}
+.article-body ul,
+.article-body ol {
+  margin: 0.9em 0;
+  padding-left: 1.35em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45em;
+}
+.article-body ul li {
+  list-style: none;
+  position: relative;
+}
+.article-body ul li::before {
+  content: "";
+  position: absolute;
+  left: -1.05em;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: #1f4a33;
+}
+.article-body ol li {
+  list-style: decimal;
+}
+.article-body table {
+  width: 100%;
+  margin: 1.15em 0;
+  border-collapse: collapse;
+  font-size: 14.5px;
+  line-height: 1.5;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.article-body table th {
+  text-align: left;
+  font-weight: 700;
+  color: #22362A;
+  background: #f8fafc;
+  padding: 10px 14px;
+  border-bottom: 2px solid #e5e7eb;
+}
+.article-body table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #4b5563;
+  vertical-align: top;
+}
+.article-body table tr:last-child td {
+  border-bottom: none;
+}
+.article-body table td:first-child {
+  font-weight: 600;
+  color: #22362A;
+}
+@media (max-width: 640px) {
+  .article-body table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+.article-body .qa {
+  margin: 0 0 1.1em;
+  padding: 14px 18px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-left: 3px solid #1f4a33;
+  border-radius: 12px;
+  color: #374151;
+}
+.article-body .qa strong:first-child {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1f4a33;
+}
+.article-body .cta-row {
+  margin: 1em 0;
+}
+.article-body .cta-row a {
+  font-weight: 700;
+  color: #1f4a33;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(12, 75, 117, 0.25);
+  padding-bottom: 1px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.article-body .cta-row a:hover {
+  color: #163B27;
+  border-bottom-color: #163B27;
+}
