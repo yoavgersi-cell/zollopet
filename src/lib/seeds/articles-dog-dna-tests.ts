@@ -129,4 +129,121 @@ export const dogDnaTestsArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "dog-dna-test-for-mixed-breeds",
+    title: "Dog DNA Tests for Mixed Breeds: What Mutt Owners Actually Get",
+    description:
+      "DNA testing a mixed-breed dog: how results look for real mutts, what 'supermutt' means, why trace breeds are fuzzy, and why mixed-breed owners benefit most.",
+    category: "Guide",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#5B3A70",
+    keyTakeaways: [
+      "Mixed-breed owners are the ideal DNA-test customer - everything the test reports is genuinely unknown.",
+      "Recent ancestors read clearly; deeply mixed ancestry comes back as small percentages and 'supermutt'-style categories, honestly reflecting the limits of the signal.",
+      "Health screening doesn't care how mixed the dog is - variants are detected regardless of ancestry complexity.",
+      "The behavior payoff is real: knowing the working breeds in the mix explains a lot of dog.",
+    ],
+    sections: [
+      {
+        heading: "Why mutts are the perfect customer",
+        body:
+          "DNA testing exists most meaningfully for the dog whose paperwork is a shrug: the shelter special, the street rescue, the 'lab mix, probably' with suspiciously short legs. For these dogs everything the test reports is new information - ancestry, predicted size for a growing pup, and health screening with no breeder records to fall back on. Purebreds with documented pedigrees get novelty; mutts get answers. If any dog in your house is getting swabbed first, it's the mystery.",
+      },
+      {
+        heading: "How mixed results actually look",
+        body:
+          "Expect clarity in layers. Recent ancestry - a purebred or half-bred parent or grandparent - reads strongly and lands as confident, larger percentages. Older, more tangled ancestry comes back as a stack of smaller contributions, and truly deep mixing gets grouped into categories like 'supermutt' - the companies' honest way of saying 'many breeds, each contributing too little to call individually.' Family-tree views reconstruct how the mix likely assembled across generations. A result full of small percentages isn't a failed test; it's an accurate portrait of a genuinely mixed dog.",
+      },
+      {
+        heading: "Trace percentages: read loosely",
+        body:
+          "The bottom of a mixed result - entries of a few percent - is where precision honestly runs out. At that resolution the statistical signal is weak, small entries can shift between algorithm updates, and two reputable companies can disagree without either being wrong. Treat trace breeds as flavor, not fact: the headline mix is reliable, the footnotes are educated guesses. What doesn't degrade with mixing is health screening - a variant is detected or it isn't, regardless of how tangled the ancestry around it may be - which is why the health tier holds full value for even the muttiest mutt.",
+      },
+      {
+        heading: "The payoff: your dog suddenly makes sense",
+        body:
+          "The practical reward for mixed-breed owners is usually behavioral revelation. The 'lab mix' that turns out substantially cattle dog explains the ankle-herding; the shepherd content explains the suspicion of visitors; the beagle percentage explains everything about the nose. Breed tendencies aren't destiny - socialization and training matter enormously - but knowing the working instincts in the mix helps you train with the grain instead of against it, and gives your vet useful context on breed-associated risks. For which test fits a mixed-breed budget best, our Embark vs Wisdom Panel comparison breaks down the database-scale question that matters most for mutts.",
+      },
+    ],
+  },
+  {
+    slug: "can-a-dna-test-tell-my-dogs-age",
+    title: "Can a DNA Test Tell Your Dog's Age? How Age Tests Work",
+    description:
+      "Dog age tests explained: how DNA methylation estimates a rescue dog's age, how accurate to expect it to be, and when the estimate is genuinely useful.",
+    category: "Guide",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Age tests read DNA methylation - chemical changes that accumulate with age - not the DNA sequence itself.",
+      "The output is an estimate with a range, not a birthday certificate; treat it accordingly.",
+      "Most useful for rescues with unknown history, where even a rough age changes care decisions.",
+      "It's a separate product from breed/health tests - Embark's, for example, was $109 (reg. $159) when we checked in September 2026.",
+    ],
+    sections: [
+      {
+        heading: "The clock inside the DNA",
+        body:
+          "A dog's DNA sequence doesn't change with age - so age tests read something else: DNA methylation, chemical tags that accumulate on DNA in patterns that shift predictably over a lifetime. Scientists call these patterns epigenetic clocks, and they're an active research area in humans and dogs alike. An age test measures methylation at informative sites and matches the pattern against reference data from dogs of known age, producing an estimated calendar age - and, marketed more charmingly, an estimated birthday.",
+      },
+      {
+        heading: "How much to trust the number",
+        body:
+          "Treat the output as a well-informed estimate with a margin, not a birth certificate. Methylation clocks genuinely track age, but individual variation - health, size, genetics - means the estimate lands in a range rather than on a date, and the companies themselves present it that way. The practical standard isn't 'is it perfect' but 'is it better than what you have' - and for a rescue whose age is currently 'the shelter guessed three-ish, maybe six', a data-driven estimate usually clears that bar comfortably. Your vet's assessment from teeth, eyes and joints remains valuable context alongside it.",
+      },
+      {
+        heading: "When the estimate actually matters",
+        body:
+          "For a dog whose birthday you know, an age test is pure entertainment - a party trick with lab work. For unknowns, it can genuinely steer care: age informs when to shift toward senior wellness screening, how to read energy and appetite changes, anesthesia conversations, even insurance decisions - and for insurance specifically, enrolling on a defensible age estimate beats guessing. It also recalibrates expectations kindly: the 'senior' rescue that tests young explains its energy; the 'young adult' that tests older earns gentler joints management. Knowledge here is mostly kindness with better timing.",
+      },
+      {
+        heading: "The practical details",
+        body:
+          "Age testing is typically a separate product from breed-and-health kits - same cheek-swab experience, different analysis. On pricing we can offer one verified data point: when we checked Embark's store in September 2026, its Dog Age Test was $109, regularly $159, with bundle discounts for combining tests - if you're already buying a breed or health kit for a rescue, the bundle math is worth a look. As with everything in this category, verify current prices on the brand's site, and bring the result to your vet as context rather than gospel.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-tell-what-breed-my-dog-is",
+    title: "How to Tell What Breed Your Dog Is: Guessing vs Actually Knowing",
+    description:
+      "Vet guesses, photo apps and visual ID vs DNA testing: why looks famously mislead on breed, what each method can honestly deliver, and when it matters to be right.",
+    category: "Guide",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#8A6D1F",
+    keyTakeaways: [
+      "Visual breed identification is famously unreliable - a few genes control looks, so appearance routinely misleads even professionals.",
+      "Photo apps inherit the same limitation with worse data: they judge the cover, algorithmically.",
+      "DNA testing is the only method that reads ancestry itself rather than inferring it from appearance.",
+      "Guesses are fine for fun; for housing paperwork, insurance or health context, actual knowledge earns its price.",
+    ],
+    sections: [
+      {
+        heading: "Why looks lie about breed",
+        body:
+          "The uncomfortable fact underneath every 'what breed is that?' conversation: appearance is a terrible witness. A relatively small number of genes control the visible stuff - coat, color, ears, size - so a dog can carry substantial ancestry from a breed while displaying almost none of its look, and vice versa. Shelter breed labels, assigned visually by necessity, are famously often wrong when checked against DNA, and even experienced professionals disagree with each other on visual calls. Mixed-breed appearance is a remix, not a recipe card.",
+      },
+      {
+        heading: "What guesses and photo apps can honestly do",
+        body:
+          "A vet or trainer's guess still has value - it's an expert reading of build and behavior, free with the appointment, and fine as a working theory. Photo apps are the same guess automated: a model matching your dog's picture against breed images, inheriting everything that makes visual ID unreliable and adding lighting and camera angle to the error budget. Both are entertainment-grade answers, honestly labeled. The mistake isn't using them - it's making decisions that matter on their output.",
+      },
+      {
+        heading: "When being right actually matters",
+        body:
+          "Breed identity stops being trivia in a few situations. Housing and insurance paperwork sometimes ask about breed, and a documented DNA result is a firmer answer than a shelter's visual label - occasionally a consequential one, given breed-based housing restrictions. Health context matters too: breed ancestry informs which conditions deserve vigilance, which is more useful than trivia in vet conversations. And for behavior, knowing the actual working breeds in the mix - rather than the ones the coat suggests - lets training work with instincts instead of guessing at them.",
+      },
+      {
+        heading: "The honest ladder of certainty",
+        body:
+          "Rank the methods by what they actually deliver: your own guess and photo apps are fun; a professional's visual assessment is a better-informed guess; a DNA test is the only option reading ancestry directly, with confidence that's strong for major contributors and honest fuzz at trace levels. If the question is idle curiosity, guess freely and enjoy the debate. If the answer will touch paperwork, health planning or training strategy, the swab is the only method that knows rather than estimates - and our comparison of the two leading tests covers which to pick.",
+      },
+    ],
+  }
 ];

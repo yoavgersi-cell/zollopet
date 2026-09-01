@@ -169,4 +169,160 @@ export const petInsuranceArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "pet-insurance-for-older-dogs",
+    title: "Pet Insurance for Older Dogs: What's Realistic (and What Isn't)",
+    description:
+      "Can you insure a senior dog? What changes with age - premiums, exclusions, enrollment caps - an honest framework for deciding, and the alternatives worth weighing.",
+    category: "Insurance 101",
+    readTime: "6 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Most insurers will enroll older dogs, but some products carry maximum enrollment ages - check before falling for a brand.",
+      "Everything already in the medical record is excluded as pre-existing; a senior policy protects against new problems only.",
+      "Premiums are higher and typically rise at renewal as your dog ages - ask how before buying, not after.",
+      "It can still be rational for a senior with a clean history; run the honest math instead of buying on fear.",
+    ],
+    sections: [
+      {
+        heading: "What actually changes with age",
+        body:
+          "Insuring a senior dog is usually possible but structurally different from insuring a puppy. Premiums are priced on age, so the starting number is higher and typically continues rising at renewals. Some insurers cap enrollment age for their full accident-and-illness products - while others enroll at any age - so the first filter is simply which companies will quote your dog at all. And the pre-existing exclusion does its heaviest work here: a decade of vet records is a decade of potential exclusions, because anything that already showed signs is off the table at essentially every insurer.",
+      },
+      {
+        heading: "The honest math for seniors",
+        body:
+          "A senior policy is a bet that new, unrelated problems will arrive - and in older dogs they genuinely do, which is both the reason to consider coverage and the reason it costs more. The evaluation that keeps you honest: get real quotes for your dog, ask each insurer how premiums have typically changed at renewal for aging pets, read the sample policy for age-related terms, and then weigh the annual cost against your ability to absorb a large bill directly. For a senior with a long problem list, so much may be excluded that self-funding wins; for a healthy senior with a thin record, catastrophe coverage can still be a sound purchase.",
+      },
+      {
+        heading: "Options beyond the full policy",
+        body:
+          "If full accident-and-illness coverage prices out of reach, the menu isn't empty. Some insurers offer accident-only coverage - cheaper, age-friendlier, and genuinely useful for the swallowed-object and broken-bone category of disaster, though it ignores illness entirely, which is where most senior spending lives. A dedicated savings account funded with the premium you would have paid is the other classic route: no exclusions, no claims process, and the money stays yours - its weakness is a major bill arriving before the balance has grown. Some households run a hybrid: accident-only coverage plus aggressive saving for illness.",
+      },
+      {
+        heading: "The takeaway for senior owners",
+        body:
+          "Don't buy from fear, and don't skip from fatalism - run the actual numbers. Quote two or three insurers with matched terms, ask directly about enrollment caps and renewal pricing, read the exclusions against your dog's real medical history, and compare the result against a disciplined savings plan. And if the conclusion of this exercise is mostly regret about not insuring earlier: that's information worth acting on for your next dog, starting in puppyhood - which is exactly when this decision is at its strongest. Our guide on the best age to buy covers that side of the story.",
+      },
+    ],
+  },
+  {
+    slug: "what-does-pet-insurance-not-cover",
+    title: "What Pet Insurance Doesn't Cover: The Full Exclusions Tour",
+    description:
+      "The exclusions every pet policy shares - pre-existing conditions, routine care, waiting periods - plus the quieter ones (exam fees, bilateral clauses) that surprise owners at claim time.",
+    category: "Insurance 101",
+    readTime: "6 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#163B27",
+    keyTakeaways: [
+      "The universal exclusions: pre-existing conditions, routine and preventative care (without an add-on), and anything arising during waiting periods.",
+      "The surprises live in the quieter clauses: exam fees, bilateral conditions, breeding, and cosmetic procedures.",
+      "Some policies limit coverage for conditions that were preventable by declined vaccines or routine prevention - read that clause.",
+      "The sample policy is the product; fifteen minutes with it beats any marketing page, including ours.",
+    ],
+    sections: [
+      {
+        heading: "The exclusions every policy shares",
+        body:
+          "Three exclusions are effectively universal. Pre-existing conditions - anything that showed signs before coverage began - are excluded everywhere; it's the defining rule of the product. Routine and preventative care - checkups, vaccines, parasite prevention, dental cleanings - sits outside accident-and-illness coverage, purchasable only via wellness add-ons that are budgeting tools rather than insurance. And waiting periods after purchase function as a short exclusion window: conditions arising before they end are typically treated as pre-existing, with orthopedic conditions often carrying the longest waits.",
+      },
+      {
+        heading: "The quieter clauses that surprise people",
+        body:
+          "The claim-time surprises usually come from less famous fine print. Exam fees - the consultation charge itself - are covered by some insurers and excluded by others, which meaningfully changes the math on every vet visit. Bilateral-condition clauses treat a problem on one side of the body (a knee, a hip, an eye) as pre-existing for the other side if the first predates coverage. Breeding and pregnancy costs are standard exclusions, as are cosmetic and elective procedures. None of these is hidden, exactly - they're all in the sample policy - but they're rarely on the marketing page.",
+      },
+      {
+        heading: "The responsibility clauses",
+        body:
+          "A family of exclusions ties coverage to your own care decisions. Some policies limit or deny claims for conditions that standard prevention would have averted - an illness a declined vaccine protects against, or parasite-borne disease without prevention - and injuries from activities the policy names (racing, commercial guarding) can sit outside coverage too. The theme: insurers cover misfortune, not forgone prevention. Keeping up with the boring basics - vaccines, parasite control, dental care - protects your pet first, and quietly protects your claims too.",
+      },
+      {
+        heading: "How to read a sample policy in fifteen minutes",
+        body:
+          "Every insurer publishes a sample policy, and it's the only document that actually defines the product. The efficient pass: find the pre-existing definition (does it distinguish curable from incurable conditions?), the waiting periods by category, the exclusions list, whether exam fees are covered, the bilateral clause, and how premiums and terms change with age. Fifteen minutes, once per finalist insurer, with your own pet's history in mind. It's the least glamorous step in the whole purchase and the one that prevents essentially every unpleasant claim-time surprise - our insurer comparison links out to where each brand's terms live.",
+      },
+    ],
+  },
+  {
+    slug: "pet-insurance-vs-savings-account",
+    title: "Pet Insurance vs a Savings Account: The Honest Head-to-Head",
+    description:
+      "Self-insuring vs pet insurance, compared honestly: where each wins, the year-one gap and discipline problem, and the hybrid strategy many households actually land on.",
+    category: "Insurance 101",
+    readTime: "6 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#2E6B47",
+    keyTakeaways: [
+      "Insurance buys certainty against catastrophic bills; savings keep unspent money and exclude nothing.",
+      "Self-insuring fails two ways: the emergency that arrives before the balance grows, and the funding discipline that quietly lapses.",
+      "Insurance's weaknesses are premiums that never come back, exclusions, and claims friction.",
+      "The hybrid - high-deductible coverage plus savings for everything under it - is the quietly sensible middle path.",
+    ],
+    sections: [
+      {
+        heading: "What each option actually is",
+        body:
+          "Strip the marketing and the choice is clean. Insurance converts an unpredictable, potentially huge cost into a predictable premium: you pay every month, and if catastrophe comes, most of the covered bill isn't yours. Self-insuring - a dedicated savings account fed monthly - keeps every unspent shekel of that money yours, excludes nothing, involves no claims process, and rolls over to your next pet. One is certainty purchased at a price; the other is risk retained with interest. Neither is irrational; they fail in different ways, which is the actual comparison.",
+      },
+      {
+        heading: "Where savings win - and their two failure modes",
+        body:
+          "Over the lifetime of a mostly-healthy pet, the disciplined saver often comes out ahead - that's how insurance economics must work on average. Savings also cover what insurance never will: pre-existing conditions, routine care, the next pet. But self-insuring has two well-known failure modes. Timing: a multi-thousand emergency in year one arrives before the balance can cover it, and 'I'll have enough eventually' doesn't pay tonight's surgery estimate. Discipline: most people don't actually transfer the premium every month with an insurer's ruthlessness - the account starts strong and quietly stops growing.",
+      },
+      {
+        heading: "Where insurance wins - and what it costs you",
+        body:
+          "Insurance's core win is the scenario that breaks savers: the huge bill, early or anytime, answered without a financial crisis - and with it, immunity from the worst decision in veterinary medicine, declining treatable care over money. Its costs are equally real: premiums are gone whether or not you claim and typically rise with age; exclusions mean it never covers everything; and claims involve fronting money and paperwork at most insurers. Buying it late compounds all of this, since accumulated history becomes excluded pre-existing conditions.",
+      },
+      {
+        heading: "The hybrid most households should at least consider",
+        body:
+          "The quietly sensible answer is often both, tuned by deductible: a policy with a higher deductible and strong reimbursement above it - keeping the premium contained while capping catastrophe - plus a savings account that covers the deductible and the routine care insurance ignores. You've bought certainty only where uncertainty is dangerous, and kept self-funding where it's efficient. Whichever mix you choose, decide while your pet is young and healthy: every option on this page is strongest then, and the do-nothing default is the only strategy with no good version.",
+      },
+    ],
+  },
+  {
+    slug: "is-pet-insurance-worth-it-for-cats",
+    title: "Is Pet Insurance Worth It for Cats? The Indoor-Cat Question",
+    description:
+      "Cat insurance, honestly: why 'my cat stays indoors' is weaker protection than it feels, the feline illnesses that drive claims, and who should insure vs save.",
+    category: "Insurance 101",
+    readTime: "6 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#8A6D1F",
+    keyTakeaways: [
+      "Indoor life prevents accidents, not illness - and illness is where feline vet spending concentrates.",
+      "Urinary blockages, kidney disease, hyperthyroidism and diabetes are the classic expensive cat conditions, and none checks whether the window was closed.",
+      "Cat premiums typically run lower than dog premiums, which changes the value math in cats' favor.",
+      "The strongest cat case: insure young, before anything enters the record; for seniors with history, weigh savings honestly.",
+    ],
+    sections: [
+      {
+        heading: "The indoor-cat fallacy",
+        body:
+          "The most common reason owners skip cat insurance - 'she's indoors, what could happen?' - protects against the wrong category. Indoor life genuinely reduces accidents: traffic, fights, misadventure. It does approximately nothing about illness, and illness is where feline veterinary spending concentrates. A cat that has never seen the street can still block its urinary tract at 2am, develop kidney disease at ten, or swallow the hair tie it spent three weeks stalking. Indoor is a lifestyle, not a warranty.",
+      },
+      {
+        heading: "What actually gets expensive in cats",
+        body:
+          "The feline claim classics are worth knowing by name. Urinary obstruction - overwhelmingly in male cats - is a genuine emergency requiring immediate treatment and sometimes surgery. Chronic kidney disease is among the most common conditions of older cats, bringing years of monitoring, diets and medication. Hyperthyroidism and diabetes both feature prominently in senior cats, each with meaningful ongoing costs. Add dental disease and the eaten-string category of surgical emergency, and the picture is clear: cats aren't cheaper patients because they're smaller - they're differently expensive, with illness doing the heavy billing.",
+      },
+      {
+        heading: "The math tilts differently for cats",
+        body:
+          "Two structural facts shape the cat decision. Premiums for cats typically run lower than for dogs, so the certainty insurance sells costs less to buy - the worth-it bar sits lower. And feline pre-existing exclusions bite hard, because the classic cat conditions are chronic: a kidney value that drifted once, a urinary episode in the record, and that entire territory is excluded at essentially every insurer, forever. Together those push the same conclusion from both directions: cat insurance is at its absolute strongest bought young and healthy, and weakens faster with waiting than dog insurance does.",
+      },
+      {
+        heading: "Who should insure, who should save",
+        body:
+          "Insure if: the cat is young with a clean record, a four-figure emergency would strain you, or you know yourself well enough to know the savings account wouldn't actually get funded. Lean savings if: the cat is older with a history that guts coverage, or you have real reserves and genuinely prefer retaining the risk. Either way, apply the standard discipline - quotes for your actual cat with matched terms, a pass through the sample policy, waiting periods noted - and decide now rather than after the first symptom, because in cats especially, the record is destiny. Our insurer comparison covers how the major brands differ once you've chosen a direction.",
+      },
+    ],
+  }
 ];

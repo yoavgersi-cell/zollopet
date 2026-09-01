@@ -192,7 +192,7 @@ export function VerticalEditorial({
   const articles = (config.articles ?? []).slice(0, 4);
 
   return (
-    <section className="mx-auto max-w-[820px] px-4 pb-4 pt-12 sm:pt-16">
+    <section className="mx-auto max-w-[1200px] px-4 pb-4 pt-12 sm:pt-16">
       {/* Editorial guide - plain text flowing on the page ground, no card */}
       <p className="text-[12px] font-bold uppercase tracking-[0.12em] text-[#1F4A33]">
         The ZolloPet Guide

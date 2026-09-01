@@ -296,8 +296,13 @@ export async function HubHome() {
   const defaultMeta = published.find((v) => v.id === DEFAULT_VERTICAL) ?? published[0];
   const topProviders = defaultConfig ? topThree(defaultConfig) : [];
 
-  // Brand shelf: every reviewed brand across all published categories.
-  const shelfProviders = configs.flatMap((c) => c.providers ?? []).slice(0, 12);
+  // Brand shelf: reviewed brands across all published categories. Only brands
+  // with a real uploaded logo (PNG) appear - text-placeholder SVGs would break
+  // the shelf's visual consistency. New logo uploads join automatically.
+  const shelfProviders = configs
+    .flatMap((c) => c.providers ?? [])
+    .filter((p) => p.logo.endsWith(".png"))
+    .slice(0, 12);
 
   return (
     <div className="bg-white">

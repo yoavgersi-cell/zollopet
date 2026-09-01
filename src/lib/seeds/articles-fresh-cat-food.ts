@@ -129,4 +129,160 @@ export const freshCatFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "how-much-should-i-feed-my-cat",
+    title: "How Much Should You Feed Your Cat? Portions, Honestly",
+    description:
+      "How much to feed a cat: why calories beat cups, measured meals vs free-feeding, the treat budget, and how to tell if the portion is actually right.",
+    category: "Nutrition",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#0F766E",
+    keyTakeaways: [
+      "The right amount is a calorie number, not a bowl level - weight, age, activity and neuter status all move it.",
+      "Measured meals beat free-feeding for most cats; the always-full bowl is how indoor cats quietly gain.",
+      "Treats count against the day's calories - common guidance keeps them to a small share of the total.",
+      "Judge portions by body condition over weeks, not by how convincingly your cat campaigns for more.",
+    ],
+    sections: [
+      {
+        heading: "Calories, not cups",
+        body:
+          "A cat's correct daily intake is a calorie figure driven by weight, age, activity and whether the cat is neutered - spaying and neutering lower energy needs, which is exactly when many cats start gaining on the same portions. Food labels carry feeding guides, and fresh subscriptions calculate portions from your cat's profile, but every guide is a starting point rather than a verdict. Two cats of identical weight can need meaningfully different amounts; the number gets tuned by watching the actual cat, which is the last section of this guide.",
+      },
+      {
+        heading: "The free-feeding trap",
+        body:
+          "Leaving a full bowl down all day suits a minority of naturally lean self-regulators and quietly overfeeds most everyone else - it's the single most common way indoor cats end up overweight, and excess weight is among the most common and most preventable health problems in cats. Measured meals - typically two or more per day - give you portion control, make appetite changes visible early (a meal-fed cat that skips dinner is telling you something a grazed bowl never would), and make multi-cat households manageable, since free-feeding also hides who's eating whose share.",
+      },
+      {
+        heading: "Treats are part of the math",
+        body:
+          "Treats, lickable tubes, and the tax your cat levies on your breakfast all count against the same daily calories, and they add up faster than intuition suggests for an animal this small. Common veterinary guidance keeps treats to a modest share of the day's intake - roughly a tenth is the figure often cited - with the main meals carrying the complete-and-balanced nutrition. If training or bonding involves lots of treats, shave the meals accordingly rather than stacking extras on top.",
+      },
+      {
+        heading: "How to know you've got it right",
+        body:
+          "Ignore the campaigning - many cats solicit food convincingly at any weight - and read the body instead, over weeks: ribs you can feel under a thin layer without seeing them, a visible waist from above, a belly that tucks rather than sways. Weight drifting up means trim portions; drifting down unexpectedly is a vet conversation, not just a bigger scoop. And if your cat needs to lose weight, do it only gradually and with your vet involved - crash-dieting a cat is genuinely dangerous, which is exactly why the portion question deserves this much care in the first place.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-help-cat-lose-weight",
+    title: "How to Help a Cat Lose Weight - Safely and Without Drama",
+    description:
+      "Helping an overweight cat slim down: why crash-dieting cats is dangerous, the vet-first rule, measured meals, play that works, and realistic timelines.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Cat weight loss must be gradual - rapid loss or food refusal can trigger hepatic lipidosis, a serious liver condition.",
+      "Start with your vet: a target weight, a calorie plan, and a rule-out of medical causes.",
+      "Measured meals and a closed kitchen do most of the work; diet begging is a phase, not a crisis.",
+      "Hunting-style play and food puzzles burn calories and traffic in the currency cats actually value.",
+    ],
+    sections: [
+      {
+        heading: "Why cat diets have a safety rule dogs don't",
+        body:
+          "The single most important fact in feline weight loss: it must happen slowly. When an overweight cat loses weight too fast - or stops eating altogether - fat mobilized to the liver can overwhelm it, causing hepatic lipidosis, a genuinely life-threatening condition. That's why the crash-diet instinct that merely fails with humans is dangerous with cats, and why any plan that has your cat refusing food entirely is an emergency to correct, not perseverance to admire. Gradual is not the cautious version of the plan; it is the plan.",
+      },
+      {
+        heading: "Start at the vet, not the food aisle",
+        body:
+          "A weight-loss plan starts with three things only a vet visit provides: confirmation the weight is actually excess (body condition scoring beats guessing), a rule-out of medical contributors, and a target weight with a daily calorie number to aim for. This is also the moment to discuss food strategy - high-protein, higher-moisture feeding often features in feline weight plans, which is where measured wet or fresh food can help - and to book the follow-up weigh-ins that keep the loss on the safe, gradual curve.",
+      },
+      {
+        heading: "The mechanics: measured meals and a closed economy",
+        body:
+          "Execution is mostly arithmetic and consistency. Free-feeding ends; measured meals at set times begin, portioned to the vet's calorie target - a kitchen scale is more honest than a scoop. The household food economy closes: treats budgeted inside the daily calories, no counter scraps, and in multi-cat homes, separate feeding stations so the dieter can't finish a housemate's bowl. Expect a vocal negotiation phase; it passes. What you're weathering is a habit change, and cats adapt to routines faster than their campaigning suggests.",
+      },
+      {
+        heading: "Burn calories the way cats actually spend them",
+        body:
+          "Cats don't jog, but they hunt - short, intense bursts. Two or three daily play sessions with a wand toy that ends in a 'catch' work with that instinct, and food puzzles or scatter-feeding part of a meal turn eating itself into activity. Vertical space and window perches help an indoor cat move more by default. Then trust the process: healthy feline weight loss is measured in months, tracked at weigh-ins, and finished with a maintenance portion - because the fastest way back to the starting weight is declaring victory and reopening the buffet.",
+      },
+    ],
+  },
+  {
+    slug: "kitten-food-vs-adult-cat-food",
+    title: "Kitten Food vs Adult Cat Food: Does the Difference Matter?",
+    description:
+      "Kitten food vs adult cat food explained: what growth formulation changes, how long kittens need it, the switch to adult food, and what to check on any label.",
+    category: "Nutrition",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#2E6B47",
+    keyTakeaways: [
+      "Yes, it matters: kittens need food formulated for growth - more energy and nutrients per bite than adult maintenance recipes.",
+      "The label's life-stage statement (growth / all life stages / adult maintenance) is the fact that counts, whatever the marketing says.",
+      "Most cats switch to adult food around their first birthday - your vet can time it for your cat.",
+      "Kittens eat small and often; frequency matters as much as formulation early on.",
+    ],
+    sections: [
+      {
+        heading: "What growth formulation actually changes",
+        body:
+          "A kitten multiplies its birth weight many times over in its first months, and the food has to fund that construction project: more calories per bite, more protein, and nutrient levels tuned for development - all packed densely enough for a stomach the size of a walnut. That's what a 'growth' formulation delivers and what an adult-maintenance recipe doesn't. Feeding a kitten adult food isn't a rounding error; it's asking a growing body to build itself from a maintenance budget.",
+      },
+      {
+        heading: "Read the life-stage statement, not the front of the bag",
+        body:
+          "The fact that settles any kitten-food question sits in the fine print: the AAFCO life-stage statement, which declares whether a recipe is formulated for growth, adult maintenance, or all life stages. 'All life stages' recipes are formulated to cover growth and are a legitimate kitten option - common among fresh and premium brands that run one recipe line. Whatever a package or website implies, this statement is the claim that's actually regulated, so it's the line to check before any food touches a kitten's bowl - and if you're considering a fresh subscription for a kitten, confirm with the brand which recipes carry it.",
+      },
+      {
+        heading: "Small stomachs, frequent meals",
+        body:
+          "Formulation is half the job; logistics is the other half. Young kittens can't physically eat a day's needs in two sittings - they do best with several small meals, tapering toward a more adult schedule as they grow. This is also the age when eating habits and texture preferences form, which has a practical implication: a kitten exposed to some variety - textures, proteins, formats - within its complete-and-balanced diet tends to become a less tyrannical adult about novelty. You're not just feeding a kitten; you're training the future eater.",
+      },
+      {
+        heading: "Making the switch to adult food",
+        body:
+          "The common milestone for moving to adult food is around the first birthday, with the caveat that individual cats and larger, slower-maturing breeds can warrant different timing - a question worth thirty seconds at a vet visit. The switch itself follows the standard playbook: gradual mixing over a week or more, watching stools and appetite. And once the growth engine shuts off, portions matter in the other direction: the just-turned-adult cat still eating kitten-dense food at kitten volumes is the origin story of many chubby two-year-olds.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-cat-to-drink-more-water",
+    title: "How to Get Your Cat to Drink More Water (It's an Instinct Game)",
+    description:
+      "Cats are chronic under-drinkers by design. Fountains, bowl placement, wet and fresh food, and the instinct-friendly tricks that genuinely raise water intake.",
+    category: "Guide",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#8A6D1F",
+    keyTakeaways: [
+      "Cats descend from desert hunters that got water from prey - a weak thirst drive is the factory setting.",
+      "Food is the biggest lever: high-moisture (wet or fresh) feeding raises water intake more reliably than any bowl trick.",
+      "Fountains, wide bowls, and placement away from food and litter all work with feline instincts.",
+      "Drinking changes cut both ways: a cat suddenly drinking much more is a vet visit, not a victory.",
+    ],
+    sections: [
+      {
+        heading: "Why cats under-drink by design",
+        body:
+          "Your cat's ancestors got most of their water pre-packaged in prey, and evolution never built a strong backup thirst drive - desert hunters didn't need one. Modern cats inherited that wiring, which becomes a problem on dry-only diets: the food carries almost no moisture, and many cats simply don't drink enough to close the gap. That chronic mild dehydration is why veterinarians talk about water intake so much in the context of feline urinary and kidney health, and why 'how do I get my cat to drink more' is one of the most useful questions a cat owner can ask.",
+      },
+      {
+        heading: "The biggest lever is the food bowl, not the water bowl",
+        body:
+          "The most reliable way to raise a cat's water intake doesn't involve persuading the cat to drink at all: feed moisture. Wet food and fresh food carry most of their weight as water - closer to prey than any kibble can be - so shifting some or all of the diet toward high-moisture food raises intake automatically, no cooperation required. Even partial moves count: a wet or fresh meal alongside dry feeding, or a spoonful of plain water stirred into wet food for cats that tolerate it. This is, honestly, one of the stronger practical arguments for the fresh and wet categories.",
+      },
+      {
+        heading: "Make water instinct-friendly",
+        body:
+          "For the drinking your cat does do, work with instincts instead of against them. Many cats prefer moving water - it reads as fresher - which is why fountains often succeed where bowls fail; if you try one, keep it clean, since a slimy fountain defeats the point. Use wide, shallow bowls (some cats dislike whisker contact with bowl walls), refresh water daily, and place stations away from both food and litter - cats instinctively distrust water next to either. In multi-cat homes, several stations in different rooms beat one contested bowl.",
+      },
+      {
+        heading: "Know what changes mean",
+        body:
+          "Two cautions keep this project safe. First, flavor experiments should stay plain: no seasoned broths or anything containing onion or garlic, which are toxic to cats - if you flavor water at all, it should be something unseasoned and cat-safe. Second, watch the direction of change: you're nudging intake up from a healthy baseline, but a cat that spontaneously starts drinking dramatically more (or urinating much more) may be showing early signs of kidney disease, diabetes or thyroid trouble - that's a prompt vet visit, not a win. Sudden drops in drinking or eating deserve the same call.",
+      },
+    ],
+  }
 ];

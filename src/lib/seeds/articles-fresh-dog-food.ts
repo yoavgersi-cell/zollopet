@@ -174,4 +174,160 @@ export const freshDogFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "what-is-human-grade-dog-food",
+    title: "What Does 'Human-Grade' Dog Food Actually Mean?",
+    description:
+      "Human-grade dog food is a regulated claim, not marketing fluff - what the standard requires, how it differs from feed-grade, and when it's worth paying for.",
+    category: "Nutrition",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "'Human-grade' is a defined claim: every ingredient and the finished food must be fit for human consumption and handled under human-food manufacturing standards.",
+      "Feed-grade food can legally use ingredients human food can't - it can still be nutritionally complete.",
+      "Human-grade tells you about sourcing and handling standards, not automatically about nutrition - complete-and-balanced is a separate box to check.",
+      "The claim is worth paying for when ingredient standards are your priority; it isn't a medical necessity for a healthy dog.",
+    ],
+    sections: [
+      {
+        heading: "It's a regulated claim, not a vibe",
+        body:
+          "Unlike 'premium' or 'natural', which mean roughly nothing, 'human-grade' has a real definition in US pet food regulation. For a food to carry the claim, every ingredient must be edible by human-food standards, and the finished product has to be manufactured, packed and held according to human-food regulations - the same framework that governs food made for people. That's why the claim is rare and concentrated in the fresh category: meeting it requires human-food supply chains and facilities, which is a genuinely higher and more expensive bar than conventional pet food production.",
+      },
+      {
+        heading: "What feed-grade means by contrast",
+        body:
+          "Conventional pet food is 'feed-grade': made under animal-feed regulation, which permits ingredients that human food doesn't - meat meals, by-products, and materials from parts of the supply chain that never enter human food. That sounds alarming and mostly isn't: feed-grade food is regulated, and a quality feed-grade kibble formulated to AAFCO complete-and-balanced standards is a nutritionally adequate diet that millions of dogs thrive on. The honest framing is that human-grade buys you a stricter ingredient and handling standard, not a guarantee that feed-grade food is harming your dog.",
+      },
+      {
+        heading: "What the claim does and doesn't tell you",
+        body:
+          "Human-grade speaks to sourcing and manufacturing - it says nothing by itself about whether the recipe is nutritionally complete. A human-grade food still needs the complete-and-balanced formulation statement (AAFCO) that any responsible dog food carries, so check both. It also doesn't mean 'food you should eat' or 'food formulated like a human meal' - dog nutritional needs differ from ours, and the claim is about ingredient quality standards, not menu design.",
+      },
+      {
+        heading: "When it's worth paying for",
+        body:
+          "If knowing exactly what's in the bowl matters to you - recognizable ingredients, human-food supply chains, stricter handling - human-grade is the claim that actually delivers it, and the major fresh brands we compare are built around it. If your budget is tight, a quality complete-and-balanced conventional food remains a responsible choice, and no vet would tell you otherwise. Like most premium claims, it's a values purchase with real substance behind it - just be sure you're paying for the part you care about. Our fresh dog food comparison covers which brands carry the standard and how their models differ.",
+      },
+    ],
+  },
+  {
+    slug: "fresh-dog-food-for-puppies",
+    title: "Can Puppies Eat Fresh Dog Food? What to Check First",
+    description:
+      "Fresh dog food for puppies: why growth formulation matters, the large-breed calcium question, portion updates as your puppy grows, and what to verify with each brand.",
+    category: "Nutrition",
+    readTime: "5 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#8A6D1F",
+    keyTakeaways: [
+      "Puppies need food formulated for growth (or all life stages) - adult-only recipes don't cover their needs.",
+      "Large-breed puppies are a special case: controlled calcium matters for developing joints, so check for large-breed-appropriate formulation.",
+      "A puppy's portions change constantly - keeping the brand profile updated is part of feeding fresh correctly.",
+      "Involve your vet early: puppyhood is the life stage where feeding decisions carry the most long-term weight.",
+    ],
+    sections: [
+      {
+        heading: "The formulation question comes first",
+        body:
+          "Puppies aren't small adults nutritionally: growth demands more calories per pound and different nutrient levels than maintenance. In AAFCO terms, that means a puppy's food must be formulated for 'growth' or 'all life stages' - a recipe validated only for adult maintenance doesn't cover them. The major fresh brands handle life stage through your dog's profile and their recipe selection, but the burden of confirming it is still yours: before subscribing a puppy, verify with the brand which recipes are formulated for growth and that the plan built for your puppy uses them.",
+      },
+      {
+        heading: "Large-breed puppies deserve extra care",
+        body:
+          "If your puppy will grow into a large or giant breed, one nutrient deserves specific attention: calcium. Excess calcium during the rapid-growth months is associated with developmental joint problems in large breeds, which is why large-breed puppy formulas exist as a category. When considering fresh food for a large-breed puppy, ask the brand directly how its growth recipes handle calcium for large breeds, and loop your vet into the decision - this is the clearest case in dog feeding where 'complete and balanced' has breed-size nuance behind it.",
+      },
+      {
+        heading: "Portions are a moving target",
+        body:
+          "A puppy's calorie needs change month to month, which cuts both ways for fresh subscriptions. The good news: profile-based portioning is genuinely useful for growth, since the brand recalculates as you update weight and age. The catch: it only works if you actually update the profile - a plan sized for a 15-pound puppy underfeeds the same dog at 30 pounds. Weigh your puppy regularly, update the profile each time, and use your vet's body-condition guidance rather than the bowl to judge whether the plan is keeping up.",
+      },
+      {
+        heading: "The practical verdict",
+        body:
+          "Fresh food can absolutely work for puppies - palatability helps during teething pickiness, and precise portions support healthy growth rates - provided three boxes are checked: growth-appropriate formulation confirmed with the brand, large-breed calcium handled if that's your dog, and a vet who knows what you're feeding. Transition gradually as with any food change, keep the profile current, and re-run the numbers as your puppy grows - the per-day price of fresh food scales with size, so the quote you start with won't be the quote you finish with.",
+      },
+    ],
+  },
+  {
+    slug: "best-dog-food-for-picky-eaters",
+    title: "Feeding a Picky Dog: What Actually Works (and What Backfires)",
+    description:
+      "How to feed a picky eater dog: rule out medical causes, stop the accidental training that creates pickiness, and where fresh food genuinely helps.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#2E6B47",
+    keyTakeaways: [
+      "Sudden pickiness is a vet question; lifelong pickiness is usually a training and environment question.",
+      "Most chronic pickiness is accidentally taught - table scraps and constant food-switching teach a dog that refusing pays.",
+      "Structured mealtimes fix more picky eaters than new foods do.",
+      "Palatability is fresh food's most consistent real-world advantage - it's the right tool once behavior is handled.",
+    ],
+    sections: [
+      {
+        heading: "First, separate the two kinds of picky",
+        body:
+          "A dog that suddenly loses interest in food it used to eat isn't picky - it's telling you something. Dental pain, nausea and illness all present as 'won't eat', so a genuine appetite change, especially with lethargy or weight loss, is a vet visit before it's a food-shopping trip. Chronic pickiness is different: a healthy dog that has always been selective, holds out for better options, and eats enthusiastically when the right thing appears. That dog doesn't have a medical problem - it has a strategy.",
+      },
+      {
+        heading: "How owners accidentally train pickiness",
+        body:
+          "Picky dogs are usually made, not born. The pattern: the dog hesitates at the bowl, a worried owner upgrades the meal - a topper, some chicken, a new brand - and the dog learns that refusing produces better food. Repeat for a year and you've trained a professional negotiator. Table scraps run the same con from a different angle: why eat kibble when holding out sometimes produces steak? None of this means your dog is manipulative in any sinister sense - it means dogs learn exactly what we teach them.",
+      },
+      {
+        heading: "The structure fix",
+        body:
+          "The boring solution outperforms the exciting ones: scheduled meals, offered for a set window - fifteen to twenty minutes is the common approach - then picked up until the next mealtime, with no scraps or upgrades in between. A healthy adult dog will not harm itself skipping a meal or two while learning the new rules, though puppies, small breeds and dogs with any medical condition need vet guidance before any tough-love approach. Most picky eaters recalibrate within days once refusing stops paying. Keep treats modest during the reset, or you're quietly refilling the negotiating account.",
+      },
+      {
+        heading: "Where fresh food fits",
+        body:
+          "Once behavior is structured, food quality is a fair lever - and this is where the fresh category earns its reputation, because palatability is its most consistent real-world advantage: lightly cooked meat simply smells and tastes more like food to a dog than extruded pellets. The honest sequencing matters, though. Fresh food offered to an untrained negotiator becomes the new thing to refuse; fresh food offered on a schedule to a dog that's learned mealtimes are finite tends to get eaten. If you go that route, use the trial terms to test acceptance cheaply - our comparison notes what to check per brand.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-store-fresh-dog-food",
+    title: "How to Store Fresh Dog Food (Fridge, Freezer & Serving Rules)",
+    description:
+      "Fresh dog food storage explained: fridge and freezer basics, thawing routines, how long food can sit in the bowl, and the treat-it-like-human-food rule.",
+    category: "Guide",
+    readTime: "4 min read",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    heroColor: "#A16207",
+    keyTakeaways: [
+      "The master rule: handle fresh dog food like fresh human food - refrigerated, dated, and never left sitting out for hours.",
+      "The brand's printed storage guidance beats any generic rule, including ours - dates and windows differ by product.",
+      "Build a thaw-ahead routine; the freezer is your buffer, the fridge is your working stock.",
+      "Uneaten fresh food doesn't wait in the bowl - pick it up, refrigerate promptly, and follow the brand's window for opened packs.",
+    ],
+    sections: [
+      {
+        heading: "Think 'groceries', not 'pet food'",
+        body:
+          "The mental shift that makes fresh feeding easy: this is perishable food, exactly like the chicken in your fridge. Kibble taught pet owners that dog food is shelf-stable and forgiving - fresh food isn't, and every storage rule follows from that one fact. Deliveries go into the fridge or freezer promptly on arrival, packs carry dates you actually follow, and anything that smells or looks off gets discarded the way you'd discard questionable leftovers. Owners who internalize this one idea rarely have storage problems at all.",
+      },
+      {
+        heading: "Fridge, freezer and the thaw-ahead routine",
+        body:
+          "The standard workflow: the freezer holds your buffer stock, the fridge holds what you're feeding this week, and packs move between them on a routine - typically thawing in the fridge a day or so before they're needed, never on the counter. Each brand prints its own windows for how long sealed and opened packs keep refrigerated, and those printed numbers outrank any generic advice, ours included, because recipes and packaging differ. The habit that prevents most failures is simply checking your fridge stock when you feed dinner and pulling tomorrow's pack from the freezer then.",
+      },
+      {
+        heading: "The bowl is not storage",
+        body:
+          "Fresh food shouldn't sit out the way kibble can. Serve the portion, give your dog a reasonable window to eat, and refrigerate what's left rather than leaving the bowl down all day - the same judgment you'd apply to a plate of cooked food for yourself. Grazers who nibble across hours do better with smaller, more frequent servings than with a standing bowl. And wash bowls regularly with soap and water; fresh food's moisture makes hygiene matter more than it did with dry pellets.",
+      },
+      {
+        heading: "Travel and slip-ups",
+        body:
+          "Trips need planning: a cooler bridges short journeys, and some households keep a small supply of a shelf-stable backup their dog tolerates for travel - if you do, introduce it before the trip, not during. As for slip-ups, apply the human-food test honestly: a pack forgotten out overnight gets discarded, not sniffed and rationalized. The cost of a wasted pack is real but small; the point of feeding fresh was treating your dog's food with human-food care, and that includes throwing it out on the same rules.",
+      },
+    ],
+  }
 ];
