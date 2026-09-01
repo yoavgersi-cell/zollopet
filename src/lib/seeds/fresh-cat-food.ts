@@ -5,6 +5,7 @@ import type {
   BattleData,
   FaqItem,
 } from "../config";
+import { freshCatFoodArticles } from "./articles-fresh-cat-food";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Fresh Cat Food vertical
@@ -33,7 +34,7 @@ const providers: Provider[] = [
       "Human-grade ingredients",
       "Subscription delivery to your door",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.smalls.com",
     ctaText: "Visit Site",
   },
   {
@@ -47,7 +48,7 @@ const providers: Provider[] = [
       "Family-run brand serving cats and dogs",
       "Shipped frozen to your door",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.raisedrightpets.com",
     ctaText: "Visit Site",
   },
   {
@@ -61,7 +62,7 @@ const providers: Provider[] = [
       "Longstanding raw-feeding specialist brand",
       "Recurring frozen delivery",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.darwinspet.com",
     ctaText: "Visit Site",
   },
 ];
@@ -304,5 +305,6 @@ export function freshCatFoodSeed(base: SiteConfig): SiteConfig {
     reviews,
     battles,
     faqs,
+    articles: freshCatFoodArticles,
   };
 }

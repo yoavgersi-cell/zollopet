@@ -5,6 +5,7 @@ import type {
   BattleData,
   FaqItem,
 } from "../config";
+import { freshDogFoodArticles } from "./articles-fresh-dog-food";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Fresh Dog Food vertical
@@ -33,7 +34,7 @@ const providers: Provider[] = [
       "Pre-portioned packs personalized to your dog",
       "Recipes developed with veterinary nutritionists",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.thefarmersdog.com",
     ctaText: "Visit Site",
   },
   {
@@ -47,7 +48,7 @@ const providers: Provider[] = [
       "Portions personalized from your dog's profile",
       "Human-grade ingredients",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.myollie.com",
     ctaText: "Visit Site",
   },
   {
@@ -61,7 +62,7 @@ const providers: Provider[] = [
       "Recipes formulated by board-certified veterinary nutritionists",
       "Subscription delivery to your door",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.nomnomnow.com",
     ctaText: "Visit Site",
   },
   {
@@ -75,7 +76,7 @@ const providers: Provider[] = [
       "Personalized portions from your dog's profile",
       "Human-grade ingredients",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://spotandtango.com",
     ctaText: "Visit Site",
   },
 ];
@@ -489,5 +490,6 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
     reviews,
     battles,
     faqs,
+    articles: freshDogFoodArticles,
   };
 }

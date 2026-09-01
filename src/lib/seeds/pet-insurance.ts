@@ -5,6 +5,7 @@ import type {
   BattleData,
   FaqItem,
 } from "../config";
+import { petInsuranceArticles } from "./articles-pet-insurance";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Pet Insurance vertical
@@ -33,7 +34,7 @@ const providers: Provider[] = [
       "Customizable coverage with optional add-ons",
       "Part of a broader digital insurance company",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.lemonade.com/pet",
     ctaText: "Get a Quote",
   },
   {
@@ -47,7 +48,7 @@ const providers: Provider[] = [
       "Established pet-insurance specialist brand",
       "Claims submitted by photographing the vet bill",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.healthypawspetinsurance.com",
     ctaText: "Get a Quote",
   },
   {
@@ -61,7 +62,7 @@ const providers: Provider[] = [
       "Can pay participating vets directly at checkout",
       "Longstanding pet-insurance specialist",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.trupanion.com",
     ctaText: "Get a Quote",
   },
   {
@@ -75,7 +76,7 @@ const providers: Provider[] = [
       "Optional non-insurance wellness plan for routine care",
       "Diminishing-deductible feature for claim-free years",
     ],
-    affiliateUrl: "#",
+    affiliateUrl: "https://www.embracepetinsurance.com",
     ctaText: "Get a Quote",
   },
 ];
@@ -487,5 +488,6 @@ export function petInsuranceSeed(base: SiteConfig): SiteConfig {
     reviews,
     battles,
     faqs,
+    articles: petInsuranceArticles,
   };
 }
