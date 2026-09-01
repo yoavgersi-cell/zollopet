@@ -30,12 +30,13 @@ export const metadata: Metadata = {
   // Icons come from the App Router file convention (app/icon.svg, app/apple-icon.png),
   // which serves them at content-hashed URLs so they cache-bust on every update.
   description:
-    "Compare fresh dog food, fresh cat food and pet insurance side by side - independent reviews of real brands, honest about what we have and haven't verified.",
+    "Compare fresh dog food, fresh cat food, pet insurance and dog DNA tests side by side - independent reviews of real brands, honest about what we have and haven't verified.",
   keywords: [
     "pet comparison",
     "fresh dog food comparison",
     "fresh cat food comparison",
     "pet insurance comparison",
+    "dog dna test comparison",
     "best fresh dog food",
     "best fresh cat food",
     "best pet insurance",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ZolloPet - Compare the Best Pet Products & Services",
     description:
-      "Independent, side-by-side comparisons across fresh dog food, fresh cat food and pet insurance.",
+      "Independent, side-by-side comparisons across fresh pet food, pet insurance and dog DNA tests.",
     type: "website",
     siteName: "ZolloPet",
     locale: "en_US",
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ZolloPet - Compare the Best Pet Products & Services",
     description:
-      "Independent, side-by-side comparisons across fresh dog food, fresh cat food and pet insurance.",
+      "Independent, side-by-side comparisons across fresh pet food, pet insurance and dog DNA tests.",
   },
   other: {
     "geo.region": "US",
@@ -101,7 +102,7 @@ export default function RootLayout({
               url: "https://www.zollopet.com",
               areaServed: { "@type": "Country", name: "United States" },
               description:
-                "Independent guides and brand comparisons across fresh dog food, fresh cat food and pet insurance - honest reviews, pricing research, and side-by-side comparisons.",
+                "Independent guides and brand comparisons across fresh pet food, pet insurance and dog DNA tests - honest reviews, pricing research, and side-by-side comparisons.",
               sameAs: [],
             }),
           }}
@@ -115,7 +116,7 @@ export default function RootLayout({
               name: "ZolloPet",
               url: "https://www.zollopet.com",
               description:
-                "Compare trusted pet brands side by side across fresh dog food, fresh cat food and pet insurance",
+                "Compare trusted pet brands side by side across fresh pet food, pet insurance and dog DNA tests",
             }),
           }}
         />

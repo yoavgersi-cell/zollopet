@@ -120,10 +120,43 @@ function InsuranceShieldIcon({ className }: { className?: string }) {
   );
 }
 
+function DnaIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true">
+      {/* double helix */}
+      <path
+        d="M21 8c0 7 16 9 16 16s-16 9-16 16"
+        stroke={ICON_STROKE}
+        strokeWidth="2.2"
+        strokeLinecap="round"
+      />
+      <path
+        d="M37 8c0 7-16 9-16 16s16 9 16 16"
+        stroke={ICON_STROKE}
+        strokeWidth="2.2"
+        strokeLinecap="round"
+      />
+      {/* rungs across the open bulges */}
+      <path d="M23 11.5h12M25.5 15.5h7M25.5 32.5h7M23 36.5h12" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
+      {/* magnifier finding the paw */}
+      <circle cx="42" cy="43" r="10" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="2.2" />
+      <path d="M49.5 50.5L56 57" stroke={ICON_STROKE} strokeWidth="3" strokeLinecap="round" />
+      <ellipse cx="42" cy="45.5" rx="2.9" ry="2.4" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.5" />
+      <circle cx="37.6" cy="42" r="1.5" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.3" />
+      <circle cx="42" cy="40.3" r="1.5" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.3" />
+      <circle cx="46.4" cy="42" r="1.5" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.3" />
+      {/* sparkles */}
+      <path d="M52 12v5M49.5 14.5h5" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
+      <circle cx="12" cy="46" r="1.3" fill={ICON_STROKE} />
+    </svg>
+  );
+}
+
 const VERTICAL_ICON: Record<string, (p: { className?: string }) => React.JSX.Element> = {
   "fresh-dog-food": DogBowlIcon,
   "fresh-cat-food": CatIcon,
   "pet-insurance": InsuranceShieldIcon,
+  "dog-dna-tests": DnaIcon,
 };
 
 // Real, keyword-rich internal links surfaced on a live category card. Only
@@ -141,6 +174,10 @@ const CATEGORY_LINKS: Record<string, { label: string; href: string }[]> = {
   "pet-insurance": [
     { label: "Compare plans", href: "/pet-insurance" },
     { label: "Reviews", href: "/pet-insurance/reviews" },
+  ],
+  "dog-dna-tests": [
+    { label: "Compare tests", href: "/dog-dna-tests" },
+    { label: "Embark vs Wisdom Panel", href: "/dog-dna-tests/embark-vs-wisdom-panel" },
   ],
 };
 
@@ -271,9 +308,9 @@ export async function HubHome() {
             Everything Your Pet Deserves, Compared Honestly
           </h1>
           <p className="mx-auto mt-6 max-w-[680px] text-[16.5px] leading-relaxed text-gray-700 sm:mt-8 sm:text-[21px]">
-            Fresh dog food, fresh cat food and pet insurance - honest,
-            independent reviews written for pet parents, with every claim we
-            haven&rsquo;t verified labeled as exactly that.
+            Fresh food, pet insurance and DNA tests - honest, independent
+            reviews written for pet parents, with every claim we haven&rsquo;t
+            verified labeled as exactly that.
           </p>
 
           {/* Category cards - icon-led, links behind a divider */}

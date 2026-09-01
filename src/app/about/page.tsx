@@ -10,7 +10,7 @@ export const revalidate = 60;
 export const metadata: Metadata = {
   title: "About ZolloPet - Our Mission, Team & Review Methodology",
   description:
-    "Learn how zollopet.com independently ranks and reviews pet brands across fresh dog food, fresh cat food and pet insurance. Our editorial methodology and commitment to unbiased comparisons.",
+    "Learn how zollopet.com independently ranks and reviews pet brands across fresh pet food, pet insurance and dog DNA tests. Our editorial methodology and commitment to unbiased comparisons.",
   alternates: {
     canonical: `https://www.zollopet.com/${DEFAULT_VERTICAL}/about`,
   },
@@ -44,9 +44,9 @@ export default async function AboutPage() {
           </h1>
           <p className="mt-3 max-w-[600px] text-[16px] leading-relaxed text-gray-500">
             We help pet owners make informed decisions by independently comparing
-            pet brands - fresh dog food, fresh cat food and pet insurance - on
-            what each service includes, how its pricing works, and what to verify
-            before buying.
+            pet brands - fresh dog and cat food, pet insurance and dog DNA
+            tests - on what each product includes, how its pricing works, and
+            what to verify before buying.
           </p>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { type SiteConfig, defaultConfig, VERTICALS, DEFAULT_VERTICAL } from "./c
 import { freshDogFoodSeed } from "./seeds/fresh-dog-food";
 import { freshCatFoodSeed } from "./seeds/fresh-cat-food";
 import { petInsuranceSeed } from "./seeds/pet-insurance";
+import { dogDnaTestsSeed } from "./seeds/dog-dna-tests";
 
 // Every vertical is stored in its own blob, keyed by its id.
 function blobKeyFor(vertical: string): string {
@@ -42,6 +43,7 @@ function seedForVertical(vertical: string): SiteConfig {
   if (vertical === "fresh-dog-food") return freshDogFoodSeed(base);
   if (vertical === "fresh-cat-food") return freshCatFoodSeed(base);
   if (vertical === "pet-insurance") return petInsuranceSeed(base);
+  if (vertical === "dog-dna-tests") return dogDnaTestsSeed(base);
   return base;
 }
 

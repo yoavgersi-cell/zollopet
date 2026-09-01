@@ -45,6 +45,18 @@ export const SOURCES_BY_VERTICAL: Record<string, MedicalSource[]> = {
       href: "https://wsava.org/global-guidelines/global-nutrition-guidelines/",
     },
   ],
+  "dog-dna-tests": [
+    {
+      label: "American Veterinary Medical Association (companion animal genetics & care resources)",
+      publisher: "AVMA",
+      href: "https://www.avma.org/",
+    },
+    {
+      label: "National Human Genome Research Institute (comparative & dog genome research)",
+      publisher: "NIH / NHGRI",
+      href: "https://www.genome.gov/",
+    },
+  ],
   "pet-insurance": [
     {
       label: "National Association of Insurance Commissioners (consumer insurance resources)",

@@ -316,6 +316,7 @@ export const VERTICALS: Vertical[] = [
   { id: "fresh-dog-food", name: "Fresh Dog Food", tagline: "Fresh, human-grade dog food delivery services, compared", accent: "#A16207" },
   { id: "fresh-cat-food", name: "Fresh Cat Food", tagline: "Fresh & human-grade cat food delivery services, compared", accent: "#0F766E" },
   { id: "pet-insurance", name: "Pet Insurance", tagline: "Pet insurance plans for dogs & cats, compared", accent: "#1D4ED8" },
+  { id: "dog-dna-tests", name: "Dog DNA Tests", tagline: "Dog DNA test kits - breed ID & health screening, compared", accent: "#5B3A70" },
 ];
 
 export const DEFAULT_VERTICAL = "fresh-dog-food";
@@ -327,7 +328,7 @@ export const isVertical = (id: string): boolean => VERTICAL_IDS.includes(id);
 // (providers, comparisons, etc.) while still being unpublished - it renders for
 // preview but stays out of the hub card, the sitemap, and the index until its
 // affiliate data is filled in and it's added here. Add a vertical id to launch it.
-export const PUBLISHED_VERTICALS = ["fresh-dog-food", "fresh-cat-food", "pet-insurance"];
+export const PUBLISHED_VERTICALS = ["fresh-dog-food", "fresh-cat-food", "pet-insurance", "dog-dna-tests"];
 export const isPublishedVertical = (id: string): boolean => PUBLISHED_VERTICALS.includes(id);
 
 // Providers we have an affiliate relationship with. Used to gate the product

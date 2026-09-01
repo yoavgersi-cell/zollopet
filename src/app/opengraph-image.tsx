@@ -37,7 +37,7 @@ export default function Image() {
           Compare the Best Pet Products &amp; Services
         </div>
         <div style={{ marginTop: 20, fontSize: 26, color: "#F1E3B5" }}>
-          Fresh dog food · Fresh cat food · Pet insurance
+          Fresh dog food · Fresh cat food · Pet insurance · Dog DNA tests
         </div>
       </div>
     ),
