@@ -60,17 +60,54 @@ const reviews: ReviewData[] = [
     shortSummary:
       "The research-grade option: breed ID plus deep genetic health screening, developed with Cornell's veterinary school.",
     reviewIntro:
-      "Embark positions itself as the research-grade dog DNA test, and the credentials back the positioning: the company was developed in partnership with the Cornell University College of Veterinary Medicine, and its platform is built for both consumer results and canine genetics research. The experience is the category standard - swab your dog's cheek, mail it back, get results online - with Embark's emphasis falling on the depth of its genetic health screening alongside breed identification, plus features like a relative finder that connects dogs sharing DNA. Embark sells multiple kit tiers (breed-only and breed-plus-health), and we haven't verified the current lineup, marker counts or prices, so this review covers the model honestly and will carry verified specifics once confirmed.",
+      "Embark positions itself as the research-grade dog DNA test, and the credentials back the positioning: the company was developed in partnership with the Cornell University College of Veterinary Medicine, and its platform is built for both consumer results and canine genetics research. The experience is the category standard - swab your dog's cheek, mail it back in the included pre-paid mailer, get results online - with Embark's emphasis falling on the depth of its genetic health screening alongside breed identification, plus features like a relative finder that connects dogs sharing DNA. We checked Embark's published lineup and pricing in September 2026: the flagship Breed + Health kit screens for 270+ genetic health risks and 55 traits across 400+ breeds and varieties (Embark's published figures), and the store also carries a breed-only kit plus separate Dog Age and Gut Health tests - full verified pricing below.",
     keyFeatures: [
-      "Breed identification from a cheek swab",
-      "Extensive genetic health and trait screening (tier-dependent)",
+      "270+ genetic health risks & 55 traits across 400+ breeds (published figures)",
       "Relative finder - see dogs that share your dog's DNA",
+      "Free US shipping with a pre-paid return mailer",
       "Developed with Cornell University College of Veterinary Medicine",
     ],
-    pricingSummary: PRICING_TBD,
+    pricingSummary:
+      "Verified against Embark's own store, September 2026: the Breed + Health kit was $139 (regularly $199), the breed-only Breed ID kit $109 (regularly $129), the Dog Age Test $109 (regularly $159), and the Gut Health Test $129 (regularly $135) - all one-time purchases with free US shipping, with interest-free installments offered at checkout and bundle discounts for combining tests. The struck-through prices are Embark's own list prices; promotional pricing like this is frequent, so expect the current number to be at or near the sale figure rather than list.",
+    pricingPlans: [
+      {
+        name: "Breed + Health Kit",
+        medication: "Breed ID + health & trait screening",
+        price: "$139",
+        regularPrice: "$199",
+        unit: "one-time",
+        highlights: ["270+ genetic health risks & 55 traits (published)", "400+ breeds and varieties", "Relative Finder included"],
+      },
+      {
+        name: "Breed ID Kit",
+        medication: "Breed mix, ancestry & relatives",
+        price: "$109",
+        regularPrice: "$129",
+        unit: "one-time",
+        highlights: ["Breed breakdown and family tree", "Relative Finder included"],
+      },
+      {
+        name: "Dog Age Test",
+        medication: "Calendar age & birthday estimate",
+        price: "$109",
+        regularPrice: "$159",
+        unit: "one-time",
+        highlights: ["Estimates age via DNA methylation"],
+      },
+      {
+        name: "Gut Health Test",
+        medication: "Digestive microbiome insights",
+        price: "$129",
+        regularPrice: "$135",
+        unit: "one-time",
+        highlights: ["Powered by AnimalBiome"],
+      },
+    ],
     treatmentOptions: [
-      "Breed ID kit (current specifications to be verified on the brand's site)",
-      "Breed + health kit (current panel to be verified on the brand's site)",
+      "Breed + Health DNA kit (breed, health risks, traits, allergy risks)",
+      "Breed ID DNA kit (breed mix, ancestry, Relative Finder)",
+      "Dog Age Test (age estimate via DNA methylation)",
+      "Gut Health Test (digestive microbiome insights)",
     ],
     pros: [
       "The strongest research pedigree in the category",
@@ -78,8 +115,8 @@ const reviews: ReviewData[] = [
       "Relative finder is a genuinely fun, unique-to-DNA feature",
     ],
     cons: [
-      "We haven't verified current kit tiers, panels or pricing",
-      "Typically positioned at the premium end of the category",
+      "Premium positioning - the flagship kit costs more than breed-only testing",
+      "The verified prices are promotional; regular list prices run meaningfully higher",
       "Health results are risk indicators, not diagnoses - vet follow-up still applies",
     ],
     bestFor: [
@@ -87,7 +124,7 @@ const reviews: ReviewData[] = [
       "Mixed-breed owners planning proactive care conversations with their vet",
     ],
     finalVerdict:
-      "Embark is the pick when you care about what's under the hood: the Cornell partnership and research-first platform are real differentiators in a category where marketing claims are hard for consumers to evaluate. The honest caveats: verify the current kit tiers and prices on Embark's site before buying, and treat health results as conversation-starters for your vet - a genetic risk marker is not a diagnosis, and a clean panel is not a guarantee. For breed-curiosity-only buyers, compare the entry kit against Wisdom Panel's before paying a premium you may not need.",
+      "Embark is the pick when you care about what's under the hood: the Cornell partnership, the published 270+/55-trait health panel, and the research-first platform are real differentiators in a category where marketing claims are hard for consumers to evaluate. At the verified September 2026 promo pricing, the $30 gap between the Breed ID kit ($109) and the Breed + Health kit ($139) makes the health tier the clearly better value if you'll use it - the health panel is the practical half of the product. Treat health results as conversation-starters for your vet, and for breed-curiosity-only buyers, compare the entry kit against Wisdom Panel's before deciding.",
     trustBadges: ["Cornell-partnered research", "Breed + health screening", "Cheek-swab kit"],
     updatedAt: UPDATED,
   },
@@ -141,9 +178,9 @@ const battles: BattleData[] = [
     description:
       "Embark vs Wisdom Panel: the two leading dog DNA tests compared - Embark's Cornell-partnered health screening against Wisdom Panel's category-largest database, and what to verify before buying either.",
     intro:
-      "Embark and Wisdom Panel are the two names that matter in dog DNA testing, and they've earned it from different directions. Embark built the research-grade reputation - developed with Cornell's veterinary school, health-screening-first, priced accordingly. Wisdom Panel built scale - the longest-running mass-market test with one of the largest tested-dog databases in existence. Both work the same way for you: cheek swab, mail it in, results online. We haven't verified either brand's current kit tiers, panel contents or prices - both change and both brands run frequent promotions - so this comparison sticks to the structural differences and what to check on each product page before you buy.",
+      "Embark and Wisdom Panel are the two names that matter in dog DNA testing, and they've earned it from different directions. Embark built the research-grade reputation - developed with Cornell's veterinary school, health-screening-first, priced accordingly. Wisdom Panel built scale - the longest-running mass-market test with one of the largest tested-dog databases in existence. Both work the same way for you: cheek swab, mail it in, results online. We've verified Embark's published kits and pricing (September 2026 - detailed in its review); Wisdom Panel's current lineup is still on our to-verify list, so its side of the comparison sticks to structural facts and points you at its live product pages for numbers.",
     verdict:
-      "Embark takes this for buyers who want the whole picture: its research pedigree and the centrality of genetic health screening make it the stronger choice when the answers might change how you care for your dog - and that's the highest-value use of a DNA test. Wisdom Panel is the better buy when your question is primarily breed identity: its database scale is exactly the asset that matters for breed detection, typically at a friendlier price. The practical decision: pick by what you'll do with the results, then compare the specific kit tiers - entry vs entry, health vs health - on both sites, where current prices and frequent promotions live. And either way, health findings are risk indicators for a vet conversation, never diagnoses.",
+      "Embark takes this for buyers who want the whole picture: its research pedigree and the centrality of genetic health screening make it the stronger choice when the answers might change how you care for your dog - and that's the highest-value use of a DNA test. Wisdom Panel is the better buy when your question is primarily breed identity: its database scale is exactly the asset that matters for breed detection, typically at a friendlier price. The practical decision: pick by what you'll do with the results, then compare equivalent kit tiers. For reference, Embark's checked September 2026 pricing put Breed + Health at $139 promotional (regularly $199) and Breed ID at $109 - line those up against the live prices on Wisdom Panel's product pages. And either way, health findings are risk indicators for a vet conversation, never diagnoses.",
     verdictWinnerPoints: [
       "Developed with Cornell's veterinary school",
       "Health screening is the product's center of gravity",
@@ -178,12 +215,12 @@ const battles: BattleData[] = [
       },
       {
         name: "What We Can Verify Today",
-        winner: "tie",
+        winner: "provider1",
         explanation:
-          "We haven't verified current kit tiers, panel contents or prices at either brand - and both run frequent promotions that make any printed price stale quickly. Compare the equivalent kit tiers on both sites, check current turnaround-time claims, and read what each health panel actually covers before deciding.",
+          "We checked Embark's published store in September 2026: Breed + Health at $139 promotional (regularly $199), Breed ID at $109 (regularly $129), with free US shipping and a published panel of 270+ health risks and 55 traits across 400+ breeds. We haven't yet verified Wisdom Panel's current kits and prices, so until we do, compare Embark's checked numbers against the live prices on Wisdom Panel's own product pages - and compare equivalent tiers, not each brand's cheapest kit.",
         supportingPoints: [
-          "Kit tiers and prices change - check both product pages",
-          "Compare equivalent tiers, not the two brands' cheapest kits",
+          "Embark pricing and panel figures checked September 2026",
+          "Wisdom Panel kits and prices still to be verified - check its site",
         ],
       },
     ],
@@ -193,7 +230,7 @@ const battles: BattleData[] = [
       { feature: "Research pedigree", provider1Value: "Developed with Cornell vet school", provider2Value: "Mars Petcare science organization", highlight: "provider1" },
       { feature: "Database scale", provider1Value: "Large, research-oriented", provider2Value: "One of the category's largest", highlight: "provider2" },
       { feature: "Product focus", provider1Value: "Health screening + breed", provider2Value: "Breed detection + tiered health", highlight: "none" },
-      { feature: "Pricing", provider1Value: "Verify current kits on site", provider2Value: "Verify current kits on site", highlight: "none" },
+      { feature: "Pricing (checked Sep 2026)", provider1Value: "Breed+Health $139 promo (reg. $199); Breed ID $109 (reg. $129)", provider2Value: "Verify current kits on site", highlight: "none" },
     ],
     updatedAt: UPDATED,
   },
@@ -218,7 +255,7 @@ const faqs: FaqItem[] = [
   {
     question: "How much do dog DNA tests cost?",
     answer:
-      "Kits are one-time purchases sold in tiers - breed-only kits cost less, breed-plus-health kits more - and both leading brands run frequent promotions, so list prices move around. We only publish prices we've verified; check each brand's site for the current price of the specific tier you want, and compare equivalent tiers between brands rather than each brand's cheapest kit.",
+      "Kits are one-time purchases sold in tiers, and both leading brands promote frequently, so prices move. Checked September 2026 on Embark's own store: Breed + Health was $139 promotional (regularly $199) and the breed-only kit $109 (regularly $129), with free US shipping. We haven't verified Wisdom Panel's current pricing yet - check its site, and compare equivalent tiers between brands rather than each brand's cheapest kit.",
   },
   {
     question: "Are dog DNA tests worth it?",

@@ -294,7 +294,7 @@ export const latestUpdate = (updatedAt?: string) =>
 // "Sources & methodology" block ("Checked August 2026"). Bump this only when
 // the data behind the comparisons is actually re-verified - it is a claim, not
 // a render timestamp.
-export const PROVIDER_DATA_CHECKED = "August 2026";
+export const PROVIDER_DATA_CHECKED = "September 2026";
 
 // ── Verticals ────────────────────────────────────────────────────────────────
 // The hub (zollopet.com) is split into fully-separated verticals. Each one is

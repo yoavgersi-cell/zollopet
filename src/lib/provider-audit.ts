@@ -21,4 +21,19 @@ export interface ProviderAuditEntry {
 
 // Keyed "<vertical>:<providerId>" so a provider that exists in two verticals
 // can carry a separate audit per vertical.
-export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {};
+export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
+  // ── Dog DNA tests ──────────────────────────────────────────────────────────
+  // Verified against Embark's own store pages, September 2026.
+  "dog-dna-tests:embark": {
+    rows: [
+      { label: "Breed + Health kit", value: "$139 promotional (reg. $199), one-time" },
+      { label: "Breed ID kit", value: "$109 promotional (reg. $129), one-time" },
+      { label: "Dog Age Test", value: "$109 promotional (reg. $159), one-time" },
+      { label: "Gut Health Test", value: "$129 promotional (reg. $135), one-time" },
+      { label: "Health panel (published)", value: "270+ genetic health risks, 55 traits, 400+ breeds and varieties" },
+      { label: "Shipping", value: "Free US shipping; pre-paid return mailer included" },
+      { label: "Payment options", value: "Interest-free installments offered at checkout" },
+      { label: "Research partner", value: "Cornell University College of Veterinary Medicine" },
+    ],
+  },
+};
