@@ -69,7 +69,7 @@ const providers: Provider[] = [
     id: "spot-tango",
     name: "Spot & Tango",
     tagline: "Fresh recipes plus UnKibble, a fresh-made dry alternative",
-    logo: "/logos/spot-tango.svg",
+    logo: "/logos/spotandtangologo.png",
     smallLogo: "/logos/spot-tango-icon.svg",
     highlights: [
       "Fresh recipes and the UnKibble fresh-dry format",
