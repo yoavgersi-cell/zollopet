@@ -192,49 +192,47 @@ export function VerticalEditorial({
   const articles = (config.articles ?? []).slice(0, 4);
 
   return (
-    <section className="mx-auto max-w-[860px] px-4 pb-4 pt-10 sm:pt-14">
-      {/* Editorial guide */}
-      <div className="rounded-2xl border border-gray-200 bg-white p-6 sm:p-10">
-        <p className="text-[12px] font-bold uppercase tracking-[0.12em] text-[#1F4A33]">
-          The ZolloPet Guide
-        </p>
-        <h2 className="mt-2 text-[26px] font-bold leading-tight tracking-[-0.015em] text-[#22362A] sm:text-[30px]">
-          {content.title}
-        </h2>
-        <p className="mt-4 text-[16.5px] leading-[1.75] text-gray-600">{content.intro}</p>
+    <section className="mx-auto max-w-[820px] px-4 pb-4 pt-12 sm:pt-16">
+      {/* Editorial guide - plain text flowing on the page ground, no card */}
+      <p className="text-[12px] font-bold uppercase tracking-[0.12em] text-[#1F4A33]">
+        The ZolloPet Guide
+      </p>
+      <h2 className="mt-2 text-[28px] font-bold leading-tight tracking-[-0.015em] text-[#22362A] sm:text-[34px]">
+        {content.title}
+      </h2>
+      <p className="mt-4 text-[17px] leading-[1.75] text-[#2F3E34]">{content.intro}</p>
 
-        {content.sections.map((s) => (
-          <div key={s.heading} className="mt-9">
-            <h3 className="text-[19px] font-bold leading-snug text-[#22362A] sm:text-[21px] [font-family:var(--font-display),Georgia,serif]">
-              {s.heading}
-            </h3>
-            {s.paragraphs.map((p, i) => (
-              <p key={i} className="mt-3.5 text-[15.5px] leading-[1.8] text-gray-600">
-                {p}
-              </p>
-            ))}
-            {s.bullets && (
-              <ul className="mt-3.5 space-y-2.5">
-                {s.bullets.map((b) => (
-                  <li key={b} className="flex items-start gap-2.5 text-[15px] leading-[1.7] text-gray-700">
-                    <ArrowRight className="mt-1.5 h-3.5 w-3.5 shrink-0 text-[#D99E1B]" strokeWidth={2.5} />
-                    {b}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        ))}
-      </div>
+      {content.sections.map((s) => (
+        <div key={s.heading} className="mt-10">
+          <h3 className="text-[20px] font-bold leading-snug text-[#22362A] sm:text-[23px] [font-family:var(--font-display),Georgia,serif]">
+            {s.heading}
+          </h3>
+          {s.paragraphs.map((p, i) => (
+            <p key={i} className="mt-4 text-[16px] leading-[1.85] text-[#2F3E34]">
+              {p}
+            </p>
+          ))}
+          {s.bullets && (
+            <ul className="mt-4 space-y-2.5">
+              {s.bullets.map((b) => (
+                <li key={b} className="flex items-start gap-2.5 text-[15.5px] leading-[1.75] text-[#2F3E34]">
+                  <ArrowRight className="mt-1.5 h-3.5 w-3.5 shrink-0 text-[#D99E1B]" strokeWidth={2.5} />
+                  {b}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      ))}
 
       {/* Head-to-head links */}
       {battles.length > 0 && (
-        <div className="mt-6 rounded-2xl border border-gray-200 bg-white p-6 sm:p-8">
-          <div className="mb-1 flex items-center gap-2">
-            <Swords className="h-4.5 w-4.5 h-[18px] w-[18px] text-[#1F4A33]" strokeWidth={2} />
-            <h2 className="text-[19px] font-bold text-[#22362A]">Compare brands head-to-head</h2>
+        <div className="mt-12">
+          <div className="mb-1 flex items-center gap-2.5">
+            <Swords className="h-[19px] w-[19px] text-[#1F4A33]" strokeWidth={2} />
+            <h2 className="text-[22px] font-bold text-[#22362A]">Compare brands head-to-head</h2>
           </div>
-          <p className="mb-4 text-[13.5px] text-gray-500">
+          <p className="mb-4 text-[14.5px] text-[#2F3E34]/80">
             The direct matchups readers use to decide - honest verdicts with the runner-up&rsquo;s strengths named.
           </p>
           <div className="grid gap-2.5 sm:grid-cols-2">
@@ -254,12 +252,12 @@ export function VerticalEditorial({
 
       {/* Guides */}
       {articles.length > 0 && (
-        <div className="mt-6 rounded-2xl border border-gray-200 bg-white p-6 sm:p-8">
-          <div className="mb-1 flex items-center gap-2">
-            <BookOpen className="h-[18px] w-[18px] text-[#1F4A33]" strokeWidth={2} />
-            <h2 className="text-[19px] font-bold text-[#22362A]">Keep reading</h2>
+        <div className="mt-10">
+          <div className="mb-1 flex items-center gap-2.5">
+            <BookOpen className="h-[19px] w-[19px] text-[#1F4A33]" strokeWidth={2} />
+            <h2 className="text-[22px] font-bold text-[#22362A]">Keep reading</h2>
           </div>
-          <p className="mb-4 text-[13.5px] text-gray-500">
+          <p className="mb-4 text-[14.5px] text-[#2F3E34]/80">
             In-depth guides from our editorial team - the questions behind the comparison.
           </p>
           <div className="grid gap-2.5 sm:grid-cols-2">
