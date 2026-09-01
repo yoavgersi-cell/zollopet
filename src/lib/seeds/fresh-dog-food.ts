@@ -27,7 +27,7 @@ const providers: Provider[] = [
     id: "farmers-dog",
     name: "The Farmer's Dog",
     tagline: "Fresh, pre-portioned dog food delivered on a subscription",
-    logo: "/logos/farmers-dog.svg",
+    logo: "/logos/thefarmersdoglogo.png",
     smallLogo: "/logos/farmers-dog-icon.svg",
     highlights: [
       "Fresh food made from human-grade ingredients",
@@ -41,7 +41,7 @@ const providers: Provider[] = [
     id: "ollie",
     name: "Ollie",
     tagline: "Human-grade fresh and baked dog food, portioned to your dog",
-    logo: "/logos/ollie.svg",
+    logo: "/logos/ollielogo.png",
     smallLogo: "/logos/ollie-icon.svg",
     highlights: [
       "Fresh and gently baked recipe formats",

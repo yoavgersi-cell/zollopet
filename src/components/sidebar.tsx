@@ -105,7 +105,7 @@ export function Sidebar({ config, providers, linkPrefix = "" }: { config: Sideba
             </div>
             <div className="space-y-3">
               {[
-                { label: "Medical credibility", pct: 92 },
+                { label: "Quality & trust", pct: 92 },
                 { label: "Customer satisfaction", pct: 85 },
                 { label: "Pricing & value", pct: 78 },
               ].map(({ label, pct }) => (
