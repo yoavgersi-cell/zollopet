@@ -27,7 +27,7 @@ const providers: Provider[] = [
     id: "embark",
     name: "Embark",
     tagline: "Research-grade dog DNA testing for breed & health",
-    logo: "/logos/embark.svg",
+    logo: "/logos/embarklogo.png",
     smallLogo: "/logos/embark-icon.svg",
     highlights: [
       "Developed with Cornell University College of Veterinary Medicine",
@@ -41,7 +41,7 @@ const providers: Provider[] = [
     id: "wisdom-panel",
     name: "Wisdom Panel",
     tagline: "The longest-running mass-market dog DNA test",
-    logo: "/logos/wisdom-panel.svg",
+    logo: "/logos/wisdompanellogo.png",
     smallLogo: "/logos/wisdom-panel-icon.svg",
     highlights: [
       "One of the largest tested-dog databases in the category",
