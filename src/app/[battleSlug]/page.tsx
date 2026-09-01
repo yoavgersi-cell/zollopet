@@ -4,6 +4,7 @@ import { CONTENT_LAST_UPDATED, isVertical, isPublishedVertical } from "@/lib/con
 import { hubContext, canonicalUrl, hubLink } from "@/lib/site-context";
 import Link from "next/link";
 import { ComparisonLayout } from "@/components/comparison-layout";
+import { VerticalEditorial } from "@/components/vertical-editorial";
 import { notFound } from "next/navigation";
 
 export const revalidate = 60;
@@ -137,7 +138,9 @@ export default async function VerticalHomePage({
           )}
         </>
       )}
-      <ComparisonLayout config={vConfig} linkPrefix={`/${battleSlug}`} byline={byline} />
+      <ComparisonLayout config={vConfig} linkPrefix={`/${battleSlug}`} byline={byline}>
+        <VerticalEditorial vertical={battleSlug} config={vConfig} linkPrefix={`/${battleSlug}`} />
+      </ComparisonLayout>
     </div>
   );
 }
