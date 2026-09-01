@@ -14,29 +14,37 @@ const ICON_FILL = "#F9E9BC";
 function DogBowlIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true">
-      {/* bowl */}
+      {/* steam - fresh, just served */}
+      <path d="M26.5 16c-2-2.6 2-4.4 0-7M37.5 16c-2-2.6 2-4.4 0-7M32 13.5c-2-2.6 2-4.4 0-7" stroke={ICON_STROKE} strokeWidth="2" strokeLinecap="round" />
+      {/* fresh food mound */}
       <path
-        d="M10 34h44c0 10-8 18-22 18S10 44 10 34z"
-        fill={ICON_FILL}
-        stroke={ICON_STROKE}
-        strokeWidth="2.2"
-        strokeLinejoin="round"
-      />
-      <path d="M7 34h50" stroke={ICON_STROKE} strokeWidth="2.2" strokeLinecap="round" />
-      {/* kibble-free fresh food mound */}
-      <path
-        d="M18 34c0-4 3-7 7-7 1.5 0 3 .5 4 1.5C30.5 26 33 24.5 36 24.5c4.5 0 8 3.5 8 8v1.5"
+        d="M17 33.5c0-4.6 3.6-8 7.6-7.7 1.5-2.9 4.4-4.6 7.4-4.6 3.3 0 6.2 1.9 7.5 4.7 3.7.4 6.5 3.4 6.5 7.6"
         fill="#fff"
         stroke={ICON_STROKE}
         strokeWidth="2.2"
         strokeLinejoin="round"
       />
-      {/* paw print on the bowl */}
-      <circle cx="32" cy="43.5" r="2.6" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" />
-      <circle cx="26.5" cy="40.5" r="1.5" fill={ICON_STROKE} />
-      <circle cx="37.5" cy="40.5" r="1.5" fill={ICON_STROKE} />
-      {/* steam - fresh, not shelf-stable */}
-      <path d="M26 18c-1.5-2.5 1.5-4 0-6.5M32 16.5c-1.5-2.5 1.5-4 0-6.5M38 18c-1.5-2.5 1.5-4 0-6.5" stroke={ICON_STROKE} strokeWidth="2" strokeLinecap="round" />
+      {/* visible ingredients: peas + carrot chunk */}
+      <circle cx="25" cy="29.5" r="1.5" fill={ICON_STROKE} />
+      <circle cx="38.5" cy="30" r="1.5" fill={ICON_STROKE} />
+      <path d="M30.5 27.5l4.5 1.2-2.2 3.2z" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.6" strokeLinejoin="round" />
+      {/* bowl */}
+      <path
+        d="M11.5 34h41c0 9.3-6.8 15.6-15 16.7h-11c-8.2-1.1-15-7.4-15-16.7z"
+        fill={ICON_FILL}
+        stroke={ICON_STROKE}
+        strokeWidth="2.2"
+        strokeLinejoin="round"
+      />
+      <path d="M8.5 34h47" stroke={ICON_STROKE} strokeWidth="2.2" strokeLinecap="round" />
+      {/* debossed paw on the bowl front */}
+      <ellipse cx="32" cy="43.5" rx="3" ry="2.5" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.5" />
+      <circle cx="27.2" cy="40.8" r="1.4" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.3" />
+      <circle cx="32" cy="39.6" r="1.4" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.3" />
+      <circle cx="36.8" cy="40.8" r="1.4" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.3" />
+      {/* sparkles */}
+      <path d="M53.5 18.5v5M51 21h5" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
+      <circle cx="11" cy="21" r="1.3" fill={ICON_STROKE} />
     </svg>
   );
 }
@@ -44,25 +52,36 @@ function DogBowlIcon({ className }: { className?: string }) {
 function CatIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true">
-      {/* head with ears */}
+      {/* cat head peeking over the bowl */}
       <path
-        d="M15 26c0-3 .8-6.5 2.4-9.5L23 22a17 17 0 0 1 18 0l5.6-5.5C48.2 19.5 49 23 49 26c0 10-7 17-17 17s-17-7-17-17z"
+        d="M17.5 36c0-3 .7-5.9 2-8.4L16.5 14l8.4 5.6a15.6 15.6 0 0 1 14.2 0L47.5 14l-3 13.6c1.3 2.5 2 5.4 2 8.4"
         fill={ICON_FILL}
         stroke={ICON_STROKE}
         strokeWidth="2.2"
         strokeLinejoin="round"
       />
-      {/* inner ears */}
-      <path d="M19.5 20.5 22 23M44.5 20.5 42 23" stroke={ICON_STROKE} strokeWidth="2" strokeLinecap="round" />
-      {/* eyes + nose */}
-      <circle cx="25.5" cy="29.5" r="1.6" fill={ICON_STROKE} />
-      <circle cx="38.5" cy="29.5" r="1.6" fill={ICON_STROKE} />
-      <path d="M30.5 34.5h3l-1.5 2z" fill={ICON_STROKE} />
+      {/* content closed eyes */}
+      <path d="M24.5 28.5c1.1-1.5 2.9-1.5 4 0M35.5 28.5c1.1-1.5 2.9-1.5 4 0" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
+      {/* nose */}
+      <path d="M30.8 32h2.4l-1.2 1.7z" fill={ICON_STROKE} />
       {/* whiskers */}
-      <path d="M10 31h8M10 36l8-2M54 31h-8M54 36l-8-2" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
-      {/* fish treat sparkle */}
-      <path d="M50 50c2.5-2 5.5-2 8 0-2.5 2-5.5 2-8 0z" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinejoin="round" />
-      <path d="M50 50l-3-2v4z" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinejoin="round" />
+      <path d="M11 27.5h6.5M11.5 32l6-1M53 27.5h-6.5M52.5 32l-6-1" stroke={ICON_STROKE} strokeWidth="1.7" strokeLinecap="round" />
+      {/* bowl in front */}
+      <path
+        d="M15 38.5h34c0 6.8-5.2 11.6-11.8 12.5H26.8C20.2 50.1 15 45.3 15 38.5z"
+        fill="#fff"
+        stroke={ICON_STROKE}
+        strokeWidth="2.2"
+        strokeLinejoin="round"
+      />
+      <path d="M12 38.5h40" stroke={ICON_STROKE} strokeWidth="2.2" strokeLinecap="round" />
+      {/* fish on the bowl */}
+      <path d="M29 44.5c2.4-2 5.2-2 7.6 0-2.4 2-5.2 2-7.6 0z" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M29 44.5l-2.6-1.7v3.4z" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.6" strokeLinejoin="round" />
+      <circle cx="34.6" cy="44.1" r="0.7" fill={ICON_STROKE} />
+      {/* sparkles */}
+      <path d="M54 11v5M51.5 13.5h5" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
+      <circle cx="10.5" cy="14" r="1.3" fill={ICON_STROKE} />
     </svg>
   );
 }
@@ -70,22 +89,33 @@ function CatIcon({ className }: { className?: string }) {
 function InsuranceShieldIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 64 64" fill="none" className={className} aria-hidden="true">
-      {/* shield */}
+      {/* shield, double outline */}
       <path
-        d="M32 8l19 6.5v13C51 41.5 43 51.5 32 56 21 51.5 13 41.5 13 27.5v-13z"
+        d="M32 7l19.5 6.8v12.9c0 13.7-8 23.9-19.5 28.3C20.5 50.6 12.5 40.4 12.5 26.7V13.8z"
         fill={ICON_FILL}
         stroke={ICON_STROKE}
         strokeWidth="2.2"
         strokeLinejoin="round"
       />
-      {/* paw inside the shield */}
-      <ellipse cx="32" cy="36" rx="5.2" ry="4.4" fill="#fff" stroke={ICON_STROKE} strokeWidth="2" />
-      <circle cx="24.5" cy="29.5" r="2.2" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" />
-      <circle cx="30" cy="25.5" r="2.2" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" />
-      <circle cx="36.5" cy="26" r="2.2" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" />
-      <circle cx="41" cy="30.5" r="2.2" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.8" />
-      {/* care sparkle */}
-      <path d="M53 6v6M50 9h6" stroke={ICON_STROKE} strokeWidth="2" strokeLinecap="round" />
+      <path
+        d="M32 12.2l14.4 5v9.8c0 10.5-5.9 18.3-14.4 22-8.5-3.7-14.4-11.5-14.4-22v-9.8z"
+        fill="#fff"
+        stroke={ICON_STROKE}
+        strokeWidth="1.7"
+        strokeLinejoin="round"
+      />
+      {/* paw */}
+      <ellipse cx="32" cy="34.5" rx="5" ry="4.3" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.9" />
+      <circle cx="24.8" cy="28.6" r="2.3" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.7" />
+      <circle cx="29.6" cy="25.4" r="2.3" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.7" />
+      <circle cx="34.4" cy="25.4" r="2.3" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.7" />
+      <circle cx="39.2" cy="28.6" r="2.3" fill={ICON_FILL} stroke={ICON_STROKE} strokeWidth="1.7" />
+      {/* care badge */}
+      <circle cx="48.5" cy="11" r="5.2" fill="#fff" stroke={ICON_STROKE} strokeWidth="1.9" />
+      <path d="M48.5 8.6v4.8M46.1 11h4.8" stroke={ICON_STROKE} strokeWidth="1.8" strokeLinecap="round" />
+      {/* sparkles */}
+      <path d="M12.5 7.5v4.4M10.3 9.7h4.4" stroke={ICON_STROKE} strokeWidth="1.7" strokeLinecap="round" />
+      <circle cx="55" cy="24" r="1.3" fill={ICON_STROKE} />
     </svg>
   );
 }
