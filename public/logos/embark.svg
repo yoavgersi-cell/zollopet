@@ -1,3 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 48" overflow="visible" role="img" aria-label="Embark">
-  <text x="2" y="34" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="0.3" fill="#3D2B6B">Embark</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 48" overflow="visible" role="img" aria-label="Embark">
+  <!-- abstract yellow mark -->
+  <g stroke="#F2C43D" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M11 13 L25 25"/>
+    <path d="M9 38 L25 27"/>
+    <path d="M27 25 L45 17"/>
+    <path d="M33 10 L37 20"/>
+  </g>
+  <text x="54" y="35" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.5" fill="#1A1A1A">embark</text>
 </svg>

@@ -1,3 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 48" overflow="visible" role="img" aria-label="Wisdom Panel">
-  <text x="2" y="34" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="0.3" fill="#215C4E">Wisdom Panel</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 48" overflow="visible" role="img" aria-label="Wisdom Panel">
+  <!-- interwoven two-tone mark -->
+  <g stroke-width="4.6" stroke-linecap="round" fill="none">
+    <path d="M14 10 L21 10" stroke="#2D4E9E"/>
+    <path d="M9 21 L19 11" stroke="#B4552D"/>
+    <path d="M15 25 L25 15" stroke="#2D4E9E"/>
+    <path d="M13 36 L20 36" stroke="#B4552D"/>
+    <path d="M17 35 L27 25" stroke="#2D4E9E"/>
+  </g>
+  <text x="38" y="32" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" letter-spacing="4" fill="#131313">WISDOM PANEL</text>
+  <text x="254" y="16" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="600" fill="#131313">TM</text>
 </svg>

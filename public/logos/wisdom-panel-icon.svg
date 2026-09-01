@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Wisdom Panel">
-  <rect width="48" height="48" rx="10" fill="#215C4E"/>
-  <text x="24" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#ffffff">WP</text>
+  <rect width="48" height="48" rx="10" fill="#ffffff"/>
+  <g stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M18 10 L28 10" stroke="#2D4E9E"/>
+    <path d="M12 25 L26 12" stroke="#B4552D"/>
+    <path d="M20 30 L34 17" stroke="#2D4E9E"/>
+    <path d="M18 38 L28 38" stroke="#B4552D"/>
+    <path d="M24 36 L36 24" stroke="#2D4E9E"/>
+  </g>
 </svg>
