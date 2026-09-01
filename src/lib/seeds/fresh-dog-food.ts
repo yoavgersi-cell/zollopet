@@ -55,7 +55,7 @@ const providers: Provider[] = [
     id: "nom-nom",
     name: "Nom Nom",
     tagline: "Fresh, pre-portioned recipes formulated by veterinary nutritionists",
-    logo: "/logos/nom-nom.svg",
+    logo: "/logos/nomnomlogo.png",
     smallLogo: "/logos/nom-nom-icon.svg",
     highlights: [
       "Fresh food in pre-portioned packs",
