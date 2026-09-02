@@ -436,23 +436,36 @@ export async function HubHome() {
       </section>
 
       {/* ───── BRAND SHELF ───── */}
+      {/* Single-row, seamless auto-scrolling logo strip - the track is
+          rendered twice and translated by exactly -50%, so the loop never
+          shows a seam. Fixed per-item width + margins (no flex gap) keep
+          that math exact. Works identically on mobile. */}
       {shelfProviders.length > 0 && (
-        <section className="border-y border-gray-200 bg-white">
-          <div className="mx-auto max-w-[1100px] px-5 py-12 sm:px-8">
+        <section className="overflow-hidden border-y border-gray-200 bg-white">
+          <div className="mx-auto max-w-[1100px] px-5 pt-12 sm:px-8">
             <h2 className="text-center text-[22px] font-bold tracking-[-0.01em] text-[#22362A]">
               Brands we review and compare
             </h2>
             <p className="mx-auto mt-2 max-w-[560px] text-center text-[15px] leading-relaxed text-gray-500">
               Independent reviews of real pet brands across our categories.
             </p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 sm:gap-x-14">
-              {shelfProviders.map((p) => (
-                <div key={p.id} className="flex h-[34px] w-[120px] items-center opacity-60 grayscale">
+          </div>
+          <div className="relative mt-8 pb-12">
+            <style>{`@keyframes zp-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}`}</style>
+            <div className="flex w-max items-center [animation:zp-marquee_45s_linear_infinite]">
+              {[...shelfProviders, ...shelfProviders].map((p, i) => (
+                <div
+                  key={`${p.id}-${i}`}
+                  className="mx-4 flex h-[28px] w-[92px] shrink-0 items-center justify-center opacity-60 grayscale sm:mx-8 sm:h-[34px] sm:w-[120px]"
+                >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={p.logo} alt={`${p.name} logo`} className="max-h-full max-w-full object-contain" />
                 </div>
               ))}
             </div>
+            {/* soft edge fades */}
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-white to-transparent" />
           </div>
         </section>
       )}
