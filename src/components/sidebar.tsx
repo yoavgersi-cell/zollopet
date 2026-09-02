@@ -69,23 +69,27 @@ export function Sidebar({ config, providers, linkPrefix = "" }: { config: Sideba
 
       case "editorialReviews":
         return (
-          <SidebarCard key="editorialReviews" className="!bg-[#FAF4E6]">
-            <h3 className="mb-6 text-[20px] font-bold text-[#22362A]">Editorial Reviews</h3>
-            <div className="space-y-5">
+          <SidebarCard key="editorialReviews">
+            <h3 className="text-[20px] font-bold text-[#22362A]">Editorial Reviews</h3>
+            {/* Real brand logos only - the provider's actual logo in a light
+                rounded tile, never an invented initials placeholder. */}
+            <div className="mt-1 divide-y divide-gray-200">
               {topProviders.map((p) => (
-                <Link key={p.id} href={`${linkPrefix}/reviews/${p.id}`} className="flex items-center gap-4 group">
-                  <div className="flex h-[56px] w-[56px] shrink-0 items-center justify-center rounded-full bg-white border border-gray-200 shadow-[0_1px_2px_rgba(0,0,0,0.04)] overflow-hidden p-2">
+                <Link key={p.id} href={`${linkPrefix}/reviews/${p.id}`} className="group flex items-center gap-4 py-4">
+                  <div className="flex h-[62px] w-[62px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-gray-100 bg-gray-50/60 p-2">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={p.smallLogo || p.logo} alt={p.name} className="max-h-full max-w-full object-contain" />
+                    <img src={p.logo} alt={`${p.name} logo`} className="max-h-full max-w-full object-contain" />
                   </div>
                   <div>
-                    <p className="text-[15px] font-bold text-[#22362A] group-hover:text-[#2E6B47] transition-colors">{p.name}</p>
-                    <p className="text-[13px] text-gray-500">Read Review</p>
+                    <p className="text-[16px] font-bold text-[#22362A] transition-colors group-hover:text-[#2E6B47]">{p.name}</p>
+                    <p className="mt-0.5 text-[13.5px] font-medium text-gray-600 underline underline-offset-2 group-hover:text-[#2E6B47]">
+                      Read More
+                    </p>
                   </div>
                 </Link>
               ))}
             </div>
-            <Link href={`${linkPrefix}/reviews`} className="mt-8 block text-[14px] font-semibold text-[#2E6B47] hover:underline">
+            <Link href={`${linkPrefix}/reviews`} className="mt-4 block text-[14px] font-semibold text-[#2E6B47] hover:underline">
               Read All Reviews
             </Link>
           </SidebarCard>

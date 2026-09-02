@@ -159,6 +159,28 @@ const VERTICAL_ICON: Record<string, (p: { className?: string }) => React.JSX.Ele
   "dog-dna-tests": DnaIcon,
 };
 
+// Real, keyword-rich internal links surfaced on a live category card (desktop
+// hero). Only routes that actually exist are listed here - all hub-prefixed so
+// they resolve without a redirect hop.
+const CATEGORY_LINKS: Record<string, { label: string; href: string }[]> = {
+  "fresh-dog-food": [
+    { label: "Compare services", href: "/fresh-dog-food" },
+    { label: "Reviews", href: "/fresh-dog-food/reviews" },
+  ],
+  "fresh-cat-food": [
+    { label: "Compare services", href: "/fresh-cat-food" },
+    { label: "Reviews", href: "/fresh-cat-food/reviews" },
+  ],
+  "pet-insurance": [
+    { label: "Compare plans", href: "/pet-insurance" },
+    { label: "Reviews", href: "/pet-insurance/reviews" },
+  ],
+  "dog-dna-tests": [
+    { label: "Compare tests", href: "/dog-dna-tests" },
+    { label: "Embark vs Wisdom Panel", href: "/dog-dna-tests/embark-vs-wisdom-panel" },
+  ],
+};
+
 // Compact provider card for the homepage shelf - mirrors the ranking card's
 // data but in a lighter, three-up form. Every value (logo, score, Trustpilot
 // count, highlights, price) comes from config; nothing is invented, and the
@@ -287,17 +309,28 @@ export async function HubHome() {
       {/* ───── HERO ───── */}
       <section className="bg-gradient-to-b from-[#F8EDD6] via-[#FBF5E7] to-white">
         <div className="mx-auto max-w-[1100px] px-5 pb-14 pt-14 text-center sm:px-8 sm:pb-20 sm:pt-20">
-          <h1 className="mx-auto max-w-[820px] text-[38px] font-extrabold leading-[1.08] tracking-[-0.02em] text-[#1F4A33] sm:text-[60px]">
-            Compare the Best Pet Services for Your Pet&rsquo;s Needs
+          {/* One h1/one paragraph, responsive copy: the compact "Compare the
+              Best..." treatment is mobile-only; desktop keeps the original
+              hero exactly as it was. */}
+          <h1 className="mx-auto max-w-[820px] text-[38px] font-extrabold leading-[1.08] tracking-[-0.02em] text-[#1F4A33] sm:max-w-[950px] sm:text-[62px] sm:leading-[1.06] sm:tracking-[-0.025em]">
+            <span className="sm:hidden">Compare the Best Pet Services for Your Pet&rsquo;s Needs</span>
+            <span className="hidden sm:inline">Everything Your Pet Deserves, Compared Honestly</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-[620px] text-[16.5px] leading-relaxed text-gray-700 sm:mt-7 sm:text-[20px]">
-            Fresh dog &amp; cat food, pet insurance and dog DNA tests -
-            independent reviews and honest verdicts for pet parents.
+          <p className="mx-auto mt-5 max-w-[620px] text-[16.5px] leading-relaxed text-gray-700 sm:mt-8 sm:max-w-[680px] sm:text-[21px]">
+            <span className="sm:hidden">
+              Fresh dog &amp; cat food, pet insurance and dog DNA tests -
+              independent reviews and honest verdicts for pet parents.
+            </span>
+            <span className="hidden sm:inline">
+              Fresh food, pet insurance and DNA tests - honest, independent
+              reviews written for pet parents, with every claim we haven&rsquo;t
+              verified labeled as exactly that.
+            </span>
           </p>
 
-          {/* Category cards - compact, tappable, two-up like the big
+          {/* MOBILE: compact tappable icon+label cards, two-up like the big
               comparison publishers. The whole card is the link. */}
-          <div className="mx-auto mt-9 grid max-w-[680px] grid-cols-2 gap-3 text-left sm:mt-12 sm:gap-4">
+          <div className="mx-auto mt-9 grid max-w-[680px] grid-cols-2 gap-3 text-left sm:hidden">
             {VERTICALS.map((v) => {
               const live = isPublishedVertical(v.id);
               const Icon = VERTICAL_ICON[v.id] ?? DogBowlIcon;
@@ -306,13 +339,11 @@ export async function HubHome() {
                 return (
                   <div
                     key={v.id}
-                    className="flex items-center gap-3 rounded-2xl border border-gray-200/80 bg-white px-4 py-4 shadow-[0_1px_3px_rgba(16,42,67,0.06)] sm:gap-4 sm:px-6 sm:py-5"
+                    className="flex items-center gap-3 rounded-2xl border border-gray-200/80 bg-white px-4 py-4 shadow-[0_1px_3px_rgba(16,42,67,0.06)]"
                   >
-                    <Icon className="h-10 w-10 shrink-0 sm:h-12 sm:w-12" />
+                    <Icon className="h-10 w-10 shrink-0" />
                     <div>
-                      <span className="block text-[14.5px] font-bold leading-snug text-[#22362A] sm:text-[16.5px]">
-                        {v.name}
-                      </span>
+                      <span className="block text-[14.5px] font-bold leading-snug text-[#22362A]">{v.name}</span>
                       <span className="mt-1 inline-block rounded-full bg-gray-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-gray-400">
                         Coming soon
                       </span>
@@ -325,13 +356,79 @@ export async function HubHome() {
                 <Link
                   key={v.id}
                   href={`/${v.id}`}
-                  className="group flex items-center gap-3 rounded-2xl border border-gray-200/80 bg-white px-4 py-4 shadow-[0_1px_3px_rgba(16,42,67,0.06)] transition-shadow hover:shadow-[0_4px_14px_rgba(16,42,67,0.12)] sm:gap-4 sm:px-6 sm:py-5"
+                  className="group flex items-center gap-3 rounded-2xl border border-gray-200/80 bg-white px-4 py-4 shadow-[0_1px_3px_rgba(16,42,67,0.06)] transition-shadow hover:shadow-[0_4px_14px_rgba(16,42,67,0.12)]"
                 >
-                  <Icon className="h-10 w-10 shrink-0 sm:h-12 sm:w-12" />
-                  <span className="text-[14.5px] font-bold leading-snug text-[#22362A] group-hover:text-[#1F4A33] sm:text-[16.5px]">
+                  <Icon className="h-10 w-10 shrink-0" />
+                  <span className="text-[14.5px] font-bold leading-snug text-[#22362A] group-hover:text-[#1F4A33]">
                     {v.name}
                   </span>
                 </Link>
+              );
+            })}
+          </div>
+
+          {/* DESKTOP: the original icon-led category cards with quick links. */}
+          <div className="mx-auto mt-14 hidden max-w-[880px] gap-4 text-left sm:grid sm:grid-cols-2">
+            {VERTICALS.map((v) => {
+              const live = isPublishedVertical(v.id);
+              const Icon = VERTICAL_ICON[v.id] ?? DogBowlIcon;
+              const links = live ? CATEGORY_LINKS[v.id] ?? [] : [];
+
+              if (links.length === 0) {
+                // Icon + name only (unpublished categories) - centered, calm.
+                return (
+                  <div
+                    key={v.id}
+                    className="flex items-center justify-center gap-4 rounded-2xl border border-gray-200/80 bg-white px-6 py-7 shadow-[0_1px_3px_rgba(16,42,67,0.06)]"
+                  >
+                    <Icon className="h-[52px] w-[52px] shrink-0" />
+                    <div className="text-left">
+                      <span className="block text-[17px] font-bold leading-snug text-[#22362A]">{v.name}</span>
+                      {!live && (
+                        <span className="mt-1 inline-block rounded-full bg-gray-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-gray-400">
+                          Coming soon
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                );
+              }
+
+              return (
+                <div
+                  key={v.id}
+                  className="flex items-stretch gap-5 rounded-2xl border border-gray-200/80 bg-white p-5 shadow-[0_1px_3px_rgba(16,42,67,0.06)] transition-shadow hover:shadow-[0_4px_14px_rgba(16,42,67,0.10)] sm:p-6"
+                >
+                  {/* Icon + category name */}
+                  <div className="flex w-[124px] shrink-0 flex-col items-center justify-center gap-3 text-center">
+                    <Icon className="h-[56px] w-[56px]" />
+                    <Link
+                      href={`/${v.id}`}
+                      className="text-[16.5px] font-bold leading-[1.25] text-[#22362A] hover:text-[#1F4A33]"
+                    >
+                      {v.name}
+                    </Link>
+                  </div>
+
+                  <div className="w-px self-stretch bg-gray-200" />
+
+                  {/* Arrow links */}
+                  <div className="flex flex-1 flex-col justify-center gap-2.5 py-1">
+                    {links.map((l) => (
+                      <Link
+                        key={l.href}
+                        href={l.href}
+                        className="group inline-flex items-center gap-2 text-[14.5px] font-medium text-gray-800 hover:text-[#1F4A33]"
+                      >
+                        {l.label}
+                        <ArrowRight
+                          className="h-4 w-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-[#1F4A33]"
+                          strokeWidth={2.2}
+                        />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               );
             })}
           </div>
