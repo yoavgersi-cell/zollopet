@@ -395,18 +395,18 @@ const battles: BattleData[] = [
     intro:
       "The Farmer's Dog and Ollie are the two names most owners meet first when they look into fresh dog food, and they share the category's core promise: human-grade food, portioned to your dog's profile, delivered on a subscription. The honest starting point is that we haven't yet verified either brand's current per-day pricing for specific dog profiles - fresh food is quoted per dog, so no comparison table can hand you your own number. What we can compare is how the two models differ, and exactly what to check in each quote flow before you commit.",
     verdict:
-      "The Farmer's Dog is the category's most established brand - fresh-only, pre-portioned, with the biggest public footprint in fresh dog food, which is worth something when you're buying an ongoing subscription. Ollie's edge is format range: fresh plus a gently baked line, blendable in one plan, which The Farmer's Dog doesn't offer. If you want the straight fresh experience from the biggest name, start with The Farmer's Dog; if a mixed fresh-and-baked plan fits your storage, budget or travel reality better, Ollie has the more flexible menu. Whichever way you lean, run both quote flows for your dog and compare the actual per-day numbers - that comparison, not brand marketing, should make the call.",
+      "With verified data in hand, Ollie takes this matchup. Its public Trustpilot record is excellent - 4.6/5 across 11,133 reviews, against The Farmer's Dog's 3.9/5 across 1,699, where delivery logistics draw the sharpest complaints - and its menu is wider, with fresh and gently baked lines blendable in one plan. The Farmer's Dog remains the category's most established name, and owners who want the straight fresh experience from the biggest brand still have a strong option in it. But on what we can actually verify today, Ollie holds the better record. As always, run both quote flows for your dog and compare the actual per-day numbers before committing.",
     verdictWinnerPoints: [
-      "The category's most established fresh dog food brand",
-      "Pre-portioned packs matched to your dog's profile",
-      "Recipes developed with veterinary nutritionists",
-    ],
-    verdictLoserPoints: [
+      "Excellent Trustpilot record - 4.6/5 across 11,133 reviews",
       "Fresh plus gently baked formats in one subscription",
       "Human-grade ingredients, personalized portions",
-      "Worth quoting side by side on your dog's actual price",
     ],
-    winnerId: "farmers-dog",
+    verdictLoserPoints: [
+      "The category's most established fresh dog food brand",
+      "Pre-portioned packs matched to your dog's profile",
+      "Trustpilot 3.9/5 - delivery logistics draw complaints",
+    ],
+    winnerId: "ollie",
     categories: [
       {
         name: "Brand Track Record",
@@ -462,18 +462,18 @@ const battles: BattleData[] = [
     intro:
       "The Farmer's Dog and Nom Nom run nearly identical models: fresh food, human-grade ingredients, pre-portioned packs sized from your dog's profile, recurring delivery. That makes this comparison less about the model and more about the brands behind it - and about the per-day quote each one gives your actual dog, which is the number that should decide it. We haven't verified either brand's current pricing or full recipe lineup, so this comparison stays on what's publicly observable and on exactly what to check before buying.",
     verdict:
-      "On what's publicly observable, The Farmer's Dog is the more established brand - the category's reference name with the larger footprint. Nom Nom's counter is its nutrition-science positioning: recipes formulated by board-certified veterinary nutritionists, a credential it puts at the center of the pitch. Both ship the same style of fresh, pre-portioned product, so for most owners this decision comes down to the two quote flows: same dog profile, compare the per-day price, the recipes offered, and current trial and cancellation terms. If the numbers land close, the bigger brand footprint is a reasonable tiebreaker for a long-running subscription.",
+      "With verified data in hand, Nom Nom edges this one. Its public Trustpilot record is the stronger of the two - 4.4/5 across 1,860 reviews on a profile held since 2017, against The Farmer's Dog's 3.9/5 across 1,699 - and its recipes are formulated by board-certified veterinary nutritionists, the strongest formulation credential in the matchup. The Farmer's Dog still brings the category's biggest brand footprint, which counts for something in an ongoing subscription. But both ship the same style of fresh, pre-portioned product, and with the review record and the nutrition credential both pointing Nom Nom's way, it takes the win. Run both quote flows with the same dog profile and let the per-day numbers confirm the call.",
     verdictWinnerPoints: [
-      "The category's most established fresh dog food brand",
-      "Pre-portioned packs matched to your dog's profile",
-      "Recipes developed with veterinary nutritionists",
+      "Recipes formulated by board-certified veterinary nutritionists",
+      "Stronger Trustpilot record - 4.4/5 across 1,860 reviews",
+      "Fresh, pre-portioned packs matched to your dog",
     ],
     verdictLoserPoints: [
-      "Recipes formulated by board-certified veterinary nutritionists",
-      "Same fresh, pre-portioned subscription model",
-      "Worth quoting side by side on your dog's actual price",
+      "The category's most established fresh dog food brand",
+      "Pre-portioned packs matched to your dog's profile",
+      "Trustpilot 3.9/5 - delivery logistics draw complaints",
     ],
-    winnerId: "farmers-dog",
+    winnerId: "nom-nom",
     categories: [
       {
         name: "Brand Track Record",
@@ -596,18 +596,18 @@ const battles: BattleData[] = [
     intro:
       "The Farmer's Dog and Spot & Tango sell the same core promise - personalized, human-grade dog food on a subscription - but they answer the format question differently. The Farmer's Dog is fresh-only and proudly so; Spot & Tango offers fresh recipes plus UnKibble, a dry-format food built with a fresh-style ingredient approach. We haven't verified either brand's current per-dog pricing or exact recipe lineup, so this comparison sticks to how the models differ and what to check in each quote flow before you commit.",
     verdict:
-      "For the classic fresh experience, The Farmer's Dog is the stronger pick: it is the category's most established brand, and for an ongoing subscription that track record counts. Spot & Tango's case is practical: UnKibble gives you fresh-style ingredients in a dry, scoop-and-serve format - no fridge space, easier travel - which The Farmer's Dog simply doesn't offer. If you know you want fresh packs, start with The Farmer's Dog; if the dry format is what would actually fit your household, Spot & Tango is the only one of the two that has it. Either way, run both quote flows with your dog's real profile and let the per-day numbers make the final call.",
+      "With verified data in hand, Spot & Tango takes this matchup. Its public Trustpilot record is excellent - 4.6/5 across 2,723 reviews, against The Farmer's Dog's 3.9/5 across 1,699, where delivery logistics draw the sharpest complaints - and it offers the format flexibility of UnKibble, a dry option The Farmer's Dog simply doesn't have. The Farmer's Dog remains the category's most recognized name and a fine pick for the classic fresh-pack experience. But on the review record and on format range, Spot & Tango holds the stronger hand today. Run both quote flows with your dog's real profile and compare the per-day numbers before committing.",
     verdictWinnerPoints: [
-      "The category's most established fresh dog food brand",
-      "Pre-portioned packs matched to your dog's profile",
-      "Recipes developed with veterinary nutritionists",
-    ],
-    verdictLoserPoints: [
+      "Excellent Trustpilot record - 4.6/5 across 2,723 reviews",
       "UnKibble: a dry format with a fresh-style ingredient approach",
       "Fresh and dry formats under one subscription",
-      "Worth quoting side by side on your dog's actual price",
     ],
-    winnerId: "farmers-dog",
+    verdictLoserPoints: [
+      "The category's most established fresh dog food brand",
+      "Pre-portioned packs matched to your dog's profile",
+      "Trustpilot 3.9/5 - delivery logistics draw complaints",
+    ],
+    winnerId: "spot-tango",
     categories: [
       {
         name: "Brand Track Record",
@@ -730,18 +730,18 @@ const battles: BattleData[] = [
     intro:
       "Nom Nom and Spot & Tango both run the standard fresh dog food playbook - personalized plans, human-grade-quality recipes, recurring delivery - and each stakes its identity on something different. Nom Nom leads with nutrition science: recipes formulated by board-certified veterinary nutritionists. Spot & Tango leads with format range: fresh recipes plus UnKibble, its dry-format line. We haven't verified current per-dog pricing or exact recipe lineups at either brand, so this comparison sticks to the observable differences and what to check in both quote flows.",
     verdict:
-      "Nom Nom edges this one for the typical fresh buyer: its board-certified veterinary nutritionist formulation is the strongest credential either brand offers, and within the classic fresh-pack model it's the more established name. Spot & Tango wins on breadth - if a dry format matters to your storage, budget or travel reality, UnKibble is something Nom Nom simply doesn't have. Pick by what you're actually optimizing for: formulation credentials point to Nom Nom, format flexibility points to Spot & Tango. Then let both quote flows - same dog profile, per-day price compared - settle it.",
+      "Spot & Tango takes this one on the strength of what we can verify. Its public Trustpilot record leads - an excellent 4.6/5 across 2,723 reviews, against Nom Nom's strong-but-lower 4.4/5 across 1,860 - and it offers the format range of fresh recipes plus UnKibble, which Nom Nom's fresh-only lineup can't match. Nom Nom keeps the stronger formulation credential, with board-certified veterinary nutritionists behind its recipes, and remains the better pick for owners who weight that most heavily. For everyone else, the review record and the flexibility point the same way. Run both quote flows with the same dog profile and compare the per-day price before you commit.",
     verdictWinnerPoints: [
-      "Recipes formulated by board-certified veterinary nutritionists",
-      "Fresh, pre-portioned packs matched to your dog",
-      "Established name in the fresh category",
-    ],
-    verdictLoserPoints: [
+      "Excellent Trustpilot record - 4.6/5 across 2,723 reviews",
       "Fresh plus UnKibble dry format in one brand",
       "Human-grade ingredients, personalized plans",
-      "Worth quoting side by side on your dog's actual price",
     ],
-    winnerId: "nom-nom",
+    verdictLoserPoints: [
+      "Recipes formulated by board-certified veterinary nutritionists",
+      "Strong Trustpilot record - 4.4/5 across 1,860 reviews",
+      "Fresh, pre-portioned packs matched to your dog",
+    ],
+    winnerId: "spot-tango",
     categories: [
       {
         name: "Nutrition Credentials",
@@ -840,7 +840,10 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
       blockOrder: ["secureBadge", "editorialReviews", "rankingMethodology", "disclosure"],
     },
     ranking: {
-      providerOrder: providers.map((p) => p.id),
+      // Ranked by the verified public Trustpilot record, September 2026:
+      // Ollie 4.6/11,133 - Spot & Tango 4.6/2,723 - Nom Nom 4.4/1,860 -
+      // The Farmer's Dog 3.9/1,699.
+      providerOrder: ["ollie", "spot-tango", "nom-nom", "farmers-dog"],
       positions: base.ranking.positions,
     },
     reviews,
