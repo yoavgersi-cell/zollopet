@@ -22,6 +22,45 @@ export interface ProviderAuditEntry {
 // Keyed "<vertical>:<providerId>" so a provider that exists in two verticals
 // can carry a separate audit per vertical.
 export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
+  // ── Fresh dog food ─────────────────────────────────────────────────────────
+  // Verified against The Farmer's Dog's public Trustpilot profile, September 2026.
+  "fresh-dog-food:farmers-dog": {
+    rows: [
+      { label: "Trustpilot TrustScore", value: "3.9 / 5 across 1,699 reviews" },
+      { label: "Trustpilot profile", value: "Claimed since March 2021 (paid Trustpilot subscription)" },
+      { label: "Recurring praise in recent reviews", value: "Palatability with picky eaters; responsive, human customer service" },
+      { label: "Recurring complaints in recent reviews", value: "Delivery timing and drop-off placement; overall price" },
+    ],
+  },
+
+  // Verified against Ollie's public Trustpilot profile, September 2026.
+  "fresh-dog-food:ollie": {
+    rows: [
+      { label: "Trustpilot TrustScore", value: "4.6 / 5 across 11,133 reviews" },
+      { label: "Trustpilot profile", value: "Claimed since January 2026 (paid Trustpilot subscription)" },
+      { label: "Recurring praise in recent reviews", value: "Responsive customer service; palatability; frozen delivery holding up in heat" },
+    ],
+  },
+
+  // Verified against Nom Nom's public Trustpilot profile, September 2026.
+  "fresh-dog-food:nom-nom": {
+    rows: [
+      { label: "Trustpilot TrustScore", value: "4.4 / 5 across 1,860 reviews" },
+      { label: "Trustpilot profile", value: "Claimed since August 2017 (paid Trustpilot subscription)" },
+      { label: "Recurring praise in recent reviews", value: "Palatability; food that looks like real food; attentive customer service" },
+    ],
+  },
+
+  // Verified against Spot & Tango's public Trustpilot profile, September 2026.
+  "fresh-dog-food:spot-tango": {
+    rows: [
+      { label: "Trustpilot TrustScore", value: "4.6 / 5 across 2,723 reviews" },
+      { label: "Trustpilot profile", value: "Claimed since July 2022 (paid Trustpilot subscription)" },
+      { label: "Recurring praise in recent reviews", value: "UnKibble with picky and sensitive-stomach dogs; customer service" },
+      { label: "Recurring complaint in recent reviews", value: "Marketing email frequency" },
+    ],
+  },
+
   // ── Dog DNA tests ──────────────────────────────────────────────────────────
   // Verified against Embark's own store pages, September 2026.
   "dog-dna-tests:embark": {

@@ -36,6 +36,53 @@ const providers: Provider[] = [
     ],
     affiliateUrl: "https://www.thefarmersdog.com",
     ctaText: "Visit Site",
+    // Verified against The Farmer's Dog's public Trustpilot profile,
+    // September 2026 (claimed profile since March 2021). Quotes below are
+    // real, unprompted Trustpilot reviews reproduced with rating and date.
+    trustpilotRating: "3.9",
+    trustpilotReviewCount: "1,699",
+    trustpilotReviews: [
+      {
+        title: "Loki is loving Farmers Dog",
+        text: "He has never gone after any dog food before but with Farmers Dog, he gets excited and can't wait for the next bite or bag!! We don't have to coax him to eat anymore and we've noticed an improvement in his physical condition. Sometimes I think he wants more than one bag per day.. that is how much he loves it.",
+        name: "Ellen Teckman",
+        location: "US",
+        rating: 5,
+        date: "Aug 28, 2026",
+      },
+      {
+        title: "Great food - delivery needs work",
+        text: "Farmers Dog is great food and my dog loves it. Their customer service exceeds almost any you will find. You can actually get hold of a real person. But their delivery is HORRIBLE. Twice they have delivered after dark... I have asked for a 7 pm latest delivery and they say they cannot do it.",
+        name: "Karen Heald",
+        location: "US",
+        rating: 3,
+        date: "Aug 27, 2026",
+      },
+      {
+        title: "Exceptional Customer Service",
+        text: "Not only is the food is great quality for my dogs, they have the BEST customer service team of any company I have ever spoken to. 10/10 would recommend. Thank you farmer's dog for being exceptional.",
+        name: "Madi",
+        location: "US",
+        rating: 5,
+        date: "Aug 26, 2026",
+      },
+      {
+        title: "Awesome in more ways than one!",
+        text: "I have been feeding my Gold Retriever Farmer's Dog for many years. Ansel is a finicky eater, he took to Farmer's Dog food right away. The condition of his coat changed within the first month. He lived a long happy life, at 14 he was still running, playing, and able to jump up into our truck. I also want to praise their outstanding customer service.",
+        name: "Treas",
+        location: "US",
+        rating: 5,
+        date: "Aug 7, 2026",
+      },
+      {
+        title: "Great customer service",
+        text: "Great customer service. The only draw back I could see was the pricing! It's a bit pricey. My dog seemed to like it. Thought I could afford it, but it ended up being almost the price of a low priced car payment. lol",
+        name: "Alicia Escalante",
+        location: "US",
+        rating: 4,
+        date: "Jun 15, 2026",
+      },
+    ],
   },
   {
     id: "ollie",
@@ -50,6 +97,37 @@ const providers: Provider[] = [
     ],
     affiliateUrl: "https://www.myollie.com",
     ctaText: "Visit Site",
+    // Verified against Ollie's public Trustpilot profile, September 2026
+    // (claimed profile since January 2026). Quotes below are real,
+    // unprompted Trustpilot reviews reproduced with rating and date.
+    trustpilotRating: "4.6",
+    trustpilotReviewCount: "11,133",
+    trustpilotReviews: [
+      {
+        title: "Amazing customer service",
+        text: "It's nice to call with an issue and have someone take the time to figure it out and correct the situation.",
+        name: "Lois",
+        location: "US",
+        rating: 5,
+        date: "Sep 1, 2026",
+      },
+      {
+        title: "Temperatures",
+        text: "My order even with temperatures reaching 100 degrees came frozen and intact. It is a little inconvenient to handle frozen goods to get in freezer before defrosting, but my dog loves Ollie.",
+        name: "Shirley Ray",
+        location: "US",
+        rating: 5,
+        date: "Aug 28, 2026",
+      },
+      {
+        title: "I love the complete care this company gives",
+        text: "It doesn't just provide a dog food that my dog loves, but analyzes the digestive, skin coat, mouth and weigh parameters to keep him healthy. This is an above and beyond benefit provided free!",
+        name: "Daniel Alvarez III",
+        location: "US",
+        rating: 5,
+        date: "Aug 27, 2026",
+      },
+    ],
   },
   {
     id: "nom-nom",
@@ -64,6 +142,37 @@ const providers: Provider[] = [
     ],
     affiliateUrl: "https://www.nomnomnow.com",
     ctaText: "Visit Site",
+    // Verified against Nom Nom's public Trustpilot profile, September 2026
+    // (claimed profile since August 2017). Quotes below are real, verified
+    // Trustpilot reviews reproduced with rating and date.
+    trustpilotRating: "4.4",
+    trustpilotReviewCount: "1,860",
+    trustpilotReviews: [
+      {
+        title: "Dogs are loving it",
+        text: "Dogs are loving it! And the food actually looks like human food and not just a paste like some other brands.",
+        name: "DL",
+        location: "US",
+        rating: 5,
+        date: "Jul 24, 2026",
+      },
+      {
+        title: "The customer service and caring follow-up",
+        text: "The customer service and caring follow-up from this well trained staff is worth the spend.",
+        name: "Marie Maher",
+        location: "US",
+        rating: 5,
+        date: "Jul 23, 2026",
+      },
+      {
+        title: "Great food and experience",
+        text: "Lots of good information, ordering was easy and our girls got their food in record time.",
+        name: "Micki Baker",
+        location: "US",
+        rating: 5,
+        date: "Jul 16, 2026",
+      },
+    ],
   },
   {
     id: "spot-tango",
@@ -78,6 +187,45 @@ const providers: Provider[] = [
     ],
     affiliateUrl: "https://spotandtango.com",
     ctaText: "Visit Site",
+    // Verified against Spot & Tango's public Trustpilot profile, September
+    // 2026 (claimed profile since July 2022). Quotes below are real,
+    // unprompted Trustpilot reviews reproduced with rating and date.
+    trustpilotRating: "4.6",
+    trustpilotReviewCount: "2,723",
+    trustpilotReviews: [
+      {
+        title: "My dog loves this food",
+        text: "He's a 14 year-old toothless Biewer terrier. Tons of stomach problems, lots of vomiting. He's a very picky eater as well. We switched him over to the UnKibble and he can't get enough of it. He absolutely loves it. We've had no stomach issues. Eats it every time within seconds. Bravo!",
+        name: "Terri Kavanagh",
+        location: "CA",
+        rating: 5,
+        date: "Sep 1, 2026",
+      },
+      {
+        title: "A Life Changing Diet for our Cocker Spaniel",
+        text: "Our cocker spaniel, Shiloh, has had issues for ~8 years with allergies and drippy poops. It was not until we put him on a Spot & Tango diet several months ago did he get relief. Now he no longer kicks his ears/licks his paws for hours each day AND now has firm poops. He is more energetic and GOBBLES his breakfast and dinner.",
+        name: "Mary Roush",
+        location: "PA",
+        rating: 5,
+        date: "Aug 29, 2026",
+      },
+      {
+        title: "First few days!!!",
+        text: "So far, just 5 days in, my little dog Abby is loving this new food!!! She eats it way before she touches the old thats left in her dish!! The customer service is top notch so far also!!!",
+        name: "Elizabeth Maddox",
+        location: "US",
+        rating: 5,
+        date: "Aug 31, 2026",
+      },
+      {
+        title: "good product. Too many emails",
+        text: "My dog is a picky eater and for now he likes this food. Very happy with everything but maybe way too many emails from spot and tango. I think everyone gets too many and anything around 5 per week is a major hassle. They seem like good people and a good product.",
+        name: "Rob Whitfield",
+        location: "CA",
+        rating: 4,
+        date: "Aug 31, 2026",
+      },
+    ],
   },
 ];
 
@@ -88,7 +236,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "The best-known fresh dog food brand: human-grade recipes, pre-portioned to your dog and delivered on a subscription.",
     reviewIntro:
-      "The Farmer's Dog is the most widely recognized name in fresh dog food. The model is the category's blueprint: you build a profile for your dog (age, breed, weight, activity, sensitivities), and the company ships fresh, human-grade food in pre-portioned packs matched to your dog's calorie needs, on a recurring delivery schedule. Recipes are developed with veterinary nutritionists and formulated to complete-and-balanced standards. We haven't yet verified the brand's current recipe lineup or per-day pricing for specific dog profiles, so this review covers the model honestly and will carry verified specifics once confirmed.",
+      "The Farmer's Dog is the most widely recognized name in fresh dog food. The model is the category's blueprint: you build a profile for your dog (age, breed, weight, activity, sensitivities), and the company ships fresh, human-grade food in pre-portioned packs matched to your dog's calorie needs, on a recurring delivery schedule. Recipes are developed with veterinary nutritionists and formulated to complete-and-balanced standards. We haven't yet verified the brand's current recipe lineup or per-day pricing for specific dog profiles - but we have checked its public Trustpilot record (September 2026): a 3.9/5 TrustScore across 1,699 reviews, where recent reviewers consistently praise palatability and customer service, and the sharpest complaints target delivery logistics and overall price.",
     keyFeatures: [
       "Fresh food made from human-grade ingredients",
       "Pre-portioned packs matched to your dog's profile",
@@ -103,11 +251,12 @@ const reviews: ReviewData[] = [
       "The category's most established brand footprint",
       "Personalized, pre-portioned packs take the measuring out of feeding",
       "Human-grade ingredients and vet-nutritionist-developed recipes",
+      "Customer service earns consistent praise in recent Trustpilot reviews",
     ],
     cons: [
       "We haven't verified current recipes, pricing or plan terms",
       "Fresh food needs fridge/freezer space and costs more than typical kibble",
-      "Subscription-only model - no retail bag to grab in a pinch",
+      "Trustpilot average is a mixed 3.9/5 - delivery timing and price are the recurring complaints",
     ],
     bestFor: [
       "Dog owners who want fresh food from the category's most established brand",
@@ -124,7 +273,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "Human-grade dog food with a choice of formats - fresh and gently baked - portioned to your dog's profile.",
     reviewIntro:
-      "Ollie is one of the leading fresh dog food subscriptions, and its clearest differentiator is format range: alongside fresh recipes it offers a gently baked line, so owners can feed fresh, baked, or a mix. Like the rest of the category, everything starts from your dog's profile - portions and recommendations are matched to age, weight and activity, and food arrives on a recurring delivery. Ingredients are human-grade. We haven't yet verified Ollie's current recipe lineup or pricing for specific dog profiles, so this review keeps to the model and will carry verified specifics once confirmed.",
+      "Ollie is one of the leading fresh dog food subscriptions, and its clearest differentiator is format range: alongside fresh recipes it offers a gently baked line, so owners can feed fresh, baked, or a mix. Like the rest of the category, everything starts from your dog's profile - portions and recommendations are matched to age, weight and activity, and food arrives on a recurring delivery. Ingredients are human-grade. We haven't yet verified Ollie's current recipe lineup or pricing for specific dog profiles - but we have checked its public Trustpilot record (September 2026): an excellent 4.6/5 TrustScore across 11,133 reviews, with recent reviewers praising customer service, palatability and deliveries arriving frozen even in summer heat.",
     keyFeatures: [
       "Fresh and gently baked recipe formats",
       "Human-grade ingredients",
@@ -140,6 +289,7 @@ const reviews: ReviewData[] = [
       "Format flexibility - fresh, baked, or a mixed plan",
       "Human-grade ingredients with personalized portions",
       "One of the most established brands in the category",
+      "Excellent Trustpilot record - 4.6/5 across 11,133 reviews",
     ],
     cons: [
       "We haven't verified current recipes, pricing or plan terms",
@@ -161,7 +311,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "Fresh, pre-portioned dog food with recipes formulated by board-certified veterinary nutritionists.",
     reviewIntro:
-      "Nom Nom is one of the established names in fresh dog food, with a nutrition-science-forward positioning: its recipes are formulated by board-certified veterinary nutritionists, and food ships fresh in pre-portioned packs sized to your dog's calorie needs. The buying model matches the category standard - build your dog's profile, get a plan, receive recurring deliveries. We haven't yet verified Nom Nom's current recipe lineup or pricing for specific dog profiles, so this review covers the model honestly and will carry verified specifics once confirmed.",
+      "Nom Nom is one of the established names in fresh dog food, with a nutrition-science-forward positioning: its recipes are formulated by board-certified veterinary nutritionists, and food ships fresh in pre-portioned packs sized to your dog's calorie needs. The buying model matches the category standard - build your dog's profile, get a plan, receive recurring deliveries. We haven't yet verified Nom Nom's current recipe lineup or pricing for specific dog profiles - but we have checked its public Trustpilot record (September 2026): a strong 4.4/5 TrustScore across 1,860 reviews on a profile the brand has maintained since 2017, with recent reviewers praising palatability, food quality and attentive customer service.",
     keyFeatures: [
       "Fresh food in pre-portioned packs",
       "Recipes formulated by board-certified veterinary nutritionists",
@@ -176,6 +326,7 @@ const reviews: ReviewData[] = [
       "Strong nutrition-science positioning behind its recipes",
       "Pre-portioned packs matched to your dog",
       "Established brand in the fresh category",
+      "Strong Trustpilot record - 4.4/5 across 1,860 reviews",
     ],
     cons: [
       "We haven't verified current recipes, pricing or plan terms",
@@ -197,7 +348,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "Fresh recipes plus UnKibble - a fresh-made dry format - personalized to your dog and delivered on a subscription.",
     reviewIntro:
-      "Spot & Tango runs the standard fresh-dog-food playbook - personalized plans, human-grade ingredients, subscription delivery - with one distinctive addition: UnKibble, a dry-format food made with a fresh-style ingredient approach. That gives owners a middle path between fresh packs and conventional kibble: easier storage and serving than fresh, with a cleaner ingredient pitch than typical dry food. We haven't yet verified Spot & Tango's current recipe lineup or pricing for specific dog profiles, so this review covers the model honestly and will carry verified specifics once confirmed.",
+      "Spot & Tango runs the standard fresh-dog-food playbook - personalized plans, human-grade ingredients, subscription delivery - with one distinctive addition: UnKibble, a dry-format food made with a fresh-style ingredient approach. That gives owners a middle path between fresh packs and conventional kibble: easier storage and serving than fresh, with a cleaner ingredient pitch than typical dry food. We haven't yet verified Spot & Tango's current recipe lineup or pricing for specific dog profiles - but we have checked its public Trustpilot record (September 2026): an excellent 4.6/5 TrustScore across 2,723 reviews, where UnKibble draws standout praise from owners of picky and sensitive-stomach dogs.",
     keyFeatures: [
       "Fresh recipes and the UnKibble fresh-dry format",
       "Human-grade ingredients",
@@ -213,6 +364,7 @@ const reviews: ReviewData[] = [
       "UnKibble offers a storage-friendly alternative to fresh packs",
       "Personalized plans with human-grade ingredients",
       "Two formats under one subscription brand",
+      "Excellent Trustpilot record - 4.6/5 across 2,723 reviews",
     ],
     cons: [
       "We haven't verified current recipes, pricing or plan terms",
@@ -278,17 +430,18 @@ const battles: BattleData[] = [
       },
       {
         name: "What We Can Verify Today",
-        winner: "tie",
+        winner: "provider2",
         explanation:
-          "We haven't verified current per-dog pricing or the exact recipe lineup at either brand, so neither earns a data-backed edge here. Both quote per dog: run both flows with the same profile and compare the per-day price, the recipe options for your dog's needs, and each brand's current trial or cancellation terms.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and it favors Ollie: 4.6/5 across 11,133 reviews versus The Farmer's Dog's 3.9/5 across 1,699, where delivery logistics draw the sharpest complaints.",
         supportingPoints: [
-          "Pricing is quoted per dog at both - get both quotes",
-          "Compare trial offers and cancellation terms directly",
+          "Trustpilot: Ollie 4.6/5 (11,133 reviews) vs 3.9/5 (1,699)",
+          "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Trustpilot (Sept 2026)", provider1Value: "3.9/5 - 1,699 reviews", provider2Value: "4.6/5 - 11,133 reviews", highlight: "provider2" },
       { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Human-grade", highlight: "both" },
       { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh + gently baked", highlight: "provider2" },
       { feature: "Portioning", provider1Value: "Pre-portioned to your dog", provider2Value: "Personalized to your dog", highlight: "both" },
@@ -344,17 +497,18 @@ const battles: BattleData[] = [
       },
       {
         name: "What We Can Verify Today",
-        winner: "tie",
+        winner: "provider2",
         explanation:
-          "We haven't verified current per-dog pricing or the exact recipe lineup at either brand. Both quote per dog: run both flows with the same profile and compare the per-day price, recipe fit for your dog, and each brand's current trial and cancellation terms before committing.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and it favors Nom Nom: 4.4/5 across 1,860 reviews on a profile held since 2017, versus The Farmer's Dog's 3.9/5 across 1,699, where delivery logistics draw the sharpest complaints.",
         supportingPoints: [
-          "Pricing is quoted per dog at both - get both quotes",
-          "Compare trial offers and cancellation terms directly",
+          "Trustpilot: Nom Nom 4.4/5 (1,860 reviews) vs 3.9/5 (1,699)",
+          "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Trustpilot (Sept 2026)", provider1Value: "3.9/5 - 1,699 reviews", provider2Value: "4.4/5 - 1,860 reviews", highlight: "provider2" },
       { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Fresh, pre-portioned recipes", highlight: "both" },
       { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh", highlight: "both" },
       { feature: "Formulation", provider1Value: "With veterinary nutritionists", provider2Value: "Board-certified veterinary nutritionists", highlight: "provider2" },
@@ -410,17 +564,18 @@ const battles: BattleData[] = [
       },
       {
         name: "What We Can Verify Today",
-        winner: "tie",
+        winner: "provider1",
         explanation:
-          "We haven't verified current per-dog pricing or exact recipe lineups at either brand. Both quote per dog - run both flows with the same profile and compare the per-day price, recipe fit, and each brand's current trial and cancellation terms.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and both look good: Ollie leads with 4.6/5 across 11,133 reviews, while Nom Nom holds a strong 4.4/5 across 1,860 on a profile maintained since 2017.",
         supportingPoints: [
-          "Pricing is quoted per dog at both - get both quotes",
-          "Compare trial offers and cancellation terms directly",
+          "Trustpilot: Ollie 4.6/5 (11,133) vs Nom Nom 4.4/5 (1,860)",
+          "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Trustpilot (Sept 2026)", provider1Value: "4.6/5 - 11,133 reviews", provider2Value: "4.4/5 - 1,860 reviews", highlight: "provider1" },
       { feature: "Formats", provider1Value: "Fresh + gently baked", provider2Value: "Fresh", highlight: "provider1" },
       { feature: "Formulation", provider1Value: "Complete-and-balanced recipes", provider2Value: "Board-certified veterinary nutritionists", highlight: "provider2" },
       { feature: "Portioning", provider1Value: "Personalized to your dog", provider2Value: "Pre-portioned to your dog", highlight: "both" },
@@ -476,17 +631,18 @@ const battles: BattleData[] = [
       },
       {
         name: "What We Can Verify Today",
-        winner: "tie",
+        winner: "provider2",
         explanation:
-          "We haven't verified current per-dog pricing or exact recipe lineups at either brand, so neither earns a data-backed edge here. Both quote per dog: run both flows with the same profile and compare the per-day price, the recipe options, and each brand's current trial and cancellation terms.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and it favors Spot & Tango: an excellent 4.6/5 across 2,723 reviews versus The Farmer's Dog's 3.9/5 across 1,699, where delivery logistics draw the sharpest complaints.",
         supportingPoints: [
-          "Pricing is quoted per dog at both - get both quotes",
-          "Compare trial offers and cancellation terms directly",
+          "Trustpilot: Spot & Tango 4.6/5 (2,723) vs 3.9/5 (1,699)",
+          "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Trustpilot (Sept 2026)", provider1Value: "3.9/5 - 1,699 reviews", provider2Value: "4.6/5 - 2,723 reviews", highlight: "provider2" },
       { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Human-grade", highlight: "both" },
       { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh + UnKibble (dry)", highlight: "provider2" },
       { feature: "Portioning", provider1Value: "Pre-portioned to your dog", provider2Value: "Personalized to your dog", highlight: "both" },
@@ -544,15 +700,16 @@ const battles: BattleData[] = [
         name: "What We Can Verify Today",
         winner: "tie",
         explanation:
-          "We haven't verified current per-dog pricing or exact recipe lineups at either brand. Both quote per dog: run both flows with the same profile and compare the per-day price in the format you'd actually feed, plus each brand's current trial and cancellation terms.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and it is a genuine dead heat: both hold an excellent 4.6/5 - Ollie across 11,133 reviews, Spot & Tango across 2,723.",
         supportingPoints: [
-          "Pricing is quoted per dog at both - get both quotes",
-          "Compare trial offers and cancellation terms directly",
+          "Trustpilot: both 4.6/5 (Ollie 11,133 reviews; S&T 2,723)",
+          "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Trustpilot (Sept 2026)", provider1Value: "4.6/5 - 11,133 reviews", provider2Value: "4.6/5 - 2,723 reviews", highlight: "both" },
       { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Human-grade", highlight: "both" },
       { feature: "Formats", provider1Value: "Fresh + gently baked", provider2Value: "Fresh + UnKibble (dry)", highlight: "both" },
       { feature: "Dry-food substitute", provider1Value: "Baked (not a dry food)", provider2Value: "UnKibble - true dry format", highlight: "provider2" },
@@ -608,17 +765,18 @@ const battles: BattleData[] = [
       },
       {
         name: "What We Can Verify Today",
-        winner: "tie",
+        winner: "provider2",
         explanation:
-          "We haven't verified current per-dog pricing or exact recipe lineups at either brand. Both quote per dog: run both flows with the same profile and compare the per-day price, recipe fit for your dog, and each brand's current trial and cancellation terms.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, where both look strong but Spot & Tango leads: 4.6/5 across 2,723 reviews versus Nom Nom's 4.4/5 across 1,860.",
         supportingPoints: [
-          "Pricing is quoted per dog at both - get both quotes",
-          "Compare trial offers and cancellation terms directly",
+          "Trustpilot: Spot & Tango 4.6/5 (2,723) vs Nom Nom 4.4/5 (1,860)",
+          "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Trustpilot (Sept 2026)", provider1Value: "4.4/5 - 1,860 reviews", provider2Value: "4.6/5 - 2,723 reviews", highlight: "provider2" },
       { feature: "Formulation", provider1Value: "Board-certified veterinary nutritionists", provider2Value: "Complete-and-balanced recipes", highlight: "provider1" },
       { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh + UnKibble (dry)", highlight: "provider2" },
       { feature: "Portioning", provider1Value: "Pre-portioned to your dog", provider2Value: "Personalized to your dog", highlight: "both" },
