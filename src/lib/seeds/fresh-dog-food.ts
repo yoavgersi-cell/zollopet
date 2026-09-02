@@ -429,6 +429,204 @@ const battles: BattleData[] = [
     ],
     updatedAt: UPDATED,
   },
+  {
+    slug: "farmers-dog-vs-spot-tango",
+    provider1Id: "farmers-dog",
+    provider2Id: "spot-tango",
+    title: "The Farmer's Dog vs Spot & Tango: Fresh Dog Food Compared (2026)",
+    matchupLabel: "The Farmer's Dog vs Spot & Tango",
+    subtitle: "The category's reference brand vs the fresh brand with a dry-format twist.",
+    description:
+      "The Farmer's Dog vs Spot & Tango: the fresh dog food category leader against the brand behind UnKibble. How the two models differ, and what to verify in both quote flows before buying.",
+    intro:
+      "The Farmer's Dog and Spot & Tango sell the same core promise - personalized, human-grade dog food on a subscription - but they answer the format question differently. The Farmer's Dog is fresh-only and proudly so; Spot & Tango offers fresh recipes plus UnKibble, a dry-format food built with a fresh-style ingredient approach. We haven't verified either brand's current per-dog pricing or exact recipe lineup, so this comparison sticks to how the models differ and what to check in each quote flow before you commit.",
+    verdict:
+      "For the classic fresh experience, The Farmer's Dog is the stronger pick: it is the category's most established brand, and for an ongoing subscription that track record counts. Spot & Tango's case is practical: UnKibble gives you fresh-style ingredients in a dry, scoop-and-serve format - no fridge space, easier travel - which The Farmer's Dog simply doesn't offer. If you know you want fresh packs, start with The Farmer's Dog; if the dry format is what would actually fit your household, Spot & Tango is the only one of the two that has it. Either way, run both quote flows with your dog's real profile and let the per-day numbers make the final call.",
+    verdictWinnerPoints: [
+      "The category's most established fresh dog food brand",
+      "Pre-portioned packs matched to your dog's profile",
+      "Recipes developed with veterinary nutritionists",
+    ],
+    verdictLoserPoints: [
+      "UnKibble: a dry format with a fresh-style ingredient approach",
+      "Fresh and dry formats under one subscription",
+      "Worth quoting side by side on your dog's actual price",
+    ],
+    winnerId: "farmers-dog",
+    categories: [
+      {
+        name: "Brand Track Record",
+        winner: "provider1",
+        explanation:
+          "The Farmer's Dog is the brand that made fresh dog food mainstream and remains the category's reference point. Spot & Tango is an established competitor, but its public footprint is smaller.",
+        supportingPoints: [
+          "Category reference brand (The Farmer's Dog)",
+          "Smaller but established competitor (Spot & Tango)",
+        ],
+      },
+      {
+        name: "Format Flexibility",
+        winner: "provider2",
+        explanation:
+          "Spot & Tango runs two formats - fresh recipes and UnKibble, its dry-format line - while The Farmer's Dog is fresh-only. For owners short on fridge space, travelling often, or easing off conventional kibble, that dry option is a real practical advantage.",
+        supportingPoints: [
+          "Fresh + UnKibble dry format (Spot & Tango)",
+          "Fresh-only lineup (The Farmer's Dog)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current per-dog pricing or exact recipe lineups at either brand, so neither earns a data-backed edge here. Both quote per dog: run both flows with the same profile and compare the per-day price, the recipe options, and each brand's current trial and cancellation terms.",
+        supportingPoints: [
+          "Pricing is quoted per dog at both - get both quotes",
+          "Compare trial offers and cancellation terms directly",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Human-grade", highlight: "both" },
+      { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh + UnKibble (dry)", highlight: "provider2" },
+      { feature: "Portioning", provider1Value: "Pre-portioned to your dog", provider2Value: "Personalized to your dog", highlight: "both" },
+      { feature: "Brand footprint", provider1Value: "Category's most established", provider2Value: "Established", highlight: "provider1" },
+      { feature: "Pricing", provider1Value: "Quoted per dog - verify on site", provider2Value: "Quoted per dog - verify on site", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
+  {
+    slug: "ollie-vs-spot-tango",
+    provider1Id: "ollie",
+    provider2Id: "spot-tango",
+    title: "Ollie vs Spot & Tango: Which Fresh Dog Food in 2026?",
+    matchupLabel: "Ollie vs Spot & Tango",
+    subtitle: "The two multi-format fresh brands - fresh + baked vs fresh + UnKibble.",
+    description:
+      "Ollie vs Spot & Tango: the only two brands in our lineup offering a second format beyond fresh packs. Gently baked vs UnKibble dry - how they compare and what to verify before buying.",
+    intro:
+      "Ollie and Spot & Tango are the format-flexible pair of the fresh dog food category: both run the standard personalized, human-grade subscription model, and both offer a second format alongside fresh packs. Ollie's is a gently baked line; Spot & Tango's is UnKibble, a true dry-format food with a fresh-style ingredient approach. We haven't verified current per-dog pricing or exact recipe lineups at either brand, so this comparison sticks to the observable differences and what to check in both quote flows.",
+    verdict:
+      "Ollie takes this on overall standing: it is one of the fresh category's long-established names, with fresh and baked lines that blend in a single plan. Spot & Tango's counterpunch is real, though - UnKibble is the closer substitute for conventional kibble of the two second formats, stored and served like ordinary dry food, which makes it the easier off-ramp for a household that isn't ready for a fridge full of fresh packs. If you want mostly fresh with some flexibility, Ollie is the safer pick; if the dry format is the main event for you, Spot & Tango is built around exactly that. Quote both with your dog's real profile and compare the per-day numbers before deciding.",
+    verdictWinnerPoints: [
+      "Long-established fresh dog food brand",
+      "Fresh plus gently baked formats, blendable in one plan",
+      "Human-grade ingredients, personalized portions",
+    ],
+    verdictLoserPoints: [
+      "UnKibble: a true dry format with fresh-style ingredients",
+      "Stored and served like conventional kibble",
+      "Worth quoting side by side on your dog's actual price",
+    ],
+    winnerId: "ollie",
+    categories: [
+      {
+        name: "Brand Track Record",
+        winner: "provider1",
+        explanation:
+          "Ollie is one of the fresh category's long-established names with a larger public footprint; Spot & Tango is established but smaller. For a recurring subscription, the more proven operation earns the edge.",
+        supportingPoints: [
+          "Long-established fresh brand (Ollie)",
+          "Smaller but established competitor (Spot & Tango)",
+        ],
+      },
+      {
+        name: "Dry-Format Convenience",
+        winner: "provider2",
+        explanation:
+          "Both brands offer a second format, but they're not equivalent: Spot & Tango's UnKibble is a genuinely dry, scoop-and-serve food, while Ollie's baked line is a gently baked product. For no-fridge storage, travel and kibble-like serving, UnKibble is the more practical dry option.",
+        supportingPoints: [
+          "UnKibble stores and serves like dry food (Spot & Tango)",
+          "Gently baked second format (Ollie)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current per-dog pricing or exact recipe lineups at either brand. Both quote per dog: run both flows with the same profile and compare the per-day price in the format you'd actually feed, plus each brand's current trial and cancellation terms.",
+        supportingPoints: [
+          "Pricing is quoted per dog at both - get both quotes",
+          "Compare trial offers and cancellation terms directly",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Human-grade", highlight: "both" },
+      { feature: "Formats", provider1Value: "Fresh + gently baked", provider2Value: "Fresh + UnKibble (dry)", highlight: "both" },
+      { feature: "Dry-food substitute", provider1Value: "Baked (not a dry food)", provider2Value: "UnKibble - true dry format", highlight: "provider2" },
+      { feature: "Brand footprint", provider1Value: "Long-established", provider2Value: "Established", highlight: "provider1" },
+      { feature: "Pricing", provider1Value: "Quoted per dog - verify on site", provider2Value: "Quoted per dog - verify on site", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
+  {
+    slug: "nom-nom-vs-spot-tango",
+    provider1Id: "nom-nom",
+    provider2Id: "spot-tango",
+    title: "Nom Nom vs Spot & Tango: Fresh Dog Food Compared (2026)",
+    matchupLabel: "Nom Nom vs Spot & Tango",
+    subtitle: "Nutrition-science positioning vs format flexibility - two fresh subscriptions compared.",
+    description:
+      "Nom Nom vs Spot & Tango: vet-nutritionist-led fresh food against the brand behind UnKibble. How the two differ on formulation and formats, and what to verify before buying.",
+    intro:
+      "Nom Nom and Spot & Tango both run the standard fresh dog food playbook - personalized plans, human-grade-quality recipes, recurring delivery - and each stakes its identity on something different. Nom Nom leads with nutrition science: recipes formulated by board-certified veterinary nutritionists. Spot & Tango leads with format range: fresh recipes plus UnKibble, its dry-format line. We haven't verified current per-dog pricing or exact recipe lineups at either brand, so this comparison sticks to the observable differences and what to check in both quote flows.",
+    verdict:
+      "Nom Nom edges this one for the typical fresh buyer: its board-certified veterinary nutritionist formulation is the strongest credential either brand offers, and within the classic fresh-pack model it's the more established name. Spot & Tango wins on breadth - if a dry format matters to your storage, budget or travel reality, UnKibble is something Nom Nom simply doesn't have. Pick by what you're actually optimizing for: formulation credentials point to Nom Nom, format flexibility points to Spot & Tango. Then let both quote flows - same dog profile, per-day price compared - settle it.",
+    verdictWinnerPoints: [
+      "Recipes formulated by board-certified veterinary nutritionists",
+      "Fresh, pre-portioned packs matched to your dog",
+      "Established name in the fresh category",
+    ],
+    verdictLoserPoints: [
+      "Fresh plus UnKibble dry format in one brand",
+      "Human-grade ingredients, personalized plans",
+      "Worth quoting side by side on your dog's actual price",
+    ],
+    winnerId: "nom-nom",
+    categories: [
+      {
+        name: "Nutrition Credentials",
+        winner: "provider1",
+        explanation:
+          "Nom Nom's recipes are formulated by board-certified veterinary nutritionists, and that credential anchors its brand. Spot & Tango's recipes are built to complete-and-balanced standards, but the formal nutrition-science depth is more central at Nom Nom.",
+        supportingPoints: [
+          "Board-certified veterinary nutritionist formulation (Nom Nom)",
+          "Complete-and-balanced personalized recipes (Spot & Tango)",
+        ],
+      },
+      {
+        name: "Format Flexibility",
+        winner: "provider2",
+        explanation:
+          "Spot & Tango offers fresh recipes and UnKibble, a dry-format line; Nom Nom ships fresh only. For owners who want a no-fridge option or a gentler step up from conventional kibble, that range is the most practical difference between the two.",
+        supportingPoints: [
+          "Fresh + UnKibble dry format (Spot & Tango)",
+          "Fresh-only lineup (Nom Nom)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current per-dog pricing or exact recipe lineups at either brand. Both quote per dog: run both flows with the same profile and compare the per-day price, recipe fit for your dog, and each brand's current trial and cancellation terms.",
+        supportingPoints: [
+          "Pricing is quoted per dog at both - get both quotes",
+          "Compare trial offers and cancellation terms directly",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
+      { feature: "Formulation", provider1Value: "Board-certified veterinary nutritionists", provider2Value: "Complete-and-balanced recipes", highlight: "provider1" },
+      { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh + UnKibble (dry)", highlight: "provider2" },
+      { feature: "Portioning", provider1Value: "Pre-portioned to your dog", provider2Value: "Personalized to your dog", highlight: "both" },
+      { feature: "Pricing", provider1Value: "Quoted per dog - verify on site", provider2Value: "Quoted per dog - verify on site", highlight: "none" },
+      { feature: "Trial & cancellation", provider1Value: "Verify on site", provider2Value: "Verify on site", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
 ];
 
 const faqs: FaqItem[] = [

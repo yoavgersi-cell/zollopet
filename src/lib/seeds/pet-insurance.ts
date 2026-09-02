@@ -427,6 +427,204 @@ const battles: BattleData[] = [
     ],
     updatedAt: UPDATED,
   },
+  {
+    slug: "trupanion-vs-embrace",
+    provider1Id: "trupanion",
+    provider2Id: "embrace",
+    title: "Trupanion vs Embrace: Pet Insurance Compared (2026)",
+    matchupLabel: "Trupanion vs Embrace",
+    subtitle: "Per-condition deductibles and direct vet pay vs flexible terms and wellness rewards.",
+    description:
+      "Trupanion vs Embrace: two established pet insurers with genuinely different mechanics - per-condition deductibles and direct vet pay against diminishing deductibles and a wellness option.",
+    intro:
+      "Trupanion and Embrace are both established pet insurers, and this is one of the category's more interesting matchups because their mechanics genuinely differ. Trupanion applies its deductible per condition rather than per year and can pay participating vets directly at checkout. Embrace offers adjustable accident & illness terms, an optional non-insurance wellness plan for routine care, and a deductible that shrinks in claim-free years. Premiums at both are quoted per pet from species, breed, age and location, and we haven't verified either insurer's current rates or plan parameters - so this comparison focuses on how the models differ and what to confirm in each sample policy.",
+    verdict:
+      "Trupanion takes this on the strength of its structural mechanics: a per-condition deductible is a meaningful advantage for any pet that develops a chronic condition - it doesn't reset every year - and direct vet pay, where your hospital participates, removes the front-the-bill problem that defines most pet insurance claims. Embrace is the better fit for owners who want breadth instead: routine-care budgeting through Wellness Rewards, tunable policy terms, and a diminishing deductible that rewards healthy years. Two checks decide it in practice: ask your vet whether they support Trupanion's direct payment, and get both quotes for your actual pet - then read both sample policies for exclusions and waiting periods before buying either.",
+    verdictWinnerPoints: [
+      "Deductible applies per condition - it doesn't reset annually",
+      "Can pay participating vets directly at checkout",
+      "One of the category's longest specialist track records",
+    ],
+    verdictLoserPoints: [
+      "Adjustable terms plus an optional wellness plan",
+      "Diminishing deductible for claim-free years",
+      "Worth quoting side by side on your pet's actual premium",
+    ],
+    winnerId: "trupanion",
+    categories: [
+      {
+        name: "Policy Mechanics",
+        winner: "provider1",
+        explanation:
+          "Trupanion's two signature features - per-condition deductibles and direct payment to participating vets - are the most differentiated mechanics in mainstream pet insurance. For chronic conditions and big same-day bills, they change the experience structurally, not cosmetically.",
+        supportingPoints: [
+          "Per-condition deductible, no annual reset (Trupanion)",
+          "Direct vet pay at participating hospitals (Trupanion)",
+        ],
+      },
+      {
+        name: "Routine Care & Flexibility",
+        winner: "provider2",
+        explanation:
+          "Embrace offers what Trupanion's core model doesn't: an optional wellness plan for routine care, adjustable policy terms to hit a budget, and a diminishing deductible in claim-free years. Owners who want one place for both illness cover and routine-care budgeting are better served here.",
+        supportingPoints: [
+          "Optional Wellness Rewards routine-care plan (Embrace)",
+          "Adjustable terms + diminishing deductible (Embrace)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current rates or plan parameters at either insurer, and premiums are quoted per pet. Get both quotes for your actual pet, read both sample policies - exclusions, waiting periods, how each handles your pet's age - and confirm your vet's Trupanion participation before weighing the direct-pay advantage.",
+        supportingPoints: [
+          "Premiums are quoted per pet - get both quotes",
+          "Read both sample policies before deciding",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Coverage type", provider1Value: "Accident & illness", provider2Value: "Accident & illness", highlight: "both" },
+      { feature: "Deductible model", provider1Value: "Per condition, no annual reset", provider2Value: "Annual, diminishes in claim-free years", highlight: "provider1" },
+      { feature: "Vet payment", provider1Value: "Direct pay at participating vets", provider2Value: "Reimbursement after you pay", highlight: "provider1" },
+      { feature: "Routine/wellness option", provider1Value: "Not in the core model", provider2Value: "Optional Wellness Rewards plan", highlight: "provider2" },
+      { feature: "Term flexibility", provider1Value: "Simpler, fixed model", provider2Value: "Adjustable limits and terms", highlight: "provider2" },
+      { feature: "Premiums", provider1Value: "Quoted per pet - get a quote", provider2Value: "Quoted per pet - get a quote", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
+  {
+    slug: "lemonade-vs-trupanion",
+    provider1Id: "lemonade",
+    provider2Id: "trupanion",
+    title: "Lemonade vs Trupanion: Pet Insurance Compared (2026)",
+    matchupLabel: "Lemonade vs Trupanion",
+    subtitle: "The digital-first insurer vs the specialist with the most differentiated policy mechanics.",
+    description:
+      "Lemonade vs Trupanion: app-based quoting and claims against per-condition deductibles and direct vet pay. How the two models differ and what to verify before choosing either.",
+    intro:
+      "Lemonade and Trupanion approach pet insurance from opposite ends. Lemonade is the digital-first generalist: quote, buy and claim in a polished app, with customizable coverage and optional add-ons. Trupanion is the longstanding specialist whose policy mechanics are the most distinctive in the category - deductibles applied per condition rather than per year, and direct payment to participating vets at checkout. Premiums at both are quoted per pet, and we haven't verified either insurer's current rates or plan terms - so this comparison focuses on the structural differences and what to confirm before buying.",
+    verdict:
+      "For most owners, Lemonade is the more natural starting point: the digital experience is the category's best, coverage is customizable, and optional add-ons let you shape the policy to a budget. But Trupanion wins outright in two specific situations - if your vet participates in its direct-payment system, or if your pet's breed is prone to chronic conditions, where a per-condition deductible that never resets can matter more than any app. So run the two checks: ask your vet about Trupanion direct pay, and get both quotes for your actual pet. If neither Trupanion advantage applies to you, Lemonade's experience and flexibility carry the day; if either does, the specialist mechanics are worth the trade.",
+    verdictWinnerPoints: [
+      "Best-in-category digital quoting and claims experience",
+      "Customizable coverage with optional add-ons",
+      "Backed by an established digital insurance company",
+    ],
+    verdictLoserPoints: [
+      "Per-condition deductible - it doesn't reset annually",
+      "Direct pay at participating veterinary hospitals",
+      "Worth quoting side by side on your pet's actual premium",
+    ],
+    winnerId: "lemonade",
+    categories: [
+      {
+        name: "Experience & Flexibility",
+        winner: "provider1",
+        explanation:
+          "Lemonade's app-based quote, purchase and claims flow is the reference point for digital insurance, and its adjustable terms and add-ons make it easier to shape a policy to a budget. Trupanion's model is simpler and more fixed.",
+        supportingPoints: [
+          "Fully digital sign-up and claims (Lemonade)",
+          "Customizable limits and add-ons (Lemonade)",
+        ],
+      },
+      {
+        name: "Policy Mechanics",
+        winner: "provider2",
+        explanation:
+          "Trupanion's per-condition deductible and direct vet pay are structural advantages no app can replicate: chronic conditions don't re-trigger a deductible each year, and participating hospitals can be paid directly so you never front the bill.",
+        supportingPoints: [
+          "Per-condition deductible, no annual reset (Trupanion)",
+          "Direct vet pay at participating hospitals (Trupanion)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current rates, terms or state availability at either insurer, and premiums are quoted per pet. Get both quotes for your actual pet, read both sample policies for exclusions and waiting periods, and ask your vet whether they participate in Trupanion's direct payment before weighing that feature.",
+        supportingPoints: [
+          "Premiums are quoted per pet - get both quotes",
+          "Read both sample policies before deciding",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Coverage type", provider1Value: "Accident & illness + add-ons", provider2Value: "Accident & illness", highlight: "both" },
+      { feature: "Sign-up & claims", provider1Value: "Fully digital, app-based", provider2Value: "Standard claims process", highlight: "provider1" },
+      { feature: "Deductible model", provider1Value: "Annual, customizable", provider2Value: "Per condition, no annual reset", highlight: "provider2" },
+      { feature: "Vet payment", provider1Value: "Reimbursement after you pay", provider2Value: "Direct pay at participating vets", highlight: "provider2" },
+      { feature: "Routine/wellness option", provider1Value: "Optional add-ons (varies)", provider2Value: "Not in the core model", highlight: "provider1" },
+      { feature: "Premiums", provider1Value: "Quoted per pet - get a quote", provider2Value: "Quoted per pet - get a quote", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
+  {
+    slug: "healthy-paws-vs-embrace",
+    provider1Id: "healthy-paws",
+    provider2Id: "embrace",
+    title: "Healthy Paws vs Embrace: Pet Insurance Compared (2026)",
+    matchupLabel: "Healthy Paws vs Embrace",
+    subtitle: "One simple plan vs a configurable policy with wellness options.",
+    description:
+      "Healthy Paws vs Embrace: the one-plan specialist against the flexible insurer with wellness rewards and a diminishing deductible. How they differ and what to verify before buying.",
+    intro:
+      "Healthy Paws and Embrace represent the two shapes pet insurance comes in. Healthy Paws sells one accident & illness plan with a famously simple photo-the-bill claims flow - minimal configuration, minimal fine print to shop through. Embrace sells a configurable policy: adjustable terms, an optional non-insurance wellness plan for routine care, and a deductible that shrinks in claim-free years. Premiums at both are quoted per pet, and we haven't verified either insurer's current rates or plan parameters - so this comparison focuses on which shape fits you and what to confirm in each sample policy.",
+    verdict:
+      "Healthy Paws wins for the owner who wants pet insurance to do one job well: serious accident & illness cover from a specialist brand, bought without tier-shopping and claimed by photographing the bill. That simplicity is a genuine feature - fewer configuration decisions means fewer ways to underinsure by accident. Embrace earns the pick when you want more from the policy: a routine-care budget through Wellness Rewards, terms you can tune to a premium target, and a deductible that rewards claim-free years. Decide which shape you want first, then get both quotes for your actual pet and read both sample policies - exclusions, waiting periods, and exactly what the wellness plan reimburses - before buying either.",
+    verdictWinnerPoints: [
+      "One straightforward accident & illness plan",
+      "Photo-the-bill claims via the app",
+      "Established pet-insurance specialist brand",
+    ],
+    verdictLoserPoints: [
+      "Adjustable terms plus an optional wellness plan",
+      "Diminishing deductible for claim-free years",
+      "Worth quoting side by side on your pet's actual premium",
+    ],
+    winnerId: "healthy-paws",
+    categories: [
+      {
+        name: "Simplicity & Claims",
+        winner: "provider1",
+        explanation:
+          "Healthy Paws' one-plan model and photo-the-bill claims flow make it the easiest serious policy in the category to buy and use. There are no tiers to compare and fewer configuration decisions to get wrong.",
+        supportingPoints: [
+          "One plan - no tier shopping (Healthy Paws)",
+          "Photograph the vet bill to claim (Healthy Paws)",
+        ],
+      },
+      {
+        name: "Flexibility & Routine Care",
+        winner: "provider2",
+        explanation:
+          "Embrace offers everything the one-plan model deliberately leaves out: adjustable limits and terms to hit a budget, an optional Wellness Rewards plan for routine care, and a diminishing deductible in claim-free years. Owners who want those levers are better served here.",
+        supportingPoints: [
+          "Optional Wellness Rewards routine-care plan (Embrace)",
+          "Adjustable terms + diminishing deductible (Embrace)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current rates or plan parameters at either insurer, and premiums are quoted per pet. Get both quotes for your actual pet and read both sample policies - exclusions, waiting periods, how each handles your pet's age, and precisely what Embrace's wellness plan reimburses.",
+        supportingPoints: [
+          "Premiums are quoted per pet - get both quotes",
+          "Read both sample policies before deciding",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Coverage type", provider1Value: "Accident & illness", provider2Value: "Accident & illness", highlight: "both" },
+      { feature: "Plan structure", provider1Value: "One plan, minimal configuration", provider2Value: "Adjustable limits and terms", highlight: "none" },
+      { feature: "Claims", provider1Value: "Photo-the-bill via app", provider2Value: "Standard claims process", highlight: "provider1" },
+      { feature: "Routine/wellness option", provider1Value: "None", provider2Value: "Optional Wellness Rewards plan", highlight: "provider2" },
+      { feature: "Deductible feature", provider1Value: "Standard annual deductible", provider2Value: "Diminishes in claim-free years", highlight: "provider2" },
+      { feature: "Premiums", provider1Value: "Quoted per pet - get a quote", provider2Value: "Quoted per pet - get a quote", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
 ];
 
 const faqs: FaqItem[] = [

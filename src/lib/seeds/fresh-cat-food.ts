@@ -244,6 +244,138 @@ const battles: BattleData[] = [
     ],
     updatedAt: UPDATED,
   },
+  {
+    slug: "smalls-vs-darwins",
+    provider1Id: "smalls",
+    provider2Id: "darwins",
+    title: "Smalls vs Darwin's: Cooked Fresh vs Raw Cat Food (2026)",
+    matchupLabel: "Smalls vs Darwin's",
+    subtitle: "The fresh cat food leader vs the raw-feeding specialist - a cooked-vs-raw decision.",
+    description:
+      "Smalls vs Darwin's Natural Pet: gently cooked, human-grade cat food against a raw-feeding specialist. The cooked-vs-raw trade-offs, compared honestly, with what to verify before buying.",
+    intro:
+      "Smalls and Darwin's aren't just two brands - they're two philosophies. Smalls is the fresh cat food category leader, shipping gently cooked, human-grade recipes built exclusively for cats. Darwin's is a longstanding raw-feeding specialist, delivering uncooked, formulated raw meals. That makes this less a brand shootout than a cooked-vs-raw decision, and the honest comparison is about those trade-offs. We haven't verified current pricing or exact recipe lineups at either brand, so this sticks to what's publicly observable and what to check before subscribing.",
+    verdict:
+      "For most cat owners, Smalls is the right call: cooked, human-grade food captures most of what draws people to fresh feeding - whole ingredients, high protein, real moisture - without the pathogen-handling protocols that raw meat demands, and mainstream veterinary organizations urge caution on raw diets for exactly that reason. Darwin's is the better pick only for a specific owner: one who has already chosen raw feeding, ideally with their vet's input, and wants a longstanding specialist to handle formulation and sourcing instead of DIY. If you're undecided between the two, that's effectively a decision about raw itself - talk to your vet first, then verify your cat's actual plan price and the current recipe lineup on whichever site you land on.",
+    verdictWinnerPoints: [
+      "Gently cooked, human-grade recipes - no raw-handling protocols",
+      "Cat-only brand, the fresh category's most established name",
+      "The mainstream-safe way into fresh feeding",
+    ],
+    verdictLoserPoints: [
+      "Longstanding raw-feeding specialist with formulated meals",
+      "Beats DIY raw on formulation and sourcing",
+      "A deliberate choice - discuss raw with your vet first",
+    ],
+    winnerId: "smalls",
+    categories: [
+      {
+        name: "Everyday Fit & Food Safety",
+        winner: "provider1",
+        explanation:
+          "Smalls' recipes are cooked, which sidesteps the food-safety handling that raw feeding requires - veterinary organizations caution that raw meat can carry pathogens affecting both pets and people in the household. For a typical home, cooked fresh is the lower-friction, lower-risk upgrade.",
+        supportingPoints: [
+          "Cooked recipes, ordinary kitchen handling (Smalls)",
+          "Raw meals require strict food-safety practices (Darwin's)",
+        ],
+      },
+      {
+        name: "Raw-Feeding Specialism",
+        winner: "provider2",
+        explanation:
+          "If raw is the diet you've chosen, Darwin's is the stronger operation for it: a longstanding specialist whose whole model is formulated raw meals on a recurring delivery. Smalls doesn't compete in raw at all.",
+        supportingPoints: [
+          "Decades-long raw specialist track record (Darwin's)",
+          "No raw offering (Smalls)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current pricing or exact recipe lineups at either brand, so neither earns a data-backed edge here. Quote both plans for your cat, compare the per-day price and the proteins and textures your cat will actually eat, and check current trial and cancellation terms.",
+        supportingPoints: [
+          "Pricing unverified at both - quote both plans",
+          "Compare proteins, textures and cancellation terms directly",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Food style", provider1Value: "Gently cooked, human-grade", provider2Value: "Raw, formulated meals", highlight: "none" },
+      { feature: "Brand focus", provider1Value: "Cats only", provider2Value: "Cats and dogs, raw specialist", highlight: "provider1" },
+      { feature: "Handling at home", provider1Value: "Ordinary kitchen handling", provider2Value: "Raw-meat food-safety protocols", highlight: "provider1" },
+      { feature: "Best suited to", provider1Value: "Most fresh-food buyers", provider2Value: "Committed raw feeders", highlight: "none" },
+      { feature: "Vet consultation", provider1Value: "Advised for any diet change", provider2Value: "Strongly advised before going raw", highlight: "none" },
+      { feature: "Pricing", provider1Value: "Verify on site", provider2Value: "Verify on site", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
+  {
+    slug: "raised-right-vs-darwins",
+    provider1Id: "raised-right",
+    provider2Id: "darwins",
+    title: "Raised Right vs Darwin's: Cooked vs Raw Cat Food (2026)",
+    matchupLabel: "Raised Right vs Darwin's",
+    subtitle: "Two specialist brands, two philosophies - small-batch cooked vs formulated raw.",
+    description:
+      "Raised Right vs Darwin's Natural Pet: a family-run, human-grade cooked brand against a longstanding raw-feeding specialist. The cooked-vs-raw trade-offs and what to verify before buying.",
+    intro:
+      "Raised Right and Darwin's both sit outside the category's mainstream - neither is the big-name default - and each has a clear identity. Raised Right is a family-run brand cooking human-grade, low-carbohydrate recipes in small batches, shipped frozen. Darwin's is a longstanding raw-feeding specialist delivering formulated raw meals. The real fork in the road is cooked versus raw, and this comparison is honest about those trade-offs. We haven't verified current pricing or recipe lineups at either brand, so it sticks to what's publicly observable and what to check before subscribing.",
+    verdict:
+      "Raised Right wins this for most households: its recipes are cooked, which delivers the whole-ingredient, low-carbohydrate feeding that suits cats without the pathogen-handling that raw meat demands - the reason mainstream veterinary organizations urge caution on raw diets. Its transparency-first, small-batch identity also gives cautious buyers something concrete to check. Darwin's remains the stronger choice for one specific owner: the committed raw feeder who wants a longstanding specialist handling formulation and sourcing. If you haven't settled the cooked-vs-raw question, settle it with your vet before picking either - then verify your cat's actual plan price and the current recipe lineup on the brand's site.",
+    verdictWinnerPoints: [
+      "Cooked, human-grade, low-carbohydrate recipes",
+      "Family-run brand with a transparency-first identity",
+      "No raw-meat handling protocols at home",
+    ],
+    verdictLoserPoints: [
+      "Longstanding raw-feeding specialist with formulated meals",
+      "Beats DIY raw on formulation and sourcing",
+      "A deliberate choice - discuss raw with your vet first",
+    ],
+    winnerId: "raised-right",
+    categories: [
+      {
+        name: "Cooked vs Raw Trade-off",
+        winner: "provider1",
+        explanation:
+          "Raised Right's recipes are cooked, capturing the low-carb, whole-ingredient upside of fresh feeding without raw meat's food-safety burden - a burden veterinary organizations specifically caution about for pets and the people around them. For the typical home, cooked is the sounder default.",
+        supportingPoints: [
+          "Cooked, low-carbohydrate recipes (Raised Right)",
+          "Raw meals require strict food-safety practices (Darwin's)",
+        ],
+      },
+      {
+        name: "Raw-Feeding Specialism",
+        winner: "provider2",
+        explanation:
+          "For owners who have already chosen raw, Darwin's is the purpose-built option: a specialist with a long track record whose entire model is formulated raw meals on recurring delivery. Raised Right doesn't offer raw.",
+        supportingPoints: [
+          "Longstanding raw specialist track record (Darwin's)",
+          "No raw offering (Raised Right)",
+        ],
+      },
+      {
+        name: "What We Can Verify Today",
+        winner: "tie",
+        explanation:
+          "We haven't verified current pricing or exact recipe lineups at either brand, so neither earns a data-backed edge here. Quote both plans for your cat, compare the per-day math and the proteins your cat will actually eat, and check current trial and cancellation terms.",
+        supportingPoints: [
+          "Pricing unverified at both - quote both plans",
+          "Compare proteins, textures and cancellation terms directly",
+        ],
+      },
+    ],
+    features: [
+      { feature: "Food style", provider1Value: "Cooked, human-grade, low-carb", provider2Value: "Raw, formulated meals", highlight: "none" },
+      { feature: "Brand model", provider1Value: "Family-run, small batches", provider2Value: "Longstanding raw specialist", highlight: "none" },
+      { feature: "Handling at home", provider1Value: "Ordinary kitchen handling", provider2Value: "Raw-meat food-safety protocols", highlight: "provider1" },
+      { feature: "Best suited to", provider1Value: "Most fresh-food buyers", provider2Value: "Committed raw feeders", highlight: "none" },
+      { feature: "Multi-pet homes", provider1Value: "Cat and dog recipes", provider2Value: "Cat and dog meals", highlight: "both" },
+      { feature: "Pricing", provider1Value: "Verify on site", provider2Value: "Verify on site", highlight: "none" },
+    ],
+    updatedAt: UPDATED,
+  },
 ];
 
 const faqs: FaqItem[] = [
