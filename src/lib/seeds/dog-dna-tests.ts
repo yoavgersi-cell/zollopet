@@ -281,7 +281,7 @@ export function dogDnaTestsSeed(base: SiteConfig): SiteConfig {
       h1: "Best Dog DNA Tests of 2026",
       h2: "Compare dog DNA test kits for breed ID & health screening",
       description:
-        "Compare the leading dog DNA tests - how Embark and Wisdom Panel actually differ, what breed and health results can and can't tell you, and what to verify before buying. Where we haven't verified a brand's pricing yet, we say so instead of guessing.",
+        "Compare Embark and Wisdom Panel - what breed and health results can tell you, and what to verify before buying.",
     },
     providers,
     sidebar: {

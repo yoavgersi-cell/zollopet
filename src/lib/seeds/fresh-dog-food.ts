@@ -674,7 +674,7 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
       h1: "Best Fresh Dog Food Delivery Services of 2026",
       h2: "Compare fresh, human-grade dog food subscriptions side by side",
       description:
-        "Compare the leading fresh dog food delivery services - how the brands differ, what fresh food does and doesn't change, and exactly what to verify in each quote flow. Where we haven't verified a brand's pricing yet, we say so instead of guessing.",
+        "Compare the leading fresh dog food services - honest verdicts, and where we haven't verified a brand's pricing, we say so.",
     },
     providers,
     sidebar: {

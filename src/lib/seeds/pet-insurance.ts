@@ -670,9 +670,9 @@ export function petInsuranceSeed(base: SiteConfig): SiteConfig {
       imageAlt: "",
       updatedLabel: "Last Updated: August 2026",
       h1: "Best Pet Insurance for Dogs & Cats of 2026",
-      h2: "Compare pet insurance plans and how their policies actually work",
+      h2: "Compare pet insurance plans and how policies actually work",
       description:
-        "Compare leading pet insurance brands - how their policy mechanics differ, what's never covered, and exactly what to verify in your own quote. Where we haven't verified an insurer's terms yet, we say so instead of guessing.",
+        "Compare leading pet insurance brands - how their policies really differ, and exactly what to check in your own quote.",
     },
     providers,
     sidebar: {
