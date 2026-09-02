@@ -297,11 +297,11 @@ export async function HubHome() {
   const topProviders = defaultConfig ? topThree(defaultConfig) : [];
 
   // Brand shelf: reviewed brands across all published categories. Only brands
-  // with a real uploaded logo (PNG) appear - text-placeholder SVGs would break
-  // the shelf's visual consistency. New logo uploads join automatically.
+  // with a real uploaded logo (PNG/JPG/WebP) appear - text-placeholder SVGs
+  // would break the shelf's visual consistency. New uploads join automatically.
   const shelfProviders = configs
     .flatMap((c) => c.providers ?? [])
-    .filter((p) => p.logo.endsWith(".png"))
+    .filter((p) => !p.logo.endsWith(".svg"))
     .slice(0, 12);
 
   return (

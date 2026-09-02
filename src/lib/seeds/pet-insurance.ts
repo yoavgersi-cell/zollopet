@@ -27,7 +27,7 @@ const providers: Provider[] = [
     id: "lemonade",
     name: "Lemonade",
     tagline: "Digital-first pet insurance with app-based claims",
-    logo: "/logos/lemonade.svg",
+    logo: "/logos/lemonadelogo.webp",
     smallLogo: "/logos/lemonade-icon.svg",
     highlights: [
       "Fully digital sign-up and claims via the app",
@@ -41,7 +41,7 @@ const providers: Provider[] = [
     id: "healthy-paws",
     name: "Healthy Paws",
     tagline: "One straightforward accident & illness plan",
-    logo: "/logos/healthy-paws.svg",
+    logo: "/logos/healthypawslogo.jpg",
     smallLogo: "/logos/healthy-paws-icon.svg",
     highlights: [
       "A single accident & illness plan - simple to understand",
@@ -55,7 +55,7 @@ const providers: Provider[] = [
     id: "trupanion",
     name: "Trupanion",
     tagline: "Per-condition deductible model, can pay vets directly",
-    logo: "/logos/trupanion.svg",
+    logo: "/logos/trupanionlogo.png",
     smallLogo: "/logos/trupanion-icon.svg",
     highlights: [
       "Deductible applied per condition rather than per year",
@@ -69,7 +69,7 @@ const providers: Provider[] = [
     id: "embrace",
     name: "Embrace",
     tagline: "Accident & illness cover with flexible options",
-    logo: "/logos/embrace.svg",
+    logo: "/logos/embracelogo.png",
     smallLogo: "/logos/embrace-icon.svg",
     highlights: [
       "Accident & illness coverage with adjustable terms",
