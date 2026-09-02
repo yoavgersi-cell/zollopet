@@ -27,7 +27,7 @@ const providers: Provider[] = [
     id: "smalls",
     name: "Smalls",
     tagline: "Fresh, human-grade food made specifically for cats",
-    logo: "/logos/smalls.svg",
+    logo: "/logos/smallslogo.png",
     smallLogo: "/logos/smalls-icon.svg",
     highlights: [
       "Cat-only brand - fresh food built around feline nutrition",
@@ -41,7 +41,7 @@ const providers: Provider[] = [
     id: "raised-right",
     name: "Raised Right",
     tagline: "Human-grade recipes for cats, cooked in small batches",
-    logo: "/logos/raised-right.svg",
+    logo: "/logos/raisedrightlogo.png",
     smallLogo: "/logos/raised-right-icon.svg",
     highlights: [
       "Human-grade, low-carbohydrate recipes",
@@ -55,7 +55,7 @@ const providers: Provider[] = [
     id: "darwins",
     name: "Darwin's Natural Pet",
     tagline: "Raw food meals for cats, delivered on a subscription",
-    logo: "/logos/darwins.svg",
+    logo: "/logos/darwinslogo.png",
     smallLogo: "/logos/darwins-icon.svg",
     highlights: [
       "Raw-food meals formulated for cats",
