@@ -284,5 +284,54 @@ export const freshCatFoodArticles: ArticleData[] = [
           "Two cautions keep this project safe. First, flavor experiments should stay plain: no seasoned broths or anything containing onion or garlic, which are toxic to cats - if you flavor water at all, it should be something unseasoned and cat-safe. Second, watch the direction of change: you're nudging intake up from a healthy baseline, but a cat that spontaneously starts drinking dramatically more (or urinating much more) may be showing early signs of kidney disease, diabetes or thyroid trouble - that's a prompt vet visit, not a win. Sudden drops in drinking or eating deserve the same call.",
       },
     ],
-  }
+  },
+  {
+    slug: "how-to-get-my-cat-to-lose-weight",
+    title: "How to Get My Cat to Lose Weight: A Safe, Vet-Informed Plan",
+    description:
+      "How to help an overweight cat lose weight safely - why crash diets are dangerous for cats, portion and feeding tactics that work, and when to involve your vet.",
+    category: "Guide",
+    readTime: "7 min read",
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Feline weight loss must be slow - a cat that loses weight too fast (or stops eating) risks hepatic lipidosis, a serious liver disease.",
+      "Start with a vet visit: a target weight, a daily calorie goal, and a check that nothing medical is behind the weight.",
+      "Measured meals beat free-feeding - the always-full bowl is the single biggest driver of feline weight gain.",
+      "High-protein, high-moisture, lower-carb food shapes satiety in an obligate carnivore; play is the exercise plan cats actually accept.",
+    ],
+    sections: [
+      {
+        heading: "First, the rule that keeps this safe",
+        body:
+          "Cat weight loss has one non-negotiable rule: slow. When an overweight cat loses weight too quickly - or stops eating altogether - its body mobilizes fat faster than the liver can process it, which can trigger hepatic lipidosis, a genuinely dangerous liver condition. That's why every tactic below is gradual, why crash diets and 'just feed less until it works' are off the table, and why a dieting cat that refuses food for more than a day or two needs a vet, not more willpower. Weight loss in cats is a months-long project measured in small, steady losses.",
+      },
+      {
+        heading: "Start at the vet, not the food bowl",
+        body:
+          "Before changing anything, have your vet confirm the plan. Three things come out of that visit: confirmation that the weight is actually diet-driven (thyroid and other conditions can change weight and appetite in both directions), a realistic target weight for your cat's frame, and a daily calorie goal to feed toward. Vets commonly use body condition scoring - feeling for ribs and looking at waist definition - rather than a number on the scale alone, and they'll set the safe pace for your specific cat. This single visit turns guesswork into a plan.",
+      },
+      {
+        heading: "Kill the bottomless bowl",
+        body:
+          "The always-full dry food bowl is the most common way indoor cats gain weight: it invites all-day snacking, and nobody actually knows how much the cat ate. The fix is structural, not heroic - measured portions served as scheduled meals, two to four times a day. Use an actual measuring scoop or a kitchen scale, because eyeballed portions drift upward. In multi-cat homes, feed cats in separate rooms or use microchip feeders so the dieting cat can't finish everyone else's meals. Treats count too: keep them small, infrequent, and inside the daily calorie goal your vet set.",
+      },
+      {
+        heading: "What to feed a cat that needs to slim down",
+        body:
+          "Cats are obligate carnivores, and their satiety runs on protein. A weight-loss-friendly feeding pattern is typically high in animal protein, high in moisture, and lower in carbohydrate - the profile of quality canned food and of the fresh, portioned subscriptions we compare on this site. Moisture helps in two ways: it adds volume that helps a cat feel fed, and it supports the urinary health that matters more in heavier cats. Portioned fresh plans have one structural advantage for this project specifically: the food arrives pre-measured against your cat's profile, which removes the daily portioning discipline that defeats many well-intentioned owners. Whatever you feed, change over gradually - a dieting cat still needs to actually eat.",
+      },
+      {
+        heading: "Exercise, the feline edition",
+        body:
+          "You cannot walk a cat off its weight, but you can play it off - in short bursts, the way cats naturally hunt. A few minutes of wand-toy or laser-chase play several times a day beats one long session a cat will simply opt out of. Food-dispensing puzzle toys do double duty, slowing eating while adding movement. Moving the food bowl away from the favorite sleeping spot, or up somewhere that requires a small climb, adds honest steps to a lazy day. The goal is a cat that works a little for calories it used to inhale.",
+      },
+      {
+        heading: "Track it, and know when to call the vet",
+        body:
+          "Weigh your cat every week or two - at home on a bathroom scale (hold the cat, subtract yourself) or at the clinic - and keep a simple log. Progress should be slow and steady; your vet will tell you what pace is right for your cat. Call the vet promptly if the cat stops eating for more than a day or two, if weight drops fast, or if weight loss happens without any diet change at all - unexplained loss is a medical sign, not a bonus. And once the target is reached, keep the measured-meal habit: maintenance is the same system with slightly more food in it.",
+      },
+    ],
+  },
 ];
