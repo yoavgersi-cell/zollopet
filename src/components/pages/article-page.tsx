@@ -251,11 +251,10 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
       )}
 
       <div className="min-h-screen bg-gray-50">
-        {/* Hero band */}
-        <div
-          className="w-full"
-          style={{ backgroundColor: article.heroColor }}
-        >
+        {/* Hero band - one uniform light-cream ground for every article
+            (per-article heroColor is intentionally ignored: dark values made
+            the dark headline unreadable). Hero images can layer on top later. */}
+        <div className="w-full border-b border-[#EFE5CC] bg-[#FAF4E6]">
           <div className="mx-auto max-w-[1100px] px-4 py-10 sm:px-6 sm:py-14">
             <Breadcrumbs
               items={[
