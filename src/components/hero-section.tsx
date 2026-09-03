@@ -26,15 +26,16 @@ export function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="relative w-full h-[200px] sm:h-[270px] lg:h-[300px] overflow-hidden bg-[#FBF5E7]">
-      {/* Hero image positioned on the right (omitted when no image is set) */}
+      {/* Hero image on the right - bottom-aligned so a sitting subject feels
+          grounded on the hero's edge (omitted when no image is set) */}
       {backgroundImageUrl && (
-        <div className="absolute right-[380px] top-0 h-full w-[50%] hidden sm:block">
+        <div className="absolute inset-y-0 right-[2%] hidden w-[40%] max-w-[400px] sm:block lg:right-[6%]">
           <Image
             src={backgroundImageUrl}
             alt={imageAlt}
             fill
             priority
-            className="object-contain object-right-top"
+            className="object-contain object-bottom pt-3"
           />
         </div>
       )}
