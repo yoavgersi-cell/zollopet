@@ -78,7 +78,7 @@ export function Sidebar({ config, providers, linkPrefix = "" }: { config: Sideba
                 <Link key={p.id} href={`${linkPrefix}/reviews/${p.id}`} className="group flex items-center gap-4 py-4">
                   <div className="flex h-[62px] w-[62px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-gray-100 bg-gray-50/60 p-2">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={p.logo} alt={`${p.name} logo`} className="max-h-full max-w-full object-contain" />
+                    <img src={p.logo} alt={`${p.name} logo`} loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div>
                     <p className="text-[16px] font-bold text-[#22362A] transition-colors group-hover:text-[#2E6B47]">{p.name}</p>

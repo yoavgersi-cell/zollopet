@@ -21,6 +21,8 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
     links: [
       { label: "About", href: `/${DEFAULT_VERTICAL}/about` },
       { label: "Disclaimer", href: `/${DEFAULT_VERTICAL}/disclaimer` },
+      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Terms of Service", href: "/terms" },
     ],
   },
 ];

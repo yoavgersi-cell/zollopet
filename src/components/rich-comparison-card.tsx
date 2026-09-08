@@ -70,6 +70,8 @@ export function RichComparisonCard({
               <img
                 src={product.logo}
                 alt={`${product.name} logo`}
+                loading={product.rank === 1 ? "eager" : "lazy"}
+                decoding="async"
                 className="max-h-full max-w-full object-contain object-left"
               />
             </div>

@@ -16,7 +16,9 @@ const RESERVED_SLUGS = [
   "articles",
   "disclaimer",
   "find-your-match",
+  "privacy",
   "reviews",
+  "terms",
 ];
 
 export async function generateMetadata({

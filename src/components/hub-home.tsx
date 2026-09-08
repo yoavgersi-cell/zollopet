@@ -205,7 +205,7 @@ function ProviderMiniCard({
       <div className="flex items-center justify-between gap-3">
         <div className="flex h-[40px] w-[130px] items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={provider.logo} alt={`${provider.name} logo`} className="max-h-full max-w-full object-contain object-left" />
+          <img src={provider.logo} alt={`${provider.name} logo`} loading="lazy" decoding="async" className="max-h-full max-w-full object-contain object-left" />
         </div>
         <div className="flex flex-col items-center rounded-lg bg-[#1F4A33] px-2.5 py-1 text-white">
           <span className="text-[17px] font-extrabold leading-none">{position.score.toFixed(1)}</span>
@@ -459,7 +459,7 @@ export async function HubHome() {
                   className="mx-4 flex h-[28px] w-[92px] shrink-0 items-center justify-center opacity-60 grayscale sm:mx-8 sm:h-[34px] sm:w-[120px]"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={p.logo} alt={`${p.name} logo`} className="max-h-full max-w-full object-contain" />
+                  <img src={p.logo} alt={`${p.name} logo`} loading="lazy" decoding="async" className="max-h-full max-w-full object-contain" />
                 </div>
               ))}
             </div>
