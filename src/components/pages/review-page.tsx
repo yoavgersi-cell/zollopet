@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, X, ArrowRight, Users, Clock, Shield, Star, ArrowBigUp, ArrowBigDown, MessageCircle } from "lucide-react";
 import { getConfig } from "@/lib/config-store";
-import { AFFILIATE_PROVIDER_IDS, latestUpdate } from "@/lib/config";
+import { latestUpdate } from "@/lib/config";
 import {
   type SiteContext,
   canonicalUrl,
@@ -54,20 +54,17 @@ export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Me
   const pageTitle = override?.title ?? `${provider.name} Review 2026: Cost, Results & Is It Worth It?`;
   const pageDescription = override?.description ?? review.shortSummary;
 
-  // Reviews of non-affiliate providers don't monetize - de-index (but keep
-  // following links) so they stop diluting site-quality signals.
-  const isAffiliate = AFFILIATE_PROVIDER_IDS.includes(provider.id);
-
+  // Review pages are indexable on published verticals. The template's old
+  // "noindex non-affiliate reviews" rule assumed a mature affiliate roster;
+  // here AFFILIATE_PROVIDER_IDS is empty, so that rule was de-indexing every
+  // review - deep, unique pages (verified Trustpilot data, honest verdicts)
+  // that should be earning topical authority.
   const url = canonicalUrl(ctx, `/reviews/${slug}`);
 
   return {
     title: pageTitle,
     description: pageDescription,
-    robots: ctx.noindex
-      ? { index: false, follow: false }
-      : isAffiliate
-        ? undefined
-        : { index: false, follow: true },
+    robots: ctx.noindex ? { index: false, follow: false } : undefined,
     alternates: {
       canonical: url,
     },
