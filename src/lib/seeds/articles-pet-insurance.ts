@@ -324,5 +324,83 @@ export const petInsuranceArticles: ArticleData[] = [
           "Insure if: the cat is young with a clean record, a four-figure emergency would strain you, or you know yourself well enough to know the savings account wouldn't actually get funded. Lean savings if: the cat is older with a history that guts coverage, or you have real reserves and genuinely prefer retaining the risk. Either way, apply the standard discipline - quotes for your actual cat with matched terms, a pass through the sample policy, waiting periods noted - and decide now rather than after the first symptom, because in cats especially, the record is destiny. Our insurer comparison covers how the major brands differ once you've chosen a direction.",
       },
     ],
-  }
+  },
+  {
+    slug: "pet-insurance-reimbursement-rates",
+    title: "Pet Insurance Reimbursement Rates Explained (70%, 80%, 90%)",
+    description:
+      "What a pet insurance reimbursement rate actually means, how it interacts with your deductible and annual limit, and how to pick a percentage that fits your budget.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "The reimbursement rate is the share of a covered vet bill the insurer pays back after your deductible - commonly offered at levels like 70%, 80% or 90%.",
+      "Order of operations matters: most policies subtract the deductible first, then reimburse the chosen percentage of what remains.",
+      "A higher reimbursement rate means a higher premium - it shifts risk from you to the insurer.",
+      "The rate only applies to covered expenses: exclusions and waiting periods come first, whatever percentage you chose.",
+    ],
+    sections: [
+      {
+        heading: "What the percentage actually means",
+        body:
+          "The reimbursement rate is the portion of a covered veterinary bill your insurer pays back to you. Most US pet insurance runs on a reimbursement model: you pay the vet in full, submit the bill, and the insurer sends money back according to your policy's math. If your policy carries a 90% reimbursement rate, the insurer covers 90% of the eligible costs and the remaining 10% - the co-insurance - stays with you. Insurers typically let you choose the rate when you buy the policy, and that choice, together with your deductible and annual limit, defines what a claim actually pays.",
+      },
+      {
+        heading: "The order of operations: deductible first, then the percentage",
+        body:
+          "The part that surprises new policyholders is the sequence. On most policies, a claim is calculated by first subtracting whatever remains of your deductible, and only then applying the reimbursement percentage to what's left. That means the advertised percentage is not applied to the full vet bill - it's applied to the covered amount after the deductible. Policies differ in the details (a few apply the math in a different order, and Trupanion notably pairs a 90% rate with a per-condition rather than annual deductible), which is exactly why the sample policy - not the marketing page - is the document to read. Our guide to how pet insurance deductibles work walks through that first stage of the math.",
+      },
+      {
+        heading: "How to choose your rate",
+        body:
+          "A higher reimbursement rate buys you a smaller share of every big bill, in exchange for a higher monthly premium; a lower rate cheapens the premium but leaves more of each claim on you. There's no universally right answer - it's a question of which risk you'd rather hold. A useful way to decide: imagine the kind of bill that made you want insurance in the first place, and work out what you'd owe at each rate once the deductible and co-insurance are counted. If the higher-rate premium difference is small for your pet's quote, many owners take it; if it's steep, a mid-level rate with a manageable deductible often balances better. Get your own quote at more than one insurer - the same rate can price very differently for the same pet.",
+      },
+      {
+        heading: "What the rate does not change",
+        body:
+          "The reimbursement percentage applies only to covered expenses. It does nothing about exclusions - pre-existing conditions, and anything the policy carves out - and it doesn't shorten waiting periods. It also works inside your annual limit: once a year's covered payouts reach the policy's cap, the rate is irrelevant until the policy resets. When you compare insurers, read the three levers together - deductible, reimbursement rate, annual limit - because a generous number on one lever can hide a stingy one on another. Our pet insurance comparison lays out how the major insurers structure all three.",
+      },
+    ],
+  },
+  {
+    slug: "pet-insurance-annual-limits",
+    title: "Pet Insurance Annual Limits: How Coverage Caps Actually Work",
+    description:
+      "What an annual limit means in pet insurance, how it interacts with deductibles and reimbursement rates, and how to think about capped vs unlimited coverage.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "The annual limit is the most the insurer will pay out in covered claims per policy year - after that, every bill is yours until the policy resets.",
+      "Limits interact with the deductible and reimbursement rate: the cap applies to what the insurer pays, not to what the vet charges.",
+      "Some insurers offer unlimited annual coverage; others cap by year or even per condition - the sample policy says which.",
+      "The limit matters most in exactly the scenario insurance exists for: one catastrophic accident or illness.",
+    ],
+    sections: [
+      {
+        heading: "What an annual limit is",
+        body:
+          "The annual limit (or annual maximum) is the ceiling on what your insurer will pay in covered claims during one policy year. Choose a policy with a capped limit and, once the insurer's payouts reach that cap, further bills that year are entirely on you - the deductible and reimbursement rate stop mattering until the policy year resets. Insurers typically offer a menu of limits when you buy, from modest caps up to unlimited coverage, and the choice moves your premium the same way the reimbursement rate does: more protection, higher price.",
+      },
+      {
+        heading: "How the cap interacts with the other two levers",
+        body:
+          "Pet insurance math runs on three levers - deductible, reimbursement rate, annual limit - and they apply in that order. A claim is reduced by any remaining deductible, reimbursed at your percentage, and the resulting payout counts against the annual limit. Note what that implies: the limit measures the insurer's payouts, not the vet's charges, so a capped policy stretches further than a naive reading suggests - but it still runs out exactly when a very expensive year is underway. If you're not yet solid on the first lever, start with our explainer on how pet insurance deductibles work and come back to the cap with that math in hand.",
+      },
+      {
+        heading: "Capped vs unlimited - how to actually decide",
+        body:
+          "The annual limit is the lever that matters in the tail scenario: the road accident, the swallowed toy with complications, the cancer diagnosis - situations where costs pile up across surgeries, hospitalization and follow-up care within a single year. That's precisely the risk most people buy insurance to remove, which is a real argument for the highest limit (or unlimited option) your budget tolerates. The honest counterweight: unlimited coverage costs more every single month, and most policy years are ordinary ones. Quote your actual pet at two or three limit levels and look at the premium gap - the answer tends to make itself obvious for your budget.",
+      },
+      {
+        heading: "The fine print worth checking",
+        body:
+          "Two structures deserve a close read in any sample policy. First, some policies cap per incident or per condition rather than (or in addition to) per year, which changes how a chronic illness is covered over its lifetime. Second, check what happens at renewal: annual limits reset, but a condition that appeared this year is a pre-existing condition next year at a new insurer - one of the strongest practical reasons the annual limit you choose at sign-up matters for the whole relationship, not just year one. Our comparison of the major pet insurers covers how each structures its limits.",
+      },
+    ],
+  },
 ];

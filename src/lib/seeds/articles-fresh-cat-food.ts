@@ -285,4 +285,82 @@ export const freshCatFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "how-many-calories-does-a-cat-need",
+    title: "How Many Calories Does a Cat Need Per Day?",
+    description:
+      "How feline calorie needs actually work - what drives them, why label feeding guides overshoot, how to get your cat's real number, and how to portion to it.",
+    category: "Nutrition",
+    readTime: "6 min read",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "A cat's calorie needs depend on weight, age, activity, and whether it's spayed/neutered - there is no single number that fits every cat.",
+      "Indoor, neutered adult cats need meaningfully fewer calories than feeding-guide defaults often assume - which is how quiet overfeeding happens.",
+      "The reliable number comes from your vet, calculated for your cat's target weight, not its current one.",
+      "Once you have the number, the work is portioning: measured meals, counted treats, and a kitchen scale beat eyeballing.",
+    ],
+    sections: [
+      {
+        heading: "Why there's no one-size number",
+        body:
+          "Feline calorie needs are driven by body weight, life stage, activity level, and neuter status - a lean young outdoor hunter and a neutered indoor lap cat can differ enormously in daily energy needs. Growth, pregnancy and nursing push requirements up sharply; the typical neutered indoor adult sits at the modest end of the range. This is why generic numbers and even food-label feeding guides can mislead: they describe an average cat that may be nothing like yours, and they commonly skew generous. Treat any number you read - including a calculator's output - as a starting point to refine, not a prescription.",
+      },
+      {
+        heading: "Getting your cat's actual number",
+        body:
+          "The dependable route is your vet: they'll weigh your cat, assess body condition by feel (ribs, waist, belly), and compute a daily calorie target - crucially, for the weight your cat should be, not the weight it is. That target-weight distinction is what makes the number useful for the many indoor cats carrying extra weight; feeding to current weight locks the extra in. If a weight problem is on the table, pair the calorie number with a safe, gradual plan - our guide to helping a cat lose weight covers why crash-dieting cats is genuinely dangerous and what a safe pace looks like.",
+      },
+      {
+        heading: "Turning the number into meals",
+        body:
+          "Calories per day only work if portions are measured. Check the calorie content printed on your food's label (kcal per can, cup or pack), divide your cat's daily target across two to four scheduled meals, and measure with a kitchen scale or a proper measuring scoop rather than a guess. Count treats inside the budget - they're easy to forget and quick to add up. Portion-controlled feeding is also where fresh cat food subscriptions have a structural edge: portions arrive pre-measured against your cat's profile, taking the daily arithmetic out of your hands. Whatever you feed, the pattern that works is the same - a known daily number, split into measured meals, adjusted by results.",
+      },
+      {
+        heading: "Adjust by the cat, not the math",
+        body:
+          "The calorie target is a hypothesis; your cat's body is the data. Weigh in every couple of weeks and watch body condition: you should be able to feel ribs under a light fat cover and see a waist from above. Weight drifting up - trim portions modestly; dropping below target or losing weight you didn't plan - feed more and mention it to your vet, since unplanned weight loss in cats is a medical sign, not a bonus. Needs also shift with age and season, so the number that was right at three may need revisiting at nine. The habit of measuring - food and cat - is what keeps the whole system honest.",
+      },
+    ],
+  },
+  {
+    slug: "is-my-cat-overweight",
+    title: "Is My Cat Overweight? How to Tell at Home",
+    description:
+      "How to check whether your cat is overweight using body condition - the rib test, the waist check, the belly profile - and what to do if the answer is yes.",
+    category: "Guide",
+    readTime: "5 min read",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Body condition beats the scale: vets judge feline weight by feel and silhouette, not by a universal ideal number.",
+      "Three home checks - ribs under the hands, a visible waist from above, a gentle belly tuck from the side - tell you most of what you need.",
+      "Extra weight in cats is linked to real disease risk, including diabetes and joint problems - it's a health issue, not a look.",
+      "If your cat is carrying extra, the fix is gradual and vet-guided - never a crash diet.",
+    ],
+    sections: [
+      {
+        heading: "Why 'how many pounds' is the wrong question",
+        body:
+          "Healthy weight varies so much between feline frames - a lanky domestic shorthair and a naturally stocky breed can both be ideal at very different weights - that vets rely on body condition scoring instead of a universal number. Body condition reads the cat itself: how much fat covers the ribs, whether a waist exists, what the belly line does. That's good news for owners, because the same checks work at home with your hands and eyes, no equipment needed.",
+      },
+      {
+        heading: "The three checks",
+        body:
+          "First, the rib test: run flat hands along your cat's sides. At a healthy weight you feel ribs easily under a thin, smooth fat cover - like the back of your hand. Pressing hard to find ribs means excess cover; ribs sharp under the skin means too lean. Second, the waist check: viewed from above, a healthy cat narrows visibly behind the ribs. A straight or outward-bulging line where the waist should be is a weight flag. Third, the profile: from the side, the belly should tuck gently upward behind the ribcage. A hanging pouch alone can be the normal primordial pouch many cats have - but a rounded, taut abdomen paired with a failed rib or waist check completes the picture. Two or three failed checks: assume extra weight and confirm with your vet.",
+      },
+      {
+        heading: "Why it matters",
+        body:
+          "Feline excess weight is one of the most common issues vets see, and it isn't cosmetic. Carrying extra fat is associated with elevated risk of diabetes, arthritis and joint strain, urinary problems, and complications under anesthesia - and it quietly shrinks a cat's play, grooming and comfort long before any disease shows up. The encouraging flip side: weight is one of the few risk factors an owner directly controls, and cats respond well to a properly run plan.",
+      },
+      {
+        heading: "If the answer is yes",
+        body:
+          "Start with a vet visit to confirm the assessment, rule out medical contributors, and get a target weight with a daily calorie number - then run the plan gradually. Speed is the one thing you must not chase: cats that lose weight too fast, or stop eating, risk hepatic lipidosis, a serious liver condition, so the safe pace is slow and steady. Our full guide to helping a cat lose weight covers the mechanics - measured meals, closed food economy, play that burns calories - and our calorie guide explains how to set the daily number the plan runs on.",
+      },
+    ],
+  },
 ];
