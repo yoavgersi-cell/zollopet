@@ -297,7 +297,7 @@ export const petInsuranceArticles: ArticleData[] = [
     updatedAt: "2026-09-01",
     heroColor: "#8A6D1F",
     keyTakeaways: [
-      "Indoor life prevents accidents, not illness - and illness is where feline vet spending concentrates.",
+      "Indoor life reduces accident risk, not illness risk - and illness is where feline vet spending concentrates.",
       "Urinary blockages, kidney disease, hyperthyroidism and diabetes are the classic expensive cat conditions, and none checks whether the window was closed.",
       "Cat premiums typically run lower than dog premiums, which changes the value math in cats' favor.",
       "The strongest cat case: insure young, before anything enters the record; for seniors with history, weigh savings honestly.",

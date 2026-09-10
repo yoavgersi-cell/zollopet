@@ -508,6 +508,17 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
           </div>
 
 
+          {/* Veterinary content disclaimer - every article carries it, above
+              the sources, where a professional reviewer expects to find it. */}
+          <div className="mt-10 rounded-xl border border-[#1F4A33]/15 bg-[#1F4A33]/[0.03] px-5 py-4">
+            <p className="text-[13px] leading-relaxed text-gray-600">
+              <strong className="text-[#22362A]">Veterinary disclaimer:</strong>{" "}This article is for
+              general information only and is not veterinary advice. Every pet is different - always
+              consult a licensed veterinarian about your pet&rsquo;s diet, health and care, and never
+              delay seeking veterinary care because of something you read here.
+            </p>
+          </div>
+
           <MedicalSources vertical={ctx.vertical} />
 
           </div>

@@ -27,6 +27,16 @@ export const SOURCES_BY_VERTICAL: Record<string, MedicalSource[]> = {
       publisher: "World Small Animal Veterinary Association (WSAVA)",
       href: "https://wsava.org/global-guidelines/global-nutrition-guidelines/",
     },
+    {
+      label: "Nutrition tools and resources for veterinary teams and pet owners",
+      publisher: "Pet Nutrition Alliance",
+      href: "https://petnutritionalliance.org/",
+    },
+    {
+      label: "Pet weight management resources and obesity prevalence surveys",
+      publisher: "Association for Pet Obesity Prevention",
+      href: "https://www.petobesityprevention.org/",
+    },
   ],
   "fresh-cat-food": [
     {
@@ -44,6 +54,16 @@ export const SOURCES_BY_VERTICAL: Record<string, MedicalSource[]> = {
       publisher: "World Small Animal Veterinary Association (WSAVA)",
       href: "https://wsava.org/global-guidelines/global-nutrition-guidelines/",
     },
+    {
+      label: "Feline health topics - nutrition, obesity, hepatic lipidosis and everyday care",
+      publisher: "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+      href: "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center",
+    },
+    {
+      label: "Pet weight management resources and obesity prevalence surveys",
+      publisher: "Association for Pet Obesity Prevention",
+      href: "https://www.petobesityprevention.org/",
+    },
   ],
   "dog-dna-tests": [
     {
@@ -56,6 +76,11 @@ export const SOURCES_BY_VERTICAL: Record<string, MedicalSource[]> = {
       publisher: "NIH / NHGRI",
       href: "https://www.genome.gov/",
     },
+    {
+      label: "Canine health screening databases and breed health statistics",
+      publisher: "Orthopedic Foundation for Animals (OFA)",
+      href: "https://ofa.org/",
+    },
   ],
   "pet-insurance": [
     {
@@ -64,9 +89,14 @@ export const SOURCES_BY_VERTICAL: Record<string, MedicalSource[]> = {
       href: "https://content.naic.org/",
     },
     {
-      label: "Animal & Veterinary - veterinary care resources",
-      publisher: "U.S. Food & Drug Administration",
-      href: "https://www.fda.gov/animal-veterinary",
+      label: "Industry data and consumer guides for pet health insurance in North America",
+      publisher: "North American Pet Health Insurance Association (NAPHIA)",
+      href: "https://naphia.org/",
+    },
+    {
+      label: "Veterinary care and pet owner resources",
+      publisher: "American Veterinary Medical Association",
+      href: "https://www.avma.org/",
     },
   ],
 };
