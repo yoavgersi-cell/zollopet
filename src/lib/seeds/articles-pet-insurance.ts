@@ -403,4 +403,82 @@ export const petInsuranceArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "how-to-file-a-pet-insurance-claim",
+    title: "How to File a Pet Insurance Claim (And Get Paid Faster)",
+    description:
+      "The pet insurance claim process step by step - what to collect at the vet, how submission works, what slows claims down, and what to do if a claim is denied.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Most US pet insurance is reimbursement-based: you pay the vet, submit the claim, and the insurer pays you back per your policy's math.",
+      "The core package is simple: the itemized invoice plus your pet's medical records - complete records are what fast claims are made of.",
+      "The most common slowdowns are missing records, a first claim (which triggers a full history review), and anything near the pre-existing line.",
+      "A denial is not the end: insurers have appeal processes, and your state insurance department takes complaints.",
+    ],
+    sections: [
+      {
+        heading: "How reimbursement actually flows",
+        body:
+          "With most US pet insurers, the sequence is: you pay the veterinary bill in full at checkout, submit a claim with the paperwork, and the insurer reimburses you according to your policy - deductible first, then your reimbursement percentage, inside your annual limit. (Our guides to deductibles, reimbursement rates and annual limits cover that math.) The notable exception is Trupanion's direct-pay system, which can settle its share with participating hospitals at checkout so you front less. Submission itself is app-first almost everywhere now: photograph the invoice, attach records, done - Healthy Paws and Lemonade built their reputations on exactly this flow.",
+      },
+      {
+        heading: "What to collect before you leave the vet",
+        body:
+          "Two documents drive everything: the itemized invoice (not just a payment receipt - it must show each line of diagnosis, treatment and cost) and your pet's medical records for the visit, including the vet's notes. Ask for both at checkout; clinics handle these requests constantly. For a first claim with a new insurer, expect to also need your pet's full prior history - insurers review it to establish what counts as pre-existing. Keeping a folder (digital is fine) with adoption paperwork, vaccination history and every visit summary turns claim-filing from an errand into an upload.",
+      },
+      {
+        heading: "What slows claims down - and how to avoid it",
+        body:
+          "Three patterns cause most delays. First claims take longest, because the full medical-history review happens once, up front - some owners submit a small early claim partly to get that review done before anything big happens. Missing or partial records are the second: the insurer has to chase your clinic, and the clock stops while they wait. Third, anything adjacent to a possible pre-existing condition gets extra scrutiny - which is one more reason the enrollment-era vet visit and clean records matter. What you control: submit promptly (policies have claim deadlines, often a set number of days after treatment), send complete paperwork the first time, and answer follow-up requests fast.",
+      },
+      {
+        heading: "If a claim is denied",
+        body:
+          "Read the denial reason first - a surprising share are administrative (missing document, wrong form) and resolve with a resubmission. If the denial is substantive, say a pre-existing determination you believe is wrong, every major insurer has a formal appeal process; your vet can often help by writing a clarifying letter about the condition's history and onset. Beyond the insurer, pet insurance is regulated at the state level: your state insurance department accepts consumer complaints, and NAIC's consumer resources explain the process. Keep the whole paper trail - it is exactly what appeals run on.",
+      },
+    ],
+  },
+  {
+    slug: "pet-insurance-waiting-periods",
+    title: "Pet Insurance Waiting Periods: What They Are and Why They Exist",
+    description:
+      "How pet insurance waiting periods work - the typical accident, illness and orthopedic windows, why insurers use them, and what they mean for when you should enroll.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "A waiting period is the stretch after enrollment during which new conditions aren't covered yet - it exists to stop people from buying insurance on the way to the vet.",
+      "Policies typically set different windows for accidents (short), illnesses (longer), and orthopedic conditions (often the longest).",
+      "Anything that appears during a waiting period is treated as pre-existing - which can matter for the rest of your pet's life.",
+      "Waiting periods are the single strongest argument for enrolling while your pet is young and healthy.",
+    ],
+    sections: [
+      {
+        heading: "What a waiting period is",
+        body:
+          "Every pet insurance policy has a gap between the day coverage starts and the day it actually pays: the waiting period. Sign up today, and an illness that shows up tomorrow is not covered - not because of fine-print trickery, but because insurance only works when people can't buy it after the bad thing has already begun. Without waiting periods, the economics collapse: everyone would enroll in the parking lot of the emergency clinic. The practical takeaway runs the other direction, though - it's a reason to enroll before anything happens, not after.",
+      },
+      {
+        heading: "The typical windows",
+        body:
+          "Insurers set separate waiting periods by category, and the pattern across the industry is consistent even where the exact day-counts differ: accident coverage starts fastest (commonly within days), illness coverage takes longer (commonly a couple of weeks), and orthopedic or cruciate-ligament conditions often carry the longest windows - sometimes months, sometimes reducible with a vet exam and waiver where the insurer offers one. We deliberately don't print each brand's exact day-counts here: they differ by insurer and by state, and they change. The sample policy states them precisely - it's a thirty-second check, and our insurer comparison links to where each brand's terms live.",
+      },
+      {
+        heading: "The pre-existing trap inside the waiting period",
+        body:
+          "Here is the part that catches people: a condition that first shows symptoms during the waiting period doesn't just go uncovered that week - it becomes a pre-existing condition for that policy, and pre-existing conditions are excluded by essentially every US pet insurer. A limp that appears three days into your illness waiting period can shadow your coverage for years. This is also why insurers review medical records on first claims, and why switching insurers restarts the clock: new policy, new waiting periods, and everything in your pet's history so far is pre-existing to the new company. Our guide to pre-existing conditions covers that landscape in full.",
+      },
+      {
+        heading: "What this means for timing",
+        body:
+          "The waiting-period math points one direction: the best time to enroll is when your pet is young, healthy, and boring - before there is anything for a waiting period or a pre-existing exclusion to catch. Enrolling a healthy two-year-old means the windows pass uneventfully and everything after is clean coverage. Enrolling the week of a suspicious symptom means racing clocks you cannot beat. If you're weighing when to buy, our guide on when to get pet insurance walks the full decision - and whichever insurer you choose, read its sample policy for the exact windows before you rely on them.",
+      },
+    ],
+  },
 ];

@@ -329,5 +329,83 @@ export const freshDogFoodArticles: ArticleData[] = [
           "Trips need planning: a cooler bridges short journeys, and some households keep a small supply of a shelf-stable backup their dog tolerates for travel - if you do, introduce it before the trip, not during. As for slip-ups, apply the human-food test honestly: a pack forgotten out overnight gets discarded, not sniffed and rationalized. The cost of a wasted pack is real but small; the point of feeding fresh was treating your dog's food with human-food care, and that includes throwing it out on the same rules.",
       },
     ],
-  }
+  },
+  {
+    slug: "best-dog-food-for-sensitive-stomachs",
+    title: "Best Dog Food for Sensitive Stomachs: What Actually Helps",
+    description:
+      "Feeding a dog with a sensitive stomach - what 'sensitive' usually means, ingredient and format factors that help, how fresh food fits, and when it's a vet problem.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "'Sensitive stomach' is a description, not a diagnosis - rule out medical causes with your vet before treating it as a food problem.",
+      "Consistency, simple recipes, and slow transitions help sensitive dogs more than any single magic ingredient.",
+      "Limited-ingredient and highly digestible foods give you cleaner variables when finding what your dog tolerates.",
+      "Owners of sensitive dogs in fresh-food reviews commonly report improvement - anecdotes worth noting, not clinical proof.",
+    ],
+    sections: [
+      {
+        heading: "What 'sensitive stomach' actually means",
+        body:
+          "Occasional soft stool, gas that clears a room, the odd skipped meal - many dogs earn the 'sensitive stomach' label from symptoms that are common, intermittent, and food-responsive. But the label is a description, not a diagnosis: chronic vomiting, persistent diarrhea, weight loss, or blood are medical signs that need a vet before any diet experiment - conditions from parasites to pancreatitis to food allergy present as 'sensitive stomach' and are treated very differently. The guidance here is for the healthy dog whose digestion is merely dramatic, confirmed as such by a professional.",
+      },
+      {
+        heading: "The factors that actually help",
+        body:
+          "Three things do most of the work for sensitive dogs. Consistency: sensitive digestion hates surprises, so a fixed recipe, fixed portions and a fixed schedule beat variety. Simplicity: fewer ingredients mean fewer suspects when something disagrees - the logic behind limited-ingredient diets - and recognizable, highly digestible recipes give the gut less work. Slowness: every food change, even an upgrade, transitions over a week or more (our switching guide covers the mechanics), because the fastest way to confirm a dog's sensitivity is to change its food overnight. Supplements, toppers and trendy add-ons come a distant fourth to these three.",
+      },
+      {
+        heading: "Where fresh food fits",
+        body:
+          "Fresh subscriptions align well with the sensitive-stomach checklist by construction: recipes are short and legible, portions are fixed to your dog's profile, and the same food arrives every time. It's notable that palatability-plus-digestion stories dominate the verified customer reviews we track - Spot & Tango's Trustpilot record, for instance, features owners of picky, sensitive dogs specifically (one 14-year-old terrier's owner: 'We've had no stomach issues... eats it every time'). Honest framing: these are real customer anecdotes, not clinical trials, and fresh food is not a treatment for anything. But for a healthy dog with dramatic digestion, a simple, consistent, digestible recipe is exactly the right shape of food - our comparison covers how the fresh brands differ.",
+      },
+      {
+        heading: "Running a fair food trial",
+        body:
+          "Whatever you try, run it like an experiment: one variable at a time, a full slow transition, then several weeks on the new food exclusively - no treats off-menu, no table scraps, no second experiments mid-trial - while you track stool quality, appetite and energy. Improvement that survives a month is signal; a chaotic week during transition is noise. If nothing helps after fair trials of a couple of well-chosen foods, or if symptoms escalate at any point, that's the exit ramp back to the vet: persistent digestive trouble in a dog eating good food consistently is a medical question, and possibly an allergy workup, not a shopping question.",
+      },
+    ],
+  },
+  {
+    slug: "how-much-does-fresh-dog-food-cost",
+    title: "How Much Does Fresh Dog Food Cost? The Honest Answer",
+    description:
+      "Why fresh dog food has no list price - what actually drives your quote, how to compare brands fairly, and how to decide whether the premium is worth it for your dog.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Fresh dog food has no sticker price: every major brand quotes per dog, from weight, age, activity and recipe choices.",
+      "Your dog's size is the dominant cost driver - the same brand can cost several times more for a large dog than a small one.",
+      "The only fair comparison is running two or three quote flows with the same dog profile and comparing the per-day numbers.",
+      "Fresh costs meaningfully more than kibble everywhere - the real question is what the gap buys for your specific dog.",
+    ],
+    sections: [
+      {
+        heading: "Why nobody can tell you the price",
+        body:
+          "Ask what fresh dog food costs and every honest answer starts the same way: it depends on your dog. The major brands - The Farmer's Dog, Ollie, Nom Nom, Spot & Tango - all price the same way: you build a profile (breed, age, weight, activity, sensitivities), and the quote engine returns a per-day price for the portions your dog needs. A Yorkie and a Labrador on the identical recipe get wildly different numbers because one eats several times the calories of the other. That's also why we don't print per-brand prices we haven't verified for a specific profile: any single number would be wrong for most dogs reading it. What we can do is show you what moves the number and how to compare fairly.",
+      },
+      {
+        heading: "What actually drives your quote",
+        body:
+          "Size dominates: calories scale with body weight, so the food bill scales with the dog. Activity and age adjust the calorie target up or down from there. Recipe choice matters at some brands - proteins price differently. Format is a real lever at the two-format brands: Spot & Tango's UnKibble and Ollie's baked line typically position as more affordable routes than full fresh at the same brand, and mixed plans (part fresh, part dry) are the common budget compromise. Frequency and plan settings round it out. None of this is hidden - it's all visible in ten minutes of quote flow, which is precisely why the quote flow is the only price source worth trusting.",
+      },
+      {
+        heading: "How to compare brands fairly",
+        body:
+          "Run the same dog through two or three quote flows in one sitting - same weight, same activity level, same honesty about body condition - and write down the per-day numbers. Per-day is the unit that matters: monthly totals differ with delivery cadence and box sizes in ways that obscure the real comparison. While you're in each flow, note the trial offer (introductory discounts are common and change often - another reason printed prices go stale) and check the pause and cancellation terms, since the realistic scenario is trying one brand, then maybe another. Our fresh dog food comparison ranks the brands on everything except your price - that number, only the quote flows can give you.",
+      },
+      {
+        heading: "Is the premium worth it?",
+        body:
+          "Fresh food costs more than kibble for every dog, everywhere - the gap just varies from 'modest treat' for a small dog to 'car payment' for a giant breed, as one Trustpilot reviewer memorably put it. Whether it's worth it is genuinely dog-specific: the case is strongest for picky eaters, dogs with dramatic digestion, and owners who value ingredient legibility enough to pay for it - and weakest when a quality kibble already suits a dog perfectly well, which is often. Our guide to whether fresh dog food is worth it works through that decision honestly. Run your quote, look at the real per-day gap for your dog, and decide with actual numbers instead of vibes.",
+      },
+    ],
+  },
 ];

@@ -363,4 +363,82 @@ export const freshCatFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "how-often-should-i-feed-my-cat",
+    title: "How Often Should I Feed My Cat? Meal Frequency, Honestly",
+    description:
+      "How many meals a day cats actually do best on - kittens vs adults vs seniors, why free-feeding backfires, and how to build a schedule your cat accepts.",
+    category: "Nutrition",
+    readTime: "6 min read",
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Most healthy adult cats do well on two to three scheduled meals a day; kittens need more frequent meals while growing.",
+      "Frequency and amount are separate questions - the daily calorie total matters more than how it's split.",
+      "Free-feeding (the always-full bowl) is the main driver of quiet overeating in indoor cats.",
+      "Cats are habit animals: a consistent schedule matters more than the specific hours you choose.",
+    ],
+    sections: [
+      {
+        heading: "The frequency baseline",
+        body:
+          "For healthy adult cats, the common veterinary guidance lands on two to three meals a day - cats' stomachs are small and their instinct is many small hunts, but domestic routines and measured feeding meet in the middle at a few scheduled meals. Kittens are different: while growing they need more frequent feeding (often three to four meals) because they can't take in enough calories in two sittings. Seniors usually stay on the adult pattern unless a medical condition says otherwise. If your cat has diabetes, kidney disease or any condition with a feeding protocol, your vet's schedule overrides anything generic - including this.",
+      },
+      {
+        heading: "Frequency is not amount",
+        body:
+          "Splitting food into more meals doesn't license more food - the day's total is set by your cat's calorie needs, and the meals are just how it's divided. This is where frequency questions usually turn out to be portion questions in disguise: a cat 'always begging between meals' is often simply eating more than it needs at each one, on a schedule nobody measured. Our guides to how much to feed a cat and how many calories a cat needs cover setting the daily number; once you have it, divide by your chosen meal count and measure.",
+      },
+      {
+        heading: "Why the always-full bowl backfires",
+        body:
+          "Free-feeding dry food is the default in many homes because it's easy - and it's the single biggest contributor to quiet, steady weight gain in indoor cats. Nobody knows how much the cat ate, boredom snacking is unlimited, and in multi-cat homes the fastest eater takes the surplus. Scheduled, measured meals fix all three at once, and they add a diagnostic bonus: a cat that skips a scheduled meal gets noticed the same day, while a grazing cat's appetite loss can hide for a week. Appetite is one of the earliest signals cats give us; a schedule makes it legible.",
+      },
+      {
+        heading: "Building a schedule your cat accepts",
+        body:
+          "Pick times you can hold seven days a week - cats forgive nothing about weekend sleep-ins - and expect a noisy transition week if you're coming off free-feeding; the campaigning passes. Automatic feeders hold the line at dawn better than humans do. Fresh cat food subscriptions fit naturally here since portions arrive pre-measured per meal. And if a previously food-motivated cat starts refusing scheduled meals, treat it as information, not stubbornness: appetite changes in cats warrant a vet call sooner rather than later - cats that stop eating for more than a day or two risk serious liver trouble.",
+      },
+    ],
+  },
+  {
+    slug: "why-is-my-cat-always-hungry",
+    title: "Why Is My Cat Always Hungry? Behavior, Diet, and Red Flags",
+    description:
+      "Why a cat seems constantly hungry - boredom and habit, diet that doesn't satisfy, and the medical causes (hyperthyroidism, diabetes, parasites) that need a vet.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Constant begging is often learned behavior or boredom - but true, new, relentless hunger is a symptom worth taking seriously.",
+      "Diet shape matters: high-carbohydrate feeding can leave an obligate carnivore less satisfied than protein-forward food.",
+      "Increased appetite with weight loss is a classic red-flag combination - hyperthyroidism, diabetes and parasites all present this way.",
+      "The deciding question is change: a cat that's always been food-obsessed differs from one that recently became ravenous.",
+    ],
+    sections: [
+      {
+        heading: "First, is it hunger or habit?",
+        body:
+          "Cats are superb behavioral scientists, and many 'starving' cats have simply trained their humans: meowing at the kitchen produced food once, so the experiment repeats forever. Begging that clusters around your routines - wake-up, coming home, cooking - and switches off when ignored for a few days is behavior, not appetite. Boredom feeds the same loop: an under-stimulated indoor cat treats the food bowl as the only event on the calendar. Play sessions, food-puzzle toys and a firm scheduled-meal routine (see our meal frequency guide) starve the habit without starving the cat.",
+      },
+      {
+        heading: "When the diet doesn't satisfy",
+        body:
+          "Cats are obligate carnivores wired for protein and fat; a diet heavy in carbohydrate can deliver the calories without delivering the satisfaction, leaving a cat that finished its bowl and still campaigns. If the begging is real but the vet checks out clean, the composition question is worth asking: protein-forward, higher-moisture feeding - quality canned or fresh recipes - tends to satisfy feline appetite better per calorie than dry, carb-heavy food. Portion honesty matters too: measured meals against a real calorie target (our calorie guide covers setting one) rule out the possibility that the cat is hungry because it is, in fact, underfed.",
+      },
+      {
+        heading: "The medical causes you must not miss",
+        body:
+          "A genuinely increased appetite - new, persistent, and especially paired with weight loss - is a classic presentation of several treatable feline conditions. Hyperthyroidism, common in middle-aged and senior cats, famously produces a ravenous cat that loses weight anyway. Diabetes can do the same, typically with increased drinking and urination alongside. Intestinal parasites take their share of the food before the cat does. None of these are diagnosable at home and all of them respond best to early treatment, so the combination of eats-more-weighs-less earns a vet visit promptly - it is among the most information-rich symptom pairs a cat can show.",
+      },
+      {
+        heading: "How to tell the difference",
+        body:
+          "Run on the axis of change. A cat that has always been an enthusiastic eater, holds a stable healthy weight (our guide to checking if your cat is overweight shows how), and begs on schedule is a behavioral case: structure and enrichment fix it. A cat whose appetite recently changed - up or down - or whose weight is moving without a diet change is a medical case until a vet says otherwise. When in doubt, a weigh-in and a basic senior panel are cheap answers to an important question, and your vet would far rather see a false alarm than a late hyperthyroid cat.",
+      },
+    ],
+  },
 ];
