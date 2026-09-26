@@ -12,7 +12,7 @@ function verticalName(id: string): string {
 export async function articlesIndexMetadata(ctx: SiteContext): Promise<Metadata> {
   const url = canonicalUrl(ctx, "/articles");
   const vName = verticalName(ctx.vertical);
-  const title = `${vName} Articles - Research, Guides & Expert Insights`;
+  const title = `${vName} Guides & Articles`;
   const description = `Evidence-based ${vName.toLowerCase()} guides and research - treatment options, what to expect, and choosing the right online provider.`;
   return {
     title,
@@ -22,6 +22,7 @@ export async function articlesIndexMetadata(ctx: SiteContext): Promise<Metadata>
       canonical: url,
     },
     openGraph: {
+      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
       title,
       description,
       url,
@@ -71,7 +72,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `${vName} Articles - Research, Guides & Expert Insights`,
+    name: `${vName} Guides & Articles`,
     description: `Evidence-based ${vName.toLowerCase()} guides and research - treatment options, what to expect, and choosing the right online provider.`,
     url: canonicalUrl(ctx, "/articles"),
     mainEntity: {

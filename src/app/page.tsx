@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     absolute: "ZolloPet - Compare the Best Pet Products & Services",
   },
   description:
-    "Compare fresh dog food, fresh cat food, pet insurance and dog DNA tests side by side - independent reviews of real brands, honest about what we have and haven't verified.",
+    "Compare fresh dog & cat food, pet insurance and dog DNA tests side by side - independent reviews of real brands, honest verdicts.",
   alternates: { canonical: "https://www.zollopet.com" },
   openGraph: {
     title: "ZolloPet - Compare the Best Pet Products & Services",

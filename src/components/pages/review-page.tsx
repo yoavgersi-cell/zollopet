@@ -51,7 +51,7 @@ export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Me
   // a shared provider id on another vertical (directmeds on HRT) falls back to
   // the generic template instead of inheriting weight-loss claims.
   const override = ctx.vertical === "weight-loss" ? REVIEW_SEO_OVERRIDES[slug] : undefined;
-  const pageTitle = override?.title ?? `${provider.name} Review 2026: Cost, Results & Is It Worth It?`;
+  const pageTitle = override?.title ?? `${provider.name} Review 2026: Cost & Verdict`;
   const pageDescription = override?.description ?? review.shortSummary;
 
   // Review pages are indexable on published verticals. The template's old
@@ -69,6 +69,7 @@ export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Me
       canonical: url,
     },
     openGraph: {
+      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
       title: pageTitle,
       description: pageDescription,
       url,
@@ -145,7 +146,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
       review: {
         "@type": "Review",
         name: `${provider.name} Review`,
-        headline: `${provider.name} Review 2026: Cost, Results & Is It Worth It?`,
+        headline: `${provider.name} Review 2026: Cost & Verdict`,
         reviewBody: review.reviewIntro,
         datePublished: "2026-06-01",
         dateModified: latestUpdate(review.updatedAt),

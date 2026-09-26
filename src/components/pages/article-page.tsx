@@ -45,6 +45,7 @@ export async function articleMetadata(slug: string, ctx: SiteContext): Promise<M
       canonical: url,
     },
     openGraph: {
+      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
       title: override?.title ?? article.title,
       description: override?.description ?? article.description,
       url,

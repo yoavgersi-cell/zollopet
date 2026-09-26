@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "Our full methodology for ranking and reviewing pet brands: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners in head-to-head comparisons.",
   alternates: { canonical: CANONICAL },
   openGraph: {
+    images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
     title: "How We Rank & Review Pet Brands - Our Methodology",
     description:
       "The factors we score, where our data comes from, how we verify accuracy, and how we pick winners in our pet brand comparisons.",

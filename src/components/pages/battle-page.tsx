@@ -58,6 +58,7 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
       robots: ctx.noindex ? { index: false, follow: false } : undefined,
       alternates: { canonical: url },
       openGraph: {
+      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
         title: landing.seoTitle,
         description: landing.seoDescription,
         url,
@@ -100,6 +101,7 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
     robots: ctx.noindex ? { index: false, follow: false } : undefined,
     alternates: { canonical: url },
     openGraph: {
+      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
       title: metaTitle,
       description: metaDescription,
       url,

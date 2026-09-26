@@ -391,7 +391,7 @@ const battles: BattleData[] = [
     matchupLabel: "The Farmer's Dog vs Ollie",
     subtitle: "The category's two best-known fresh dog food subscriptions, compared honestly.",
     description:
-      "The Farmer's Dog vs Ollie: both deliver human-grade, personalized dog food on a subscription. How the two leaders differ - formats, model and what to verify before you buy either.",
+      "The Farmer's Dog vs Ollie: two leading fresh dog food subscriptions compared - formats, verified Trustpilot records, and what to check before buying.",
     intro:
       "The Farmer's Dog and Ollie are the two names most owners meet first when they look into fresh dog food, and they share the category's core promise: human-grade food, portioned to your dog's profile, delivered on a subscription. The honest starting point is that we haven't yet verified either brand's current per-day pricing for specific dog profiles - fresh food is quoted per dog, so no comparison table can hand you your own number. What we can compare is how the two models differ, and exactly what to check in each quote flow before you commit.",
     verdict:
@@ -525,7 +525,7 @@ const battles: BattleData[] = [
     matchupLabel: "Ollie vs Nom Nom",
     subtitle: "Two established fresh dog food subscriptions - format range vs nutrition-science positioning.",
     description:
-      "Ollie vs Nom Nom: two established fresh dog food brands compared - Ollie's fresh + baked format range against Nom Nom's vet-nutritionist-led positioning, and what to verify before buying.",
+      "Ollie vs Nom Nom: fresh + baked format range against vet-nutritionist-led recipes - verified Trustpilot records and what to verify before buying.",
     intro:
       "Ollie and Nom Nom are both established fresh dog food subscriptions running the category's standard model: personalized plans, human-grade-quality recipes, recurring delivery. The real differences are at the edges - Ollie offers fresh and gently baked formats in one plan, while Nom Nom centers its pitch on recipes formulated by board-certified veterinary nutritionists. We haven't verified either brand's current pricing or full recipe lineup, so this comparison sticks to what's publicly observable and what to check in each quote flow.",
     verdict:
@@ -592,7 +592,7 @@ const battles: BattleData[] = [
     matchupLabel: "The Farmer's Dog vs Spot & Tango",
     subtitle: "The category's reference brand vs the fresh brand with a dry-format twist.",
     description:
-      "The Farmer's Dog vs Spot & Tango: the fresh dog food category leader against the brand behind UnKibble. How the two models differ, and what to verify in both quote flows before buying.",
+      "The Farmer's Dog vs Spot & Tango: the category's biggest name against the brand behind UnKibble - verified records and what to check before buying.",
     intro:
       "The Farmer's Dog and Spot & Tango sell the same core promise - personalized, human-grade dog food on a subscription - but they answer the format question differently. The Farmer's Dog is fresh-only and proudly so; Spot & Tango offers fresh recipes plus UnKibble, a dry-format food built with a fresh-style ingredient approach. We haven't verified either brand's current per-dog pricing or exact recipe lineup, so this comparison sticks to how the models differ and what to check in each quote flow before you commit.",
     verdict:
@@ -659,7 +659,7 @@ const battles: BattleData[] = [
     matchupLabel: "Ollie vs Spot & Tango",
     subtitle: "The two multi-format fresh brands - fresh + baked vs fresh + UnKibble.",
     description:
-      "Ollie vs Spot & Tango: the only two brands in our lineup offering a second format beyond fresh packs. Gently baked vs UnKibble dry - how they compare and what to verify before buying.",
+      "Ollie vs Spot & Tango: the two multi-format fresh brands - gently baked vs UnKibble dry - compared on verified records and format fit.",
     intro:
       "Ollie and Spot & Tango are the format-flexible pair of the fresh dog food category: both run the standard personalized, human-grade subscription model, and both offer a second format alongside fresh packs. Ollie's is a gently baked line; Spot & Tango's is UnKibble, a true dry-format food with a fresh-style ingredient approach. We haven't verified current per-dog pricing or exact recipe lineups at either brand, so this comparison sticks to the observable differences and what to check in both quote flows.",
     verdict:

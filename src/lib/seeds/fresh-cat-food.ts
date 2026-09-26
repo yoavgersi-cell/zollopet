@@ -186,7 +186,7 @@ const battles: BattleData[] = [
     matchupLabel: "Smalls vs Raised Right",
     subtitle: "The cat-specialist category leader vs a family-run, transparency-first brand.",
     description:
-      "Smalls vs Raised Right: both make human-grade fresh food for cats. The cat-only category leader against a small-batch family brand - compared honestly, with what to verify before buying.",
+      "Smalls vs Raised Right: the cat-only category leader against a small-batch family brand - compared honestly, with what to verify before buying.",
     intro:
       "Smalls and Raised Right both sell the same core upgrade - human-grade food for your cat, delivered on a subscription - from two very different kinds of company. Smalls is the fresh-cat-food category leader, built exclusively around cats. Raised Right is a family-run brand serving cats and dogs with low-carbohydrate, small-batch recipes and a transparency-first identity. We haven't verified current pricing or the exact recipe lineup at either brand, so this comparison sticks to what's publicly observable and what to check in both quote flows.",
     verdict:
@@ -252,7 +252,7 @@ const battles: BattleData[] = [
     matchupLabel: "Smalls vs Darwin's",
     subtitle: "The fresh cat food leader vs the raw-feeding specialist - a cooked-vs-raw decision.",
     description:
-      "Smalls vs Darwin's Natural Pet: gently cooked, human-grade cat food against a raw-feeding specialist. The cooked-vs-raw trade-offs, compared honestly, with what to verify before buying.",
+      "Smalls vs Darwin's: gently cooked, human-grade cat food against a raw-feeding specialist - the cooked-vs-raw trade-offs, compared honestly.",
     intro:
       "Smalls and Darwin's aren't just two brands - they're two philosophies. Smalls is the fresh cat food category leader, shipping gently cooked, human-grade recipes built exclusively for cats. Darwin's is a longstanding raw-feeding specialist, delivering uncooked, formulated raw meals. That makes this less a brand shootout than a cooked-vs-raw decision, and the honest comparison is about those trade-offs. We haven't verified current pricing or exact recipe lineups at either brand, so this sticks to what's publicly observable and what to check before subscribing.",
     verdict:
@@ -318,7 +318,7 @@ const battles: BattleData[] = [
     matchupLabel: "Raised Right vs Darwin's",
     subtitle: "Two specialist brands, two philosophies - small-batch cooked vs formulated raw.",
     description:
-      "Raised Right vs Darwin's Natural Pet: a family-run, human-grade cooked brand against a longstanding raw-feeding specialist. The cooked-vs-raw trade-offs and what to verify before buying.",
+      "Raised Right vs Darwin's: a family-run cooked brand against a raw-feeding specialist - the cooked-vs-raw trade-offs and what to verify.",
     intro:
       "Raised Right and Darwin's both sit outside the category's mainstream - neither is the big-name default - and each has a clear identity. Raised Right is a family-run brand cooking human-grade, low-carbohydrate recipes in small batches, shipped frozen. Darwin's is a longstanding raw-feeding specialist delivering formulated raw meals. The real fork in the road is cooked versus raw, and this comparison is honest about those trade-offs. We haven't verified current pricing or recipe lineups at either brand, so it sticks to what's publicly observable and what to check before subscribing.",
     verdict:

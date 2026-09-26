@@ -12,7 +12,7 @@ function verticalName(id: string): string {
 export async function reviewsIndexMetadata(ctx: SiteContext): Promise<Metadata> {
   const url = canonicalUrl(ctx, "/reviews");
   const vName = verticalName(ctx.vertical);
-  const title = `${vName} Provider Reviews - In-Depth Expert Analysis`;
+  const title = `${vName} Reviews`;
   const description = `Read expert reviews of the top online ${vName.toLowerCase()} providers. Compare treatment options, pricing, pros and cons, and customer experience.`;
   return {
     title,
@@ -22,6 +22,7 @@ export async function reviewsIndexMetadata(ctx: SiteContext): Promise<Metadata> 
       canonical: url,
     },
     openGraph: {
+      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
       title,
       description,
       url,

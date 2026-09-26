@@ -212,7 +212,7 @@ export const petInsuranceArticles: ArticleData[] = [
     slug: "what-does-pet-insurance-not-cover",
     title: "What Pet Insurance Doesn't Cover: The Full Exclusions Tour",
     description:
-      "The exclusions every pet policy shares - pre-existing conditions, routine care, waiting periods - plus the quieter ones (exam fees, bilateral clauses) that surprise owners at claim time.",
+      "What pet insurance never covers - pre-existing conditions, waiting periods, exclusions and the fine print to check in any sample policy before you buy.",
     category: "Insurance 101",
     readTime: "6 min read",
     publishedAt: "2026-09-01",

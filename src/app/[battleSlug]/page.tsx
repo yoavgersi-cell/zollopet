@@ -38,7 +38,7 @@ export async function generateMetadata({
     description: vConfig.hero.description,
     robots: isPublishedVertical(battleSlug) ? undefined : { index: false, follow: false },
     alternates: { canonical },
-    openGraph: { title: vConfig.hero.h1, description: vConfig.hero.description, url: canonical, type: "website" },
+    openGraph: { title: vConfig.hero.h1, description: vConfig.hero.description, url: canonical, type: "website", images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }] },
   };
 }
 
