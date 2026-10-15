@@ -408,4 +408,43 @@ export const freshDogFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "freshpet-vs-fresh-dog-food-delivery",
+    title: "Freshpet vs Fresh Dog Food Delivery: What's the Difference?",
+    description:
+      "Freshpet vs The Farmer's Dog, Ollie and other delivery brands - how supermarket-fridge fresh food differs from personalized subscriptions, and which fits your dog.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Freshpet and the delivery brands sell the same idea - gently cooked, refrigerated dog food - through two very different models: the grocery fridge vs a personalized subscription.",
+      "Freshpet wins on accessibility: buy it today, locally, in the amount you choose, with no commitment.",
+      "Delivery brands win on personalization: portions pre-measured to your dog's profile, recipes matched to its needs.",
+      "Neither is 'more fresh' - the honest comparison is about convenience, portion control and price for your dog.",
+    ],
+    sections: [
+      {
+        heading: "Two models, one category",
+        body:
+          "Freshpet is the name most shoppers meet first, because it lives where they already are: the refrigerated case at the supermarket or pet store. It pioneered retail fresh food - rolls and bagged recipes you buy off the shelf like any grocery item. The Farmer's Dog, Ollie, Nom Nom and Spot & Tango sell the same core product philosophy - gently cooked, refrigerated recipes - but direct-to-consumer: you build a profile for your dog, and pre-portioned packs arrive on a recurring delivery. Same idea, opposite distribution - and that difference drives everything else about how the two compare.",
+      },
+      {
+        heading: "Where Freshpet wins",
+        body:
+          "Accessibility, flexibility, and zero commitment. You can buy Freshpet today, in person, in whatever quantity you want, and stop whenever you want - no quiz, no subscription, no delivery window to be home for. That makes it the natural first taste of fresh feeding for a skeptical owner, the easy backup when a delivery runs late, and the practical choice for anyone who dislikes subscriptions on principle. Retail pricing is also visible on the shelf rather than behind a quote flow - you know what you're paying before you commit to anything.",
+      },
+      {
+        heading: "Where the delivery brands win",
+        body:
+          "Personalization and portion discipline. A subscription brand portions every pack to your dog's weight, age and activity - which quietly solves the overfeeding problem that sinks many well-intentioned diets - and matches recipes to sensitivities you declared up front. With a retail roll, portioning is on you, every meal. Delivery also removes the remembering: food arrives before you run out. And the subscription brands publish their formulation credentials prominently - Nom Nom's board-certified veterinary nutritionists being the clearest example - where retail fresh competes more on convenience than on tailoring. (Our fresh dog food comparison ranks the delivery brands on their verified records.)",
+      },
+      {
+        heading: "How to choose honestly",
+        body:
+          "Start from how you actually run your household. If you want to test whether your dog even likes fresh food before committing, a retail bag of Freshpet is the cheapest possible experiment. If portion control matters - a dieting dog, a multi-person household where everyone feeds 'a little extra' - pre-portioned delivery earns its premium. On price, compare honestly: check Freshpet's shelf price per week for your dog's portions against each delivery brand's quote flow (they quote per dog; our cost explainer covers how that works). And whichever route you take, transition gradually - the switch-over rules are the same for every fresh format.",
+      },
+    ],
+  },
 ];

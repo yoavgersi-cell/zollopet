@@ -245,5 +245,44 @@ export const dogDnaTestsArticles: ArticleData[] = [
           "Rank the methods by what they actually deliver: your own guess and photo apps are fun; a professional's visual assessment is a better-informed guess; a DNA test is the only option reading ancestry directly, with confidence that's strong for major contributors and honest fuzz at trace levels. If the question is idle curiosity, guess freely and enjoy the debate. If the answer will touch paperwork, health planning or training strategy, the swab is the only method that knows rather than estimates - and our comparison of the two leading tests covers which to pick.",
       },
     ],
-  }
+  },
+  {
+    slug: "dog-dna-testing-market",
+    title: "The Dog DNA Testing Market: Who's Who and Where It's Going",
+    description:
+      "A map of the dog DNA testing market - the two leaders, how the products differ, what's driving growth, and what buyers should watch as the category matures.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-10-15",
+    updatedAt: "2026-10-15",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Consumer dog DNA testing is effectively a two-leader market: Embark and Wisdom Panel dominate, with different research pedigrees behind them.",
+      "The product has expanded from breed ID into health screening, traits, age estimation and gut health - the growth is in health, not ancestry.",
+      "Demand is driven by mixed-breed adoption, preventive-care thinking, and vets using genetic risk flags in care plans.",
+      "There is no regulator certifying accuracy claims in consumer pet genetics - the scientific partnerships behind each brand are the trust signal that matters.",
+    ],
+    sections: [
+      {
+        heading: "The lay of the land",
+        body:
+          "Consumer dog DNA testing has consolidated around two names. Embark, co-founded by canine-genetics researchers and partnered with Cornell University College of Veterinary Medicine, positions itself as the research-grade option. Wisdom Panel, which traces its lineage to Mars Petcare's science arm, is the volume veteran with one of the largest dog DNA databases in the world. Smaller players exist at the budget end, but the practical buying decision for most owners is between these two - which is why our comparison focuses there (Embark vs Wisdom Panel).",
+      },
+      {
+        heading: "What the product has become",
+        body:
+          "The category started as a novelty - 'what breeds is my rescue?' - and matured into a health product. Today's flagship kits bundle breed ancestry with screening across a wide panel of genetic health risks and traits; Embark's published panel, which we verified in 2026, covers 270+ genetic health risks and 55 traits across 400+ breeds and varieties. The newer growth edges are adjacent tests: age estimation, gut-health analysis, and breeder-oriented panels. The pattern mirrors human consumer genetics a decade ago: ancestry opens the door, health keeps the customer.",
+      },
+      {
+        heading: "What's driving growth",
+        body:
+          "Three currents push the market. First, mixed-breed adoption keeps producing owners with a genuinely unanswerable question - what is this dog? - that a cheek swab answers. Second, preventive-care thinking has migrated from human health to pets: owners increasingly want risk flags early, while there's time to act on them. Third, veterinary integration - genetic risk reports designed to be shared with your vet and folded into care plans - moves the product from curiosity to clinical tool. Pet insurance sits interestingly alongside: a genetic risk is not a diagnosis, and knowing about it early (ideally before symptoms, and before enrollment-era records) pairs naturally with insuring young.",
+      },
+      {
+        heading: "What buyers should watch",
+        body:
+          "Two honest caveats as the category matures. Accuracy claims in consumer pet genetics are not certified by any regulator - there is no FDA-style gatekeeper for a breed-ancestry percentage - so the trust signal is the science behind each brand: published research partnerships, panel transparency, and how results are framed (risk flags, not diagnoses; our accuracy guide goes deeper). And results are only as useful as what you do with them: a health flag belongs in a conversation with your vet, not in a panic. For what each leader actually offers today, our Embark review carries verified product and pricing detail, checked against the brand's own store.",
+      },
+    ],
+  },
 ];

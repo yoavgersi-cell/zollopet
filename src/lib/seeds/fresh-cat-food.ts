@@ -423,7 +423,7 @@ export function freshCatFoodSeed(base: SiteConfig): SiteConfig {
       h1: "Best Fresh Cat Food Delivery Services of 2026",
       h2: "Compare fresh & human-grade cat food subscriptions side by side",
       description:
-        "Compare the leading fresh cat food services - honest verdicts, and where we haven't verified a brand's pricing, we say so.",
+        "Compare Smalls, Raised Right & Darwin's side by side - the leading fresh cat food delivery services, reviewed honestly with real customer records.",
     },
     providers,
     sidebar: {
