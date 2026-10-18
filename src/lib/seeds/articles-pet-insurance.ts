@@ -1,4 +1,5 @@
 import type { ArticleData } from "../config";
+import { petInsuranceCompleteGuide } from "./article-pet-insurance-complete-guide";
 
 // Long-tail editorial guides for the pet-insurance vertical. House rules:
 // general, truthful guidance only - no invented premiums, statistics, or
@@ -8,6 +9,7 @@ import type { ArticleData } from "../config";
 const PUBLISHED = "2026-09-01";
 
 export const petInsuranceArticles: ArticleData[] = [
+  petInsuranceCompleteGuide,
   {
     slug: "is-pet-insurance-worth-it",
     title: "Is Pet Insurance Worth It? An Honest Framework for Deciding",
