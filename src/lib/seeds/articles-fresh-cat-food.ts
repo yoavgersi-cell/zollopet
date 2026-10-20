@@ -1,4 +1,5 @@
 import type { ArticleData } from "../config";
+import { freshCatFoodCompleteGuide } from "./article-fresh-cat-food-complete-guide";
 
 // Long-tail editorial guides for the fresh-cat-food vertical. House rules:
 // general, truthful guidance only - no invented prices, statistics, or brand
@@ -7,6 +8,7 @@ import type { ArticleData } from "../config";
 const PUBLISHED = "2026-09-01";
 
 export const freshCatFoodArticles: ArticleData[] = [
+  freshCatFoodCompleteGuide,
   {
     slug: "is-fresh-food-good-for-cats",
     title: "Is Fresh Food Good for Cats? What Actually Matters for Felines",
