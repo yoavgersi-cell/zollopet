@@ -8,9 +8,9 @@ import { ExpertTeam } from "@/components/expert-team";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "About ZolloPet - Our Mission, Team & Review Methodology",
+  title: "About ZolloPet: Mission & Methodology",
   description:
-    "Learn how zollopet.com independently ranks and reviews pet brands across fresh pet food, pet insurance and dog DNA tests. Our editorial methodology and commitment to unbiased comparisons.",
+    "How zollopet.com independently ranks and reviews pet brands across fresh food, pet insurance and dog DNA tests - our methodology and commitment to honesty.",
   alternates: {
     canonical: `https://www.zollopet.com/${DEFAULT_VERTICAL}/about`,
   },

@@ -13,11 +13,158 @@ import { TrustpilotCarousel } from "@/components/trustpilot-carousel";
 import { RedditThreadCarousel, REDDIT_COMMUNITY_FEEDBACK } from "@/components/reddit-community";
 import { notFound, permanentRedirect } from "next/navigation";
 
-// Code-side CTR overrides for high-impression articles whose stored meta lives
-// in the CMS blob (so it can't be tuned from the content files). Applied only
-// on the weight-loss vertical. Prices cited are the providers' real listed
-// prices - keep in sync when pricing changes.
-const ARTICLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+// SERP meta tuning, keyed "<vertical>:<slug>". Overrides the <title> and/or
+// meta description only - the on-page H1 and subtitle keep the stored text.
+// Rule: titles <= 54 chars (the " | ZolloPet" template adds 11 and Google
+// truncates around 65), descriptions <= 160, keywords front-loaded.
+const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = {
+  // fresh-dog-food
+  "fresh-dog-food:fresh-dog-food-guide": {
+    description:
+      "Fresh dog food explained - fresh vs kibble, costs, the brands compared on verified records, switching, feeding and whether your dog needs it.",
+  },
+  "fresh-dog-food:is-fresh-dog-food-worth-it": {
+    title: "Is Fresh Dog Food Worth It? An Honest Look",
+  },
+  "fresh-dog-food:fresh-dog-food-vs-kibble": {
+    title: "Fresh Dog Food vs Kibble: What Changes",
+  },
+  "fresh-dog-food:how-much-fresh-dog-food-to-feed": {
+    title: "How Much Fresh Dog Food to Feed Your Dog",
+  },
+  "fresh-dog-food:how-to-switch-dog-food": {
+    title: "How to Switch Dog Food (7-10 Day Plan)",
+  },
+  "fresh-dog-food:best-dog-food-for-picky-eaters": {
+    title: "Best Dog Food for Picky Eaters: What Works",
+  },
+  "fresh-dog-food:how-to-store-fresh-dog-food": {
+    title: "How to Store Fresh Dog Food Properly",
+  },
+  "fresh-dog-food:best-dog-food-for-sensitive-stomachs": {
+    title: "Best Dog Food for Sensitive Stomachs",
+  },
+  "fresh-dog-food:freshpet-vs-fresh-dog-food-delivery": {
+    title: "Freshpet vs Fresh Dog Food Delivery",
+  },
+  "fresh-dog-food:fresh-dog-food-for-puppies": {
+    description:
+      "Fresh dog food for puppies: growth formulation, the large-breed calcium question, portion updates as your puppy grows, and what to verify per brand.",
+  },
+  // fresh-cat-food
+  "fresh-cat-food:fresh-cat-food-delivery-guide": {
+    description:
+      "Fresh cat food delivery explained - how it compares to wet and dry, cooked vs raw, cost, switching a picky cat, and whether your cat needs it.",
+  },
+  "fresh-cat-food:how-to-get-cat-to-drink-more-water": {
+    title: "How to Get Your Cat to Drink More Water",
+  },
+  "fresh-cat-food:is-fresh-food-good-for-cats": {
+    title: "Is Fresh Food Good for Cats?",
+  },
+  "fresh-cat-food:wet-vs-dry-vs-fresh-cat-food": {
+    title: "Wet vs Dry vs Fresh Cat Food Compared",
+  },
+  "fresh-cat-food:how-to-get-picky-cat-to-eat-new-food": {
+    title: "How to Get a Picky Cat to Eat New Food",
+  },
+  "fresh-cat-food:why-is-my-cat-always-hungry": {
+    title: "Why Is My Cat Always Hungry?",
+  },
+  "fresh-cat-food:kitten-food-vs-adult-cat-food": {
+    title: "Kitten Food vs Adult Cat Food: Differences",
+  },
+  "fresh-cat-food:how-to-help-cat-lose-weight": {
+    title: "How to Help a Cat Lose Weight Safely",
+  },
+  "fresh-cat-food:how-often-should-i-feed-my-cat": {
+    title: "How Often Should I Feed My Cat?",
+  },
+  // pet-insurance
+  "pet-insurance:how-does-pet-insurance-work": {
+    description:
+      "How pet insurance works - reimbursement, deductibles, limits, waiting periods, pre-existing conditions, claims and pricing - explained honestly.",
+  },
+  "pet-insurance:pet-insurance-pre-existing-conditions": {
+    title: "Pet Insurance & Pre-Existing Conditions",
+    description:
+      "Does pet insurance cover pre-existing conditions? What counts as pre-existing, curable vs incurable, and what to check in a sample policy.",
+  },
+  "pet-insurance:when-to-get-pet-insurance": {
+    title: "When to Get Pet Insurance: The Age Question",
+  },
+  "pet-insurance:pet-insurance-waiting-periods": {
+    title: "Pet Insurance Waiting Periods, Explained",
+  },
+  "pet-insurance:pet-insurance-for-older-dogs": {
+    title: "Pet Insurance for Older Dogs: What's Realistic",
+  },
+  "pet-insurance:pet-insurance-annual-limits": {
+    title: "Pet Insurance Annual Limits: How Caps Work",
+  },
+  "pet-insurance:pet-insurance-vs-savings-account": {
+    title: "Pet Insurance vs Savings Account",
+    description:
+      "Self-insuring vs pet insurance: where each wins, the year-one gap, the discipline problem, and the hybrid strategy many households land on.",
+  },
+  "pet-insurance:pet-insurance-reimbursement-rates": {
+    title: "Pet Insurance Reimbursement Rates (70-90%)",
+  },
+  "pet-insurance:is-pet-insurance-worth-it-for-cats": {
+    title: "Is Pet Insurance Worth It for Cats?",
+  },
+  "pet-insurance:is-pet-insurance-worth-it": {
+    title: "Is Pet Insurance Worth It? Honest Framework",
+    description:
+      "Is pet insurance worth it? What it actually protects you from, who benefits most, the self-insurance alternative, and when it's not worth it.",
+  },
+  "pet-insurance:what-does-pet-insurance-not-cover": {
+    title: "What Pet Insurance Doesn't Cover: Exclusions",
+  },
+  "pet-insurance:how-do-pet-insurance-deductibles-work": {
+    title: "Pet Insurance Deductibles & Limits Explained",
+  },
+  "pet-insurance:how-to-file-a-pet-insurance-claim": {
+    title: "How to File a Pet Insurance Claim Fast",
+  },
+  // dog-dna-tests
+  "dog-dna-tests:dog-dna-test-guide": {
+    description:
+      "Dog DNA tests explained - how they work, breed ancestry, health screening, age and gut tests, verified pricing, and whether your dog needs one.",
+  },
+  "dog-dna-tests:are-dog-dna-tests-worth-it": {
+    title: "Are Dog DNA Tests Worth It? Who Should Buy",
+  },
+  "dog-dna-tests:what-do-dog-dna-tests-tell-you": {
+    title: "What Do Dog DNA Tests Tell You?",
+    description:
+      "What's in dog DNA test results: breed breakdown, health screening, trait insights and relative matching - and what each is genuinely useful for.",
+  },
+  "dog-dna-tests:how-to-tell-what-breed-my-dog-is": {
+    title: "How to Tell What Breed Your Dog Is",
+  },
+  "dog-dna-tests:dog-dna-test-for-mixed-breeds": {
+    title: "Dog DNA Tests for Mixed Breeds, Explained",
+    description:
+      "DNA testing a mixed-breed dog: how results look for real mutts, what 'supermutt' means, why trace breeds are fuzzy, and who benefits most.",
+  },
+  "dog-dna-tests:how-accurate-are-dog-dna-tests": {
+    title: "How Accurate Are Dog DNA Tests?",
+  },
+  "dog-dna-tests:dog-dna-testing-market": {
+    title: "The Dog DNA Testing Market: Who's Who",
+  },
+};
+
+// The hub-and-spoke map: each vertical's ~12,500-word pillar guide. Every
+// cluster article links up to it with a "start here" box, concentrating
+// topical authority on one canonical page per vertical.
+const PILLAR_SLUGS: Record<string, string> = {
+  "fresh-dog-food": "fresh-dog-food-guide",
+  "fresh-cat-food": "fresh-cat-food-delivery-guide",
+  "pet-insurance": "how-does-pet-insurance-work",
+  "dog-dna-tests": "dog-dna-test-guide",
+};
 
 // Query-shaped quick answers rendered above the article body for target
 // slugs. Empty at launch - add entries only with verified facts.
@@ -31,7 +178,7 @@ export async function articleMetadata(slug: string, ctx: SiteContext): Promise<M
   const url = canonicalUrl(ctx, `/articles/${slug}`);
 
   // CTR override (code-controlled) wins over stored meta for target articles.
-  const override = ctx.vertical === "weight-loss" ? ARTICLE_SEO_OVERRIDES[slug] : undefined;
+  const override = ARTICLE_SEO_OVERRIDES[`${ctx.vertical}:${slug}`];
 
   return {
     title: override?.title ?? article.title,
@@ -120,13 +267,22 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
     })
     .filter(Boolean) as Array<{ id: string; name: string; logo: string; tagline: string; affiliateUrl: string; rating: number }>;
 
-  // Related articles: same category first, then others, exclude self, max 3
+  // Hub-and-spoke: the vertical's pillar guide, linked from every cluster
+  // article (never from the pillar itself).
+  const pillarSlug = PILLAR_SLUGS[ctx.vertical];
+  const pillarArticle =
+    pillarSlug && pillarSlug !== slug
+      ? articles.find((a) => a.slug === pillarSlug)
+      : undefined;
+
+  // Related articles: same category first, then others, exclude self, max 3.
+  // The pillar is excluded here - it already gets its own box above the body.
   const relatedArticles = [
     ...articles.filter(
-      (a) => a.slug !== slug && a.category === article.category
+      (a) => a.slug !== slug && a.slug !== pillarArticle?.slug && a.category === article.category
     ),
     ...articles.filter(
-      (a) => a.slug !== slug && a.category !== article.category
+      (a) => a.slug !== slug && a.slug !== pillarArticle?.slug && a.category !== article.category
     ),
   ].slice(0, 3);
 
@@ -311,6 +467,27 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
                 {ARTICLE_QUICK_ANSWERS[slug]}
               </div>
             </div>
+          )}
+          {/* Hub-and-spoke: descriptive-anchor link from every cluster article
+              up to the vertical's pillar guide. */}
+          {pillarArticle && (
+            <Link
+              href={hubLink(ctx, `/articles/${pillarArticle.slug}`)}
+              className="group mb-8 flex items-center justify-between gap-4 rounded-xl border border-[#EFE5CC] bg-[#FAF4E6] p-5 transition-colors hover:border-[#1F4A33]/30"
+            >
+              <div>
+                <p className="text-[11px] font-bold uppercase tracking-wider text-[#1F4A33]/60">
+                  Start here
+                </p>
+                <p className="mt-1 text-[15px] font-semibold text-[#22362A] group-hover:underline">
+                  {pillarArticle.title}
+                </p>
+                <p className="mt-1 text-[13px] leading-relaxed text-gray-500">
+                  The complete guide this article belongs to - every question on the topic, in one place.
+                </p>
+              </div>
+              <ArrowRight className="h-4 w-4 shrink-0 text-[#1F4A33]/50 transition-transform group-hover:translate-x-0.5" strokeWidth={2} />
+            </Link>
           )}
           {/* Table of contents - anchor jump-links. Signals structure to Google
               (eligible for "jump to" sitelinks) and improves navigation on long

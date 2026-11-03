@@ -37,7 +37,67 @@ const BATTLE_COST_MATH: Record<
   { rows: [string, string, string][]; note: string }
 > = {};
 
-const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+// SERP meta tuning for battle pages, keyed "<vertical>:<slug>". Overrides
+// the <title> and/or meta description only - on-page H1s keep the stored
+// text. Titles <= 54 chars (template adds " | ZolloPet"), descriptions <= 160.
+const BATTLE_SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = {
+  // fresh-dog-food
+  "fresh-dog-food:farmers-dog-vs-spot-tango": {
+    title: "The Farmer's Dog vs Spot & Tango (2026)",
+  },
+  "fresh-dog-food:farmers-dog-vs-nom-nom": {
+    title: "The Farmer's Dog vs Nom Nom: 2026 Verdict",
+    description:
+      "The Farmer's Dog vs Nom Nom: both ship fresh, pre-portioned, personalized dog food. How they compare on model and positioning, and what to verify.",
+  },
+  "fresh-dog-food:farmers-dog-vs-ollie": {
+    title: "The Farmer's Dog vs Ollie: 2026 Verdict",
+  },
+  "fresh-dog-food:ollie-vs-nom-nom": {
+    title: "Ollie vs Nom Nom: 2026 Fresh Food Verdict",
+  },
+  "fresh-dog-food:nom-nom-vs-spot-tango": {
+    title: "Nom Nom vs Spot & Tango: 2026 Verdict",
+    description:
+      "Nom Nom vs Spot & Tango: vet-nutritionist-led fresh food against the brand behind UnKibble. How they differ on formulation, formats and records.",
+  },
+  // fresh-cat-food
+  "fresh-cat-food:smalls-vs-darwins": {
+    title: "Smalls vs Darwin's: Fresh vs Raw (2026)",
+  },
+  "fresh-cat-food:raised-right-vs-darwins": {
+    title: "Raised Right vs Darwin's (2026 Verdict)",
+  },
+  // pet-insurance
+  "pet-insurance:trupanion-vs-healthy-paws": {
+    title: "Trupanion vs Healthy Paws (2026)",
+  },
+  "pet-insurance:trupanion-vs-embrace": {
+    description:
+      "Trupanion vs Embrace: per-condition deductibles and direct vet pay against diminishing deductibles and a wellness option. Compared honestly.",
+  },
+  "pet-insurance:lemonade-vs-healthy-paws": {
+    description:
+      "Lemonade vs Healthy Paws: app-first customizable coverage against one straightforward accident & illness plan. How the models differ before you buy.",
+  },
+  "pet-insurance:healthy-paws-vs-embrace": {
+    description:
+      "Healthy Paws vs Embrace: the one-plan specialist against the flexible insurer with wellness rewards and a diminishing deductible. Compared honestly.",
+  },
+  "pet-insurance:lemonade-vs-trupanion": {
+    description:
+      "Lemonade vs Trupanion: app-based quoting and claims against per-condition deductibles and direct vet pay. How the two models differ, honestly.",
+  },
+  "pet-insurance:lemonade-vs-embrace": {
+    description:
+      "Lemonade vs Embrace: two customizable accident & illness policies with wellness options - digital experience against feature depth, honestly.",
+  },
+  // dog-dna-tests
+  "dog-dna-tests:embark-vs-wisdom-panel": {
+    description:
+      "Embark vs Wisdom Panel: Cornell-partnered health screening against the category's largest breed database - and what to verify before buying either.",
+  },
+};
 
 // Metadata for a landing page or head-to-head battle at /<slug> (root) or
 // /<vertical>/<slug> (hub). Returns { title: "Not Found" } for an unknown slug.
@@ -89,9 +149,11 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
   // For battles without a bespoke override whose stored title carries no year,
   // generate a high-intent pattern instead of shipping a generic title - the
   // matchup label stays, the intent qualifiers (year, price, verdict) come in.
-  const override = ctx.vertical === "weight-loss" ? BATTLE_SEO_OVERRIDES[slug] : undefined;
+  const override = BATTLE_SEO_OVERRIDES[`${ctx.vertical}:${slug}`];
   const baseLabel = (battle.matchupLabel ?? battle.title.split(":")[0]).trim();
-  const generatedTitle = `${baseLabel} (2026): Price, Differences & Verdict`;
+  // Kept <= 54 chars for the longest matchup labels so the " | ZolloPet"
+  // template never pushes the title past Google's ~65-char truncation.
+  const generatedTitle = `${baseLabel}: 2026 Price & Verdict`;
   const metaTitle = override?.title ?? (/20\d{2}/.test(battle.title) ? battle.title : generatedTitle);
   const metaDescription = override?.description ?? battle.description;
 

@@ -14,7 +14,7 @@ const CANONICAL = `https://www.zollopet.com/${DEFAULT_VERTICAL}/how-we-rank`;
 export const metadata: Metadata = {
   title: "How We Rank & Review Pet Brands - Our Methodology",
   description:
-    "Our full methodology for ranking and reviewing pet brands: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners in head-to-head comparisons.",
+    "Our methodology for ranking pet brands: the factors we score, where our data comes from, how we verify accuracy, and how we pick head-to-head winners.",
   alternates: { canonical: CANONICAL },
   openGraph: {
     images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],

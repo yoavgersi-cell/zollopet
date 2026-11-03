@@ -6,6 +6,7 @@ Run `npm run build && npm start -- -p PORT` first. Exits non-zero when a
 breakage-class issue is found (non-200, noindex-in-sitemap, broken links,
 canonical mismatch, invalid JSON-LD), so a scheduled run can alert on it."""
 import datetime
+import html as htmllib
 import json
 import re
 import sys
@@ -38,9 +39,9 @@ issues = defaultdict(list)
 for p in paths:
     status, html = get(BASE + p)
     title = re.search(r"<title[^>]*>(.*?)</title>", html, re.S)
-    title = re.sub(r"\s+", " ", title.group(1)).strip() if title else ""
+    title = htmllib.unescape(re.sub(r"\s+", " ", title.group(1)).strip()) if title else ""
     desc = re.search(r'<meta name="description" content="([^"]*)"', html)
-    desc = desc.group(1) if desc else ""
+    desc = htmllib.unescape(desc.group(1)) if desc else ""
     canon = re.search(r'<link rel="canonical" href="([^"]*)"', html)
     canon = canon.group(1) if canon else ""
     robots = re.search(r'<meta name="robots" content="([^"]*)"', html)
