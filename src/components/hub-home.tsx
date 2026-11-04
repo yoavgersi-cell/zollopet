@@ -209,7 +209,7 @@ function ProviderMiniCard({
         </div>
         <div className="flex flex-col items-center rounded-lg bg-[#1F4A33] px-2.5 py-1 text-white">
           <span className="text-[17px] font-extrabold leading-none">{position.score.toFixed(1)}</span>
-          <span className="mt-0.5 text-[8px] font-semibold uppercase tracking-wide text-white/70">/ 10</span>
+          <span className="mt-0.5 text-[9px] font-semibold uppercase tracking-wide text-white/70">/ 10</span>
         </div>
       </div>
 
