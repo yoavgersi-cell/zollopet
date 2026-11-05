@@ -451,6 +451,12 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
                 article.author && <span className="text-[12px] text-gray-500">By {article.author}</span>
               )}
               <span className="text-[12px] text-gray-400">Updated {formattedDate}</span>
+              <Link
+                href={hubLink(ctx, "/about")}
+                className="text-[12px] font-medium text-[#1F4A33] underline-offset-2 hover:underline"
+              >
+                About our editorial team
+              </Link>
             </div>
           </div>
         </div>
@@ -620,9 +626,17 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
           {/* Related Articles */}
           {relatedArticles.length > 0 && (
             <div className="mt-12">
-              <h2 className="mb-5 text-[18px] font-bold text-[#22362A]">
-                Related Articles
-              </h2>
+              <div className="mb-5 flex items-baseline justify-between gap-3">
+                <h2 className="text-[18px] font-bold text-[#22362A]">
+                  Related Articles
+                </h2>
+                <Link
+                  href={hubLink(ctx, "/articles")}
+                  className="shrink-0 text-[13px] font-semibold text-[#1F4A33] hover:underline"
+                >
+                  All articles →
+                </Link>
+              </div>
               <div className="grid gap-4 sm:grid-cols-3">
                 {relatedArticles.map((ra) => (
                   <Link

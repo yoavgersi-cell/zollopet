@@ -800,6 +800,17 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
           </div>
         )}
 
+        {/* Contextual hub links - keep the index pages linked from content,
+            not only from the nav/footer boilerplate. */}
+        <div className="mb-6 flex flex-wrap gap-x-5 gap-y-2 text-[13px] font-semibold text-[#1F4A33]">
+          <Link href={hubLink(ctx, "/reviews")} className="hover:underline">
+            Browse all reviews →
+          </Link>
+          <Link href={hubLink(ctx, "/articles")} className="hover:underline">
+            All guides &amp; articles →
+          </Link>
+        </div>
+
         {/* Provider question cluster - the review's highest-intent internal links */}
         {clusterSlugs.length > 0 && (
           <div className="mt-8 rounded-2xl border border-gray-200 bg-white p-6 sm:p-7">
