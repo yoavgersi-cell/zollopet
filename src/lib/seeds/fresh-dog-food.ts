@@ -227,6 +227,62 @@ const providers: Provider[] = [
       },
     ],
   },
+  {
+    id: "the-pets-table",
+    name: "The Pets Table",
+    tagline: "HelloFresh's fresh & air-dried dog food, planned to your dog",
+    logo: "/logos/thepetstablelogo.png",
+    smallLogo: "/logos/thepetstablelogo.png",
+    highlights: [
+      "Fresh and air-dried plans, including mixed options",
+      "Developed with veterinarians, AAFCO-formulated",
+      "Backed by HelloFresh's meal-delivery infrastructure",
+    ],
+    affiliateUrl: "https://thepetstable.com",
+    ctaText: "Visit Site",
+  },
+  {
+    id: "we-feed-raw",
+    name: "We Feed Raw",
+    tagline: "Raw meal plans, portioned to your dog and delivered frozen",
+    logo: "/logos/wefeedrawlogo.png",
+    smallLogo: "/logos/wefeedrawlogo.png",
+    highlights: [
+      "One tailored raw meal plan, not a shelf of products",
+      "Full or partial plans - mix raw with your current food",
+      "Delivered frozen on a recurring subscription",
+    ],
+    affiliateUrl: "https://wefeedraw.com",
+    ctaText: "Visit Site",
+  },
+  {
+    id: "maxbone",
+    name: "maxbone",
+    tagline: "Premium dog lifestyle brand with a freeze-dried raw food line",
+    logo: "/logos/maxbonelogo.webp",
+    smallLogo: "/logos/maxbonelogo.webp",
+    highlights: [
+      "Freeze-dried raw recipes developed with veterinary input",
+      "Shelf-stable format - no fridge or freezer required",
+      "Design-led brand spanning food, accessories and essentials",
+    ],
+    affiliateUrl: "https://maxbone.com",
+    ctaText: "Visit Site",
+  },
+  {
+    id: "redbarn",
+    name: "Redbarn",
+    tagline: "Family-founded pet food maker - rolled, air-dried and dry lines",
+    logo: "/logos/radbarnlogo.png",
+    smallLogo: "/logos/radbarnlogo.png",
+    highlights: [
+      "Rolled fresh-style food alongside air-dried and dry lines",
+      "Recipes formulated to AAFCO nutrient profiles",
+      "Sold through pet retailers - no subscription required",
+    ],
+    affiliateUrl: "https://redbarn.com",
+    ctaText: "Visit Site",
+  },
 ];
 
 const reviews: ReviewData[] = [
@@ -379,6 +435,155 @@ const reviews: ReviewData[] = [
       "Spot & Tango's UnKibble is the most practical answer in the category for owners who want to upgrade from conventional kibble without committing to a fridge full of fresh packs. If you want classic fresh food, it competes on the same personalized model as the bigger names. Run the quote flow for your dog's actual price in both formats, verify the current recipe lineup, and transition gradually as with any diet change.",
     trustBadges: ["Human-grade ingredients", "Fresh & UnKibble formats", "Personalized plans"],
     updatedAt: UPDATED,
+  },
+  {
+    slug: "the-pets-table",
+    providerId: "the-pets-table",
+    shortSummary:
+      "HelloFresh's dog food brand: fresh and air-dried plans developed with veterinarians, delivered on a subscription planned to your dog.",
+    reviewIntro:
+      "The Pets Table is HelloFresh's entry into dog food, launched in 2023, and it brings the parent company's meal-delivery DNA to the category: you build your dog's profile, and the service plans a subscription around its calorie needs - fresh recipes (shipped flash-frozen), air-dried recipes, or mixed plans that combine the two formats. Recipes are developed with veterinarians and formulated to AAFCO nutrient profiles. The format flexibility is the structural differentiator: mixed and partial plans make it one of the easier services to run alongside existing food rather than as a full replacement. We haven't yet verified the brand's current recipe lineup or pricing against its own site, and we haven't completed our review of its public customer record - this page will carry that detail once checked.",
+    keyFeatures: [
+      "Fresh (flash-frozen) and air-dried recipe formats",
+      "Mixed and partial plans that combine formats",
+      "Developed with veterinarians, AAFCO-formulated",
+      "Subscription planned from your dog's profile",
+    ],
+    pricingSummary: PRICING_TBD,
+    treatmentOptions: [
+      "Fresh recipes (current lineup to be verified on the brand's site)",
+      "Air-dried recipes (current lineup to be verified on the brand's site)",
+      "Mixed / partial plans (current options to be verified on the brand's site)",
+    ],
+    pros: [
+      "Format range - fresh, air-dried, or a mix in one plan",
+      "HelloFresh's delivery infrastructure behind the logistics",
+      "Partial plans lower the cost of entry into fresh feeding",
+    ],
+    cons: [
+      "We haven't verified current recipes, pricing or plan terms",
+      "A young brand next to the category's dedicated specialists",
+      "Fresh recipes need freezer space like every flash-frozen service",
+    ],
+    bestFor: [
+      "Owners who want fresh and air-dried formats inside one subscription",
+      "Households easing into fresh feeding with a mixed or partial plan",
+    ],
+    finalVerdict:
+      "The Pets Table's pitch is flexibility on familiar rails: HelloFresh logistics, vet-developed recipes, and plans that mix fresh with air-dried or cover only part of the bowl - a genuinely lower-commitment way into fresh feeding than all-or-nothing subscriptions. The honest caveats: it is a young brand, and we haven't yet verified its current lineup, pricing or customer record ourselves. Run the quote flow for your dog's actual price, and as with any switch, transition gradually. We'll update this review with verified detail as we complete our checks.",
+    trustBadges: ["Fresh & air-dried formats", "Vet-developed", "Mixed plans"],
+    updatedAt: "2026-11-06",
+  },
+  {
+    slug: "we-feed-raw",
+    providerId: "we-feed-raw",
+    shortSummary:
+      "Raw feeding on subscription rails: one meal plan tailored to your dog, delivered frozen, with partial plans that mix raw into your current routine.",
+    reviewIntro:
+      "We Feed Raw is the raw-feeding specialist of this page: instead of a catalog of products, you complete a profile for your dog and the service builds a single tailored meal plan - raw, pre-portioned, shipped frozen on a recurring delivery. Plans can cover the full bowl or part of it (full, three-quarter and half options), which makes structured raw feeding practical without abandoning your current food entirely, and a freeze-dried line extends the format range. The honest framing matters more here than anywhere else on this page: raw feeding is its own nutritional philosophy with genuine trade-offs - handling hygiene, storage logistics, and a scientific debate owners should walk through with their vet before switching. We haven't yet verified the brand's current plan options or pricing against its own site, and we haven't completed our review of its public customer record - this page will carry that detail once checked.",
+    keyFeatures: [
+      "One tailored raw meal plan built from your dog's profile",
+      "Full, 75% and 50% plan sizes - mix raw with existing food",
+      "Delivered frozen; thaw before serving",
+      "Freeze-dried line alongside the frozen plans",
+    ],
+    pricingSummary: PRICING_TBD,
+    treatmentOptions: [
+      "Frozen raw meal plans (current options to be verified on the brand's site)",
+      "Freeze-dried raw (current lineup to be verified on the brand's site)",
+    ],
+    pros: [
+      "The structured, pre-portioned route into raw feeding",
+      "Partial plans make raw practical without a full switch",
+      "Subscription logistics replace DIY raw preparation entirely",
+    ],
+    cons: [
+      "We haven't verified current plans, pricing or terms",
+      "Raw feeding itself is a debated choice - talk to your vet first",
+      "Frozen delivery demands real freezer space and thaw-ahead discipline",
+    ],
+    bestFor: [
+      "Owners already committed to raw who want it portioned and delivered",
+      "Raw-curious households starting with a half or three-quarter plan",
+    ],
+    finalVerdict:
+      "We Feed Raw does for raw feeding what the fresh brands did for home cooking: it takes a demanding feeding philosophy and puts it on pre-portioned subscription rails, with partial plans as a pragmatic on-ramp. Whether raw itself is right for your dog is a genuine veterinary conversation - raw feeding has committed advocates and legitimate scientific skeptics, and this site takes no side your vet should be taking for you. We haven't yet verified current plans, pricing or the brand's customer record; check its site for today's detail, and loop in your vet before any switch. We'll update this review as our checks complete.",
+    trustBadges: ["Tailored raw plans", "Partial-plan options", "Frozen delivery"],
+    updatedAt: "2026-11-06",
+  },
+  {
+    slug: "maxbone",
+    providerId: "maxbone",
+    shortSummary:
+      "A design-led dog lifestyle brand whose food play is freeze-dried raw - shelf-stable, subscription-friendly, and different from the fridge-and-freezer fresh model.",
+    reviewIntro:
+      "maxbone is best known as a premium dog lifestyle brand - accessories, apparel and essentials with a strong design identity - and its food line takes a different route from the refrigerated brands on this page: freeze-dried raw recipes, developed with veterinary input, sold direct from the brand's site. The format matters: freeze-drying preserves raw ingredients in a shelf-stable form, so there's no cold chain to manage - a genuine practical difference from fresh-cooked delivery. We haven't yet verified the brand's current recipe lineup or pricing against its site, and we haven't completed our review of its public customer record - this page will carry that detail once checked. Until then, treat this as what it honestly is: a boutique entrant whose food line is young and small next to the category's dedicated fresh-food specialists.",
+    keyFeatures: [
+      "Freeze-dried raw recipes developed with veterinary input",
+      "Shelf-stable - no fridge or freezer space required",
+      "Direct-to-consumer, subscription-friendly ordering",
+      "Part of a broader design-led dog brand",
+    ],
+    pricingSummary: PRICING_TBD,
+    treatmentOptions: [
+      "Freeze-dried raw recipes (current lineup to be verified on the brand's site)",
+    ],
+    pros: [
+      "Shelf-stable format sidesteps the freezer-space problem entirely",
+      "Veterinary input behind the recipes",
+      "A clean option for owners already shopping the brand's accessories",
+    ],
+    cons: [
+      "We haven't verified current recipes, pricing or plan terms",
+      "A small food line from a brand whose core business is accessories, not nutrition",
+      "Freeze-dried raw is still raw - walk the trade-offs through with your vet",
+    ],
+    bestFor: [
+      "Owners who want a raw-style format without cold-chain logistics",
+      "Fans of the brand's lifestyle range who want food from the same shelf",
+    ],
+    finalVerdict:
+      "maxbone's food line is an interesting boutique alternative rather than a head-on competitor to the fresh-cooked subscriptions this category is built around: freeze-dried raw, shelf-stable, design-led. That format genuinely solves the freezer problem, but it belongs to the raw family - a conversation to have with your vet before switching. We haven't verified the current lineup, pricing or customer record yet, so check the brand's site for today's detail. For dedicated fresh-cooked feeding at scale, the established specialists above remain the default comparison.",
+    trustBadges: ["Freeze-dried raw", "Vet-developed recipes", "Shelf-stable"],
+    updatedAt: "2026-11-06",
+  },
+  {
+    slug: "redbarn",
+    providerId: "redbarn",
+    shortSummary:
+      "A family-founded pet food maker selling rolled fresh-style, air-dried and dry food through retail - the no-subscription route into less-processed feeding.",
+    reviewIntro:
+      "Redbarn Pet Products is a different animal from the delivery subscriptions on this page: a family-founded pet food company whose dog lines - rolled food, air-dried recipes and dry food, alongside a large treats and chews range - are sold through pet retailers and online stores rather than a quiz-and-subscribe flow. Its rolled food sits closest to the fresh idea: a refrigerated-style, meat-forward format you can buy off a shelf in the amount you choose, with recipes formulated to AAFCO nutrient profiles. We haven't yet verified the brand's current product lineup or retail pricing, and we haven't completed our review of its public customer record - this page will carry that detail once checked. The structural point stands regardless: Redbarn is the retail path - no subscription, no delivery window, no commitment.",
+    keyFeatures: [
+      "Rolled fresh-style food you can buy at retail",
+      "Air-dried and dry recipe lines",
+      "Recipes formulated to AAFCO nutrient profiles",
+      "No subscription - buy where you already shop",
+    ],
+    pricingSummary: PRICING_TBD,
+    treatmentOptions: [
+      "Rolled food (current lineup to be verified on the brand's site)",
+      "Air-dried recipes (current lineup to be verified on the brand's site)",
+      "Dry food (current lineup to be verified on the brand's site)",
+    ],
+    pros: [
+      "Zero commitment - buy today, locally, in the amount you want",
+      "Rolled format is a practical, affordable step toward less-processed feeding",
+      "Established, family-founded company with a wide retail footprint",
+    ],
+    cons: [
+      "We haven't verified the current lineup or retail pricing",
+      "No personalization - portioning and recipe choice are entirely on you",
+      "Not a delivery service - if doorstep subscription is the point, look above",
+    ],
+    bestFor: [
+      "Owners who want fresher-style feeding without any subscription",
+      "Households testing the fresh idea before committing to a delivery plan",
+    ],
+    finalVerdict:
+      "Redbarn earns its place on this page as the retail alternative: if the personalized-subscription model is the part of fresh feeding you don't want, its rolled and air-dried lines are the practical way to feed less-processed food on your own terms. The honest trade-off is the mirror image of the subscriptions' - total flexibility, zero personalization, portion discipline entirely on you. We haven't verified the current lineup, pricing or customer record yet, so check the brand's site and your retailer's shelf. For hands-off, portioned-to-your-dog feeding, the delivery brands above remain the comparison to run.",
+    trustBadges: ["Retail availability", "AAFCO-formulated", "No subscription"],
+    updatedAt: "2026-11-06",
   },
 ];
 
@@ -843,7 +1048,10 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
       // Ranked by the verified public Trustpilot record, September 2026:
       // Ollie 4.6/11,133 - Spot & Tango 4.6/2,723 - Nom Nom 4.4/1,860 -
       // The Farmer's Dog 3.9/1,699.
-      providerOrder: ["ollie", "spot-tango", "nom-nom", "farmers-dog"],
+      // Ranks 1-4 are the verified-Trustpilot brands (September 2026 records).
+      // Ranks 5-8 are newly added and not yet verified - they sit below the
+      // verified set on purpose until we check their public records.
+      providerOrder: ["ollie", "spot-tango", "nom-nom", "farmers-dog", "the-pets-table", "we-feed-raw", "maxbone", "redbarn"],
       positions: base.ranking.positions,
     },
     reviews,
