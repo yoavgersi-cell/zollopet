@@ -23,7 +23,7 @@ export interface ProviderAuditEntry {
 // can carry a separate audit per vertical.
 export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
   // ── Fresh dog food ─────────────────────────────────────────────────────────
-  // Verified against The Farmer's Dog's public Trustpilot profile, September 2026.
+  // Verified against The Farmer's Dog's public Trustpilot profile, November 2026.
   "fresh-dog-food:farmers-dog": {
     rows: [
       { label: "Trustpilot TrustScore", value: "3.9 / 5 across 1,741 reviews" },
@@ -33,7 +33,7 @@ export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
     ],
   },
 
-  // Verified against Ollie's public Trustpilot profile, September 2026.
+  // Verified against Ollie's public Trustpilot profile, November 2026.
   "fresh-dog-food:ollie": {
     rows: [
       { label: "Trustpilot TrustScore", value: "4.7 / 5 across 11,325 reviews" },
@@ -42,16 +42,16 @@ export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
     ],
   },
 
-  // Verified against Nom Nom's public Trustpilot profile, September 2026.
+  // Verified against Nom Nom's public Trustpilot profile, November 2026.
   "fresh-dog-food:nom-nom": {
     rows: [
-      { label: "Trustpilot TrustScore", value: "4.4 / 5 across 1,860 reviews" },
+      { label: "Trustpilot TrustScore", value: "4.4 / 5 across 1,871 reviews" },
       { label: "Trustpilot profile", value: "Claimed since August 2017 (paid Trustpilot subscription)" },
       { label: "Recurring praise in recent reviews", value: "Palatability; food that looks like real food; attentive customer service" },
     ],
   },
 
-  // Verified against Spot & Tango's public Trustpilot profile, September 2026.
+  // Verified against Spot & Tango's public Trustpilot profile, November 2026.
   "fresh-dog-food:spot-tango": {
     rows: [
       { label: "Trustpilot TrustScore", value: "4.6 / 5 across 2,885 reviews" },

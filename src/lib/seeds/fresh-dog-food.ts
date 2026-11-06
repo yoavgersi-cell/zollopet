@@ -37,50 +37,52 @@ const providers: Provider[] = [
     affiliateUrl: "https://www.thefarmersdog.com",
     ctaText: "Visit Site",
     // Verified against The Farmer's Dog's public Trustpilot profile,
-    // September 2026 (claimed profile since March 2021). Quotes below are
-    // real, unprompted Trustpilot reviews reproduced with rating and date.
+    // re-checked November 2026 (claimed profile since March 2021). Quotes
+    // below are real, unprompted Trustpilot reviews reproduced with rating
+    // and date. Note: the profile also collects reviews for an unrelated UK
+    // restaurant of the same name - those are excluded here.
     trustpilotRating: "3.9",
     trustpilotReviewCount: "1,741",
     trustpilotReviews: [
       {
-        title: "Loki is loving Farmers Dog",
-        text: "He has never gone after any dog food before but with Farmers Dog, he gets excited and can't wait for the next bite or bag!! We don't have to coax him to eat anymore and we've noticed an improvement in his physical condition. Sometimes I think he wants more than one bag per day.. that is how much he loves it.",
-        name: "Ellen Teckman",
+        title: "The Farmer's Dog Is Simply the BEST",
+        text: "Our 11 1/2 year old Labradoodle showed signs of slowing down significantly. So we switched him to The Farmer's Dog 4 months ago. Already we see huge improvement in his daily routine. Also he eats every bite. With his other food, he would leave quite a bit of it in his bowl. We wish we had switched to The Farmer's Dog years ago.",
+        name: "Jean",
         location: "US",
         rating: 5,
-        date: "Aug 28, 2026",
+        date: "Nov 4, 2026",
       },
       {
-        title: "Great food - delivery needs work",
-        text: "Farmers Dog is great food and my dog loves it. Their customer service exceeds almost any you will find. You can actually get hold of a real person. But their delivery is HORRIBLE. Twice they have delivered after dark... I have asked for a 7 pm latest delivery and they say they cannot do it.",
-        name: "Karen Heald",
-        location: "US",
-        rating: 3,
-        date: "Aug 27, 2026",
-      },
-      {
-        title: "Exceptional Customer Service",
-        text: "Not only is the food is great quality for my dogs, they have the BEST customer service team of any company I have ever spoken to. 10/10 would recommend. Thank you farmer's dog for being exceptional.",
-        name: "Madi",
+        title: "No more diarrhea and the dogs love it!",
+        text: "Both of my dogs have always had a sensitive stomach and since switching to the Farmer's Dog a few months ago they have had noticeable improvement! The convenience of having pre-measured portions has been great and both dogs have dropped a couple pounds (which they needed). Any questions I have had have been answered super quickly, and when our package was lost in the mail they personally reached out to resolve it.",
+        name: "Katie",
         location: "US",
         rating: 5,
-        date: "Aug 26, 2026",
+        date: "Oct 24, 2026",
       },
       {
-        title: "Awesome in more ways than one!",
-        text: "I have been feeding my Gold Retriever Farmer's Dog for many years. Ansel is a finicky eater, he took to Farmer's Dog food right away. The condition of his coat changed within the first month. He lived a long happy life, at 14 he was still running, playing, and able to jump up into our truck. I also want to praise their outstanding customer service.",
-        name: "Treas",
+        title: "Check the # of packets you receive",
+        text: "The food is expensive and sometimes the order is short on the number of packets ordered. When I contacted them they did reply right away and refunded the missing food. My dog eats a lot more grass in this food indicating digestion is not the best on it so now I only use it as a topper.",
+        name: "Alejandra Creixell",
+        location: "US",
+        rating: 2,
+        date: "Oct 29, 2026",
+      },
+      {
+        title: "My dogs loved the food but the delivery was the issue",
+        text: "I live in the mountains with bears, fox, coyotes, possums. Even though the food arrives frozen, delivery at 11:47PM and placed on my porch is an issue, especially when the box has treats inside. I'm hoping delivery could be via another DAYTIME carrier in the future. The representative was the perfect rep for excellent customer service.",
+        name: "Karen Rickards",
         location: "US",
         rating: 5,
-        date: "Aug 7, 2026",
+        date: "Oct 24, 2026",
       },
       {
-        title: "Great customer service",
-        text: "Great customer service. The only draw back I could see was the pricing! It's a bit pricey. My dog seemed to like it. Thought I could afford it, but it ended up being almost the price of a low priced car payment. lol",
-        name: "Alicia Escalante",
+        title: "The Farmers Dog is Outstanding in Multiple Ways",
+        text: "Our Borgi (beagle corgi mix) who could barely eat anything was saved by The Farmers Dog food. When dealing with severe allergies, and him not keeping food down, this was the last straw in a line of dozens of food products we tried. Our dog is almost 7 now, and after several years eating TFD, he has no stomach issues anymore, is healthy with a super sleek coat... and still zoomies around the house like a nut.",
+        name: "P.B.",
         location: "US",
-        rating: 4,
-        date: "Jun 15, 2026",
+        rating: 5,
+        date: "Oct 21, 2026",
       },
     ],
   },
@@ -159,35 +161,51 @@ const providers: Provider[] = [
     ],
     affiliateUrl: "https://www.nomnomnow.com",
     ctaText: "Visit Site",
-    // Verified against Nom Nom's public Trustpilot profile, September 2026
+    // Verified against Nom Nom's public Trustpilot profile, re-checked November 2026
     // (claimed profile since August 2017). Quotes below are real, verified
     // Trustpilot reviews reproduced with rating and date.
     trustpilotRating: "4.4",
-    trustpilotReviewCount: "1,860",
+    trustpilotReviewCount: "1,871",
     trustpilotReviews: [
       {
-        title: "Dogs are loving it",
-        text: "Dogs are loving it! And the food actually looks like human food and not just a paste like some other brands.",
-        name: "DL",
+        title: "Excellent customer service",
+        text: "Nom Nom is the first food (after trying many) that my little Maltese mix continues to eat with gusto. She cleans the bowl every time. To know that she is liking a food that is actually good for her has been such a relief!",
+        name: "Verified customer",
         location: "US",
         rating: 5,
-        date: "Jul 24, 2026",
+        date: "Oct 29, 2026",
       },
       {
-        title: "The customer service and caring follow-up",
-        text: "The customer service and caring follow-up from this well trained staff is worth the spend.",
-        name: "Marie Maher",
+        title: "From serious tummy troubles to happy pup!",
+        text: "After getting him tested, we realized he had several protein allergies. We started buying Nom Nom because it was the closest thing to what we were giving him at home. As he ate the new food he got SO excited to eat - they call it the 'Nom Nom dance', it's legit. It's expensive but worth it for us. He has zero bloody stool, zero puking, a lot less itching and he eats regularly. His coat even feels softer.",
+        name: "Mercedes",
         location: "US",
         rating: 5,
-        date: "Jul 23, 2026",
+        date: "Oct 7, 2026",
       },
       {
-        title: "Great food and experience",
-        text: "Lots of good information, ordering was easy and our girls got their food in record time.",
-        name: "Micki Baker",
+        title: "The delivery/shipping has prevented me from using it regularly",
+        text: "I'm not saying that this isn't a good product. I think the quality is comparable to Farmer's Dog and Ollie. But Nom Nom comes with six packs strapped together with rubber bands, stuck together in a solid rock - you can't separate them without thawing all six packs. I have tons of Nom Nom in my freezer because they are just a hassle to deal with.",
+        name: "K. Wilson",
+        location: "US",
+        rating: 2,
+        date: "Sep 13, 2026",
+      },
+      {
+        title: "Our dog is a VERY picky eater",
+        text: "Very early on we gave Nom Nom a try and it wasn't his favorite (4-5 years ago). But this new version of Toppers is a game changer! Austin is enjoying it as an added topping to his standard beef, rice & eggs diet. Thank you Nom Nom - great job!!",
+        name: "Richard Kitamata",
+        location: "US",
+        rating: 4,
+        date: "Oct 7, 2026",
+      },
+      {
+        title: "My dog absolutely loves Nom Nom",
+        text: "The food is nutritious, reasonably priced, and always on time. During last winter, there were to be a plethora of storms on the delivery route to my home. I received a message from Nom Nom inquiring if I might want to bump delivery up a week. I hadn't even thought of it! How absolutely over the top this company's service is!!!",
+        name: "Debra Lindsey",
         location: "US",
         rating: 5,
-        date: "Jul 16, 2026",
+        date: "Jun 13, 2026",
       },
     ],
   },
@@ -327,6 +345,54 @@ const providers: Provider[] = [
     ],
     affiliateUrl: "https://wefeedraw.com",
     ctaText: "Visit Site",
+    // Verified against We Feed Raw's public Trustpilot profile,
+    // November 2026 (claimed profile since May 2021). Quotes below are
+    // real Trustpilot reviews reproduced with rating and date; the profile
+    // carries many "Verified" (order-linked) reviews.
+    trustpilotRating: "4.7",
+    trustpilotReviewCount: "2,249",
+    trustpilotReviews: [
+      {
+        title: "Excellent product and customer service!!!",
+        text: "My dog is doing amazing since we switched her to We Feed Raw. She had been eating raw from a local company but since we switched her to We Feed Raw she has had a lot more energy and seems a lot younger!",
+        name: "N. Mischel",
+        location: "US",
+        rating: 5,
+        date: "Nov 6, 2026",
+      },
+      {
+        title: "Have been raw feeding for almost 30yrs",
+        text: "Used to purchase bulk proteins and grind them myself and then custom build meals for my dogs. Moved to a new area and have not been able to source bulk proteins here. So, We Feed Raw has become one of my go-to sources. I appreciate the 1lb patties. They are very convenient bases for prepping my Anatolian Shepherd Dog's meals. She LOVES the variety and I love the ease of storage and use.",
+        name: "KrisB",
+        location: "US",
+        rating: 5,
+        date: "Oct 30, 2026",
+      },
+      {
+        title: "Packages delivered short on order qty multiple times",
+        text: "My dog loves this food, but every order after the trial box has had issues. 1st full delivery came with most of the food thawed - they sent a full replacement free of charge, which was nice. But my main issue is repeated problems: twice they cut me short on patty quantity and still charged full price. Again, my dog loves the food, but I am tired of not getting the whole shipment delivered at once.",
+        name: "Haley",
+        location: "US",
+        rating: 2,
+        date: "Oct 15, 2026",
+      },
+      {
+        title: "THIS PRODUCT",
+        text: "There is nothing about this that isn't GREAT! I feed 2 GSDs this and the results speak for themselves. The seven year-old is absolutely acting like a puppy, which is so out of character from his previous grumpy lethargic self. Everybody's got great coats. They inhale their meals in less than two minutes.",
+        name: "Christy Colt",
+        location: "US",
+        rating: 5,
+        date: "Oct 27, 2026",
+      },
+      {
+        title: "Would Recommend",
+        text: "The product is quality; the website, however, needs some work. It's not as user friendly as it could be, and you shouldn't have to send an email and wait for help when needed. Other than that, like I said, quality of product is excellent.",
+        name: "LEM",
+        location: "US",
+        rating: 4,
+        date: "Oct 28, 2026",
+      },
+    ],
   },
   {
     id: "maxbone",
@@ -365,7 +431,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "The best-known fresh dog food brand: human-grade recipes, pre-portioned to your dog and delivered on a subscription.",
     reviewIntro:
-      "The Farmer's Dog is the most widely recognized name in fresh dog food. The model is the category's blueprint: you build a profile for your dog (age, breed, weight, activity, sensitivities), and the company ships fresh, human-grade food in pre-portioned packs matched to your dog's calorie needs, on a recurring delivery schedule. Recipes are developed with veterinary nutritionists and formulated to complete-and-balanced standards. We haven't yet verified the brand's current recipe lineup or per-day pricing for specific dog profiles - but we have checked its public Trustpilot record (September 2026): a 3.9/5 TrustScore across 1,741 reviews, where recent reviewers consistently praise palatability and customer service, and the sharpest complaints target delivery logistics and overall price.",
+      "The Farmer's Dog is the most widely recognized name in fresh dog food. The model is the category's blueprint: you build a profile for your dog (age, breed, weight, activity, sensitivities), and the company ships fresh, human-grade food in pre-portioned packs matched to your dog's calorie needs, on a recurring delivery schedule. Recipes are developed with veterinary nutritionists and formulated to complete-and-balanced standards. We haven't yet verified the brand's current recipe lineup or per-day pricing for specific dog profiles - but we have checked its public Trustpilot record (re-checked November 2026): a 3.9/5 TrustScore across 1,741 reviews, where recent reviewers consistently praise palatability and customer service, and the sharpest complaints target delivery logistics and overall price.",
     keyFeatures: [
       "Fresh food made from human-grade ingredients",
       "Pre-portioned packs matched to your dog's profile",
@@ -394,7 +460,7 @@ const reviews: ReviewData[] = [
     finalVerdict:
       "The Farmer's Dog is the default starting point when comparing fresh dog food - it defined the personalized, pre-portioned subscription model and has the category's biggest brand footprint. The honest trade-offs are the fresh category's own: it costs more than kibble, needs cold storage, and runs on a subscription. Before you buy, run the brand's quote flow for your dog's actual per-day price and check the current recipe lineup - and as with any diet change, transition gradually and loop in your vet if your dog has health conditions.",
     trustBadges: ["Human-grade ingredients", "Pre-portioned packs", "Subscription delivery"],
-    updatedAt: UPDATED,
+    updatedAt: "2026-11-06",
   },
   {
     slug: "ollie",
@@ -440,7 +506,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "Fresh, pre-portioned dog food with recipes formulated by board-certified veterinary nutritionists.",
     reviewIntro:
-      "Nom Nom is one of the established names in fresh dog food, with a nutrition-science-forward positioning: its recipes are formulated by board-certified veterinary nutritionists, and food ships fresh in pre-portioned packs sized to your dog's calorie needs. The buying model matches the category standard - build your dog's profile, get a plan, receive recurring deliveries. We haven't yet verified Nom Nom's current recipe lineup or pricing for specific dog profiles - but we have checked its public Trustpilot record (September 2026): a strong 4.4/5 TrustScore across 1,860 reviews on a profile the brand has maintained since 2017, with recent reviewers praising palatability, food quality and attentive customer service.",
+      "Nom Nom is one of the established names in fresh dog food, with a nutrition-science-forward positioning: its recipes are formulated by board-certified veterinary nutritionists, and food ships fresh in pre-portioned packs sized to your dog's calorie needs. The buying model matches the category standard - build your dog's profile, get a plan, receive recurring deliveries. We haven't yet verified Nom Nom's current recipe lineup or pricing for specific dog profiles - but we have checked its public Trustpilot record (re-checked November 2026): a strong 4.4/5 TrustScore across 1,871 reviews on a profile the brand has maintained since 2017, with recent reviewers praising palatability, food quality and attentive customer service.",
     keyFeatures: [
       "Fresh food in pre-portioned packs",
       "Recipes formulated by board-certified veterinary nutritionists",
@@ -455,7 +521,7 @@ const reviews: ReviewData[] = [
       "Strong nutrition-science positioning behind its recipes",
       "Pre-portioned packs matched to your dog",
       "Established brand in the fresh category",
-      "Strong Trustpilot record - 4.4/5 across 1,860 reviews",
+      "Strong Trustpilot record - 4.4/5 across 1,871 reviews",
     ],
     cons: [
       "We haven't verified current recipes, pricing or plan terms",
@@ -469,7 +535,7 @@ const reviews: ReviewData[] = [
     finalVerdict:
       "Nom Nom competes on the same fresh, personalized, pre-portioned model as the category leaders, with formulation by board-certified veterinary nutritionists as its calling card. The practical decision comes down to your dog's actual quote and recipe fit, so run the brand's quote flow and compare the per-day price against the other fresh brands before committing. As always: transition gradually and involve your vet for dogs with health conditions.",
     trustBadges: ["Vet-nutritionist formulated", "Pre-portioned packs", "Fresh delivery"],
-    updatedAt: UPDATED,
+    updatedAt: "2026-11-06",
   },
   {
     slug: "spot-tango",
@@ -553,7 +619,7 @@ const reviews: ReviewData[] = [
     shortSummary:
       "Raw feeding on subscription rails: one meal plan tailored to your dog, delivered frozen, with partial plans that mix raw into your current routine.",
     reviewIntro:
-      "We Feed Raw is the raw-feeding specialist of this page: instead of a catalog of products, you complete a profile for your dog and the service builds a single tailored meal plan - raw, pre-portioned, shipped frozen on a recurring delivery. Plans can cover the full bowl or part of it (full, three-quarter and half options), which makes structured raw feeding practical without abandoning your current food entirely, and a freeze-dried line extends the format range. The honest framing matters more here than anywhere else on this page: raw feeding is its own nutritional philosophy with genuine trade-offs - handling hygiene, storage logistics, and a scientific debate owners should walk through with their vet before switching. We haven't yet verified the brand's current plan options or pricing against its own site, and we haven't completed our review of its public customer record - this page will carry that detail once checked.",
+      "We Feed Raw is the raw-feeding specialist of this page: instead of a catalog of products, you complete a profile for your dog and the service builds a single tailored meal plan - raw, pre-portioned, shipped frozen on a recurring delivery. Plans can cover the full bowl or part of it (full, three-quarter and half options), which makes structured raw feeding practical without abandoning your current food entirely, and a freeze-dried line extends the format range. The honest framing matters more here than anywhere else on this page: raw feeding is its own nutritional philosophy with genuine trade-offs - handling hygiene, storage logistics, and a scientific debate owners should walk through with their vet before switching. We haven't yet verified the brand's current plan options or pricing against its own site - but we have checked its public Trustpilot record (November 2026): an excellent 4.7/5 TrustScore across 2,249 reviews, where owners report real palatability and condition wins (coats, energy, picky eaters converted), and the recurring complaints target order fulfillment - shorted quantities and occasional thawed or late boxes.",
     keyFeatures: [
       "One tailored raw meal plan built from your dog's profile",
       "Full, 75% and 50% plan sizes - mix raw with existing food",
@@ -566,21 +632,21 @@ const reviews: ReviewData[] = [
       "Freeze-dried raw (current lineup to be verified on the brand's site)",
     ],
     pros: [
+      "Excellent verified Trustpilot record - 4.7/5 across 2,249 reviews (November 2026)",
       "The structured, pre-portioned route into raw feeding",
       "Partial plans make raw practical without a full switch",
-      "Subscription logistics replace DIY raw preparation entirely",
     ],
     cons: [
       "We haven't verified current plans, pricing or terms",
       "Raw feeding itself is a debated choice - talk to your vet first",
-      "Frozen delivery demands real freezer space and thaw-ahead discipline",
+      "Recent Trustpilot complaints cluster on fulfillment - shorted or thawed orders",
     ],
     bestFor: [
       "Owners already committed to raw who want it portioned and delivered",
       "Raw-curious households starting with a half or three-quarter plan",
     ],
     finalVerdict:
-      "We Feed Raw does for raw feeding what the fresh brands did for home cooking: it takes a demanding feeding philosophy and puts it on pre-portioned subscription rails, with partial plans as a pragmatic on-ramp. Whether raw itself is right for your dog is a genuine veterinary conversation - raw feeding has committed advocates and legitimate scientific skeptics, and this site takes no side your vet should be taking for you. We haven't yet verified current plans, pricing or the brand's customer record; check its site for today's detail, and loop in your vet before any switch. We'll update this review as our checks complete.",
+      "We Feed Raw does for raw feeding what the fresh brands did for home cooking: it takes a demanding feeding philosophy and puts it on pre-portioned subscription rails, with partial plans as a pragmatic on-ramp. Whether raw itself is right for your dog is a genuine veterinary conversation - raw feeding has committed advocates and legitimate scientific skeptics, and this site takes no side your vet should be taking for you. Its verified Trustpilot record is excellent (4.7/5 across 2,249 reviews, November 2026), with fulfillment hiccups the recurring gripe; pricing we still haven't verified - run the quote flow, and loop in your vet before any switch. We'll update this review as our checks complete.",
     trustBadges: ["Tailored raw plans", "Partial-plan options", "Frozen delivery"],
     updatedAt: "2026-11-06",
   },
@@ -740,10 +806,10 @@ const battles: BattleData[] = [
     intro:
       "The Farmer's Dog and Nom Nom run nearly identical models: fresh food, human-grade ingredients, pre-portioned packs sized from your dog's profile, recurring delivery. That makes this comparison less about the model and more about the brands behind it - and about the per-day quote each one gives your actual dog, which is the number that should decide it. We haven't verified either brand's current pricing or full recipe lineup, so this comparison stays on what's publicly observable and on exactly what to check before buying.",
     verdict:
-      "With verified data in hand, Nom Nom edges this one. Its public Trustpilot record is the stronger of the two - 4.4/5 across 1,860 reviews on a profile held since 2017, against The Farmer's Dog's 3.9/5 across 1,741 - and its recipes are formulated by board-certified veterinary nutritionists, the strongest formulation credential in the matchup. The Farmer's Dog still brings the category's biggest brand footprint, which counts for something in an ongoing subscription. But both ship the same style of fresh, pre-portioned product, and with the review record and the nutrition credential both pointing Nom Nom's way, it takes the win. Run both quote flows with the same dog profile and let the per-day numbers confirm the call.",
+      "With verified data in hand, Nom Nom edges this one. Its public Trustpilot record is the stronger of the two - 4.4/5 across 1,871 reviews on a profile held since 2017, against The Farmer's Dog's 3.9/5 across 1,741 - and its recipes are formulated by board-certified veterinary nutritionists, the strongest formulation credential in the matchup. The Farmer's Dog still brings the category's biggest brand footprint, which counts for something in an ongoing subscription. But both ship the same style of fresh, pre-portioned product, and with the review record and the nutrition credential both pointing Nom Nom's way, it takes the win. Run both quote flows with the same dog profile and let the per-day numbers confirm the call.",
     verdictWinnerPoints: [
       "Recipes formulated by board-certified veterinary nutritionists",
-      "Stronger Trustpilot record - 4.4/5 across 1,860 reviews",
+      "Stronger Trustpilot record - 4.4/5 across 1,871 reviews",
       "Fresh, pre-portioned packs matched to your dog",
     ],
     verdictLoserPoints: [
@@ -777,16 +843,16 @@ const battles: BattleData[] = [
         name: "What We Can Verify Today",
         winner: "provider2",
         explanation:
-          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and it favors Nom Nom: 4.4/5 across 1,860 reviews on a profile held since 2017, versus The Farmer's Dog's 3.9/5 across 1,741, where delivery logistics draw the sharpest complaints.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (November 2026) is the public Trustpilot record, and it favors Nom Nom: 4.4/5 across 1,871 reviews on a profile held since 2017, versus The Farmer's Dog's 3.9/5 across 1,741, where delivery logistics draw the sharpest complaints.",
         supportingPoints: [
-          "Trustpilot: Nom Nom 4.4/5 (1,860 reviews) vs 3.9/5 (1,741)",
+          "Trustpilot: Nom Nom 4.4/5 (1,871 reviews) vs 3.9/5 (1,741)",
           "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
-      { feature: "Trustpilot (Sept 2026)", provider1Value: "3.9/5 - 1,741 reviews", provider2Value: "4.4/5 - 1,860 reviews", highlight: "provider2" },
+      { feature: "Trustpilot (Nov 2026)", provider1Value: "3.9/5 - 1,741 reviews", provider2Value: "4.4/5 - 1,871 reviews", highlight: "provider2" },
       { feature: "Ingredients", provider1Value: "Human-grade", provider2Value: "Fresh, pre-portioned recipes", highlight: "both" },
       { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh", highlight: "both" },
       { feature: "Formulation", provider1Value: "With veterinary nutritionists", provider2Value: "Board-certified veterinary nutritionists", highlight: "provider2" },
@@ -844,16 +910,16 @@ const battles: BattleData[] = [
         name: "What We Can Verify Today",
         winner: "provider1",
         explanation:
-          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and both look good: Ollie leads with 4.7/5 across 11,325 reviews, while Nom Nom holds a strong 4.4/5 across 1,860 on a profile maintained since 2017.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (November 2026) is the public Trustpilot record, and both look good: Ollie leads with 4.7/5 across 11,325 reviews, while Nom Nom holds a strong 4.4/5 across 1,871 on a profile maintained since 2017.",
         supportingPoints: [
-          "Trustpilot: Ollie 4.7/5 (11,325) vs Nom Nom 4.4/5 (1,860)",
+          "Trustpilot: Ollie 4.7/5 (11,325) vs Nom Nom 4.4/5 (1,871)",
           "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
-      { feature: "Trustpilot (Sept 2026)", provider1Value: "4.7/5 - 11,325 reviews", provider2Value: "4.4/5 - 1,860 reviews", highlight: "provider1" },
+      { feature: "Trustpilot (Nov 2026)", provider1Value: "4.7/5 - 11,325 reviews", provider2Value: "4.4/5 - 1,871 reviews", highlight: "provider1" },
       { feature: "Formats", provider1Value: "Fresh + gently baked", provider2Value: "Fresh", highlight: "provider1" },
       { feature: "Formulation", provider1Value: "Complete-and-balanced recipes", provider2Value: "Board-certified veterinary nutritionists", highlight: "provider2" },
       { feature: "Portioning", provider1Value: "Personalized to your dog", provider2Value: "Pre-portioned to your dog", highlight: "both" },
@@ -911,7 +977,7 @@ const battles: BattleData[] = [
         name: "What We Can Verify Today",
         winner: "provider2",
         explanation:
-          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, and it favors Spot & Tango: an excellent 4.6/5 across 2,885 reviews versus The Farmer's Dog's 3.9/5 across 1,741, where delivery logistics draw the sharpest complaints.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (November 2026) is the public Trustpilot record, and it favors Spot & Tango: an excellent 4.6/5 across 2,885 reviews versus The Farmer's Dog's 3.9/5 across 1,741, where delivery logistics draw the sharpest complaints.",
         supportingPoints: [
           "Trustpilot: Spot & Tango 4.6/5 (2,885) vs 3.9/5 (1,741)",
           "Pricing quoted per dog at both - get both quotes",
@@ -1008,7 +1074,7 @@ const battles: BattleData[] = [
     intro:
       "Nom Nom and Spot & Tango both run the standard fresh dog food playbook - personalized plans, human-grade-quality recipes, recurring delivery - and each stakes its identity on something different. Nom Nom leads with nutrition science: recipes formulated by board-certified veterinary nutritionists. Spot & Tango leads with format range: fresh recipes plus UnKibble, its dry-format line. We haven't verified current per-dog pricing or exact recipe lineups at either brand, so this comparison sticks to the observable differences and what to check in both quote flows.",
     verdict:
-      "Spot & Tango takes this one on the strength of what we can verify. Its public Trustpilot record leads - an excellent 4.6/5 across 2,885 reviews, against Nom Nom's strong-but-lower 4.4/5 across 1,860 - and it offers the format range of fresh recipes plus UnKibble, which Nom Nom's fresh-only lineup can't match. Nom Nom keeps the stronger formulation credential, with board-certified veterinary nutritionists behind its recipes, and remains the better pick for owners who weight that most heavily. For everyone else, the review record and the flexibility point the same way. Run both quote flows with the same dog profile and compare the per-day price before you commit.",
+      "Spot & Tango takes this one on the strength of what we can verify. Its public Trustpilot record leads - an excellent 4.6/5 across 2,885 reviews, against Nom Nom's strong-but-lower 4.4/5 across 1,871 - and it offers the format range of fresh recipes plus UnKibble, which Nom Nom's fresh-only lineup can't match. Nom Nom keeps the stronger formulation credential, with board-certified veterinary nutritionists behind its recipes, and remains the better pick for owners who weight that most heavily. For everyone else, the review record and the flexibility point the same way. Run both quote flows with the same dog profile and compare the per-day price before you commit.",
     verdictWinnerPoints: [
       "Excellent Trustpilot record - 4.6/5 across 2,885 reviews",
       "Fresh plus UnKibble dry format in one brand",
@@ -1016,7 +1082,7 @@ const battles: BattleData[] = [
     ],
     verdictLoserPoints: [
       "Recipes formulated by board-certified veterinary nutritionists",
-      "Strong Trustpilot record - 4.4/5 across 1,860 reviews",
+      "Strong Trustpilot record - 4.4/5 across 1,871 reviews",
       "Fresh, pre-portioned packs matched to your dog",
     ],
     winnerId: "spot-tango",
@@ -1045,16 +1111,16 @@ const battles: BattleData[] = [
         name: "What We Can Verify Today",
         winner: "provider2",
         explanation:
-          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (September 2026) is the public Trustpilot record, where both look strong but Spot & Tango leads: 4.6/5 across 2,885 reviews versus Nom Nom's 4.4/5 across 1,860.",
+          "Pricing is still unverified at both brands - each quotes per dog, so run both flows with the same profile. What we HAVE verified (November 2026) is the public Trustpilot record, where both look strong but Spot & Tango leads: 4.6/5 across 2,885 reviews versus Nom Nom's 4.4/5 across 1,871.",
         supportingPoints: [
-          "Trustpilot: Spot & Tango 4.6/5 (2,885) vs Nom Nom 4.4/5 (1,860)",
+          "Trustpilot: Spot & Tango 4.6/5 (2,885) vs Nom Nom 4.4/5 (1,871)",
           "Pricing quoted per dog at both - get both quotes",
         ],
       },
     ],
     features: [
       { feature: "Category", provider1Value: "Fresh dog food subscription", provider2Value: "Fresh dog food subscription", highlight: "both" },
-      { feature: "Trustpilot (Sept 2026)", provider1Value: "4.4/5 - 1,860 reviews", provider2Value: "4.6/5 - 2,885 reviews", highlight: "provider2" },
+      { feature: "Trustpilot (Nov 2026)", provider1Value: "4.4/5 - 1,871 reviews", provider2Value: "4.6/5 - 2,885 reviews", highlight: "provider2" },
       { feature: "Formulation", provider1Value: "Board-certified veterinary nutritionists", provider2Value: "Complete-and-balanced recipes", highlight: "provider1" },
       { feature: "Formats", provider1Value: "Fresh", provider2Value: "Fresh + UnKibble (dry)", highlight: "provider2" },
       { feature: "Portioning", provider1Value: "Pre-portioned to your dog", provider2Value: "Personalized to your dog", highlight: "both" },
@@ -1106,7 +1172,7 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
       ...base.hero,
       backgroundImageUrl: "",
       imageAlt: "",
-      updatedLabel: "Last Updated: August 2026",
+      updatedLabel: "Last Updated: November 2026",
       h1: "Best Fresh Dog Food Delivery Services of 2026",
       h2: "Compare fresh, human-grade dog food subscriptions side by side",
       description:
@@ -1118,13 +1184,7 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
       blockOrder: ["secureBadge", "editorialReviews", "rankingMethodology", "disclosure"],
     },
     ranking: {
-      // Ranked by the verified public Trustpilot record, September 2026:
-      // Ollie 4.7/11,325 - Spot & Tango 4.6/2,885 - Nom Nom 4.4/1,860 -
-      // The Farmer's Dog 3.9/1,741.
-      // Ranks 1-4 are the verified-Trustpilot brands (September 2026 records).
-      // Ranks 5-8 are newly added and not yet verified - they sit below the
-      // verified set on purpose until we check their public records.
-      providerOrder: ["ollie", "spot-tango", "nom-nom", "farmers-dog", "the-pets-table", "we-feed-raw", "maxbone", "redbarn"],
+      providerOrder: ["ollie", "we-feed-raw", "spot-tango", "the-pets-table", "nom-nom", "farmers-dog", "maxbone", "redbarn"],
       positions: base.ranking.positions,
     },
     reviews,
