@@ -26,7 +26,7 @@ export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
   // Verified against The Farmer's Dog's public Trustpilot profile, September 2026.
   "fresh-dog-food:farmers-dog": {
     rows: [
-      { label: "Trustpilot TrustScore", value: "3.9 / 5 across 1,699 reviews" },
+      { label: "Trustpilot TrustScore", value: "3.9 / 5 across 1,741 reviews" },
       { label: "Trustpilot profile", value: "Claimed since March 2021 (paid Trustpilot subscription)" },
       { label: "Recurring praise in recent reviews", value: "Palatability with picky eaters; responsive, human customer service" },
       { label: "Recurring complaints in recent reviews", value: "Delivery timing and drop-off placement; overall price" },
@@ -36,7 +36,7 @@ export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
   // Verified against Ollie's public Trustpilot profile, September 2026.
   "fresh-dog-food:ollie": {
     rows: [
-      { label: "Trustpilot TrustScore", value: "4.6 / 5 across 11,133 reviews" },
+      { label: "Trustpilot TrustScore", value: "4.7 / 5 across 11,325 reviews" },
       { label: "Trustpilot profile", value: "Claimed since January 2026 (paid Trustpilot subscription)" },
       { label: "Recurring praise in recent reviews", value: "Responsive customer service; palatability; frozen delivery holding up in heat" },
     ],
@@ -54,7 +54,7 @@ export const PROVIDER_AUDITS: Record<string, ProviderAuditEntry> = {
   // Verified against Spot & Tango's public Trustpilot profile, September 2026.
   "fresh-dog-food:spot-tango": {
     rows: [
-      { label: "Trustpilot TrustScore", value: "4.6 / 5 across 2,723 reviews" },
+      { label: "Trustpilot TrustScore", value: "4.6 / 5 across 2,885 reviews" },
       { label: "Trustpilot profile", value: "Claimed since July 2022 (paid Trustpilot subscription)" },
       { label: "Recurring praise in recent reviews", value: "UnKibble with picky and sensitive-stomach dogs; customer service" },
       { label: "Recurring complaint in recent reviews", value: "Marketing email frequency" },
