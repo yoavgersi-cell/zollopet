@@ -425,6 +425,33 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
     mainEntityOfPage: canonicalUrl(ctx, `/${battle.slug}`),
   };
 
+  // Per-provider Product + AggregateRating, grounded in the same verified
+  // Trustpilot record rendered on the page. Emitted only when a real rating
+  // and count exist - we never fabricate a rating - so Google/Bing and AI
+  // crawlers can read both compared brands' star data from the battle page.
+  const battleProductSchemas = [p1, p2].flatMap((prov) => {
+    const r = prov.trustpilotRating ? parseFloat(prov.trustpilotRating) : NaN;
+    const c = prov.trustpilotReviewCount
+      ? parseInt(prov.trustpilotReviewCount.replace(/[^0-9]/g, ""), 10)
+      : NaN;
+    if (!Number.isFinite(r) || r <= 0 || !Number.isFinite(c) || c <= 0) return [];
+    return [{
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: prov.name,
+      description: prov.tagline,
+      image: `${ctx.origin}${prov.logo}`,
+      url: canonicalUrl(ctx, `/reviews/${(config.reviews ?? []).find((rv) => rv.providerId === prov.id)?.slug ?? prov.id}`),
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: r,
+        bestRating: 5,
+        worstRating: 1,
+        reviewCount: c,
+      },
+    }];
+  });
+
   const battleBreadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -449,6 +476,9 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(battleBreadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(battleFaqSchema) }} />
+      {battleProductSchemas.map((ps) => (
+        <script key={ps.name} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ps) }} />
+      ))}
 
       <div className="min-h-screen bg-[#FAF4E6]">
         {/* ───── HERO ───── */}
