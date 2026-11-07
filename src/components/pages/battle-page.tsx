@@ -621,7 +621,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               </table>
               {/* Freshness line - SERP winners date-stamp their prices; ours
                   are verified against published rates on every content pass. */}
-              <p className="border-t border-gray-100 px-4 py-2.5 text-[11.5px] text-gray-400">
+              <p className="border-t border-gray-100 px-4 py-2.5 text-[12px] text-gray-500">
                 Prices are the providers&rsquo; published rates at our last verification - confirm the
                 final figure at checkout, as offers change.{" "}
                 <Link href={hubLink(ctx, "/how-we-rank")} className="font-medium text-gray-500 underline underline-offset-2 hover:text-[#1F4A33]">

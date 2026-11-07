@@ -146,7 +146,7 @@ export function MedicalSources({ vertical }: { vertical: string }) {
 // veterinary or financial advice. Sits under the byline, above the content.
 export function TrustDisclosure({ disclaimerHref }: { disclaimerHref: string }) {
   return (
-    <p className="mt-2.5 max-w-[720px] rounded-lg bg-gray-50 px-3 py-2 text-[11.5px] leading-[1.55] text-gray-500 sm:mt-3 sm:px-3.5 sm:py-2.5 sm:text-[12.5px] sm:leading-relaxed">
+    <p className="mt-2.5 max-w-[720px] rounded-lg bg-gray-50 px-3 py-2 text-[12px] leading-[1.55] text-gray-500 sm:mt-3 sm:px-3.5 sm:py-2.5 sm:text-[12.5px] sm:leading-relaxed">
       We may earn a commission when you visit providers through links on this page - it never
       affects our rankings (
       <a href={disclaimerHref} className="font-medium text-[#1F4A33] hover:underline">
