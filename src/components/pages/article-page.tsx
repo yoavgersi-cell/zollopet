@@ -52,6 +52,11 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: stri
       "Fresh dog food for puppies: growth formulation, the large-breed calcium question, portion updates as your puppy grows, and what to verify per brand.",
   },
   // fresh-cat-food
+  "fresh-cat-food:freshpet-vs-darwins": {
+    title: "Freshpet vs Darwin's: Fresh vs Raw Delivery",
+    description:
+      "Freshpet vs Darwin's Natural Pet - supermarket-fridge fresh food against a frozen raw delivery subscription, and which model fits your home.",
+  },
   "fresh-cat-food:fresh-cat-food-delivery-guide": {
     description:
       "Fresh cat food delivery explained - how it compares to wet and dry, cooked vs raw, cost, switching a picky cat, and whether your cat needs it.",
