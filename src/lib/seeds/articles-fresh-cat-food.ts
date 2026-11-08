@@ -443,4 +443,43 @@ export const freshCatFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "freshpet-vs-darwins",
+    title: "Freshpet vs Darwin's: Supermarket Fresh vs Raw Delivery",
+    description:
+      "Freshpet vs Darwin's Natural Pet - how supermarket-fridge fresh food differs from a frozen raw delivery subscription, for cats and dogs, and which model fits your home.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    heroColor: "#B45A2B",
+    keyTakeaways: [
+      "Freshpet and Darwin's both sell less-processed pet food through opposite models: the grocery refrigerator case versus a frozen raw subscription shipped to your door.",
+      "Freshpet is gently cooked and bought off a shelf with zero commitment; Darwin's is raw, portioned to your pet's profile, and arrives frozen on a recurring delivery.",
+      "The real decision is cooked vs raw first, retail vs subscription second - they are different answers to different questions, not two versions of the same product.",
+      "Raw feeding carries genuine handling and suitability considerations - talk to your vet before switching, especially for kittens, seniors or immunocompromised households.",
+    ],
+    sections: [
+      {
+        heading: "Two different answers to 'fresher than kibble'",
+        body:
+          "Freshpet and Darwin's Natural Pet get compared constantly because both promise the same escape from the kibble bag - and yet they are about as different as two fresher-food brands can be. Freshpet pioneered retail fresh: gently cooked rolls and bagged recipes for dogs and cats, sold from branded refrigerators in supermarkets and pet stores, bought like any grocery item. Darwin's is a raw-food delivery service: uncooked, meat-forward recipes portioned to your pet's profile, shipped frozen to your door on a recurring subscription. One is cooked, retail, zero-commitment; the other is raw, personalized and subscription-first. Comparing them honestly means separating two decisions that often get collapsed into one: what processing level you want to feed (gently cooked versus raw), and how you want it to arrive (off a shelf today versus scheduled to your door). Get those two questions in the right order and the Freshpet-versus-Darwin's choice mostly makes itself.",
+      },
+      {
+        heading: "Where Freshpet wins",
+        body:
+          "Accessibility and reversibility. Freshpet lives where you already shop: you can try it today, locally, in a small quantity, with no quiz, no account and no delivery window - the lowest-friction first step out of conventional kibble or canned food that exists. Because it is gently cooked, it also sidesteps the raw-handling conversation entirely: no raw-meat hygiene protocol, no thawing discipline, and no veterinary debate about raw suitability - which matters in households with young children, elderly family members or immunocompromised people, where many vets advise against raw handling regardless of how the pet tolerates it. Shelf pricing is visible before you commit, portioning is flexible, and stopping is as simple as not buying another roll. The honest limits: no personalization (portion math is on you), recipes are generalist rather than matched to your pet's profile, and the fridge-case format still needs refrigeration after opening - it is fresher-than-kibble convenience, not a tailored nutrition program.",
+      },
+      {
+        heading: "Where Darwin's wins",
+        body:
+          "Commitment to the raw philosophy, done with delivery-service discipline. If you have already decided - ideally with your vet - that raw feeding is right for your cat or dog, Darwin's solves the two problems that sink most DIY raw attempts: formulation and logistics. Recipes are built to be complete and balanced rather than the guesswork of home-assembled raw, and the subscription ships pre-portioned frozen packs matched to your pet's profile, so portion discipline is built in rather than willed. For cats specifically - obligate carnivores with a famously low thirst drive - the high-moisture, meat-first approach is the argument raw feeders lead with, and our Darwin's review covers how the brand executes it. The honest limits are the format's own: freezer space and thaw-ahead routine are non-negotiable, raw handling hygiene is on you every single day, delivery windows replace shelf availability, and the raw question itself remains genuinely debated in veterinary medicine - which is why we keep saying the vet conversation comes first, not after the first box.",
+      },
+      {
+        heading: "How to choose honestly",
+        body:
+          "Decide processing level first, purchase model second. If you want less-processed food without entering the raw debate, Freshpet is the practical answer - gently cooked, locally available, reversible - and the comparison to run is Freshpet against the fresh-cooked delivery subscriptions, not against Darwin's (our wet-vs-dry-vs-fresh explainer maps that landscape for cats). If you are committed to raw, Darwin's is the structured way to do it - and the comparison to run is Darwin's against other raw options and against making it yourself, on formulation rigor, per-week cost from the brand's own quote, and how its logistics fit your freezer and schedule. Two guardrails regardless of direction: we haven't verified either brand's current pricing - Freshpet is priced on the shelf and Darwin's quotes per pet, so check both for your actual animal - and any format switch deserves a gradual transition plus a veterinary sign-off, doubly so for kittens, seniors, or any pet with a medical condition. Different models, different philosophies - the right one is the one your household will actually sustain.",
+      },
+    ],
+  },
 ];
