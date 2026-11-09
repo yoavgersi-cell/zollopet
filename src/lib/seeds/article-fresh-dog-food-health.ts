@@ -11,7 +11,7 @@ export const freshDogFoodHealthGuide: ArticleData = {
   slug: "is-fresh-dog-food-healthier",
   title: "Is Fresh Dog Food Actually Healthier?",
   description:
-    "What the evidence really shows about fresh dog food - digestibility, coats, weight, allergies - which claims hold up, which outrun the science, and who benefits most.",
+    "What the evidence really shows about fresh dog food - digestibility, coats, weight, allergies - which claims hold up and who benefits most.",
   category: "Science",
   readTime: "50 min read",
   publishedAt: "2026-11-09",

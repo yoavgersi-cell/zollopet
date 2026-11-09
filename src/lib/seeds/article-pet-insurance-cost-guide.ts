@@ -12,7 +12,7 @@ export const petInsuranceCostGuide: ArticleData = {
   slug: "how-much-does-pet-insurance-cost",
   title: "How Much Does Pet Insurance Cost?",
   description:
-    "What pet insurance really costs - industry averages, the factors that set your premium, the three levers you control, lifetime math and how to pay less without gutting coverage.",
+    "What pet insurance really costs - industry averages, the factors that set your premium, the three levers you control, and how to pay less.",
   category: "Guide",
   readTime: "50 min read",
   publishedAt: "2026-11-09",
