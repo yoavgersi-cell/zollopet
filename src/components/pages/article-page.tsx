@@ -479,6 +479,52 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
               </div>
             </div>
           )}
+          {/* Top picks component - live from providerOrder/positions, so
+              re-ranks propagate. Rendered only on commercial-intent guides
+              (article.showTopProviders). */}
+          {article.showTopProviders && topProviders.length > 0 && (
+            <section aria-label="Our top picks" className="mb-8 rounded-2xl border border-[#EFE5CC] bg-[#FAF4E6] p-5 sm:p-6">
+              <div className="mb-4 flex items-baseline justify-between gap-3">
+                <h2 className="text-[17px] font-bold text-[#22362A]">Our top picks at a glance</h2>
+                <Link href={hubLink(ctx, "/")} className="shrink-0 text-[13px] font-semibold text-[#1F4A33] hover:underline">
+                  Full comparison →
+                </Link>
+              </div>
+              <div className="space-y-3">
+                {topProviders.slice(0, 3).map((tp, rank) => {
+                  const review = (config.reviews ?? []).find((rv) => rv.providerId === tp.id);
+                  const full = config.providers.find((p) => p.id === tp.id);
+                  return (
+                    <div key={tp.id} className="rounded-xl border border-gray-200 bg-white p-4">
+                      <div className="flex items-center gap-3">
+                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#1F4A33] text-[12px] font-bold text-white">{rank + 1}</span>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={tp.logo} alt={`${tp.name} logo`} width={120} height={32} loading="lazy" decoding="async" className="h-[26px] w-auto max-w-[110px] object-contain object-left" />
+                        <span className="ml-auto rounded-lg bg-[#1F4A33] px-2 py-0.5 text-[13px] font-bold text-white">{tp.rating.toFixed(1)}</span>
+                      </div>
+                      <p className="mt-2 text-[13.5px] leading-snug text-gray-600">{tp.tagline}</p>
+                      {full?.trustpilotRating && full?.trustpilotReviewCount && (
+                        <p className="mt-1 text-[12.5px] text-gray-500">
+                          <span className="font-semibold text-[#00B67A]">★ {full.trustpilotRating}</span> on Trustpilot ({full.trustpilotReviewCount} reviews, verified Nov 2026)
+                        </p>
+                      )}
+                      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+                        <a href={tp.affiliateUrl} className="inline-flex h-[34px] items-center justify-center rounded-lg bg-[#1F4A33] px-4 text-[13px] font-bold text-white transition-colors hover:bg-[#163B27]">
+                          Visit Site
+                        </a>
+                        {review && (
+                          <Link href={hubLink(ctx, `/reviews/${review.slug}`)} className="text-[13px] font-semibold text-[#1F4A33] hover:underline">
+                            Read full review
+                          </Link>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
           {/* Hub-and-spoke: descriptive-anchor link from every cluster article
               up to the vertical's pillar guide. */}
           {pillarArticle && (
@@ -575,8 +621,9 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
                   )}
 
 
-                {/* Inline provider CTA after 2nd section */}
-                {i === 1 && topProviders.length > 0 && (
+                {/* Inline provider CTA after 2nd section (suppressed when the
+                    article renders the full top-picks component up top) */}
+                {i === 1 && topProviders.length > 0 && !article.showTopProviders && (
                   <div className="my-8 rounded-lg border border-gray-200 bg-white px-5 py-4">
                     <p className="mb-3 text-[13px] font-bold uppercase tracking-wider text-gray-400">Top-Rated Providers</p>
                     <div className="space-y-2.5">

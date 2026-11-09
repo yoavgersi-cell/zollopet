@@ -192,6 +192,10 @@ export interface ArticleData {
   keyTakeaways?: string[];
   sections: ArticleSection[];
   sidebarId?: string;
+  // Renders the vertical's top-ranked providers (live from providerOrder,
+  // so re-ranks propagate automatically) as a compact picks box above the
+  // body. Set on commercial-intent guides only.
+  showTopProviders?: boolean;
 }
 
 export interface BattleCategory {
