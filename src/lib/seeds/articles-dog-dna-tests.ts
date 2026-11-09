@@ -1,5 +1,6 @@
 import type { ArticleData } from "../config";
 import { dogDnaTestsCompleteGuide } from "./article-dog-dna-tests-complete-guide";
+import { dogDnaHealthScreeningGuide } from "./article-dog-dna-health-screening";
 
 // Long-tail editorial guides for the dog-dna-tests vertical. House rules:
 // general, truthful guidance only - no invented prices, accuracy percentages,
@@ -9,6 +10,7 @@ const PUBLISHED = "2026-09-01";
 
 export const dogDnaTestsArticles: ArticleData[] = [
   dogDnaTestsCompleteGuide,
+  dogDnaHealthScreeningGuide,
   {
     slug: "how-accurate-are-dog-dna-tests",
     title: "How Accurate Are Dog DNA Tests? What the Results Really Mean",
