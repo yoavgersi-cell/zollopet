@@ -1,5 +1,6 @@
 import type { ArticleData } from "../config";
 import { freshDogFoodCompleteGuide } from "./article-fresh-dog-food-complete-guide";
+import { freshDogFoodHealthGuide } from "./article-fresh-dog-food-health";
 
 // Long-tail editorial guides for the fresh-dog-food vertical. House rules:
 // general, truthful guidance only - no invented prices, statistics, or brand
@@ -10,6 +11,7 @@ const PUBLISHED = "2026-09-01";
 
 export const freshDogFoodArticles: ArticleData[] = [
   freshDogFoodCompleteGuide,
+  freshDogFoodHealthGuide,
   {
     slug: "is-fresh-dog-food-worth-it",
     title: "Is Fresh Dog Food Worth It? An Honest Look at the Trade-Offs",
