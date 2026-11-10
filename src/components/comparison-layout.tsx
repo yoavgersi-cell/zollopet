@@ -105,6 +105,25 @@ export function ComparisonLayout({ config, heroOverrides, linkPrefix = "", bylin
         </div>
       </section>
 
+      {/* Category landings strip - contextual links so landing pages are
+          never sitemap-only orphans; renders only when landings exist. */}
+      {(config.landingPages ?? []).length > 0 && (
+        <section className="mx-auto max-w-[1200px] px-4 pb-8">
+          <h2 className="mb-3 text-[17px] font-bold text-[#22362A]">Browse by category</h2>
+          <div className="flex flex-wrap gap-3">
+            {(config.landingPages ?? []).map((lp) => (
+              <a
+                key={lp.slug}
+                href={`${linkPrefix}/${lp.slug}`}
+                className="rounded-xl border border-gray-200 bg-white px-4 py-3 text-[14px] font-semibold text-[#1F4A33] transition-colors hover:border-[#1F4A33]/30 hover:bg-[#1F4A33]/[0.03]"
+              >
+                {lp.h1} →
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
       {children}
 
       <FaqAccordion items={config.faqs} />

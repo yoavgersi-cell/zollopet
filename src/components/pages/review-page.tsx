@@ -767,7 +767,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
         </div>
 
         {/* Related content */}
-        {(relatedBattles.length > 0 || relatedArticles.length > 0) && (
+        {(relatedBattles.length > 0 || relatedArticles.length > 0 || (config.landingPages ?? []).some((lp) => lp.providerOrder.includes(provider.id))) && (
           <div className="mb-6">
             <h3 className="mb-4 text-[18px] font-bold text-[#22362A]">Related</h3>
             <div className="space-y-2">
@@ -786,6 +786,18 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
                   </Link>
                 );
               })}
+              {(config.landingPages ?? [])
+                .filter((lp) => lp.providerOrder.includes(provider.id))
+                .map((lp) => (
+                  <Link
+                    key={lp.slug}
+                    href={hubLink(ctx, `/${lp.slug}`)}
+                    className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-[14px] font-medium text-[#22362A] transition-colors hover:border-[#1F4A33]/30 hover:bg-[#1F4A33]/[0.02]"
+                  >
+                    <span className="truncate">{lp.h1}</span>
+                    <span className="ml-auto shrink-0 text-[12px] text-gray-400">Category</span>
+                  </Link>
+                ))}
               {relatedArticles.map((article) => (
                 <Link
                   key={article.slug}

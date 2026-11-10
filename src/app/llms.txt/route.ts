@@ -43,6 +43,9 @@ export async function GET() {
     for (const p of (c.providers ?? []).slice(0, 4)) {
       sections.push(line(`${p.name} review`, `/${v.id}/reviews/${p.id}`, p.tagline));
     }
+    for (const lp of c.landingPages ?? []) {
+      sections.push(line(lp.h1, `/${v.id}/${lp.slug}`, lp.seoDescription));
+    }
     for (const a of (c.articles ?? []).slice(0, 4)) {
       sections.push(line(a.title, `/${v.id}/articles/${a.slug}`, a.description));
     }
