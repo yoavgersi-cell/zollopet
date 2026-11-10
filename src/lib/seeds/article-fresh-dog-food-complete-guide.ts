@@ -18,6 +18,7 @@ export const freshDogFoodCompleteGuide: ArticleData = {
   updatedAt: "2026-11-02",
   heroColor: "#1F4A33",
     heroImage: "/article-images/fresh-dog-food-guide.webp",
+    heroImageAlt: "A happy dog lying beside a bowl of fresh dog food with vegetables in a cozy living room",
   keyTakeaways: [
     "Fresh dog food is gently cooked, human-grade food delivered in portions matched to your dog's profile - a format upgrade whose biggest practical win is built-in portion control.",
     "Against quality kibble, fresh wins on processing level, ingredient transparency and palatability; kibble wins on price, convenience and shelf life - both can feed a dog well.",

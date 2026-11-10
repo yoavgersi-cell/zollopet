@@ -196,6 +196,9 @@ export interface ArticleData {
   // as a banner in the article hero and used as the page's og:image and
   // Article schema image.
   heroImage?: string;
+  // Descriptive alt text for the hero image (what the image shows, with the
+  // topic named naturally). Falls back to the article title when absent.
+  heroImageAlt?: string;
   // Renders the vertical's top-ranked providers (live from providerOrder,
   // so re-ranks propagate automatically) as a compact picks box above the
   // body. Set on commercial-intent guides only.

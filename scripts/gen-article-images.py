@@ -49,6 +49,13 @@ STYLE = (
     "no logos, no brand packaging, no human faces."
 )
 
+ALT_SUBJECTS = {
+    "fresh-dog-food": "A happy, healthy dog beside a bowl of fresh dog food",
+    "fresh-cat-food": "A content cat beside a dish of fresh cat food",
+    "pet-insurance": "A calm dog and cat resting safely together at home",
+    "dog-dna-tests": "A curious dog in soft natural light",
+}
+
 SUBJECTS = {
     "fresh-dog-food": "A happy, healthy dog beside a bowl of fresh, colorful home-style dog food",
     "fresh-cat-food": "A content, healthy cat beside a small dish of fresh, meat-forward cat food",
@@ -104,7 +111,7 @@ def gen_image(prompt):
     return base64.b64decode(data["data"][0]["b64_json"])
 
 
-def inject_hero(rel, slug):
+def inject_hero(rel, slug, vertical):
     path = os.path.join(ROOT, rel)
     src = open(path).read()
     pat = re.compile(r'(slug: "' + re.escape(slug) + r'",(?:(?!slug: ")[\s\S]){0,500}?heroColor: "[^"]*",)')
@@ -113,7 +120,11 @@ def inject_hero(rel, slug):
         return False
     if "heroImage:" in src[m.start():m.start() + 700]:
         return True
-    insert = m.group(1) + f'\n    heroImage: "/article-images/{slug}.webp",'
+    topic = slug.replace("-", " ")
+    alt = f'{ALT_SUBJECTS[vertical]} - illustrating {topic}'
+    insert = (m.group(1)
+              + f'\n    heroImage: "/article-images/{slug}.webp",'
+              + f'\n    heroImageAlt: "{alt}",')
     src = src[:m.start()] + insert + src[m.end():]
     open(path, "w").write(src)
     return True
@@ -160,7 +171,7 @@ def main():
             continue
         out = os.path.join(OUT_DIR, f"{slug}.webp")
         open(out, "wb").write(img)
-        ok = inject_hero(rel, slug)
+        ok = inject_hero(rel, slug, vertical)
         print(f"  saved {len(img)//1024}KB, seed wired: {ok}")
         done += 1
     print(f"\n{done}/{len(batch)} images generated")

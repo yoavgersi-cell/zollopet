@@ -444,7 +444,7 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
               /* eslint-disable-next-line @next/next/no-img-element */
               <img
                 src={article.heroImage}
-                alt={article.title}
+                alt={article.heroImageAlt ?? article.title}
                 width={1536}
                 height={1024}
                 fetchPriority="high"

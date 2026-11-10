@@ -306,6 +306,7 @@ export const freshDogFoodArticles: ArticleData[] = [
     updatedAt: "2026-09-01",
     heroColor: "#A16207",
     heroImage: "/article-images/how-to-store-fresh-dog-food.webp",
+    heroImageAlt: "A dog in a warm kitchen beside fresh dog food portions ready for fridge and freezer storage",
     keyTakeaways: [
       "The master rule: handle fresh dog food like fresh human food - refrigerated, dated, and never left sitting out for hours.",
       "The brand's printed storage guidance beats any generic rule, including ours - dates and windows differ by product.",
