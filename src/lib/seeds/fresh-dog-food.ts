@@ -1200,7 +1200,7 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
         slug: "fresh-dry-dog-food",
         seoTitle: "Best Fresh-Dry Dog Food (2026): UnKibble & Rivals",
         seoDescription:
-          "Fresh-dry and gently baked dog food compared - Spot & Tango's UnKibble, Ollie's baked line and The Farmer's Dog Instant Fresh - fresh-food quality without the freezer.",
+          "Fresh-dry and baked dog food compared - Spot & Tango's UnKibble, Ollie's baked line and The Farmer's Dog Instant Fresh - fresh quality, no freezer.",
         h1: "Best Fresh-Dry & Baked Dog Food of 2026",
         h2: "Fresh-food ingredients in a shelf-stable bowl - the formats compared honestly",
         heroDescription:
