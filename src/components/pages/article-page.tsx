@@ -197,7 +197,9 @@ export async function articleMetadata(slug: string, ctx: SiteContext): Promise<M
       canonical: url,
     },
     openGraph: {
-      images: [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
+      images: article.heroImage
+        ? [{ url: `https://www.zollopet.com${article.heroImage}`, width: 1536, height: 1024 }]
+        : [{ url: "https://www.zollopet.com/og.png", width: 1200, height: 630 }],
       title: override?.title ?? article.title,
       description: override?.description ?? article.description,
       url,
@@ -309,7 +311,7 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
     "@type": "Article",
     headline: article.title,
     description: article.description,
-    image: canonicalUrl(ctx, `/articles/${slug}/opengraph-image`),
+    image: article.heroImage ? `https://www.zollopet.com${article.heroImage}` : canonicalUrl(ctx, `/articles/${slug}/opengraph-image`),
     datePublished: article.publishedAt,
     dateModified: latestUpdate(article.updatedAt),
     wordCount,
@@ -438,6 +440,18 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
               </span>
             </div>
 
+            {article.heroImage && (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                src={article.heroImage}
+                alt={article.title}
+                width={1536}
+                height={1024}
+                fetchPriority="high"
+                decoding="async"
+                className="mb-5 aspect-[21/9] w-full rounded-2xl border border-[#EFE5CC] object-cover"
+              />
+            )}
             <h1 className="text-[24px] font-bold leading-tight text-[#22362A] sm:text-[32px]">
               {article.title}
             </h1>

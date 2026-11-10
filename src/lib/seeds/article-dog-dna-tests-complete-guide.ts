@@ -18,6 +18,7 @@ export const dogDnaTestsCompleteGuide: ArticleData = {
   publishedAt: "2026-11-02",
   updatedAt: "2026-11-02",
   heroColor: "#5B3A70",
+    heroImage: "/article-images/dog-dna-test-guide.webp",
   keyTakeaways: [
     "A dog DNA test is a cheek swab that returns breed ancestry, trait genetics and - on the flagship kits - screening across large panels of genetic health risks; the health layer is where the real value now lives.",
     "Breed percentages are estimates and health flags are risk indicators, not diagnoses - no regulator certifies accuracy claims in consumer pet genetics, so the science behind each brand is the trust signal.",

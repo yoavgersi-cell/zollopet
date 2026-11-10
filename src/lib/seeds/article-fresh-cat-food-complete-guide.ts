@@ -17,6 +17,7 @@ export const freshCatFoodCompleteGuide: ArticleData = {
   publishedAt: "2026-10-20",
   updatedAt: "2026-10-20",
   heroColor: "#1F4A33",
+    heroImage: "/article-images/fresh-cat-food-delivery-guide.webp",
   keyTakeaways: [
     "Fresh cat food is gently cooked (or, from specialist brands, raw) food made from whole ingredients, kept cold, and delivered on a subscription portioned to your cat.",
     "Cats are obligate carnivores with a weak thirst drive - high-protein, high-moisture feeding is the real argument for fresh, and quality canned food shares much of it.",

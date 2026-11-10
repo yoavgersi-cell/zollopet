@@ -17,6 +17,7 @@ export const petInsuranceCompleteGuide: ArticleData = {
   publishedAt: "2026-10-18",
   updatedAt: "2026-10-18",
   heroColor: "#1F4A33",
+    heroImage: "/article-images/how-does-pet-insurance-work.webp",
   keyTakeaways: [
     "US pet insurance is reimbursement insurance: you pay the vet, file a claim, and get paid back by your policy's math - deductible first, then your reimbursement percentage, inside your annual limit.",
     "Three rules shape everything: pre-existing conditions are excluded everywhere, waiting periods gate when coverage starts, and the three levers (deductible, rate, limit) set what any claim pays.",

@@ -192,6 +192,10 @@ export interface ArticleData {
   keyTakeaways?: string[];
   sections: ArticleSection[];
   sidebarId?: string;
+  // Optional hero image path (e.g. /article-images/<slug>.webp), rendered
+  // as a banner in the article hero and used as the page's og:image and
+  // Article schema image.
+  heroImage?: string;
   // Renders the vertical's top-ranked providers (live from providerOrder,
   // so re-ranks propagate automatically) as a compact picks box above the
   // body. Set on commercial-intent guides only.
