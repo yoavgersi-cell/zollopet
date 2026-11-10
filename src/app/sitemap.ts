@@ -83,6 +83,9 @@ function verticalEntries(base: string, config: SiteConfig): MetadataRoute.Sitema
         lastModified: flooredLastModified(a.updatedAt),
         changeFrequency: "weekly" as const,
         priority: 0.8,
+        // Google Image sitemap extension - hero photos become image-search
+        // candidates as the daily image task fills them in.
+        ...(a.heroImage && { images: [`${HUB_URL}${a.heroImage}`] }),
       }))
   );
 
