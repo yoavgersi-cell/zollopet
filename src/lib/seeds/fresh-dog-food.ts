@@ -1189,6 +1189,43 @@ export function freshDogFoodSeed(base: SiteConfig): SiteConfig {
     },
     reviews,
     battles,
+    // Category landing: the fresh-dry / baked formats segment. Ranked by
+    // dry-format fit and maturity - Spot & Tango invented the category
+    // (UnKibble, purpose-built Fresh Dry process), Ollie's gently baked
+    // line is the established second format, The Farmer's Dog's Instant
+    // Fresh is the newest entrant. Trustpilot records shown per provider
+    // remain the verified Nov 2026 figures.
+    landingPages: [
+      {
+        slug: "fresh-dry-dog-food",
+        seoTitle: "Best Fresh-Dry Dog Food (2026): UnKibble & Rivals",
+        seoDescription:
+          "Fresh-dry and gently baked dog food compared - Spot & Tango's UnKibble, Ollie's baked line and The Farmer's Dog Instant Fresh - fresh-food quality without the freezer.",
+        h1: "Best Fresh-Dry & Baked Dog Food of 2026",
+        h2: "Fresh-food ingredients in a shelf-stable bowl - the formats compared honestly",
+        heroDescription:
+          "The fastest-growing corner of fresh feeding: human-grade recipes dried or baked gently enough to skip the freezer. We rank the three real players by dry-format fit, with their verified customer records alongside.",
+        providerOrder: ["spot-tango", "ollie", "farmers-dog"],
+        updatedAt: "2026-11-10",
+        editorialSections: [
+          {
+            heading: "What counts as fresh-dry dog food",
+            body:
+              "Fresh-dry is the format that keeps fresh feeding's ingredient philosophy - human-grade meat and produce, recipes formulated to AAFCO standards - while dropping the cold chain. Instead of extrusion (the high-heat, high-pressure process behind conventional kibble), these products are gently dehydrated or slow-baked, then shipped shelf-stable: no freezer space, no thaw-ahead routine, no cooler-bag road trips. The trade is honest in both directions - you give up some of the moisture and texture that define refrigerated fresh food, and you gain a pantry-stable product that scoops and serves like kibble while reading like a fresh-food ingredient panel.",
+          },
+          {
+            heading: "How we rank this category",
+            body:
+              "This page ranks by dry-format fit and maturity, stated openly. Spot & Tango leads because UnKibble is the category's purpose-built original: a dedicated Fresh Dry process, whole recipes designed dry-first rather than adapted, and years of customer record behind it - its verified Trustpilot standing (4.6/5 across 2,885 reviews, checked November 2026) covers the brand across both its formats. Ollie ranks second with its gently baked line - an established format from one of the category's strongest overall operators (4.7/5 across 11,325 verified reviews brand-wide), offered in mixed fresh-plus-baked plans that make it the easiest way to run both formats under one subscription. The Farmer's Dog ranks third here: Instant Fresh is the newest entrant of the three, formulated by the brand's in-house board-certified nutritionists and stored in the pantry - a credible product whose dry-format track record is simply younger than its rivals'. We haven't verified current pricing for any of the three dry lines - each quotes per dog, so run the quote flows.",
+          },
+          {
+            heading: "Who the format fits",
+            body:
+              "Fresh-dry earns its place for households the refrigerated model fails: small freezers, frequent travel, cabins and RVs, multi-dog volumes that outgrow freezer space, and feeders (dog walkers, grandparents, boarding) who will scoop dry food reliably but won't manage thaw windows. It also makes the most practical topper and mixed-plan base in the category - several brands productize exactly that. Who should look elsewhere: owners buying fresh feeding primarily for moisture (hydration is the refrigerated format's advantage - fresh-dry is still dry food at the water bowl), and dogs mid-way through a sensitive-stomach trial, which wants one consistent format, not a hybrid experiment. As with every diet change, transition gradually and loop in your vet for any dog with a medical condition.",
+          },
+        ],
+      },
+    ],
     faqs,
     articles: freshDogFoodArticles,
   };

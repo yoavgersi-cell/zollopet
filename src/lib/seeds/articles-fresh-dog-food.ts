@@ -453,4 +453,43 @@ export const freshDogFoodArticles: ArticleData[] = [
       },
     ],
   },
+  {
+    slug: "what-is-fresh-dry-dog-food",
+    title: "Fresh-Dry Dog Food, Explained",
+    description:
+      "What fresh-dry dog food actually is - UnKibble, gently baked and Instant Fresh compared to kibble and refrigerated fresh, and which dogs the format genuinely fits.",
+    category: "Guide",
+    readTime: "6 min read",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    heroColor: "#1F4A33",
+    keyTakeaways: [
+      "Fresh-dry keeps fresh feeding's ingredient philosophy - human-grade recipes, AAFCO formulation - while swapping the freezer for the pantry via gentle dehydration or slow baking instead of extrusion.",
+      "Three real products define the segment: Spot & Tango's UnKibble (the purpose-built original), Ollie's gently baked line, and The Farmer's Dog's newer Instant Fresh.",
+      "The honest trade: you keep ingredient quality and convenience, you give up the moisture that is refrigerated fresh food's quiet advantage.",
+      "Best fits are travel-heavy and freezer-limited households, mixed plans, and reliable third-party feeders - not owners buying fresh primarily for hydration.",
+    ],
+    sections: [
+      {
+        heading: "The format between kibble and the fridge",
+        body:
+          "Fresh-dry dog food answers the question the refrigerated brands created: what if you want fresh-food ingredients without fresh-food logistics? Conventional kibble is extruded - cooked under high heat and pressure into shelf-stable pellets. Refrigerated fresh food is gently cooked and lives in your freezer. Fresh-dry splits the difference: recipes built from the same human-grade ingredient philosophy as fresh delivery, dried or baked gently enough to avoid extrusion's intensity, shipped shelf-stable, and served with a scoop like any dry food. The category's pioneer is Spot & Tango's UnKibble, made by what the brand calls its Fresh Dry process - whole ingredients combined and gently dehydrated into bite-size pieces rather than extruded. It proved there was a real market between the kibble bag and the freezer, and the rest of the category followed.",
+      },
+      {
+        heading: "The three real players",
+        body:
+          "Three products define the segment today, and they arrived in revealing order. Spot & Tango's UnKibble is the purpose-built original - a dedicated dry-first product line formulated to AAFCO standards for puppies and adults, sold on the same per-dog subscription quiz as the brand's fresh recipes. Ollie's gently baked line came next: a slow-baked dry format from one of fresh delivery's strongest operators, notable for mixed plans that blend fresh and baked under one subscription - the easiest on-ramp for households that want both formats. The Farmer's Dog, long the refrigerated purist, joined most recently with Instant Fresh: a shelf-stable product formulated by the brand's in-house board-certified veterinary nutritionists, stored in the pantry and used within its labeled window after opening. We haven't verified current pricing for any of the three - every brand quotes per dog - and our fresh-dry comparison page ranks them with their verified Trustpilot records alongside.",
+      },
+      {
+        heading: "What you keep, what you give up",
+        body:
+          "What fresh-dry keeps from the refrigerated model: ingredient transparency (short, recognizable panels), formulation discipline (complete-and-balanced statements, with the strongest brands putting veterinary nutritionists behind recipes), per-dog portioning on subscription plans, and palatability that routinely beats conventional kibble in the brands' own picky-eater stories and public reviews. What it keeps from kibble: the entire convenience stack - pantry storage, scoop-and-serve meals, travel without coolers, and food any dog-sitter can serve correctly. What it gives up, honestly: moisture. Refrigerated fresh food carries water the way meat does, and for dogs whose owners chose fresh partly for hydration, a dry format - however gently made - is still dry at the bowl. It also gives up some of the sensory experience that converts the pickiest eaters; a dog that refused kibble for texture reasons may treat fresh-dry as more of the same. Neither trade is a flaw; both are the definition of the format.",
+      },
+      {
+        heading: "Who should choose fresh-dry",
+        body:
+          "Choose fresh-dry when logistics were the thing keeping you from fresh feeding: small or full freezers, frequent travel or RV life, multi-dog households whose volumes outgrow refrigerated plans, and any feeding routine that passes through hands - walkers, boarding, relatives - that will scoop reliably but won't manage thaw windows. It is also the natural base layer for mixed feeding: a measured fresh-dry foundation with refrigerated fresh as topper captures much of both formats at a friendlier total. Think twice if hydration drove your interest (consider wet or refrigerated fresh instead, especially for dogs with urinary history - ask your vet), or if you are mid-way through a sensitive-stomach elimination trial, which demands one consistent diet rather than a format experiment. And the standing rules apply unchanged: verify the AAFCO statement for your dog's life stage, transition over 7-10 days, and bring any medical-condition dog's diet change to the clinic first. Fresh-dry is not a compromise between kibble and fresh - it is a third format with its own honest fit, and our comparison page ranks the three players for exactly that fit.",
+      },
+    ],
+  },
 ];
