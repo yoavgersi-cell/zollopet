@@ -18,6 +18,8 @@ export const petInsuranceCostGuide: ArticleData = {
   publishedAt: "2026-11-09",
   updatedAt: "2026-11-09",
   heroColor: "#1F4A33",
+    heroImage: "/article-images/how-much-does-pet-insurance-cost.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating how much does pet insurance cost",
   showTopProviders: true,
   keyTakeaways: [
     "Secondary reports of NAPHIA industry data put typical accident-and-illness premiums in the $50-62 a month range for dogs and around $32 for cats - but your pet's quote can sit far from any average, because every insurer prices per pet.",

@@ -17,6 +17,8 @@ export const freshDogFoodHealthGuide: ArticleData = {
   publishedAt: "2026-11-09",
   updatedAt: "2026-11-09",
   heroColor: "#1F4A33",
+    heroImage: "/article-images/is-fresh-dog-food-healthier.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating is fresh dog food healthier",
   showTopProviders: true,
   keyTakeaways: [
     "Fresh dog food is better supported on digestibility and palatability than on any sweeping health claim - the honest answer to 'is it healthier' is 'for some dogs, on some outcomes, measurably; for all dogs, unproven'.",

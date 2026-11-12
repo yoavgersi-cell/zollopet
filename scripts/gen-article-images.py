@@ -106,9 +106,20 @@ def gen_image(prompt):
             "Authorization": "Bearer dummy",  # proxy injects the real key
         },
     )
-    with urllib.request.urlopen(req, timeout=180) as r:
-        data = json.loads(r.read())
-    return base64.b64decode(data["data"][0]["b64_json"])
+    last = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = json.loads(r.read())
+            return base64.b64decode(data["data"][0]["b64_json"])
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code >= 500 and attempt < 2:
+                import time
+                time.sleep(8 * (attempt + 1))
+                continue
+            raise
+    raise last
 
 
 def inject_hero(rel, slug, vertical):

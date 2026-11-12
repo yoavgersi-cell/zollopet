@@ -16,6 +16,8 @@ export const dogDnaHealthScreeningGuide: ArticleData = {
   publishedAt: "2026-11-09",
   updatedAt: "2026-11-09",
   heroColor: "#5B3A70",
+    heroImage: "/article-images/dog-dna-health-screening.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating dog dna health screening",
   showTopProviders: true,
   keyTakeaways: [
     "Health screening is where dog DNA testing earns its money: breed reveal is the fun layer, but the panels - hundreds of tested variants at the flagship kits - are what can change actual veterinary decisions.",

@@ -22,6 +22,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/is-fresh-dog-food-worth-it.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating is fresh dog food worth it",
     keyTakeaways: [
       "Fresh food's real advantages are whole ingredients, less processing, and precise per-dog portioning - not a guarantee of better health for every dog.",
       "Quality kibble that meets AAFCO complete-and-balanced standards feeds millions of dogs well at a fraction of the cost.",

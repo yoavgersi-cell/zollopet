@@ -17,6 +17,8 @@ export const freshCatFoodCostGuide: ArticleData = {
   publishedAt: "2026-11-09",
   updatedAt: "2026-11-09",
   heroColor: "#B45A2B",
+    heroImage: "/article-images/how-much-does-fresh-cat-food-cost.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how much does fresh cat food cost",
   showTopProviders: true,
   keyTakeaways: [
     "Every fresh cat food service prices per cat - from weight, age, activity and recipe - so the only number that is true for your cat comes from the brands' own quote flows; this guide teaches the cost structure those quotes are built from.",
