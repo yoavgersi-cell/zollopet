@@ -44,6 +44,8 @@ const BATTLE_SEO_OVERRIDES: Record<string, { title?: string; description?: strin
   // fresh-dog-food
   "fresh-dog-food:farmers-dog-vs-spot-tango": {
     title: "The Farmer's Dog vs Spot & Tango (2026)",
+    description:
+      "Fresh-only vs fresh + UnKibble: verified Trustpilot records (3.9 vs 4.6, Nov 2026), format trade-offs and which service fits your dog - compared honestly.",
   },
   "fresh-dog-food:farmers-dog-vs-nom-nom": {
     title: "The Farmer's Dog vs Nom Nom: 2026 Verdict",
@@ -55,6 +57,8 @@ const BATTLE_SEO_OVERRIDES: Record<string, { title?: string; description?: strin
   },
   "fresh-dog-food:ollie-vs-nom-nom": {
     title: "Ollie vs Nom Nom: 2026 Fresh Food Verdict",
+    description:
+      "Ollie vs Nom Nom on verified Trustpilot records (4.7 vs 4.4, Nov 2026), formats and formulation credentials - with a clear winner and the honest caveats.",
   },
   "fresh-dog-food:nom-nom-vs-spot-tango": {
     title: "Nom Nom vs Spot & Tango: 2026 Verdict",

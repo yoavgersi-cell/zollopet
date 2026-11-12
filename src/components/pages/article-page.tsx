@@ -24,7 +24,9 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: stri
       "Fresh dog food explained - fresh vs kibble, costs, the brands compared on verified records, switching, feeding and whether your dog needs it.",
   },
   "fresh-dog-food:is-fresh-dog-food-worth-it": {
-    title: "Is Fresh Dog Food Worth It? An Honest Look",
+    title: "Is Fresh Dog Food Worth It? The Honest Math",
+    description:
+      "Who actually benefits from fresh dog food, who is paying for aesthetics, and the 30-day test that answers it for your dog - no sales pitch.",
   },
   "fresh-dog-food:fresh-dog-food-vs-kibble": {
     title: "Fresh Dog Food vs Kibble: What Changes",
@@ -48,8 +50,9 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: stri
     title: "Freshpet vs Fresh Dog Food Delivery",
   },
   "fresh-dog-food:fresh-dog-food-for-puppies": {
+    title: "Fresh Dog Food for Puppies: Is It Safe?",
     description:
-      "Fresh dog food for puppies: growth formulation, the large-breed calcium question, portion updates as your puppy grows, and what to verify per brand.",
+      "Is fresh food safe for puppies? The growth-formulation rules, the large-breed calcium question, and exactly what to verify before switching a pup.",
   },
   // fresh-cat-food
   "fresh-cat-food:freshpet-vs-darwins": {
@@ -68,7 +71,9 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: stri
     title: "Is Fresh Food Good for Cats?",
   },
   "fresh-cat-food:wet-vs-dry-vs-fresh-cat-food": {
-    title: "Wet vs Dry vs Fresh Cat Food Compared",
+    title: "Wet vs Dry vs Fresh Cat Food: Which Wins?",
+    description:
+      "Moisture, cost and convenience compared across all three formats - when cheap dry food is genuinely fine, and when wet or fresh earns its price.",
   },
   "fresh-cat-food:how-to-get-picky-cat-to-eat-new-food": {
     title: "How to Get a Picky Cat to Eat New Food",
