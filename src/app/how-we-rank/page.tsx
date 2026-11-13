@@ -75,7 +75,7 @@ export default async function HowWeRankPage() {
     description:
       "Our full methodology for ranking and reviewing pet brands: the factors we score, where our data comes from, how we verify accuracy, and how we pick winners.",
     url: CANONICAL,
-    publisher: { "@type": "Organization", name: "zollopet.com", url: "https://www.zollopet.com" },
+    publisher: { "@type": "Organization", name: "zollopet.com", url: "https://www.zollopet.com", logo: { "@type": "ImageObject", url: "https://www.zollopet.com/zollopet.png" } },
   };
 
   const breadcrumbSchema = {

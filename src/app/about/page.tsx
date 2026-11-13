@@ -25,6 +25,7 @@ export default async function AboutPage() {
     "@type": "Organization",
     name: "zollopet.com",
     url: "https://www.zollopet.com",
+    logo: { "@type": "ImageObject", url: "https://www.zollopet.com/zollopet.png" },
     employee: experts.map((e) => ({
       "@type": "Person",
       name: e.credentials ? `${e.name}, ${e.credentials}` : e.name,

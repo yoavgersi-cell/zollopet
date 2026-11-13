@@ -6,14 +6,14 @@ import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
 import { RatingBadge } from "@/components/rating-badge";
 
 function verticalName(id: string): string {
-  return VERTICALS.find((v) => v.id === id)?.name ?? "Treatment";
+  return VERTICALS.find((v) => v.id === id)?.name ?? "Pet Care";
 }
 
 export async function reviewsIndexMetadata(ctx: SiteContext): Promise<Metadata> {
   const url = canonicalUrl(ctx, "/reviews");
   const vName = verticalName(ctx.vertical);
   const title = `${vName} Reviews`;
-  const description = `Read expert reviews of the top online ${vName.toLowerCase()} providers. Compare treatment options, pricing, pros and cons, and customer experience.`;
+  const description = `Read in-depth reviews of the top ${vName.toLowerCase()} brands. Compare features, pricing, pros and cons, and real customer experience.`;
   return {
     title,
     description,

@@ -51,10 +51,11 @@ export const metadata: Metadata = {
     url: "https://www.zollopet.com",
   },
   twitter: {
+    // Only the card type is pinned here. Title/description/images are left unset
+    // on purpose so Next.js auto-fills them per-page from each route's openGraph
+    // (see postProcessMetadata). Hardcoding them here would override every page
+    // with the generic site title on twitter:* tags.
     card: "summary_large_image",
-    title: "ZolloPet - Compare the Best Pet Products & Services",
-    description:
-      "Independent, side-by-side comparisons across fresh pet food, pet insurance and dog DNA tests.",
   },
   other: {
     "geo.region": "US",
@@ -100,6 +101,12 @@ export default function RootLayout({
               "@type": "Organization",
               name: "ZolloPet",
               url: "https://www.zollopet.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.zollopet.com/zollopet.png",
+                width: 1072,
+                height: 304,
+              },
               areaServed: { "@type": "Country", name: "United States" },
               description:
                 "Independent guides and brand comparisons across fresh pet food, pet insurance and dog DNA tests - honest reviews, pricing research, and side-by-side comparisons.",

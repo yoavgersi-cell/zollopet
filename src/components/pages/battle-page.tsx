@@ -234,7 +234,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
       description: landing.seoDescription,
       url: canonicalUrl(ctx, `/${landing.slug}`),
       dateModified: landing.updatedAt || CONTENT_LAST_UPDATED,
-      publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin },
+      publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin, logo: { "@type": "ImageObject", url: `${ctx.origin}/zollopet.png` } },
     };
 
     const itemListSchema = {
@@ -422,10 +422,14 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
     "@type": "Article",
     headline: battle.title,
     description: battle.description,
+    // Article rich-result eligibility requires an image. Battle pages carry no
+    // hero photo, so we point at the branded social card (1200x630) - a real,
+    // on-site asset, not a fabricated one.
+    image: [`${ctx.origin}/og.png`],
     datePublished: "2026-06-01",
     dateModified: battleUpdatedAt,
     author: { "@type": "Organization", name: ctx.brandTeam, url: ctx.origin },
-    publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin },
+    publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin, logo: { "@type": "ImageObject", url: `${ctx.origin}/zollopet.png` } },
     mainEntityOfPage: canonicalUrl(ctx, `/${battle.slug}`),
   };
 

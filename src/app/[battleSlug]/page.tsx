@@ -92,6 +92,28 @@ export default async function VerticalHomePage({
     },
   };
 
+  // Breadcrumb for the vertical home: site root -> this category. Gives Google
+  // a breadcrumb rich result and a clear hierarchy signal for AI crawlers.
+  const VERTICAL_LABELS: Record<string, string> = {
+    "fresh-dog-food": "Fresh Dog Food",
+    "fresh-cat-food": "Fresh Cat Food",
+    "pet-insurance": "Pet Insurance",
+    "dog-dna-tests": "Dog DNA Tests",
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${ctx.origin}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: VERTICAL_LABELS[battleSlug] ?? vConfig.hero.h1,
+        item: `${ctx.origin}/${battleSlug}`,
+      },
+    ],
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -135,6 +157,7 @@ export default async function VerticalHomePage({
       {isPublishedVertical(battleSlug) && (
         <>
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
           {faqSchema.mainEntity.length > 0 && (
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
           )}

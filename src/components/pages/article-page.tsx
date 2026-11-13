@@ -339,7 +339,7 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
       url: ctx.origin,
       logo: {
         "@type": "ImageObject",
-        url: `${ctx.origin}/logo-mark.png`,
+        url: `${ctx.origin}/zollopet.png`,
       },
     },
     mainEntityOfPage: {

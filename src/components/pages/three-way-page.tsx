@@ -55,7 +55,7 @@ export async function ThreeWayPageView({ trio, ctx }: { trio: ThreeWayComparison
     description: trio.description,
     url,
     dateModified: TEMPLATES_LAST_UPDATED,
-    publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin },
+    publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin, logo: { "@type": "ImageObject", url: `${ctx.origin}/zollopet.png` } },
     mainEntity: {
       "@type": "ItemList",
       itemListElement: providers.map((p, i) => ({

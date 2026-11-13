@@ -6,14 +6,14 @@ import { VERTICALS } from "@/lib/config";
 import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
 
 function verticalName(id: string): string {
-  return VERTICALS.find((v) => v.id === id)?.name ?? "Treatment";
+  return VERTICALS.find((v) => v.id === id)?.name ?? "Pet Care";
 }
 
 export async function articlesIndexMetadata(ctx: SiteContext): Promise<Metadata> {
   const url = canonicalUrl(ctx, "/articles");
   const vName = verticalName(ctx.vertical);
   const title = `${vName} Guides & Articles`;
-  const description = `Evidence-based ${vName.toLowerCase()} guides and research - treatment options, what to expect, and choosing the right online provider.`;
+  const description = `Evidence-based ${vName.toLowerCase()} guides and research - how these services work, what to look for, and how to choose the right one for your pet.`;
   return {
     title,
     description,
@@ -73,7 +73,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: `${vName} Guides & Articles`,
-    description: `Evidence-based ${vName.toLowerCase()} guides and research - treatment options, what to expect, and choosing the right online provider.`,
+    description: `Evidence-based ${vName.toLowerCase()} guides and research - how these services work, what to look for, and how to choose the right one for your pet.`,
     url: canonicalUrl(ctx, "/articles"),
     mainEntity: {
       "@type": "ItemList",
@@ -101,9 +101,20 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
     },
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${ctx.origin}/` },
+      { "@type": "ListItem", position: 2, name: vName, item: canonicalUrl(ctx, "/") },
+      { "@type": "ListItem", position: 3, name: "Articles", item: canonicalUrl(ctx, "/articles") },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="mx-auto max-w-[1100px] px-4 py-12 sm:px-6">
         {/* Page header */}
         <div className="mb-10">
@@ -111,8 +122,8 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
             Articles
           </h1>
           <p className="mt-2 max-w-2xl text-[15px] leading-relaxed text-gray-500">
-            Evidence-based {vName.toLowerCase()} guides - treatment options, what
-            to expect, and making informed decisions about your health.
+            Evidence-based {vName.toLowerCase()} guides - how these services
+            work, what to look for, and making the right choice for your pet.
           </p>
         </div>
 

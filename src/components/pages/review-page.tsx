@@ -165,7 +165,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
             worksFor: { "@type": "Organization", name: ctx.brandDomain },
           },
         }),
-        publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin },
+        publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin, logo: { "@type": "ImageObject", url: `${ctx.origin}/zollopet.png` } },
       },
     }),
   };
