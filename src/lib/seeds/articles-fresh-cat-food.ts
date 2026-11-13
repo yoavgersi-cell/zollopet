@@ -21,6 +21,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#0F766E",
+    heroImage: "/article-images/is-fresh-food-good-for-cats.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating is fresh food good for cats",
     keyTakeaways: [
       "Cats are obligate carnivores: animal protein, moderate fat, and low carbohydrate is the shape of a natural feline diet.",
       "Moisture matters - cats evolved getting water from prey, and many drink too little on dry-only diets.",

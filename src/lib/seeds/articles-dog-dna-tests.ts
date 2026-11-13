@@ -21,6 +21,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#5B3A70",
+    heroImage: "/article-images/how-accurate-are-dog-dna-tests.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating how accurate are dog dna tests",
     keyTakeaways: [
       "Breed results are statistical estimates matched against a reference database - not a certificate of ancestry.",
       "Accuracy is driven by database size and breed representation, which is why the leading brands compete on scale.",

@@ -22,6 +22,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#1F4A33",
+    heroImage: "/article-images/is-pet-insurance-worth-it.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating is pet insurance worth it",
     keyTakeaways: [
       "Pet insurance is a hedge against large, unpredictable vet bills - not a way to save money on routine care.",
       "It's worth most when bought young, before anything becomes a pre-existing condition.",

@@ -68,6 +68,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#1F4A33",
+    heroImage: "/article-images/fresh-dog-food-vs-kibble.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating fresh dog food vs kibble",
     keyTakeaways: [
       "Both fresh food and quality kibble can meet the same AAFCO complete-and-balanced nutrition standards - the difference is processing and format, not adequacy.",
       "Fresh food is lightly cooked and refrigerated; kibble is extruded and shelf-stable - each format's pros and cons flow from that single difference.",
@@ -112,6 +114,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#2E6B47",
+    heroImage: "/article-images/how-much-fresh-dog-food-to-feed.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating how much fresh dog food to feed",
     keyTakeaways: [
       "Fresh food portions are calculated from calories, not cups - driven by your dog's weight, age, activity, and body condition.",
       "The major brands do this math for you and ship pre-portioned packs; your job is keeping the profile accurate.",
