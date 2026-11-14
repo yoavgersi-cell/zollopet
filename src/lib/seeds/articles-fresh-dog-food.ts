@@ -155,6 +155,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#A16207",
+    heroImage: "/article-images/how-to-switch-dog-food.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating how to switch dog food",
     keyTakeaways: [
       "Transition over 7-10 days, mixing a growing share of the new food into the old.",
       "Mild, brief digestive changes can happen; worsening or persistent symptoms mean slow down - or stop and call your vet.",
@@ -194,6 +196,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/what-is-human-grade-dog-food.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating what is human grade dog food",
     keyTakeaways: [
       "'Human-grade' is a defined claim: every ingredient and the finished food must be fit for human consumption and handled under human-food manufacturing standards.",
       "Feed-grade food can legally use ingredients human food can't - it can still be nutritionally complete.",

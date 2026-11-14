@@ -68,6 +68,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#163B27",
+    heroImage: "/article-images/pet-insurance-pre-existing-conditions.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating pet insurance pre existing conditions",
     keyTakeaways: [
       "Essentially no mainstream pet insurer covers pre-existing conditions - the question is how each defines and applies the exclusion.",
       "A condition can count as pre-existing from signs and symptoms in the record, not just a formal diagnosis.",

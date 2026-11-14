@@ -67,6 +67,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#1F4A33",
+    heroImage: "/article-images/how-to-get-picky-cat-to-eat-new-food.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how to get picky cat to eat new food",
     keyTakeaways: [
       "Cat pickiness is real biology - cats form strong food preferences early and distrust novelty.",
       "Transition by slow mixing over a week or more, and expect setbacks; texture matters as much as flavor.",

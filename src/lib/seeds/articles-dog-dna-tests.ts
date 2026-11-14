@@ -67,6 +67,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#1F4A33",
+    heroImage: "/article-images/what-do-dog-dna-tests-tell-you.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating what do dog dna tests tell you",
     keyTakeaways: [
       "The core deliverables: a breed ancestry breakdown, genetic health screening (on health-tier kits), and physical trait insights.",
       "Breed knowledge is more useful than trivia - it informs training, exercise and breed-associated health awareness.",
