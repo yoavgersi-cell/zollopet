@@ -108,6 +108,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/are-dog-dna-tests-worth-it.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating are dog dna tests worth it",
     keyTakeaways: [
       "Strongest case: mixed-breed and rescue dogs, where ancestry and screening are genuinely unknown.",
       "The health-tier kits carry most of the practical value; breed-only kits are mostly (excellent) entertainment.",

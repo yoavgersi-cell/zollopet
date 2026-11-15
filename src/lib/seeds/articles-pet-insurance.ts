@@ -109,6 +109,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#2E6B47",
+    heroImage: "/article-images/how-do-pet-insurance-deductibles-work.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating how do pet insurance deductibles work",
     keyTakeaways: [
       "Three dials define what a policy pays: deductible, reimbursement percentage, and annual limit.",
       "Most insurers use annual deductibles; per-condition deductibles (notably Trupanion's model) behave very differently for chronic conditions.",

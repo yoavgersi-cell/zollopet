@@ -237,6 +237,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/fresh-dog-food-for-puppies.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating fresh dog food for puppies",
     keyTakeaways: [
       "Puppies need food formulated for growth (or all life stages) - adult-only recipes don't cover their needs.",
       "Large-breed puppies are a special case: controlled calcium matters for developing joints, so check for large-breed-appropriate formulation.",
@@ -276,6 +278,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#2E6B47",
+    heroImage: "/article-images/best-dog-food-for-picky-eaters.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating best dog food for picky eaters",
     keyTakeaways: [
       "Sudden pickiness is a vet question; lifelong pickiness is usually a training and environment question.",
       "Most chronic pickiness is accidentally taught - table scraps and constant food-switching teach a dog that refusing pays.",

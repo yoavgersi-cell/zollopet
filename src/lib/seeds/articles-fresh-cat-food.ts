@@ -108,6 +108,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#2E6B47",
+    heroImage: "/article-images/wet-vs-dry-vs-fresh-cat-food.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating wet vs dry vs fresh cat food",
     keyTakeaways: [
       "All three formats can meet AAFCO complete-and-balanced standards - format changes moisture, cost and convenience, not baseline adequacy.",
       "Wet and fresh food share the moisture advantage that matters for cats; dry food's advantages are cost, convenience and shelf life.",
