@@ -149,6 +149,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#5B3A70",
+    heroImage: "/article-images/dog-dna-test-for-mixed-breeds.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating dog dna test for mixed breeds",
     keyTakeaways: [
       "Mixed-breed owners are the ideal DNA-test customer - everything the test reports is genuinely unknown.",
       "Recent ancestors read clearly; deeply mixed ancestry comes back as small percentages and 'supermutt'-style categories, honestly reflecting the limits of the signal.",

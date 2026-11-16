@@ -149,6 +149,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#0F766E",
+    heroImage: "/article-images/how-much-should-i-feed-my-cat.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how much should i feed my cat",
     keyTakeaways: [
       "The right amount is a calorie number, not a bowl level - weight, age, activity and neuter status all move it.",
       "Measured meals beat free-feeding for most cats; the always-full bowl is how indoor cats quietly gain.",

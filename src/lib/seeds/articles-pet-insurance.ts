@@ -150,6 +150,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: PUBLISHED,
     updatedAt: PUBLISHED,
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/when-to-get-pet-insurance.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating when to get pet insurance",
     keyTakeaways: [
       "The financially strongest time to insure is when the pet is young and healthy - before anything becomes pre-existing.",
       "Waiting to see if you'll need it is the one strategy that reliably fails, because the trigger event creates the exclusion.",

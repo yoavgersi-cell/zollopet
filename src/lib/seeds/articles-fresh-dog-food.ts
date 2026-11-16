@@ -360,6 +360,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-24",
     updatedAt: "2026-09-24",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/best-dog-food-for-sensitive-stomachs.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating best dog food for sensitive stomachs",
     keyTakeaways: [
       "'Sensitive stomach' is a description, not a diagnosis - rule out medical causes with your vet before treating it as a food problem.",
       "Consistency, simple recipes, and slow transitions help sensitive dogs more than any single magic ingredient.",
@@ -399,6 +401,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-24",
     updatedAt: "2026-09-24",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/how-much-does-fresh-dog-food-cost.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating how much does fresh dog food cost",
     keyTakeaways: [
       "Fresh dog food has no sticker price: every major brand quotes per dog, from weight, age, activity and recipe choices.",
       "Your dog's size is the dominant cost driver - the same brand can cost several times more for a large dog than a small one.",
