@@ -190,6 +190,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/can-a-dna-test-tell-my-dogs-age.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating can a dna test tell my dogs age",
     keyTakeaways: [
       "Age tests read DNA methylation - chemical changes that accumulate with age - not the DNA sequence itself.",
       "The output is an estimate with a range, not a birthday certificate; treat it accordingly.",

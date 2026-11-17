@@ -191,6 +191,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/pet-insurance-for-older-dogs.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating pet insurance for older dogs",
     keyTakeaways: [
       "Most insurers will enroll older dogs, but some products carry maximum enrollment ages - check before falling for a brand.",
       "Everything already in the medical record is excluded as pre-existing; a senior policy protects against new problems only.",

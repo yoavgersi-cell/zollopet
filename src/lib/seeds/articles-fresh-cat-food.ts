@@ -190,6 +190,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/how-to-help-cat-lose-weight.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how to help cat lose weight",
     keyTakeaways: [
       "Cat weight loss must be gradual - rapid loss or food refusal can trigger hepatic lipidosis, a serious liver condition.",
       "Start with your vet: a target weight, a calorie plan, and a rule-out of medical causes.",

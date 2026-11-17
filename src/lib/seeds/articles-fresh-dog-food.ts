@@ -442,6 +442,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-10-15",
     updatedAt: "2026-10-15",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/freshpet-vs-fresh-dog-food-delivery.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating freshpet vs fresh dog food delivery",
     keyTakeaways: [
       "Freshpet and the delivery brands sell the same idea - gently cooked, refrigerated dog food - through two very different models: the grocery fridge vs a personalized subscription.",
       "Freshpet wins on accessibility: buy it today, locally, in the amount you choose, with no commitment.",
@@ -481,6 +483,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-11-10",
     updatedAt: "2026-11-10",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/what-is-fresh-dry-dog-food.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating what is fresh dry dog food",
     keyTakeaways: [
       "Fresh-dry keeps fresh feeding's ingredient philosophy - human-grade recipes, AAFCO formulation - while swapping the freezer for the pantry via gentle dehydration or slow baking instead of extrusion.",
       "Three real products define the segment: Spot & Tango's UnKibble (the purpose-built original), Ollie's gently baked line, and The Farmer's Dog's newer Instant Fresh.",
