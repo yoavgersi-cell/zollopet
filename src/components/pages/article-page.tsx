@@ -55,6 +55,11 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: stri
       "Is fresh food safe for puppies? The growth-formulation rules, the large-breed calcium question, and exactly what to verify before switching a pup.",
   },
   // fresh-cat-food
+  "fresh-cat-food:is-freshpet-good-for-cats": {
+    title: "Is Freshpet Good for Cats? Honest Review",
+    description:
+      "Is Freshpet safe and complete for cats? What the AAFCO label really says, the honest limits of the refrigerated rolls, and when a delivery brand wins.",
+  },
   "fresh-cat-food:freshpet-vs-darwins": {
     title: "Freshpet vs Darwin's: Fresh vs Raw Delivery",
     description:

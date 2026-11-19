@@ -12,6 +12,71 @@ export const freshCatFoodArticles: ArticleData[] = [
   freshCatFoodCompleteGuide,
   freshCatFoodCostGuide,
   {
+    slug: "is-freshpet-good-for-cats",
+    title: "Is Freshpet Good for Cats? An Honest Review",
+    description:
+      "Is Freshpet safe and complete for cats? An honest look at the refrigerated rolls - what the AAFCO label really says, the real limits, and when delivery wins.",
+    category: "Review",
+    readTime: "9 min read",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    heroColor: "#0F766E",
+    showTopProviders: true,
+    keyTakeaways: [
+      "Freshpet's cat food is gently steam-cooked (not raw) and sold refrigerated - the rolls are fully cooked, ready to serve, and meant to be used within about a week of opening.",
+      "The cat rolls are formulated to meet the AAFCO cat nutrient profiles for all life stages - \"formulated to meet,\" not \"AAFCO certified\" (AAFCO publishes profiles; it does not certify foods). Always read the statement on the exact recipe.",
+      "For cats specifically, the honest limits are a narrow lineup (mostly chicken-and-beef rolls, sometimes hard to find in stores) and no personalization - portioning is on you.",
+      "Want gently cooked food off a shelf today? Freshpet fits. Want recipes matched to your cat and shipped on a schedule? A fresh-delivery brand is a different, more tailored answer.",
+    ],
+    sections: [
+      {
+        heading: "The short answer",
+        body:
+          "Yes - Freshpet can be a good food for cats, as long as the specific product you buy says it is complete and balanced for cats on the label. Freshpet's feline rolls are gently cooked, kept refrigerated, and formulated to meet the AAFCO cat nutrient profiles, which makes them a legitimate step up in moisture and processing from a bag of dry kibble. The honest nuance - the part most \"best fresh cat food\" lists skip - is that Freshpet is a retail, gently cooked food built for convenience, not a personalized nutrition program, and its cat lineup is noticeably narrower than its dog range. Whether it is the right choice depends less on \"is it good\" and more on what you are actually comparing it against: conventional kibble and canned, or the tailored fresh-delivery subscriptions. Both comparisons have an honest answer, and they are different answers.",
+      },
+      {
+        heading: "What Freshpet actually is",
+        body:
+          "Freshpet pioneered the refrigerated pet-food category: gently cooked food sold from branded fridges in grocery and pet stores rather than off a dry shelf. For cats, the recognizable products are the Freshpet Vital and Freshpet Select chicken-and-beef rolls - a soft, pate-style fresh food you slice and serve. Two facts define the format. First, it is cooked, not raw: Freshpet steam-cooks its recipes at low temperatures and seals them, so the roll is fully cooked and ready to serve with no thawing and no raw-handling protocol. Second, it is refrigerated: it ships and sits chilled, needs to stay in your fridge, and - like any fresh food - has a limited window once opened (commonly cited as around seven days). That combination is the whole pitch. You get fresher-than-kibble, higher-moisture food with the convenience of buying it at the store you already visit, and without stepping into the raw-feeding debate at all.",
+      },
+      {
+        heading: "Is Freshpet complete and balanced for cats?",
+        body:
+          "This is where accuracy matters, because a lot of online reviews get the wording wrong. Freshpet's cat rolls are labeled complete and balanced, and the product pages state the recipe is formulated to meet the nutritional levels established by the AAFCO Cat Food Nutrient Profiles - several of the cat recipes for all life stages. That is a real, meaningful statement: it means the food is designed to be a sole diet, not a topper or treat. But notice the exact phrase - <strong>formulated to meet</strong>. You will see careless sources claim Freshpet is \"AAFCO certified.\" AAFCO does not certify or approve pet foods; it publishes the nutrient profiles, and manufacturers formulate to meet them (or run feeding trials). So the correct, honest reading is: Freshpet's cat recipes are formulated to the AAFCO cat profiles, which is the baseline you want - and the one rule that never changes is to read the AAFCO statement on the specific roll you are buying and confirm it says \"cats\" and the life stage you need, because Freshpet makes food for dogs too and the cat line is smaller.",
+      },
+      {
+        heading: "What's actually in the cat rolls",
+        body:
+          "Freshpet's cat recipes are meat-first - chicken and beef lead the common rolls - with grain-free options in the Vital line. For cats, that animal-forward, higher-moisture formulation is the point: cats are obligate carnivores with a famously low thirst drive, so a soft, moisture-rich food is closer to the shape of a natural feline diet than dry food is. One number trips people up: a representative cat roll lists guaranteed minimums in the neighborhood of 10% crude protein and 7% crude fat. That looks low next to a kibble's 30-40% protein - but it is not comparable, because those are as-fed figures on a high-moisture food. Dry food is ~10% moisture; a fresh roll is far wetter, so once you remove the water and compare on a dry-matter basis the protein is much higher than the label's as-fed number suggests. The practical takeaway is simple: don't compare a fresh food's as-fed protein to a kibble's - and do read the full guaranteed analysis and ingredient panel on the exact recipe, since that is the only thing that describes what your cat is actually eating.",
+      },
+      {
+        heading: "Where Freshpet genuinely works for cats",
+        body:
+          "Accessibility and reversibility - the same strengths that made it a category pioneer. Freshpet lives where you already shop, so you can try it today, locally, in a small quantity, with no quiz, no account, and no delivery window. Because it is gently cooked rather than raw, it sidesteps the raw-handling conversation entirely: no raw-meat hygiene routine, no thaw discipline, and no veterinary debate about raw suitability - which matters a lot in homes with young children, older adults, or anyone immunocompromised, where many vets advise against handling raw pet food regardless of how the cat tolerates it. For a cat owner who wants more moisture and less processing than kibble but isn't ready to commit to a subscription, it is one of the lowest-friction upgrades available. Stopping is as easy as not buying another roll.",
+      },
+      {
+        heading: "The honest limits for cats",
+        body:
+          "Three of them, specific to cats. First, the cat lineup is narrow: Freshpet's range is built around dogs, and the feline side is mostly chicken-and-beef rolls that reviewers and owners note can be genuinely hard to find on store shelves - so a picky cat has fewer proteins and textures to land on than a dog would. Second, there is no personalization: Freshpet is a generalist retail recipe, so portioning to your cat's weight and body condition is entirely on you, with none of the per-cat portion math that a subscription builds in. Third, it is fresh food, with fresh food's logistics in miniature - it must stay refrigerated and gets used within roughly a week of opening, which for a single cat eating small amounts can mean watching the clock on each roll. None of these make it a bad food. They make it what it is: a convenient, gently cooked retail option rather than a tailored nutrition plan.",
+      },
+      {
+        heading: "Freshpet vs fresh-delivery for cats",
+        body:
+          `This is the comparison that actually decides it, and most articles never run it honestly. Freshpet and the fresh-delivery brands - <a href="/fresh-cat-food/reviews/smalls">Smalls</a>, <a href="/fresh-cat-food/reviews/raised-right">Raised Right</a>, and the raw subscription <a href="/fresh-cat-food/reviews/darwins">Darwin's</a> - are answers to two different questions. Freshpet answers "how do I feed fresher than kibble with zero commitment?" You buy it on the shelf, feed it today, and quit anytime. The delivery brands answer "how do I feed a recipe matched to my cat, on a schedule, without thinking about it?" They take your cat's details, portion to them, and ship on a cadence - more tailored, but a subscription with freezer or fridge logistics and a higher-touch commitment. For a high-moisture, meat-first diet that cats actually benefit from, both models can deliver; they differ on personalization, commitment, and how the food reaches you. If you want to see how the whole category lines up - retail fresh, cooked delivery, and raw - our <a href="/fresh-cat-food/articles/wet-vs-dry-vs-fresh-cat-food">wet vs dry vs fresh explainer</a> maps it, and the <a href="/fresh-cat-food/articles/freshpet-vs-darwins">Freshpet vs Darwin's</a> breakdown runs the cooked-retail-versus-raw-delivery version of this same decision.`,
+      },
+      {
+        heading: "Who should pick Freshpet - and who shouldn't",
+        body:
+          `Pick Freshpet if you want a gently cooked, higher-moisture food you can buy locally today, you value being able to start and stop with zero commitment, and you are comfortable doing your own portioning and confirming the cat-and-life-stage AAFCO statement on the roll. It is an excellent first step out of a dry-only diet. Look instead at a <a href="/fresh-cat-food">fresh cat food delivery service</a> if you want recipes matched to your specific cat, portioning handled for you, and a wider set of proteins and textures to win over a picky eater - and you don't mind a subscription and the fridge-or-freezer routine that comes with it. And as with any diet change for a cat, transition gradually over a week or so and loop in your vet first, especially for kittens, seniors, or any cat with a medical condition - a switch that's done too fast is the most common reason a good food gets rejected.`,
+      },
+      {
+        heading: "The bottom line",
+        body:
+          "Is Freshpet good for cats? Yes, within honest limits. It is a legitimately complete-and-balanced, gently cooked, higher-moisture food - a real upgrade over dry-only feeding and the most accessible way to try fresh, because it is sitting in a store fridge near you right now. Its ceiling is that it is a convenient retail generalist, not a personalized program: a narrow cat lineup, no portioning help, and a short open-fridge life. If that trade - convenience and zero commitment over tailoring - matches how you want to feed, Freshpet is a solid pick. If you want the food matched to your cat and the thinking taken off your plate, that is exactly what the fresh-delivery brands are built for, and that is the comparison worth running next. Either way, the non-negotiables are the same: confirm the complete-and-balanced-for-cats statement on the label, prioritize moisture and animal protein, and change diets gradually with your vet in the loop.",
+      },
+    ],
+  },
+  {
     slug: "is-fresh-food-good-for-cats",
     title: "Is Fresh Food Good for Cats? What Actually Matters for Felines",
     description:
