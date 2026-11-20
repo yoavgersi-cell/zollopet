@@ -21,6 +21,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-11-19",
     updatedAt: "2026-11-19",
     heroColor: "#0F766E",
+    heroImage: "/article-images/is-freshpet-good-for-cats.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating is freshpet good for cats",
     showTopProviders: true,
     keyTakeaways: [
       "Freshpet's cat food is gently steam-cooked (not raw) and sold refrigerated - the rolls are fully cooked, ready to serve, and meant to be used within about a week of opening.",
@@ -296,6 +298,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#2E6B47",
+    heroImage: "/article-images/kitten-food-vs-adult-cat-food.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating kitten food vs adult cat food",
     keyTakeaways: [
       "Yes, it matters: kittens need food formulated for growth - more energy and nutrients per bite than adult maintenance recipes.",
       "The label's life-stage statement (growth / all life stages / adult maintenance) is the fact that counts, whatever the marketing says.",

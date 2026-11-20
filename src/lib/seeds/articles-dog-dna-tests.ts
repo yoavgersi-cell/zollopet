@@ -231,6 +231,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/how-to-tell-what-breed-my-dog-is.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating how to tell what breed my dog is",
     keyTakeaways: [
       "Visual breed identification is famously unreliable - a few genes control looks, so appearance routinely misleads even professionals.",
       "Photo apps inherit the same limitation with worse data: they judge the cover, algorithmically.",

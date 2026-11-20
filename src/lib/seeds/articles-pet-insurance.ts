@@ -232,6 +232,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#163B27",
+    heroImage: "/article-images/what-does-pet-insurance-not-cover.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating what does pet insurance not cover",
     keyTakeaways: [
       "The universal exclusions: pre-existing conditions, routine and preventative care (without an add-on), and anything arising during waiting periods.",
       "The surprises live in the quieter clauses: exam fees, bilateral conditions, breeding, and cosmetic procedures.",
@@ -271,6 +273,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#2E6B47",
+    heroImage: "/article-images/pet-insurance-vs-savings-account.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating pet insurance vs savings account",
     keyTakeaways: [
       "Insurance buys certainty against catastrophic bills; savings keep unspent money and exclude nothing.",
       "Self-insuring fails two ways: the emergency that arrives before the balance grows, and the funding discipline that quietly lapses.",
