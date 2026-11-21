@@ -339,6 +339,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/how-to-get-cat-to-drink-more-water.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how to get cat to drink more water",
     keyTakeaways: [
       "Cats descend from desert hunters that got water from prey - a weak thirst drive is the factory setting.",
       "Food is the biggest lever: high-moisture (wet or fresh) feeding raises water intake more reliably than any bowl trick.",
@@ -378,6 +380,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-08",
     updatedAt: "2026-09-08",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/how-many-calories-does-a-cat-need.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how many calories does a cat need",
     keyTakeaways: [
       "A cat's calorie needs depend on weight, age, activity, and whether it's spayed/neutered - there is no single number that fits every cat.",
       "Indoor, neutered adult cats need meaningfully fewer calories than feeding-guide defaults often assume - which is how quiet overfeeding happens.",

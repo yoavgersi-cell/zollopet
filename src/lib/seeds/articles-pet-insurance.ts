@@ -314,6 +314,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/is-pet-insurance-worth-it-for-cats.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating is pet insurance worth it for cats",
     keyTakeaways: [
       "Indoor life reduces accident risk, not illness risk - and illness is where feline vet spending concentrates.",
       "Urinary blockages, kidney disease, hyperthyroidism and diabetes are the classic expensive cat conditions, and none checks whether the window was closed.",
@@ -353,6 +355,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-08",
     updatedAt: "2026-09-08",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/pet-insurance-reimbursement-rates.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating pet insurance reimbursement rates",
     keyTakeaways: [
       "The reimbursement rate is the share of a covered vet bill the insurer pays back after your deductible - commonly offered at levels like 70%, 80% or 90%.",
       "Order of operations matters: most policies subtract the deductible first, then reimburse the chosen percentage of what remains.",

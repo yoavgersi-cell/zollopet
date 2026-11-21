@@ -272,6 +272,8 @@ export const dogDnaTestsArticles: ArticleData[] = [
     publishedAt: "2026-10-15",
     updatedAt: "2026-10-15",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/dog-dna-testing-market.webp",
+    heroImageAlt: "A curious dog in soft natural light - illustrating dog dna testing market",
     keyTakeaways: [
       "Consumer dog DNA testing is effectively a two-leader market: Embark and Wisdom Panel dominate, with different research pedigrees behind them.",
       "The product has expanded from breed ID into health screening, traits, age estimation and gut health - the growth is in health, not ancestry.",
