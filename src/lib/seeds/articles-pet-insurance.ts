@@ -396,6 +396,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-08",
     updatedAt: "2026-09-08",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/pet-insurance-annual-limits.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating pet insurance annual limits",
     keyTakeaways: [
       "The annual limit is the most the insurer will pay out in covered claims per policy year - after that, every bill is yours until the policy resets.",
       "Limits interact with the deductible and reimbursement rate: the cap applies to what the insurer pays, not to what the vet charges.",
@@ -435,6 +437,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-24",
     updatedAt: "2026-09-24",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/how-to-file-a-pet-insurance-claim.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating how to file a pet insurance claim",
     keyTakeaways: [
       "Most US pet insurance is reimbursement-based: you pay the vet, submit the claim, and the insurer pays you back per your policy's math.",
       "The core package is simple: the itemized invoice plus your pet's medical records - complete records are what fast claims are made of.",

@@ -421,6 +421,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-08",
     updatedAt: "2026-09-08",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/is-my-cat-overweight.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating is my cat overweight",
     keyTakeaways: [
       "Body condition beats the scale: vets judge feline weight by feel and silhouette, not by a universal ideal number.",
       "Three home checks - ribs under the hands, a visible waist from above, a gentle belly tuck from the side - tell you most of what you need.",
@@ -460,6 +462,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-24",
     updatedAt: "2026-09-24",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/how-often-should-i-feed-my-cat.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating how often should i feed my cat",
     keyTakeaways: [
       "Most healthy adult cats do well on two to three scheduled meals a day; kittens need more frequent meals while growing.",
       "Frequency and amount are separate questions - the daily calorie total matters more than how it's split.",
@@ -499,6 +503,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-09-24",
     updatedAt: "2026-09-24",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/why-is-my-cat-always-hungry.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating why is my cat always hungry",
     keyTakeaways: [
       "Constant begging is often learned behavior or boredom - but true, new, relentless hunger is a symptom worth taking seriously.",
       "Diet shape matters: high-carbohydrate feeding can leave an obligate carnivore less satisfied than protein-forward food.",
