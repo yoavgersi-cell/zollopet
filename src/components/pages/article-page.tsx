@@ -19,6 +19,11 @@ import { notFound, permanentRedirect } from "next/navigation";
 // truncates around 65), descriptions <= 160, keywords front-loaded.
 const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = {
   // fresh-dog-food
+  "fresh-dog-food:is-freshpet-good-for-dogs": {
+    title: "Is Freshpet Good for Dogs? Honest Review",
+    description:
+      "Is Freshpet good for dogs? What the AAFCO label really says, the puppy catch, the recall history in context, and when a fresh-delivery brand is the better pick.",
+  },
   "fresh-dog-food:fresh-dog-food-guide": {
     description:
       "Fresh dog food explained - fresh vs kibble, costs, the brands compared on verified records, switching, feeding and whether your dog needs it.",

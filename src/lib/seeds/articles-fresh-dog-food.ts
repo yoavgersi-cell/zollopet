@@ -13,6 +13,76 @@ export const freshDogFoodArticles: ArticleData[] = [
   freshDogFoodCompleteGuide,
   freshDogFoodHealthGuide,
   {
+    slug: "is-freshpet-good-for-dogs",
+    title: "Is Freshpet Good for Dogs? An Honest Review",
+    description:
+      "Is Freshpet good for dogs? An honest look at the refrigerated rolls and pouches - what the AAFCO label really says, the puppy catch, the recalls, and when delivery wins.",
+    category: "Review",
+    readTime: "10 min read",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    heroColor: "#8A6D1F",
+    showTopProviders: true,
+    keyTakeaways: [
+      "Freshpet's dog food is gently steam-cooked (not raw) and sold refrigerated, across a wide lineup - Nature's Fresh and Complete Nutrition rolls, pouches, Deli Fresh, Custom Meals and the grain-free Vital and Select lines.",
+      "Recipes are formulated to meet AAFCO dog profiles - but most are adult-maintenance, not all-life-stages, so if you have a puppy you must pick a recipe whose label says all life stages. Always read the statement on the exact bag or roll.",
+      "Honest caveats: it's a fresh food with a short open-fridge life, it tends to run higher in carbohydrates and lower in protein than premium kibble, and Freshpet has had FDA-posted Salmonella recalls (Select lots in 2021-2022) - read on for the real context.",
+      "For gently cooked food off a shelf today, Freshpet fits; for recipes portioned to your specific dog and shipped on a schedule, a fresh-delivery brand is a different, more tailored answer.",
+    ],
+    sections: [
+      {
+        heading: "The short answer",
+        body:
+          "Yes - Freshpet is a legitimately good food for most adult dogs, as long as the specific product you buy says it is complete and balanced for dogs on the label, and you match the life stage to your dog. Freshpet's dog recipes are gently cooked, kept refrigerated, and formulated to meet the AAFCO dog nutrient profiles, which makes them a real step up in moisture and freshness from a bag of dry kibble, with the convenience of buying them at the store you already shop at. The honest nuances - the parts most \"is Freshpet good\" articles skip - are three: most Freshpet dog recipes are formulated for adult maintenance rather than all life stages (puppies need the right one), the recipes tend to run higher in carbohydrate and lower in protein than premium kibble, and Freshpet has had Salmonella recalls in the past worth understanding in context. None of those make it a bad food. They make it a food you should buy with your eyes open.",
+      },
+      {
+        heading: "What Freshpet actually is",
+        body:
+          "Freshpet pioneered the refrigerated pet-food category: gently cooked food sold from branded fridges in grocery and pet stores rather than off a dry shelf. For dogs, the lineup is broad - far broader than its cat range. You'll see Nature's Fresh and Complete Nutrition refrigerated rolls, Complete Nutrition pouches, the Deli Fresh and Custom Meals fresh ranges, and the grain-free Vital and Select lines. Two facts define the format. First, it is cooked, not raw: Freshpet steam-cooks its recipes at gentle temperatures and seals them, so the food is fully cooked and ready to serve with no thawing and no raw-handling protocol. Second, it is refrigerated: it ships and sits chilled, needs to stay in your fridge, and - like any fresh food - has a limited window once opened (commonly cited as around seven days). That combination is the whole pitch: fresher, higher-moisture food than kibble, bought with grocery-aisle convenience, without stepping into the raw-feeding debate.",
+      },
+      {
+        heading: "Is Freshpet complete and balanced for dogs?",
+        body:
+          `This is where accuracy matters, and where a surprising number of reviews mislead. Freshpet's dog recipes are labeled complete and balanced, and the packaging states they are formulated to meet the nutritional levels established by the AAFCO Dog Food Nutrient Profiles. That is real and meaningful - it means the food is designed to be a complete diet. But note the exact phrase: <strong>formulated to meet</strong>. Careless sources call Freshpet "AAFCO certified." AAFCO does not certify or approve pet foods; it publishes the nutrient profiles, and manufacturers formulate to meet them (or run feeding trials). The bigger, genuinely important catch is life stage: most Freshpet dog recipes carry the <strong>adult maintenance</strong> profile, not <strong>all life stages</strong>. A few - such as certain grain-free fish recipes - are all life stages. That distinction is the whole ballgame for a puppy: a growing dog, and especially a large-breed puppy, needs a recipe formulated for growth, so if you have a puppy you must read the AAFCO statement and pick a recipe that says all life stages (our <a href="/fresh-dog-food/articles/fresh-dog-food-for-puppies">guide to fresh food for puppies</a> explains why growth formulas matter). For a healthy adult dog, adult-maintenance is exactly right.`,
+      },
+      {
+        heading: "What's actually in it",
+        body:
+          "Freshpet's dog recipes are meat-forward, built around named proteins like chicken, beef, turkey and fish, with both grain-inclusive (\"wholesome grains\") and grain-free options depending on the line. The higher moisture is a genuine benefit over dry food, and the gentle cooking is easier to picture than a kibble's high-heat extrusion. One honest trade-off shows up in the numbers: independent reviewers note that Freshpet recipes often run higher in carbohydrate and lower in protein than some premium kibbles and the fresh-delivery brands. Part of that is the as-fed-versus-dry-matter illusion - a high-moisture food's label protein always looks low until you remove the water and compare on a dry-matter basis - but part of it is real recipe formulation, and it's a fair reason a performance or high-protein-seeking owner might look elsewhere. The takeaway is the same one that always applies: read the full ingredient list and guaranteed analysis on the exact recipe you're buying, because the line name on the front tells you much less than the panel on the back.",
+      },
+      {
+        heading: "The recall question, answered honestly",
+        body:
+          "Most glowing Freshpet write-ups quietly skip this, so here it is plainly: Freshpet has had FDA-posted recalls, including Salmonella-related recalls of certain Freshpet Select lots in 2021 and 2022. That deserves honest context rather than either alarm or a cover-up. Fresh and refrigerated foods - like raw foods, and like plenty of human groceries - carry handling and contamination considerations that shelf-stable kibble largely designs around, and Salmonella is the most common culprit across the fresh and raw pet-food category, not a Freshpet-only issue. A brand having a past recall is not automatically disqualifying; how it handles sourcing, testing and response matters more than a clean-on-paper record. What this means for you is practical: buy from a cold, well-stocked fridge case, check the best-by date, store it cold, wash hands and bowls after handling, and - as with any fresh food - use it within the open-fridge window. If you want zero handling considerations at all, that's an argument for cooked-and-shelf-stable, not fresh. If you're comfortable with normal fresh-food hygiene, Freshpet's recall history is context, not a veto.",
+      },
+      {
+        heading: "Where Freshpet genuinely works for dogs",
+        body:
+          "Accessibility, breadth and reversibility. Freshpet lives where you already shop, so you can try it today, locally, in a small quantity, with no quiz, no account and no delivery window - the lowest-friction step out of dry-only feeding that exists. The dog lineup is wide enough to find a protein, texture and format (roll, pouch, bagged bites) that a picky dog will accept, and the grain-free Vital and Select lines give owners of dogs with certain sensitivities somewhere to start. Because it's gently cooked rather than raw, it sidesteps the raw-handling debate: no raw-meat hygiene protocol and no veterinary argument about raw suitability, which matters in homes with young kids, older adults or anyone immunocompromised. And stopping is as easy as not buying another roll - no subscription to cancel, no commitment to unwind.",
+      },
+      {
+        heading: "The honest limits for dogs",
+        body:
+          "Four, stated plainly. First, no personalization: Freshpet is a generalist retail recipe, so portioning to your dog's weight, age and activity is on you, with none of the per-dog portion math a subscription builds in - and over- or under-feeding fresh food is easy without that guardrail. Second, the macro profile: as noted, it often runs higher-carb and lower-protein than premium kibble or the delivery brands, which may not suit every dog or every owner's priorities. Third, fresh-food logistics in miniature: it must stay refrigerated and gets used within roughly a week of opening, and for a large dog that goes through a lot, the per-day cost of feeding fresh from the store adds up. Fourth, the life-stage and medical caveats: most recipes are adult-maintenance (mind the puppy rule above), and Freshpet is not a prescription diet, so a dog with a medical condition should only switch with a veterinarian's guidance. None of these are disqualifying - they're the honest shape of a convenient retail fresh food versus a tailored program.",
+      },
+      {
+        heading: "Freshpet vs fresh-delivery for dogs",
+        body:
+          `This is the comparison that actually decides it, and it's worth running honestly. Freshpet and the fresh-delivery brands - <a href="/fresh-dog-food/reviews/farmers-dog">The Farmer's Dog</a>, <a href="/fresh-dog-food/reviews/ollie">Ollie</a>, <a href="/fresh-dog-food/reviews/spot-tango">Spot & Tango</a> and the others we review - answer two different questions. Freshpet answers "how do I feed fresher than kibble, locally, with zero commitment?" You buy it off the shelf, feed it today, and stop anytime. The delivery brands answer "how do I feed a recipe portioned to my specific dog, on a schedule, without thinking about it?" They take your dog's weight, age, breed and activity, formulate and portion to them, and ship on a cadence - more tailored and typically higher-protein, but a subscription with freezer-or-fridge logistics and a bigger commitment. For moisture and freshness over kibble, both models deliver; they differ on personalization, macro profile, commitment and how the food reaches you. Our <a href="/fresh-dog-food/articles/freshpet-vs-fresh-dog-food-delivery">Freshpet vs fresh delivery</a> breakdown runs this head-to-head in depth, and <a href="/fresh-dog-food/articles/is-fresh-dog-food-worth-it">is fresh dog food worth it</a> covers the cost-versus-benefit question underneath it all.`,
+      },
+      {
+        heading: "Who should pick Freshpet - and who shouldn't",
+        body:
+          `Pick Freshpet if you have a healthy adult dog, you want a gently cooked, higher-moisture food you can buy locally today, you value being able to start and stop with zero commitment, and you're comfortable doing your own portioning and confirming the dog-and-life-stage AAFCO statement on the package. It's one of the best first steps out of a dry-only diet. Look instead at a <a href="/fresh-dog-food">fresh dog food delivery service</a> if you want recipes portioned to your specific dog, a higher-protein profile, help taking the guesswork out of feeding, or formulas matched to a puppy or a particular goal - and you don't mind a subscription and the fridge-or-freezer routine. And whichever way you go, two rules never change: transition gradually over a week or so to avoid stomach upset (our <a href="/fresh-dog-food/articles/how-to-switch-dog-food">switching guide</a> walks through it), and loop in your vet first for puppies, seniors, or any dog with a medical condition.`,
+      },
+      {
+        heading: "The bottom line",
+        body:
+          "Is Freshpet good for dogs? Yes, for most adult dogs, within honest limits. It's a legitimately complete-and-balanced, gently cooked, higher-moisture food - a real upgrade over dry-only feeding, with a broad dog lineup and the unbeatable convenience of being in a store fridge near you right now. Its ceiling is that it's a convenient retail generalist rather than a personalized program: no portioning help, a macro profile that leans higher-carb than the delivery brands, a short open-fridge life, and a mostly adult-maintenance range that puts the life-stage choice on you. Factor in a recall history that's real but in line with the fresh-food category, and the verdict is simple: if convenience and zero commitment matter most, Freshpet is a strong pick - just match the recipe to your dog's life stage and read the label. If you want the food tailored to your dog and the thinking handed off, that's exactly what the fresh-delivery brands are built for, and that's the comparison worth running next.",
+      },
+    ],
+  },
+  {
     slug: "is-fresh-dog-food-worth-it",
     title: "Is Fresh Dog Food Worth It? An Honest Look at the Trade-Offs",
     description:
