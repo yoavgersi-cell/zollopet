@@ -544,6 +544,8 @@ export const freshCatFoodArticles: ArticleData[] = [
     publishedAt: "2026-11-08",
     updatedAt: "2026-11-08",
     heroColor: "#B45A2B",
+    heroImage: "/article-images/freshpet-vs-darwins.webp",
+    heroImageAlt: "A content cat beside a dish of fresh cat food - illustrating freshpet vs darwins",
     keyTakeaways: [
       "Freshpet and Darwin's both sell less-processed pet food through opposite models: the grocery refrigerator case versus a frozen raw subscription shipped to your door.",
       "Freshpet is gently cooked and bought off a shelf with zero commitment; Darwin's is raw, portioned to your pet's profile, and arrives frozen on a recurring delivery.",

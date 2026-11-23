@@ -478,6 +478,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-09-24",
     updatedAt: "2026-09-24",
     heroColor: "#1F4A33",
+    heroImage: "/article-images/pet-insurance-waiting-periods.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating pet insurance waiting periods",
     keyTakeaways: [
       "A waiting period is the stretch after enrollment during which new conditions aren't covered yet - it exists to stop people from buying insurance on the way to the vet.",
       "Policies typically set different windows for accidents (short), illnesses (longer), and orthopedic conditions (often the longest).",
