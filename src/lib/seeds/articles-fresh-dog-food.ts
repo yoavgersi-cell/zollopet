@@ -22,6 +22,8 @@ export const freshDogFoodArticles: ArticleData[] = [
     publishedAt: "2026-11-23",
     updatedAt: "2026-11-23",
     heroColor: "#8A6D1F",
+    heroImage: "/article-images/is-freshpet-good-for-dogs.webp",
+    heroImageAlt: "A happy, healthy dog beside a bowl of fresh dog food - illustrating is freshpet good for dogs",
     showTopProviders: true,
     keyTakeaways: [
       "Freshpet's dog food is gently steam-cooked (not raw) and sold refrigerated, across a wide lineup - Nature's Fresh and Complete Nutrition rolls, pouches, Deli Fresh, Custom Meals and the grain-free Vital and Select lines.",
