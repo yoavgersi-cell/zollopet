@@ -13,6 +13,71 @@ export const petInsuranceArticles: ArticleData[] = [
   petInsuranceCompleteGuide,
   petInsuranceCostGuide,
   {
+    slug: "trupanion-vs-nationwide",
+    title: "Trupanion vs Nationwide (VPI): How They Really Compare",
+    description:
+      "Trupanion vs Nationwide (formerly VPI) - the structural differences that actually matter: per-condition vs annual deductible, direct vet pay, payout caps, and exotic-pet coverage.",
+    category: "Comparison",
+    readTime: "9 min read",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    heroColor: "#1D4ED8",
+    showTopProviders: true,
+    keyTakeaways: [
+      "\"VPI\" is now Nationwide - Veterinary Pet Insurance, the first U.S. pet insurer, was rebranded Nationwide years ago. If you're searching VPI, Nationwide is the company you're comparing.",
+      "The cleanest difference is the deductible: Trupanion uses a per-condition deductible you pay once per condition for your pet's lifetime; Nationwide uses a conventional annual deductible that resets each policy year.",
+      "Trupanion pays your vet directly at checkout and is built around one simple accident-and-illness plan with no payout caps; Nationwide is reimbursement-only, offers broader plan options including wellness, and is the rare insurer that covers birds and exotic pets.",
+      "Exact reimbursement percentages, payout caps and premiums vary by plan, pet and state - and published comparisons genuinely disagree on them - so treat those as quote-and-verify, not gospel. We haven't verified current numbers for your pet.",
+    ],
+    sections: [
+      {
+        heading: "The short answer",
+        body:
+          "These two insurers are built on genuinely different philosophies, so the right pick depends on what you want insurance to do. Trupanion is the specialist: one straightforward accident-and-illness plan, a distinctive per-condition deductible, a flat reimbursement rate, no payout caps, and - uniquely - the ability to pay your vet directly at checkout so you're not fronting a big bill. Nationwide is the generalist: the oldest and one of the largest U.S. pet insurers, with a wider menu of plans (including wellness coverage), conventional annual deductibles, reimbursement paid back to you, and the rare distinction of covering birds and exotic pets. If you want simplicity, no caps, and help with the vet bill at the counter, Trupanion's model leans your way. If you want plan flexibility, possible wellness coverage, exotic-pet options, or a potentially lower premium, Nationwide's breadth leans yours. The honest catch, which we'll come back to: the specific numbers that comparison sites love to quote - reimbursement percentages, caps, premiums - genuinely conflict across sources and change over time, so the stable thing to compare is the structure, not the digits.",
+      },
+      {
+        heading: "First, the name: VPI is now Nationwide",
+        body:
+          "If you're searching \"VPI vs Trupanion,\" here's the thing to know up front: VPI and Nationwide are the same company. Veterinary Pet Insurance (VPI) was the first pet insurance company in the United States, and it was folded into and rebranded as Nationwide years ago. So every \"VPI\" comparison you'll read is really a Nationwide comparison - the old name just stuck in a lot of people's memory (and in a lot of old policies). That history matters for one practical reason: Nationwide has legacy plans and a long book of older policies, so if you or a family member has had \"VPI\" for years, the plan you hold may differ from what Nationwide sells new today. When you compare, compare against the plan you'd actually be able to buy now.",
+      },
+      {
+        heading: "How each one is built",
+        body:
+          "Trupanion sells essentially one thing and sells it deep: a single accident-and-illness plan, deliberately free of the tiered menus most insurers use. You choose a deductible, the reimbursement rate is a flat 90%, and the plan has no payout caps - the simplicity is the product. Nationwide takes the opposite approach: it's a broad, flexible insurer with multiple plan options, historically including plans that bundle wellness and routine care alongside accident-and-illness coverage, and it's the one major insurer that will cover avian and exotic pets - birds, reptiles, and small mammals - which almost nobody else does. So before any number enters the conversation, you're really choosing between a focused specialist and a flexible generalist. That structural choice tends to predict satisfaction better than a premium quote does.",
+      },
+      {
+        heading: "The deductible difference that matters most",
+        body:
+          `This is the single most important structural difference, and it's the one most buyers don't understand until a claim. Trupanion uses a <strong>per-condition deductible</strong>: you pay the deductible once for each new condition, and then - for the lifetime of that condition - you don't pay it again, even across renewals. Nationwide, like most insurers, uses a conventional <strong>annual deductible</strong> that resets every policy year. The consequences are real. For a chronic, lifelong condition - think a disease your pet manages for years - Trupanion's per-condition model means one deductible, ever, for that condition; an annual-deductible plan means paying it again every single year. But for a pet that has one unrelated issue per year, the annual model can work out cleaner. Neither is universally better; they're optimized for different risk shapes. Our <a href="/pet-insurance/articles/how-do-pet-insurance-deductibles-work">guide to how pet-insurance deductibles work</a> breaks the mechanics down if this is new to you - it's worth understanding before you pick either company.`,
+      },
+      {
+        heading: "Reimbursement and payout limits - honestly",
+        body:
+          "Here's where we diverge from the comparison sites that hand you a confident table. Trupanion is consistently described as a flat 90% reimbursement with no annual payout cap - that much is stable across sources. Nationwide's reimbursement tiers and payout limits, though, are reported differently depending on where you look and which plan is being described: sources disagree on the exact percentage options and on whether certain plans carry an annual cap. That's not us being evasive - it's a genuine reflection of the fact that Nationwide runs multiple plans, has changed them over time, and that secondhand comparison pages go stale. So the honest guidance: treat \"Trupanion = 90%, no cap\" as the stable structural fact, and treat Nationwide's specific percentage and any annual maximum as something to confirm on the actual quote for the actual plan you'd buy. We haven't verified current reimbursement percentages or caps for your pet, and neither has any comparison page that's more than a few months old.",
+      },
+      {
+        heading: "Claims: who pays, and when",
+        body:
+          "One of Trupanion's signature features is direct payment to the veterinarian: when your vet's software supports it, Trupanion can pay its share at checkout, so you cover only your portion rather than fronting the entire bill and waiting for reimbursement. For a large emergency, that cash-flow difference is the whole point of insurance for a lot of people. Nationwide, by contrast, is reimbursement-only: you pay the vet in full, file the claim, and wait for your money back, with processing that can take anywhere from several days to a few weeks. If being able to walk out of an emergency visit without fronting thousands of dollars matters to you, that's a real, structural point for Trupanion. If you're comfortable fronting the bill and waiting, it's a non-issue - and Nationwide's reimbursement workflow is perfectly normal for the industry.",
+      },
+      {
+        heading: "Where Nationwide is the clear answer",
+        body:
+          "Three situations point cleanly to Nationwide. First, exotic pets: if you have a bird, reptile, or small exotic mammal, Nationwide is effectively the only major insurer that covers them - Trupanion does not, and for an exotic owner that ends the comparison. Second, plan flexibility and wellness: if you want the option to bundle routine and preventive care, or you want to choose among plan tiers rather than take a single fixed plan, Nationwide's menu gives you room that Trupanion's one-plan model deliberately doesn't. Third, price sensitivity: Nationwide is frequently quoted at lower premiums than Trupanion, though - as above - actual premiums vary enough by pet, age and location that you should quote both rather than assume. If any of those three describe you, Nationwide's breadth is the feature, not a compromise.",
+      },
+      {
+        heading: "Where Trupanion is the clear answer",
+        body:
+          `Trupanion's case is just as clean in the opposite direction. If you want the simplest possible product - one plan, one flat reimbursement rate, no tiers to decode - that simplicity is the appeal. If you're insuring against the big, scary, potentially chronic diagnosis, the per-condition deductible and the absence of payout caps are built precisely for that risk: one deductible per condition for life, and no annual ceiling on what a serious year can claim. And if cash flow in an emergency matters to you, the direct-vet-pay feature is genuinely differentiated. Trupanion is one of the brands we cover in depth - our <a href="/pet-insurance/reviews/trupanion">Trupanion review</a> goes through the plan in detail, and <a href="/pet-insurance/trupanion-vs-healthy-paws">Trupanion vs Healthy Paws</a> runs it against another specialist if you're weighing the no-caps, high-reimbursement end of the market.`,
+      },
+      {
+        heading: "How to choose - and the bottom line",
+        body:
+          `Compare the structure, not the slogans. Ask yourself four questions: Do I have an exotic pet, or want wellness/plan flexibility? (Nationwide.) Am I most worried about a chronic, lifelong condition and want no payout caps? (Trupanion's per-condition deductible and uncapped model.) Do I need help paying the vet at checkout rather than waiting for reimbursement? (Trupanion's direct pay.) Is the lowest premium my deciding factor? (Quote both - don't assume.) Then get an actual quote from each for your specific pet, age and zip code, read the sample policy, and confirm the reimbursement percentage, any annual cap, waiting periods and age limits in writing, because those are the numbers that move and that we - and every comparison page - can't pin down for your pet from the outside. If you're still deciding whether to insure at all, <a href="/pet-insurance/articles/is-pet-insurance-worth-it">is pet insurance worth it</a> and the <a href="/pet-insurance">full pet-insurance comparison</a> are the place to start. One last shared truth: neither Trupanion nor Nationwide covers pre-existing conditions, so whichever you choose, the best time to enroll is while your pet is young and healthy.`,
+      },
+    ],
+  },
+  {
     slug: "is-pet-insurance-worth-it",
     title: "Is Pet Insurance Worth It? An Honest Framework for Deciding",
     description:

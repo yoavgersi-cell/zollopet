@@ -101,6 +101,11 @@ const ARTICLE_SEO_OVERRIDES: Record<string, { title?: string; description?: stri
     title: "How Often Should I Feed My Cat?",
   },
   // pet-insurance
+  "pet-insurance:trupanion-vs-nationwide": {
+    title: "Trupanion vs Nationwide (VPI) Compared",
+    description:
+      "Trupanion vs Nationwide (formerly VPI): per-condition vs annual deductible, direct vet pay, payout caps and exotic-pet coverage - what actually matters.",
+  },
   "pet-insurance:how-does-pet-insurance-work": {
     description:
       "How pet insurance works - reimbursement, deductibles, limits, waiting periods, pre-existing conditions, claims and pricing - explained honestly.",
