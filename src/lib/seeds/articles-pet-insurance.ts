@@ -22,6 +22,8 @@ export const petInsuranceArticles: ArticleData[] = [
     publishedAt: "2026-11-26",
     updatedAt: "2026-11-26",
     heroColor: "#1D4ED8",
+    heroImage: "/article-images/trupanion-vs-nationwide.webp",
+    heroImageAlt: "A calm dog and cat resting safely together at home - illustrating trupanion vs nationwide",
     showTopProviders: true,
     keyTakeaways: [
       "\"VPI\" is now Nationwide - Veterinary Pet Insurance, the first U.S. pet insurer, was rebranded Nationwide years ago. If you're searching VPI, Nationwide is the company you're comparing.",
